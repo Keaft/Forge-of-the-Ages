@@ -1,0 +1,44 @@
+[
+    {
+        "dimension": 0,
+        "mob": "iceandfire:seaserpent",
+        "onjoin": true,
+        "mintime": 0,
+        "maxtime": 13799,
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "iceandfire:seaserpent",
+        "onjoin": true,
+        "mintime": 22001,
+        "maxtime": 24999,
+        "result": "deny"
+    },
+    {
+        "dimension": 0,
+        "mob": "atum:mummy",
+        "speedmultiply": 0.75,
+        "result": "allow"
+    },
+    {
+        "mob": "trumpetskeleton:trumpet_skeleton",
+        "mincount": {
+            "amount": 1,
+            "mob": "trumpetskeleton:trumpet_skeleton",
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 66,
+        "mob": "minecraft:bat",
+        "result": "deny"
+    },
+    {
+        "dimension": 66,
+        "mob": ["minecraft:creeper","minecraft:skeleton"],
+        "maxheight": 40,
+        "result": "deny"
+    }
+]

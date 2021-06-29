@@ -1,0 +1,277 @@
+[
+    {
+        "dimension": 0,
+        "biome": ["Desert","DesertHills"],
+        "random": 0.1,
+        "maxcount": {
+            "amount": 4,
+            "mob": "atum:mummy",
+            "perplayer": true
+        },
+        "seesky": true,
+        "mintime": 13800,
+        "maxtime": 22000,
+        "mobs": [
+            {
+                "mob": "atum:mummy",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.01,
+        "maxcount": {
+            "amount": 5,
+            "mob": "minecraft:evocation_illager",
+            "perplayer": true
+        },
+        "maxheight": 65,
+        "minlight": 0,
+        "maxlight": 0,
+        "mobs": [
+            {
+                "mob": "minecraft:evocation_illager",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.35,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 25,
+            "mob": "srparasites:lodo",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:lodo",
+                "weight": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.25,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 15,
+            "mob": "srparasites:mudo",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:mudo",
+                "weight": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.10,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 10,
+            "mob": "srparasites:infhuman",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:infhuman",
+                "weight": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.075,
+        "maxheight": 50,
+        "maxcount": {
+            "amount": 4,
+            "mob": "srparasites:emana",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:emana",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.05,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 1,
+            "mob": "srparasites:shyco",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:shyco",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.025,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:canra",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:canra",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.025,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:hull",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:hull",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.015,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:nogla",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:nogla",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.015,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:bano",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:bano",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.0075,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:rathol",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:rathol",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.0075,
+        "maxheight": 50,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:buthol",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:buthol",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.0075,
+        "maxheight": 33,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:dorpa",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:dorpa",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.005,
+        "maxheight": 50,
+        "maxcount": {
+            "amount": 3,
+            "mob": "srparasites:alafha",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:alafha",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    }
+]

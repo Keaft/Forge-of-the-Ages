@@ -1,0 +1,71 @@
+[
+    {
+        "dimension": 0,
+        "mob": "atum:mummy",
+        "player": true,
+        "item": "atum:scarab",
+        "itemcount": "1"
+    },
+    {
+        "dimension": 20,
+        "player": true,
+        "item": "bountifulbaubles:spectralsilt",
+        "random": 0.015,
+        "itemcount": "1/2/3"
+    },
+    {
+        "mob": "minecraft:silverfish",
+        "item": "thermalfoundation:material@194",
+        "itemcount": "1/2/3"
+    },
+    {
+        "mob": "twilightforest:penguin",
+        "item": "minecraft:chicken",
+        "itemcount": "1"
+    },
+    {
+        "mob": "minecraft:elder_guardian",
+        "remove": "bountifulbaubles:trinketvitamins"
+    },
+    {
+        "mob": "minecraft:husk",
+        "remove": "bountifulbaubles:trinketapple"
+    },
+    {
+        "mob": "minecraft:stray",
+        "remove": "bountifulbaubles:ringoverclocking"
+    },
+    {
+        "mob": "minecraft:cave_spider",
+        "remove": "bountifulbaubles:trinketbezoar"
+    },
+    {
+        "mob": "minecraft:evocation_illager",
+        "remove": "minecraft:totem_of_undying"
+    },
+    {
+        "mob": "minecraft:evocation_illager",
+        "player": true,
+        "item": "minecraft:totem_of_undying",
+        "itemcount": "1"
+    },
+    {
+        "mob": "iceandfire:seaserpent",
+        "player": true,
+        "item": "minecraft:prismarine_shard",
+        "itemcount": "8-16/16-32/32-48"
+    },
+    {
+        "mob": "iceandfire:seaserpent",
+        "player": true,
+        "item": "draconicevolution:draconium_dust",
+        "random": 0.10,
+        "itemcount": "1/1-2/3"
+    },
+    {
+        "mob": "iceandfire:seaserpent",
+        "item": "minecraft:prismarine_crystals",
+        "random": 0.33,
+        "itemcount": "1-2/2-3/4"
+    }
+]

@@ -1,0 +1,77 @@
+{
+    "dependencies": "thermalfoundation",
+	"populate": {
+		"oil_pool": {
+            "enabled": true,
+			"distribution": "cave",
+			"generator": {
+				"type": "lake",
+				"block": "thermalfoundation:fluid_crude_oil",
+				"material": "minecraft:stone",
+				"use-material": false,
+                "outline-block": "minecraft:stone",
+				"solid-outline": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,
+			"ground-level": 24,
+			"follow-terrain": true,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "water_pool": {
+            "enabled": true,
+			"distribution": "cave",
+			"generator": {
+				"type": "lake",
+				"block": "minecraft:water",
+				"material": "minecraft:stone",
+				"use-material": false,
+                "outline-block": "minecraft:stone",
+				"solid-outline": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 70,
+			"ground-level": 60,
+            "follow-terrain": true,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "lava_pool": {
+            "enabled": true,
+			"distribution": "cave",
+			"generator": {
+				"type": "lake",
+				"block": "minecraft:lava",
+				"material": "minecraft:stone",
+				"use-material": false,
+                "outline-block": "minecraft:stone",
+				"solid-outline": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"ground-level": 19,
+            "follow-terrain": true,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		}
+	}
+}

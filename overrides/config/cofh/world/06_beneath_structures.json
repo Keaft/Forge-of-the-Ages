@@ -1,0 +1,27 @@
+{
+	"populate": {
+		"oak_tree": {
+			"distribution": "cave",
+			"generator": {
+				"type": "small-tree",
+                "block": "minecraft:log",
+                "leaves": "minecraft:leaves",
+                "cluster-size": 1,
+                "see-sky": false,
+                "min-height": 6,
+				"heightVariance": 5
+			},
+			"cluster-count": 1,
+			"chunk-chance": 60,
+            "ground-level": 35,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		}
+	}
+}
