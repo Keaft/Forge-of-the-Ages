@@ -1,4 +1,3 @@
-This update excludes all version number changes due to them being lost in translation. But it works sooooo....
 This update is mostly Adventure focused! It also addresses a little more of the necessity for transition from casual minecraft player into modded minecraft player. This is done through a little more farming/fishing emphasis building slightly on the vanilla experience.
 
 Configuration changes:
@@ -30,7 +29,6 @@ Configuration changes:
 - Separated Ender IO into it's modular form to remove the Inventory System in favor of Applied Energistics 2.
 - Removed the Dislocator Pedestal from Draconic Evolution.
 - Added Tinkers Tools and Armor to encourage Fishing.
-- Changed default server properties to use OTG and Biome Bundle O' Plenty.
 - Added content and changed recipes for the slime slings.
 - With the removal of Elder Spider Guardians drops have moved to Sea Serpents.
 - Lowered the spawn rate of Shadows in the beneath for reasons.
@@ -44,29 +42,29 @@ Configuration changes:
 - Disabled Ender Tweaker script. Ender Tweaker loads ok without script, but is otherwise incompatible with newest Ender IO.
 
 Added the following mods:
-- The Aether 1.5.3.1.
+- The Aether 1.5.3.2.
 - Aether: Lost Content 1.0.2.
 - Tinkers' Aether: DMAN Edition 1.4.1.
-- LootTweaker 0.2.0.
+- LootTweaker 0.3.0.
 - Re-introduced Aquaculture 1.6.8. It integrates with Project MMO!
-- Agricraft 2.12.0-1.12.0-a6.
+- Agricraft 2.12.0-1.12.0-b2.
 -- InfinityLib 1.12.0.
 - AE2 Wireless Interface Terminal 1.0.2.
 - AE2 Wireless Fluid Terminal 1.0.4.
 - Wireless Pattern Terminal 1.0.3.
 - Wireless Crafting Terminal 3.12.97.
 -- AE2 Wireless Terminal Library 1.0.34.
-- Re-introduced Corail Tombstone 4.1.2.
+- Re-introduced Corail Tombstone 4.4.3.
 - Stronger Farmland 1.0.0.
 - Xp From Harvest 1.2.0.
 - Project MMO 3.44.3. It's like MCMMO!!!
-- Ender Tweaker 1.2.1. It was probably time. The more knobs I have to turn the better.
+- Ender Tweaker 1.2.2. It was probably time. The more knobs I have to turn the better.
 - Colytra 1.2.0.4. Make your elytra a bauble!
 - Custom FoV 1.0.1. In the main menu search Mod Options to find the settings.
 - Scape and Run: Parasite 1.8.2. But only in the beneath...
 - Worley Caves 1.5.2.
 - Spark 1.5.2.
-- Chocolate Quest Repoured 2.4.2B.
+- Chocolate Quest Repoured 2.5.3B.
 -- GeckoLib 3.0.0-beta.7.
 - FTBQuests 1202.9.0.15.
 -- Item Filters 1.0.4.2.
@@ -113,32 +111,42 @@ Removed the following mods:
 Updated the following mods:
 - Atum 2: Return to the Sands to 2.0.20.
 - Better Hurt Timer to 1.5.0.1.
+- Biomes O' Plenty to 7.0.1.2444.
+- Botania to r1.10-364.
 - Brandon's Core to 2.4.19.214.
-- CraftTweaker to 4.1.20.643.
+- Constructs Armory to 1.2.5.10.
+- Content Tweaker to 4.10.0.
+- CraftTweaker to 4.1.20.652.
 - Doggy Talents to 1.15.1.6.
 - Draconic Evolution to 2.3.27.353.
-- Ender IO to 5.2.66.
+- Ender IO to 5.3.70.
 - Extreme Reactors to 0.4.5.68.
 - Flux Networks to 4.1.1.34.
-- FoamFix to 0.10.11.
+- FoamFix to 0.10.14.
+- FPSReducer to 1.20.
 - FTB Utilities to 5.4.1.131.
 - In Control! to 3.9.18.
+- InfinityLib to 1.12.1.
+- Jei Integration to 1.6.0.
 - LibraryEx to 1.2.1.
 - LLibrary to 1.7.20.
 - MapFrontiers to 1.5.1.
+- Mod Tweaker to 4.0.20.4.
+- MTLib to 3.0.7.
 - NetherEx to 2.2.4.
 - Not Enough Pets to 2.3.0.
-- NuclearCraft to 2.18y.
+- NuclearCraft to 2.18z.
 - Patchouli to 1.0-23.6.
+- PlusTiC to 8.0.3.
 - RandomPatches to 1.22.1.10.
 - Scannable to 1.6.3.26.
-- Sledgehammer to 2.0.9.
+- Sledgehammer to 2.0.12.
 - Solar Flux Reborn to 12.4.11.
 - The Betweenlands to 3.7.3.
 - The Twilight Forest to 3.11.1021.
 - Tinker I/O to rw2.8.3.
 - Torchmaster to 1.8.4.84.
-- Tweakers Construct to 1.6.0.
+- Tweakers Construct to 1.6.1.
 - UniDict to 3.0.8.
 - WanionLib to 2.5.
 - ZeroCore to 0.1.2.9.
