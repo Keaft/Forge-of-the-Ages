@@ -110,6 +110,14 @@ recipes.addShapeless("extrautils2_snow_globe", <extrautils2:snowglobe>, [<ore:bl
 
 //--------------------------------------------------------------------------------------
 
+// --- Improvable Skills 3 ---
+//recipes.removeByRecipeName();
+//recipes.addShaped();
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Natura ---
 //Natura Bookshelves
 recipes.removeByRecipeName("natura:decorative/nether/bookshelf/ghostwood_bookshelf");
