@@ -100,7 +100,7 @@ Removed the following mods:
 - Rougelike Dungeons.
 - LagGoggles as the pack has too much lag.
 -- TickCentral.
-- Mutated Mobs in favor of Scape and Run: Parasites.
+- Mutated Mobs in favor of Scape and Run: Parasites and Fish's undead rising.
 - FastFurnace for possible conflicts with other mods.
 - FastWorkbench for possible conflicts with other mods.
 - Grue no longer fits the theme for the beneath.
