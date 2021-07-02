@@ -46,7 +46,7 @@ Added the following mods:
 - Aether: Lost Content 1.0.2.
 - Tinkers' Aether: DMAN Edition 1.4.1.
 - LootTweaker 0.3.0.
-- Re-introduced Aquaculture 1.6.8. It integrates with Project MMO!
+- Re-introduced Aquaculture 1.6.8.
 - Agricraft 2.12.0-1.12.0-b2.
 -- InfinityLib 1.12.0.
 - AE2 Wireless Interface Terminal 1.0.2.
@@ -57,7 +57,6 @@ Added the following mods:
 - Re-introduced Corail Tombstone 4.4.3.
 - Stronger Farmland 1.0.0.
 - Xp From Harvest 1.2.0.
-- Project MMO 3.44.3. It's like MCMMO!!!
 - Ender Tweaker 1.2.2. It was probably time. The more knobs I have to turn the better.
 - Colytra 1.2.0.4. Make your elytra a bauble!
 - Custom FoV 1.0.1. In the main menu search Mod Options to find the settings.
@@ -80,9 +79,6 @@ Removed the following mods:
 - Simply Jetpacks 2.
 - Rats.
 - Minecolonies. (Should solve breaking a spawner crashing the game.)
-- Improvable Skills in favor of Project MMO.
--- HammerLib.
-- Vein Miner in favor of Project MMO and the lumber axe from Tinkers Construct.
 - Forestry.
 -- Binnie's mods.
 -- Gendustry.
@@ -91,9 +87,6 @@ Removed the following mods:
 - Not Enough Items.
 - Removed Ranged Pumps. This is due to NetherEx allowing for infitite lava source like water in the nether and Extra Utilities having fluid transfer nodes to cover the difference.
 - TickProfiler. Broken and no longer supported.
-- Scaling Health. Project MMO has it's own scaling and if that doesn't work, adventure seekers will find difficulty in dungeons.
-- Scaling Wealth.
--- SilentLib.
 - Yung's Better Caves in favor of Worley's Caves.
 - Yung's Better Mineshafts as the pack has too much lag.
 - ExtraCells2 as it's abandoned and Applied Energistics 2 now covers most of the features inherently.
@@ -126,8 +119,10 @@ Updated the following mods:
 - FoamFix to 0.10.14.
 - FPSReducer to 1.20.
 - FTB Utilities to 5.4.1.131.
+- Hammer (Lib) Core to 2.0.6.28.
 - In Control! to 3.9.18.
 - InfinityLib to 1.12.1.
+- Improvable Skills 3 to 12.4.67.
 - Jei Integration to 1.6.0.
 - LibraryEx to 1.2.1.
 - LLibrary to 1.7.20.
