@@ -73,6 +73,7 @@ Added the following mods:
 - Mapmaker's Gadgets 1.2.
 - Pillar 1.2-10.
 - StructureUtils 1.1.0.4.
+- Fish's Undead Rising 1.2.4a.
 
 Removed the following mods:
 - Advanced Fishing in favor of Aquaculture.
