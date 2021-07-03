@@ -111,8 +111,8 @@ recipes.addShapeless("extrautils2_snow_globe", <extrautils2:snowglobe>, [<ore:bl
 //--------------------------------------------------------------------------------------
 
 // --- Improvable Skills 3 ---
-//recipes.removeByRecipeName();
-//recipes.addShaped();
+recipes.removeByRecipeName("improvableskills:skills_book");
+recipes.addShapeless("improvableskills_skills_book", <improvableskills:skills_book>, [<minecraft:book>,<minecraft:wooden_sword>.anyDamage(),<minecraft:wooden_shovel>.anyDamage(),<minecraft:wooden_pickaxe>.anyDamage(),<minecraft:wooden_axe>.anyDamage()]);
 
 //--------------------------------------------------------------------------------------
 
