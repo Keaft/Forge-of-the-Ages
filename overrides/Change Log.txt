@@ -63,6 +63,7 @@ Added the following mods:
 - Scape and Run: Parasite 1.8.2. But only in the beneath...
 - Worley Caves 1.5.2.
 - Spark 1.5.2.
+- SwingThroughGrass 1.2.3.
 - Chocolate Quest Repoured 2.5.3B.
 -- GeckoLib 3.0.0-beta.7.
 - FTBQuests 1202.9.0.15.
