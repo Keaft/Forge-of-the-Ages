@@ -6,6 +6,9 @@ import crafttweaker.item.IItemStack;
 
 print("Initializing 'oredictionary'...");
 
+# Block Amber
+<ore:blockAmber>.add(<thaumcraft:amber_block>);
+
 # Flour
 <ore:dustWheat>.remove(<nuclearcraft:flour>);
 <ore:foodFlour>.add(<nuclearcraft:flour>);
