@@ -1,0 +1,24 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"Build a Basic Forge",
+		"30 Seared Bricks",
+		"Smeltery Controller",
+		"Seared Tank",
+		"Seared Drain"
+	],
+	dependencies: [
+		"bcac5fac",
+		"886d04b4",
+		"0dbfe2cd",
+		"dfecc5f1"
+	],
+	tasks: [{
+		uid: "e23edd7c",
+		type: "custom",
+		title: "First Forge",
+		icon: "tconstruct:smeltery_controller"
+	}]
+}

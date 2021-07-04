@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "a94ac47d",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:sword_blade"
+			}
+		}]
+	}]
+}

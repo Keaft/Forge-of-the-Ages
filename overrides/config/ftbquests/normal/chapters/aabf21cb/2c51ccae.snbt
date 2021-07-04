@@ -1,0 +1,23 @@
+{
+	title: "Way Of The Craftsman",
+	x: -2.0d,
+	y: -5.5d,
+	text: [
+		"The 2x2 crafting grid in your inventory isn't going to cut it much longer. Place one plank in each slot to create a crafting table. Bring it back here. Then cookie."
+	],
+	dependencies: [
+		"1969fe27"
+	],
+	tasks: [{
+		uid: "c34e256f",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "f6626268",
+		type: "item",
+		item: "minecraft:cookie"
+	}]
+}

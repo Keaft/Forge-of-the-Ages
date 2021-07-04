@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	dependencies: [
+		"c1d48da5"
+	],
+	tasks: [{
+		uid: "59088a5b",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}]
+}

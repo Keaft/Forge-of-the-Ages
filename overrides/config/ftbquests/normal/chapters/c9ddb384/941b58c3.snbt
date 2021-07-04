@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 1.0d,
+	dependencies: [
+		"66b08b27"
+	],
+	tasks: [{
+		uid: "81d41def",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	}],
+	rewards: [{
+		uid: "355597ba",
+		type: "xp",
+		xp: 10
+	}]
+}

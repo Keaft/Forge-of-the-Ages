@@ -1,0 +1,9 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "5da12f4e",
+		type: "checkmark",
+		title: "Casting Table Time!"
+	}]
+}

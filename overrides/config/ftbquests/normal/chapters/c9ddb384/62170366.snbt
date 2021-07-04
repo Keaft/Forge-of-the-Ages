@@ -1,0 +1,9 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a83d0d7b",
+		type: "checkmark",
+		title: "Pickaxe"
+	}]
+}

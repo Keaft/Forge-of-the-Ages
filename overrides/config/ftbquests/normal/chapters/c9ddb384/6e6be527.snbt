@@ -1,0 +1,22 @@
+{
+	title: "Seared to your Liking",
+	x: -1.5d,
+	y: 0.0d,
+	dependencies: [
+		"06a15243"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3681100f",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "2c55dad7",
+		type: "item",
+		item: "tconstruct:soil",
+		count: 8
+	}]
+}

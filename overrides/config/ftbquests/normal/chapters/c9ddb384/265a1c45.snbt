@@ -1,0 +1,14 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "b5007e0d",
+		type: "item",
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:wide_guard"
+			}
+		}]
+	}]
+}

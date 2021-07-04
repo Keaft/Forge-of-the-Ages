@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"b13b9bc9"
+	],
+	tasks: [{
+		uid: "a66331c0",
+		type: "checkmark",
+		title: "Smelt the Grout",
+		icon: "minecraft:furnace"
+	}],
+	rewards: [{
+		uid: "0044d39f",
+		type: "item",
+		item: "tconstruct:soil",
+		count: 8
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "Smelt the Gold!",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "gold",
+			Amount: 1000
+		}
+	},
+	x: 5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "145d89a4",
+		type: "checkmark",
+		title: "Smelt the goldd"
+	}]
+}

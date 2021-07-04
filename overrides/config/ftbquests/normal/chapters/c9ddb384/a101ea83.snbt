@@ -1,0 +1,9 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "c0eac97c",
+		type: "checkmark",
+		title: "Make a gold stencil for each"
+	}]
+}

@@ -1,0 +1,9 @@
+{
+	title: "Place the new gold stencil in the table",
+	x: 7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "db4ae390",
+		type: "checkmark"
+	}]
+}

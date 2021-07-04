@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "18bdc23a",
+		type: "item",
+		items: [{
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}]
+}

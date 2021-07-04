@@ -1,0 +1,9 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "15556717",
+		type: "checkmark",
+		title: "Place the Stencil in the table"
+	}]
+}

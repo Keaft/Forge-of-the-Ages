@@ -1,0 +1,15 @@
+{
+	title: "Advanced Crafting",
+	x: 0.5d,
+	y: -5.5d,
+	text: [
+		"Put the crafting bench on your toolbar, then exit your inventory. You can place it on the ground now with right-click. Right-click on it once it's been placed, and you'll open up a 3x3 crafting interface. Come back here and hit the checkmark for this task once you're done."
+	],
+	dependencies: [
+		"2c51ccae"
+	],
+	tasks: [{
+		uid: "72cde445",
+		type: "checkmark"
+	}]
+}

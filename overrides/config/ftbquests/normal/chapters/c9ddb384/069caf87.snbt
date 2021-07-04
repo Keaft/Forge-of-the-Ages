@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "0e2e95d7",
+		type: "item",
+		items: [{
+			id: "conarm:armor_plate",
+			tag: {
+				Material: "iron"
+			}
+		}]
+	}]
+}

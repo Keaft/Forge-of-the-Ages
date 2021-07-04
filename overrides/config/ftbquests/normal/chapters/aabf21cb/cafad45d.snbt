@@ -1,0 +1,24 @@
+{
+	title: "Basic Crafting",
+	x: -7.0d,
+	y: -5.5d,
+	text: [
+		"Open your inventory (\"e\" key by default). Notice the four-square interface at the top right, next to your character model. Place one log in this to craft some wooden planks. Come back here with four of them for another cookie."
+	],
+	dependencies: [
+		"42e392e6"
+	],
+	tasks: [{
+		uid: "c15383e6",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3854c898",
+		type: "item",
+		item: "minecraft:cookie"
+	}]
+}

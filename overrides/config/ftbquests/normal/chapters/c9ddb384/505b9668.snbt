@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -5.5d,
+	dependencies: [
+		"b22a7658"
+	],
+	tasks: [{
+		uid: "7639f616",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}]
+	}]
+}

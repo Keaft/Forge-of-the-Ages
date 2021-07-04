@@ -1,0 +1,29 @@
+{
+	title: "That's pretty Grout of you!",
+	icon: "tconstruct:soil",
+	x: -4.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "Craft Grout!",
+	text: [
+		"Craft your first Grout!"
+	],
+	dependencies: [
+		"2ceef7fa",
+		"941b58c3",
+		"c5580a2b"
+	],
+	tasks: [{
+		uid: "22d96afa",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}]
+	}],
+	rewards: [{
+		uid: "1ca0690d",
+		type: "item",
+		item: "tconstruct:soil",
+		count: 4
+	}]
+}

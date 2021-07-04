@@ -1,0 +1,12 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"39a57684"
+	],
+	tasks: [{
+		uid: "33720357",
+		type: "checkmark",
+		title: "Stencils and Stations!"
+	}]
+}

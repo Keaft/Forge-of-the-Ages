@@ -1,0 +1,25 @@
+{
+	title: "A Real Sticking Point",
+	x: -4.5d,
+	y: -5.5d,
+	text: [
+		"Similar process as before. Take two wooden plank blocks, and place them one atop the other in your inventory crafting grid. Bring the sticks back here for yet another cookie.",
+		"",
+		"PROTIP: Right-click on a stack of items in your inventory to take only half of it. Use this to get seperate stacks of wooden planks."
+	],
+	dependencies: [
+		"cafad45d"
+	],
+	tasks: [{
+		uid: "6b920857",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "95ff3dc6",
+		type: "item",
+		item: "minecraft:cookie"
+	}]
+}

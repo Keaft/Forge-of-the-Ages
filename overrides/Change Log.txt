@@ -41,6 +41,8 @@ Configuration changes:
 - Totems of undying only spawn from Evokers if it's a player kill.
 - Disabled Ender Tweaker script. Ender Tweaker loads ok without script, but is otherwise incompatible with newest Ender IO.
 - Worley's Caves now only generate under the surface as there were weird generation issues with RTG.
+- Disabled Ice and Fire spawning in the Betweenlands.
+- Fish's Undead Rising mobs now have sunscreen.
 
 Added the following mods:
 - AE2 Wireless Fluid Terminal 1.0.4.

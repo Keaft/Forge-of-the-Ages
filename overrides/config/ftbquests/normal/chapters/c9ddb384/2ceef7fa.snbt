@@ -1,0 +1,19 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	dependencies: [
+		"66b08b27"
+	],
+	tasks: [{
+		uid: "3bc91954",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "15e677d7",
+		type: "xp",
+		xp: 10
+	}]
+}

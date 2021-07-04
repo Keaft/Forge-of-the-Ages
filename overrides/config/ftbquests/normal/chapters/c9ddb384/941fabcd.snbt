@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "14c0566f",
+		type: "item",
+		items: [{
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	x: -7.5d,
+	y: -4.5d,
+	shape: "gear",
+	text: [
+		"Welcome to Tinkers!",
+		"Here we are going to make ",
+		"a large forge and",
+		"Some Tools, Weapons, Armor!"
+	],
+	dependencies: [
+		"18933968"
+	],
+	tasks: [{
+		uid: "ecf319c9",
+		type: "custom",
+		title: "Welcome to Tinkers",
+		icon: "tconstruct:smeltery_controller"
+	}],
+	rewards: [{
+		uid: "bee86808",
+		type: "item",
+		item: "minecraft:clay_ball"
+	},
+	{
+		uid: "8dc5bb36",
+		type: "item",
+		item: "minecraft:sand"
+	},
+	{
+		uid: "d609785d",
+		type: "item",
+		item: "minecraft:gravel"
+	},
+	{
+		uid: "ef85f085",
+		type: "xp",
+		xp: 10
+	}]
+}

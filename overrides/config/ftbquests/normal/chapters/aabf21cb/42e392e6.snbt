@@ -1,0 +1,32 @@
+{
+	title: "Punch Wood!",
+	x: -9.5d,
+	y: -5.5d,
+	text: [
+		"Begin your minecraft journey by walking to the nearest tree and holding left-click until you harvest some log blocks. Come back here with eight log blocks, and we'll give you a cookie as your reward!"
+	],
+	tasks: [{
+		uid: "768f5293",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "20852ac2",
+		type: "item",
+		item: "minecraft:cookie"
+	}]
+}

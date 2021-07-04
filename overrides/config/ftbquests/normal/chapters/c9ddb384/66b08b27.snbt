@@ -1,0 +1,17 @@
+{
+	x: -7.5d,
+	y: 0.0d,
+	dependencies: [
+		"39a57684"
+	],
+	tasks: [{
+		uid: "a703f2c4",
+		type: "checkmark",
+		title: "Building the Forge!"
+	}],
+	rewards: [{
+		uid: "39b946e7",
+		type: "xp",
+		xp: 10
+	}]
+}

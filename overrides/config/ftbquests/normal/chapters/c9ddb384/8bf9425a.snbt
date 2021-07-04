@@ -1,0 +1,13 @@
+{
+	x: 6.0d,
+	y: -5.0d,
+	text: [
+		"Let's Build a Weapon,",
+		"Tool, and a Chest Piece!"
+	],
+	tasks: [{
+		uid: "63686fac",
+		type: "checkmark",
+		title: "Lets build!"
+	}]
+}

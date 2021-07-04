@@ -1,0 +1,12 @@
+{
+	title: "Lets make each one of these out of Iron",
+	x: 15.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bc0341c9",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

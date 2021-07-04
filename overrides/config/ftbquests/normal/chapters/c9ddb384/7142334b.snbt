@@ -1,0 +1,9 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "1b644e16",
+		type: "checkmark",
+		title: "Increasing the size of your Forge!"
+	}]
+}

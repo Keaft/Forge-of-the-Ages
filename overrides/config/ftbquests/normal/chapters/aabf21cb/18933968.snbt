@@ -1,0 +1,15 @@
+{
+	title: "Upgraded crafting",
+	x: -2.0d,
+	y: -7.5d,
+	dependencies: [
+		"2c51ccae"
+	],
+	tasks: [{
+		uid: "29d85096",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}]
+}
