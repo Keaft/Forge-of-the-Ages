@@ -40,68 +40,69 @@ Configuration changes:
 - Created duplicate content for aquaculture to enable it to work nicely with Project MMO.
 - Totems of undying only spawn from Evokers if it's a player kill.
 - Disabled Ender Tweaker script. Ender Tweaker loads ok without script, but is otherwise incompatible with newest Ender IO.
+- Worley's Caves now only generate under the surface as there were weird generation issues with RTG.
 
 Added the following mods:
-- The Aether 1.5.3.2.
+- AE2 Wireless Fluid Terminal 1.0.4.
+- AE2 Wireless Interface Terminal 1.0.2.
+- Wireless Crafting Terminal 3.12.97.
+- Wireless Pattern Terminal 1.0.3.
+-- AE2 Wireless Terminal Library 1.0.34.
 - Aether: Lost Content 1.0.2.
-- Tinkers' Aether: DMAN Edition 1.4.1.
-- LootTweaker 0.3.0.
-- Re-introduced Aquaculture 1.6.8.
 - Agricraft 2.12.0-1.12.0-b2.
 -- InfinityLib 1.12.0.
-- AE2 Wireless Interface Terminal 1.0.2.
-- AE2 Wireless Fluid Terminal 1.0.4.
-- Wireless Pattern Terminal 1.0.3.
-- Wireless Crafting Terminal 3.12.97.
--- AE2 Wireless Terminal Library 1.0.34.
-- Re-introduced Corail Tombstone 4.4.3.
-- Stronger Farmland 1.0.0.
-- Xp From Harvest 1.2.0.
-- Ender Tweaker 1.2.2. It was probably time. The more knobs I have to turn the better.
-- Colytra 1.2.0.4. Make your elytra a bauble!
-- Custom FoV 1.0.1. In the main menu search Mod Options to find the settings.
-- Scape and Run: Parasite 1.8.2. But only in the beneath...
-- Worley Caves 1.5.2.
-- Spark 1.5.2.
-- SwingThroughGrass 1.2.3.
 - Chocolate Quest Repoured 2.5.3B.
 -- GeckoLib 3.0.0-beta.7.
+- Colytra 1.2.0.4. Make your elytra a bauble!
+- Custom FoV 1.0.1. In the main menu search Mod Options to find the settings.
+- Ender Tweaker 1.2.2. It was probably time. The more knobs I have to turn the better.
 - FTBQuests 1202.9.0.15.
 -- Item Filters 1.0.4.2.
-- Realistic Terrain Generation 6.1.0.0-snapshot.1.
+- Fish's Undead Rising 1.3.0.
 - Geographicraft 0.8.9b.
+- LootTweaker 0.3.0.
 - Mapmaker's Gadgets 1.2.
 - Pillar 1.2-10.
+- Re-introduced Aquaculture 1.6.8.
+- Re-introduced Corail Tombstone 4.4.3.
+- Realistic Terrain Generation 6.1.0.0-snapshot.1.
+- Scape and Run: Parasite 1.8.2. But only in the beneath...
+- Spark 1.5.2.
+- Stronger Farmland 1.0.0.
 - StructureUtils 1.1.0.4.
-- Fish's Undead Rising 1.3.0.
+- SwingThroughGrass 1.2.3.
+- The Aether 1.5.3.2.
+- Tinkers' Aether: DMAN Edition 1.4.1.
+- Worley Caves 1.5.2.
+- Xp From Harvest 1.2.0.
 
 Removed the following mods:
 - Advanced Fishing in favor of Aquaculture.
-- Simply Jetpacks 2.
-- Rats.
-- Minecolonies. (Should solve breaking a spawner crashing the game.)
+- ExtraCells2 as it's abandoned and Applied Energistics 2 now covers most of the features inherently.
+- FastFurnace for possible conflicts with other mods.
+- FastWorkbench for possible conflicts with other mods.
 - Forestry.
 -- Binnie's mods.
 -- Gendustry.
 -- Gendustry JEI.
 -- JEI Bees.
-- Not Enough Items.
-- Removed Ranged Pumps. This is due to NetherEx allowing for infitite lava source like water in the nether and Extra Utilities having fluid transfer nodes to cover the difference.
-- TickProfiler. Broken and no longer supported.
-- Yung's Better Caves in favor of Worley's Caves.
-- Yung's Better Mineshafts as the pack has too much lag.
-- ExtraCells2 as it's abandoned and Applied Energistics 2 now covers most of the features inherently.
-- Rougelike Dungeons.
-- LagGoggles as the pack has too much lag.
--- TickCentral.
-- Mutated Mobs in favor of Scape and Run: Parasites and Fish's undead rising.
-- FastFurnace for possible conflicts with other mods.
-- FastWorkbench for possible conflicts with other mods.
 - Grue no longer fits the theme for the beneath.
 -- DarknessLib.
+- In-Game Wiki mod as it's abandoned.
+- LagGoggles as the pack has too much lag.
+-- TickCentral.
+- Minecolonies. (Should solve breaking a spawner crashing the game.)
+- Mutated Mobs in favor of Scape and Run: Parasites and Fish's undead rising.
+- Not Enough Items.
+- Rats.
+- Removed Ranged Pumps. This is due to NetherEx allowing for infinite lava source like water in the nether and Extra Utilities having fluid transfer nodes to cover the difference.
+- Rougelike Dungeons.
+- Simply Jetpacks 2.
+- TickProfiler. Broken and no longer supported.
 - UniDict in favor of crafttweaker scripting. Thanks Pwnsbey!
 -- WanionLib.
-- In-Game Wiki mod as it's abandoned.
+- Yung's Better Caves in favor of Worley's Caves.
+- Yung's Better Mineshafts as the pack has too much lag.
 
 Updated the following mods:
 - Atum 2: Return to the Sands to 2.0.20.
@@ -116,20 +117,20 @@ Updated the following mods:
 - Draconic Evolution to 2.3.27.353.
 - Ender IO to 5.3.70.
 - Extreme Reactors to 0.4.5.68.
-- Flux Networks to 4.1.1.34.
-- FoamFix to 0.10.14.
 - FPSReducer to 1.20.
 - FTB Utilities to 5.4.1.131.
+- Flux Networks to 4.1.1.34.
+- FoamFix to 0.10.14.
 - Hammer (Lib) Core to 2.0.6.28.
+- Improvable Skills 3 to 12.4.67.
 - In Control! to 3.9.18.
 - InfinityLib to 1.12.1.
-- Improvable Skills 3 to 12.4.67.
 - Jei Integration to 1.6.0.
-- LibraryEx to 1.2.2.
 - LLibrary to 1.7.20.
+- LibraryEx to 1.2.2.
+- MTLib to 3.0.7.
 - MapFrontiers to 1.5.1.
 - Mod Tweaker to 4.0.20.4.
-- MTLib to 3.0.7.
 - NetherEx to 2.2.5.
 - Not Enough Pets to 2.3.0.
 - NuclearCraft to 2.18z.
