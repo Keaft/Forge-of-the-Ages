@@ -1,6 +1,12 @@
 [
     {
         "dimension": 0,
+        "mob": "atum:mummy",
+        "speedmultiply": 0.75,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
         "mob": "iceandfire:seaserpent",
         "onjoin": true,
         "mintime": 0,
@@ -17,8 +23,39 @@
     },
     {
         "dimension": 0,
-        "mob": "atum:mummy",
-        "speedmultiply": 0.75,
+        "mob": "mod_lavacow:banshee",
+        "minheight": 63,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": "mod_lavacow:scarecrow",
+        "mintime": 13800,
+        "maxtime": 22000,
+        "result": "allow"
+    },
+    {
+        "dimension": 7,
+        "mob": ["mod_lavacow:mimic","mod_lavacow:ithaqua","mod_lavacow:salamander"],
+        "result": "allow"
+    },
+    {
+        "dimension": 17,
+        "mob": ["mod_lavacow:avaton","mod_lavacow:mummy"],
+        "minheight": 63,
+        "result": "allow"
+    },
+    {
+        "dimension": 20,
+        "mob": ["mod_lavacow:zombiemushroom"],
+        "minheight": 121,
+        "maxheight": 124,
+        "result": "allow"
+    },
+    {
+        "dimension": 20,
+        "mob": ["mod_lavacow:ghostray"],
+        "minheight": 140,
         "result": "allow"
     },
     {

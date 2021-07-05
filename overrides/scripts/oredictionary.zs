@@ -1,5 +1,6 @@
 #Name: oredictionary.zs
 #Author: Keaft
+#priority 3
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;

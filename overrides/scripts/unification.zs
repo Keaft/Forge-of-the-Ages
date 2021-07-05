@@ -1,8 +1,7 @@
+#priority 2
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.recipes.ICraftingRecipe;
-
-
 
 ##################################################################
 # This script automagically unifies minecraft recipe ingredients #
@@ -12,6 +11,7 @@ import crafttweaker.recipes.ICraftingRecipe;
 # LIST IOreDictEntries HERE VVV
 val oreDictNames = [ 
     <ore:blockAluminum>,
+    <ore:blockAmber>,
     <ore:blockAmethyst>,
     <ore:blockBronze>,
     <ore:blockCharcoal>,

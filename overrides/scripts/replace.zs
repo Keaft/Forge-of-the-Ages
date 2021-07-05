@@ -118,6 +118,14 @@ recipes.addShapeless("improvableskills_skills_book", <improvableskills:skills_bo
 
 //--------------------------------------------------------------------------------------
 
+// --- Inspirations ---
+recipes.removeByRecipeName("inspirations:tools/redstone_charger");
+recipes.addShapeless("inspirations_tools/redstone_charger", <inspirations:redstone_charger>, [<ore:ingotGold>, <minecraft:flint_and_steel>, <ore:dustRedstone>]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Natura ---
 //Natura Bookshelves
 recipes.removeByRecipeName("natura:decorative/nether/bookshelf/ghostwood_bookshelf");

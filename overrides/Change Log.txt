@@ -43,6 +43,11 @@ Configuration changes:
 - Worley's Caves now only generate under the surface as there were weird generation issues with RTG.
 - Disabled Ice and Fire spawning in the Betweenlands.
 - Fish's Undead Rising mobs now have sunscreen.
+- Added Thaumcraft's Amber block to the ore dictionary.
+- Fixed recipe conflict with Thaumcraft's Redstone Inlay and Inspirations' Redstone Charger.
+- Recipe to reset Xnet configured blocks like the Controller. Maybe there are more configured blocks like this.
+- Fixed Pig Iron alloying recipe as additional mods messed up the value of a diamond.
+- Fish's Undead Rising mobs now spawn in dedicated areas instead of their defaults.
 
 Added the following mods:
 - AE2 Wireless Fluid Terminal 1.0.4.

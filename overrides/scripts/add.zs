@@ -106,6 +106,19 @@ furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>);
 furnace.addRecipe(<tconstruct:ingots:0>, <contenttweaker:cobalt_ore_stone>, 1.0);
 furnace.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_ore_stone>, 1.0);
 
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Xnet ---
+// Controller
+recipes.addShapeless("xnet_controller_reset", <xnet:controller>, [<xnet:controller>]);
+
+// Router
+recipes.addShapeless("xnet_router_reset", <xnet:router>, [<xnet:router>]);
+
+// Wireless Router
+recipes.addShapeless("xnet_wireless_router_reset", <xnet:wireless_router>, [<xnet:wireless_router>]);
 
 //--------------------------------------------------------------------------------------
 
