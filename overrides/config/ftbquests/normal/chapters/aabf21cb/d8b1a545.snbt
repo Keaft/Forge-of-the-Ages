@@ -23,7 +23,7 @@
 		uid: "f5203c2a",
 		type: "xp",
 		auto: "enabled",
-		xp: 100
+		xp: 10
 	},
 	{
 		uid: "c7e7cb11",

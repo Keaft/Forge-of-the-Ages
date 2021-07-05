@@ -27,6 +27,6 @@
 		uid: "0c5fdbab",
 		type: "xp",
 		auto: "enabled",
-		xp: 100
+		xp: 10
 	}]
 }

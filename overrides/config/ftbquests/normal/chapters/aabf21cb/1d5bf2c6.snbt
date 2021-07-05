@@ -31,7 +31,7 @@
 		uid: "2907673d",
 		type: "xp",
 		auto: "enabled",
-		xp: 2000
+		xp: 500
 	},
 	{
 		uid: "8fd3229c",

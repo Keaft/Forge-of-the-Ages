@@ -21,7 +21,7 @@
 		uid: "caa4c06c",
 		type: "xp",
 		auto: "enabled",
-		xp: 100
+		xp: 10
 	},
 	{
 		uid: "eb61f769",

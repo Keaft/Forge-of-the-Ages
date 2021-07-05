@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "256c8b40",
+		type: "item",
+		items: [{
+			item: "botania:petal"
+		}]
+	}]
+}

@@ -19,7 +19,7 @@
 		uid: "d04d51b2",
 		type: "xp",
 		auto: "enabled",
-		xp: 100
+		xp: 10
 	},
 	{
 		uid: "49dbf6d9",

@@ -9,7 +9,7 @@
 		"9aa70470"
 	],
 	tasks: [{
-		uid: "fb83b57b",
+		uid: "4f6b59a8",
 		type: "item",
 		items: [{
 			item: "minecraft:torch"
@@ -25,6 +25,6 @@
 		uid: "96f98062",
 		type: "xp",
 		auto: "enabled",
-		xp: 100
+		xp: 10
 	}]
 }

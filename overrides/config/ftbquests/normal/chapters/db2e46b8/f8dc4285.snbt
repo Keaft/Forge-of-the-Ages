@@ -1,0 +1,109 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "5963892b",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 2"
+		}]
+	},
+	{
+		uid: "00e01eae",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 6"
+		}]
+	},
+	{
+		uid: "a21bfb44",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 12"
+		}]
+	},
+	{
+		uid: "dbbcd421",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 4"
+		}]
+	},
+	{
+		uid: "5124b9ba",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 1"
+		}]
+	},
+	{
+		uid: "1ca5ef0d",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 3"
+		}]
+	},
+	{
+		uid: "62b4ea54",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 5"
+		}]
+	},
+	{
+		uid: "4c462524",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 7"
+		}]
+	},
+	{
+		uid: "2efd4056",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 8"
+		}]
+	},
+	{
+		uid: "54a61db1",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 9"
+		}]
+	},
+	{
+		uid: "30d3366e",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 10"
+		}]
+	},
+	{
+		uid: "eb52a72a",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 11"
+		}]
+	},
+	{
+		uid: "e0970580",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 14"
+		}]
+	},
+	{
+		uid: "0c54edb7",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 15"
+		}]
+	},
+	{
+		uid: "e8f1220c",
+		type: "item",
+		items: [{
+			item: "botania:petal 1 13"
+		}]
+	}]
+}

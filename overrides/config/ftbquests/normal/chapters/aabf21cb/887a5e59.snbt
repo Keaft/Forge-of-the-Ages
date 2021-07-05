@@ -19,7 +19,7 @@
 		uid: "86f303c0",
 		type: "xp",
 		auto: "enabled",
-		xp: 1000
+		xp: 100
 	},
 	{
 		uid: "a1333cb5",
