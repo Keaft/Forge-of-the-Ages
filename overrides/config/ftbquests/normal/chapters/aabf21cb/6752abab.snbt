@@ -1,0 +1,30 @@
+{
+	title: "So hear me out...",
+	x: -2.0d,
+	y: -10.5d,
+	text: [
+		"Just burn wood, its weird I know."
+	],
+	dependencies: [
+		"8f49e3c7"
+	],
+	tasks: [{
+		uid: "eede8307",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c5322961",
+		type: "xp",
+		auto: "enabled",
+		xp: 300
+	},
+	{
+		uid: "fbd55466",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

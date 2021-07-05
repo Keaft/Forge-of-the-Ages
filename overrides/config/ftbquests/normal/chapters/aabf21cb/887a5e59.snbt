@@ -1,0 +1,31 @@
+{
+	title: "Fight me one v one.",
+	x: 10.0d,
+	y: 2.5d,
+	text: [
+		"Sand and gun powder! use flint and run away!"
+	],
+	dependencies: [
+		"afb181c0"
+	],
+	tasks: [{
+		uid: "befe3bac",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	}],
+	rewards: [{
+		uid: "86f303c0",
+		type: "xp",
+		auto: "enabled",
+		xp: 1000
+	},
+	{
+		uid: "a1333cb5",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie",
+		count: 10
+	}]
+}

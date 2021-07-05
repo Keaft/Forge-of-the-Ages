@@ -1,0 +1,32 @@
+{
+	title: "The only real Hoe",
+	x: 4.0d,
+	y: -9.5d,
+	text: [
+		"Build this to start your adventure with farming! to use this tool simply right click on dirt to till the ground!"
+	],
+	dependencies: [
+		"18909701"
+	],
+	tasks: [{
+		uid: "30a089f4",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e2df598",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "ec5718af",
+		type: "xp",
+		auto: "enabled",
+		xp: 1
+	}]
+}

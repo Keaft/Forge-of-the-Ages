@@ -1,0 +1,32 @@
+{
+	title: "No U",
+	x: 8.0d,
+	y: 0.5d,
+	text: [
+		"Iron and woodend planks for this one! use it to defend agains attacks, you can even survive a creeper point blank!"
+	],
+	dependencies: [
+		"055ae5ce"
+	],
+	tasks: [{
+		uid: "44eec7fc",
+		type: "item",
+		items: [{
+			item: "minecraft:shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04551762",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "fbf22753",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

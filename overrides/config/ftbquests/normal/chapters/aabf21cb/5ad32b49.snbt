@@ -1,0 +1,42 @@
+{
+	title: "Sleepy time",
+	x: 2.0d,
+	y: -3.5d,
+	text: [
+		"Make a bed! This will give you a spawn point if you die!"
+	],
+	dependencies: [
+		"18909701"
+	],
+	tasks: [{
+		uid: "f708b6f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bed"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cbec92f4",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "e85c8d91",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

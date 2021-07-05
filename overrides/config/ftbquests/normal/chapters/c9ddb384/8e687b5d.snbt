@@ -1,0 +1,13 @@
+{
+	x: 2.5d,
+	y: -2.0d,
+	dependencies: [
+		"810f5988"
+	],
+	tasks: [{
+		uid: "54042db9",
+		type: "checkmark",
+		title: "Right Click the Tank with a Bucket",
+		icon: "minecraft:lava_bucket"
+	}]
+}

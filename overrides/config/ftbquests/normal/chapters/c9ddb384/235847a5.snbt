@@ -1,6 +1,12 @@
 {
+	title: "Tool Station 2",
 	x: 19.0d,
 	y: 0.0d,
+	dependencies: [
+		"20e5bc5d",
+		"1d2d7e10",
+		"c9f4e48f"
+	],
 	tasks: [{
 		uid: "f77b650a",
 		type: "item",

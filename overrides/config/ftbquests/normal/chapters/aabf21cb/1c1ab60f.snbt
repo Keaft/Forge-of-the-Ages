@@ -1,0 +1,30 @@
+{
+	title: "Teach a man to read",
+	x: 6.0d,
+	y: -19.5d,
+	text: [
+		"Books are interesting! Get paper and leather!"
+	],
+	dependencies: [
+		"4d41e051"
+	],
+	tasks: [{
+		uid: "5f8a3314",
+		type: "item",
+		items: [{
+			item: "minecraft:book"
+		}]
+	}],
+	rewards: [{
+		uid: "0c9ef8cf",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "4b001f83",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

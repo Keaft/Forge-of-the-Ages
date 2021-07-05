@@ -1,0 +1,30 @@
+{
+	title: "Seedy business",
+	x: 4.0d,
+	y: -11.5d,
+	text: [
+		"You cna find these bad boys by hitting grass!"
+	],
+	dependencies: [
+		"64aa7759"
+	],
+	tasks: [{
+		uid: "36d400ec",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "73603c16",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "1575b76c",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

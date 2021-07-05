@@ -1,0 +1,32 @@
+{
+	title: "Durt, the final end game",
+	x: 4.0d,
+	y: -7.5d,
+	text: [
+		"Shovels are great! Totally useful tool! They are great for clearing dirt, gravel and sand!"
+	],
+	dependencies: [
+		"18909701"
+	],
+	tasks: [{
+		uid: "0af0feb2",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2af9f195",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "47ffcb72",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

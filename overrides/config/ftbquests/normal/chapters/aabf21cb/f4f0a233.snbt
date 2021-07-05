@@ -1,0 +1,32 @@
+{
+	title: "Teach a man to read and write!",
+	x: 4.0d,
+	y: -19.5d,
+	text: [
+		"This will be important for later with enchanting! "
+	],
+	dependencies: [
+		"1c1ab60f"
+	],
+	tasks: [{
+		uid: "183aae43",
+		type: "item",
+		items: [{
+			item: "minecraft:writable_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dfe41dc",
+		type: "xp",
+		auto: "enabled",
+		xp: 300
+	},
+	{
+		uid: "5e675001",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

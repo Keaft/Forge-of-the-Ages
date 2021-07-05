@@ -1,0 +1,13 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"886d04b4"
+	],
+	tasks: [{
+		uid: "d5f2ff0b",
+		type: "checkmark",
+		title: "Filling the Forge",
+		icon: "minecraft:lava_bucket"
+	}]
+}

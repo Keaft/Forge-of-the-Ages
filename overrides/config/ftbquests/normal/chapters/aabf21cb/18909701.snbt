@@ -1,0 +1,27 @@
+{
+	title: "Just Enough Items",
+	x: 2.0d,
+	y: -5.5d,
+	text: [
+		"Just Enough Items (JEI) is a useful tool that lets you look up recipes for any item in the game.",
+		"",
+		"To use it, open your inventory or right-click on your crafting table. You'll see a black search bar at the bottom. Type in the name of any item in this box to filter the item list on the right.",
+		"",
+		"You can left-click on any item in the list to see its recipe. You can also right-click to see what other recipes use that item.",
+		"",
+		"Go try it out for a bit - you should use JEI to look up recipes for all the other quests from here on out. Come back here and hit the checkbox for this task when you're ready to move on."
+	],
+	dependencies: [
+		"b728fc6c"
+	],
+	tasks: [{
+		uid: "78918b2f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b0913828",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Welcome to Minecraft!",
+	x: -12.0d,
+	y: -5.5d,
+	shape: "gear",
+	text: [
+		"This questline will walk you through the basics of Minecraft. Hit the checkbox and complete this quest to get started."
+	],
+	tasks: [{
+		uid: "4a63e2bf",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "5d315d8b",
+		type: "xp",
+		auto: "enabled",
+		xp: 1
+	}]
+}

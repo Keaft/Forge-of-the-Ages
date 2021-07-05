@@ -1,0 +1,13 @@
+{
+	x: 1.5d,
+	y: 7.5d,
+	dependencies: [
+		"b8d3a3b3"
+	],
+	tasks: [{
+		uid: "91bae82d",
+		type: "checkmark",
+		title: "Seared Bricks",
+		icon: "tconstruct:materials"
+	}]
+}

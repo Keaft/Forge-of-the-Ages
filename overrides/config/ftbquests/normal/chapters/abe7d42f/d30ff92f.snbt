@@ -1,0 +1,25 @@
+{
+	title: "Discover Electricity",
+	x: -14.0d,
+	y: -4.5d,
+	text: [
+		"Redstone Flux (RF) is the basic electrical power unit of EnderIO and most other machine-based tech mods.",
+		"",
+		"Craft a simple sterling generator to begin generating some RF of your own! This generator runs on any kind of fuel that would work in a vanilla Minecraft furnace.",
+		"",
+		"Come back with the generator, and we'll give you some energy conduits to conduct the RF with, free of charge."
+	],
+	tasks: [{
+		uid: "edaf3bbc",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_stirling_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "9e4b4f06",
+		type: "item",
+		item: "enderio:item_power_conduit",
+		count: 4
+	}]
+}

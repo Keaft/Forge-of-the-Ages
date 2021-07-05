@@ -1,0 +1,30 @@
+{
+	title: "Wheeat!",
+	x: 4.0d,
+	y: -13.5d,
+	text: [
+		"Plant those seeds in dirt near water and watch it grow! ....watch it carefully."
+	],
+	dependencies: [
+		"8874bda1"
+	],
+	tasks: [{
+		uid: "c8755d0c",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	}],
+	rewards: [{
+		uid: "82f566f8",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cake"
+	},
+	{
+		uid: "fb6d565a",
+		type: "xp",
+		auto: "enabled",
+		xp: 150
+	}]
+}

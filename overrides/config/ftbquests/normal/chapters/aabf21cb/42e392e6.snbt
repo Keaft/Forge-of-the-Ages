@@ -5,6 +5,9 @@
 	text: [
 		"Begin your minecraft journey by walking to the nearest tree and holding left-click until you harvest some log blocks. Come back here with eight log blocks, and we'll give you a cookie as your reward!"
 	],
+	dependencies: [
+		"9d076050"
+	],
 	tasks: [{
 		uid: "768f5293",
 		type: "item",
@@ -27,6 +30,13 @@
 	rewards: [{
 		uid: "20852ac2",
 		type: "item",
+		auto: "enabled",
 		item: "minecraft:cookie"
+	},
+	{
+		uid: "4dacee9f",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
 	}]
 }

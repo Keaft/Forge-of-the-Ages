@@ -1,0 +1,30 @@
+{
+	title: "So about those cows....",
+	x: 4.0d,
+	y: -15.5d,
+	text: [
+		"Kill a cow to get beef, if you have 2 cows you can use wheat to breed them!"
+	],
+	dependencies: [
+		"9ee7309f"
+	],
+	tasks: [{
+		uid: "0d020c34",
+		type: "item",
+		items: [{
+			item: "minecraft:beef"
+		}]
+	}],
+	rewards: [{
+		uid: "a1a4a7ad",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "db0f817d",
+		type: "xp",
+		auto: "enabled",
+		xp: 150
+	}]
+}

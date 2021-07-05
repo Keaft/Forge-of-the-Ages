@@ -1,0 +1,28 @@
+{
+	title: "The more you know!",
+	x: 9.5d,
+	y: -6.5d,
+	text: [
+		"At this point in your adventure you should have found many different materarials! if you are still using that wood tool, its time to upgrade! ",
+		"The Basic Teirs goes as follows: Wood > Stone > Iron > Gold > Diamond! Upgrade as soon as possible! Check this off when you are ready!"
+	],
+	dependencies: [
+		"2733a227"
+	],
+	tasks: [{
+		uid: "5b662730",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "c9ce6afd",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "a64d03f8",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

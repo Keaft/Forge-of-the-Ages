@@ -1,0 +1,30 @@
+{
+	title: "Le Coal",
+	x: 5.5d,
+	y: -5.5d,
+	text: [
+		"Coal is super useful for providing cooking fuel and running machines in this mod pack!"
+	],
+	dependencies: [
+		"bbf61e11"
+	],
+	tasks: [{
+		uid: "e556774e",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "ac34f3fa",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "3d153b9f",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

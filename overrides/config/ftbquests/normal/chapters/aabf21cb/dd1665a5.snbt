@@ -1,0 +1,32 @@
+{
+	title: "The Heart",
+	x: 8.5d,
+	y: -6.5d,
+	text: [
+		"Build some armor my dude! its dangerous out there!"
+	],
+	dependencies: [
+		"16071082"
+	],
+	tasks: [{
+		uid: "74b24e36",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a3c44f06",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "511f2d92",
+		type: "xp",
+		auto: "enabled",
+		xp: 300
+	}]
+}

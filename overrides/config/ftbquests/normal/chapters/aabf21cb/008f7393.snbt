@@ -1,0 +1,32 @@
+{
+	title: "And then man stole fire from the gods....",
+	x: 6.0d,
+	y: -9.5d,
+	text: [
+		"Use flint and iron! then right click to make FIRE!!!!"
+	],
+	dependencies: [
+		"38197246"
+	],
+	tasks: [{
+		uid: "4eec689e",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "664e68a8",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "36a719ce",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

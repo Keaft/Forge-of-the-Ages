@@ -1,0 +1,30 @@
+{
+	title: "Upgrades people, Upgrades!!!",
+	x: 9.0d,
+	y: -12.5d,
+	text: [
+		"Stick your glass back in the crafting table!"
+	],
+	dependencies: [
+		"9f89e181"
+	],
+	tasks: [{
+		uid: "ca395b7f",
+		type: "item",
+		items: [{
+			item: "minecraft:glass_pane"
+		}]
+	}],
+	rewards: [{
+		uid: "ffd072dc",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "1be7800a",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

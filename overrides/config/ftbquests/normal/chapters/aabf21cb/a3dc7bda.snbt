@@ -1,0 +1,30 @@
+{
+	title: "10 Cow Quest",
+	x: 6.0d,
+	y: -13.5d,
+	text: [
+		"kill a cow to get leather!"
+	],
+	dependencies: [
+		"9ee7309f"
+	],
+	tasks: [{
+		uid: "27531323",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}],
+	rewards: [{
+		uid: "daeda48a",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "c591055d",
+		type: "xp",
+		auto: "enabled",
+		xp: 125
+	}]
+}

@@ -11,5 +11,17 @@
 		items: [{
 			item: "tconstruct:tooltables"
 		}]
+	}],
+	rewards: [{
+		uid: "70a96593",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "601a18bc",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
 	}]
 }

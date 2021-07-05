@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 7.5d,
+	dependencies: [
+		"1cd07b2b",
+		"23ef13c8"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fd861676",
+		type: "checkmark",
+		title: "Seared Blocks",
+		icon: "tconstruct:seared 1 3"
+	}]
+}

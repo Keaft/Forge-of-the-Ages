@@ -1,0 +1,30 @@
+{
+	title: "The Hardest Thing to Find",
+	x: 6.0d,
+	y: -15.5d,
+	text: [
+		"Find three of thees bad boys in a desert, this will let you make paper. I would recommend taking sand back with you and planting one."
+	],
+	dependencies: [
+		"a3dc7bda"
+	],
+	tasks: [{
+		uid: "154dfd02",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}]
+	}],
+	rewards: [{
+		uid: "8f346d7a",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "80beca66",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

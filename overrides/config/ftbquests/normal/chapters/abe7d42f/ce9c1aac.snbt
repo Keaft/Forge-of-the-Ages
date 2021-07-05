@@ -1,0 +1,15 @@
+{
+	title: "Smelting with Electricity",
+	x: -6.5d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "62e34f9e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}]
+	}]
+}

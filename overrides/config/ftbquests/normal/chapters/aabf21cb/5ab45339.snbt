@@ -1,0 +1,30 @@
+{
+	title: "Now I just need bread",
+	x: 4.0d,
+	y: -17.5d,
+	text: [
+		"Cook your beef in a furnace!"
+	],
+	dependencies: [
+		"ae448901"
+	],
+	tasks: [{
+		uid: "58a45002",
+		type: "item",
+		items: [{
+			item: "minecraft:cooked_beef"
+		}]
+	}],
+	rewards: [{
+		uid: "a1cc36c3",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "8101c4e3",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

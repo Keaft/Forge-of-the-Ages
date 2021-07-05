@@ -1,0 +1,32 @@
+{
+	title: "Whats mighter than a sword???",
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"Get some sticks and string and you got yourself a bow!"
+	],
+	dependencies: [
+		"df838e81"
+	],
+	tasks: [{
+		uid: "1d3ffee6",
+		type: "item",
+		items: [{
+			item: "minecraft:bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dc536f8",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "321882a5",
+		type: "xp",
+		auto: "enabled",
+		xp: 150
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Still better than snad",
+	x: 7.0d,
+	y: -10.5d,
+	text: [
+		"I mean.... sand... its in the desert.... please don't make  me write any more of these....",
+		"",
+		"-The sign maker..."
+	],
+	dependencies: [
+		"008f7393"
+	],
+	tasks: [{
+		uid: "cf39803d",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	}],
+	rewards: [{
+		uid: "cb3e8aa8",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "e476ba19",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

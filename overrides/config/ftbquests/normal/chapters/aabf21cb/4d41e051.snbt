@@ -1,0 +1,30 @@
+{
+	title: "PAPER!!!",
+	x: 6.0d,
+	y: -17.5d,
+	text: [
+		"Take 3 sugar canes and make paper!"
+	],
+	dependencies: [
+		"145dd620"
+	],
+	tasks: [{
+		uid: "61a40401",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}]
+	}],
+	rewards: [{
+		uid: "fdd4e598",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "9dce65d1",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

@@ -9,6 +9,9 @@
 	},
 	x: 5.0d,
 	y: 0.0d,
+	dependencies: [
+		"cd6621f0"
+	],
 	tasks: [{
 		uid: "145d89a4",
 		type: "checkmark",

@@ -1,0 +1,30 @@
+{
+	title: "Be thou a light to heretics... and burn them",
+	x: 7.0d,
+	y: -5.5d,
+	text: [
+		"Use sticks, coal or charcoal for this one. Always remember to bring these with you. Light up everyone you go so mobs don't spawn. Use F7 to see where they can spawn and stick a torch there! I like to bring them mining and put them on the right side."
+	],
+	dependencies: [
+		"9aa70470"
+	],
+	tasks: [{
+		uid: "fb83b57b",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}]
+	}],
+	rewards: [{
+		uid: "e2d47d0c",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "96f98062",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

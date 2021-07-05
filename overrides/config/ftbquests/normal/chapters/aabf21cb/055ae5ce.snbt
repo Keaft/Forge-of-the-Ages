@@ -1,0 +1,30 @@
+{
+	title: "Ammo!",
+	x: 7.0d,
+	y: -0.5d,
+	text: [
+		"We will need feathers, flint and sitcks!"
+	],
+	dependencies: [
+		"00b1603b"
+	],
+	tasks: [{
+		uid: "58a1cba9",
+		type: "item",
+		items: [{
+			item: "minecraft:arrow"
+		}]
+	}],
+	rewards: [{
+		uid: "f737e6de",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "8e6080b6",
+		type: "xp",
+		auto: "enabled",
+		xp: 102
+	}]
+}

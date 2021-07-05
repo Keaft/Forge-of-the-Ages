@@ -1,0 +1,32 @@
+{
+	title: "The mind",
+	x: 9.0d,
+	y: -7.5d,
+	text: [
+		"Always wear a helmet, those who don't end up dead, I've worn one my whole life and have never died. "
+	],
+	dependencies: [
+		"16071082"
+	],
+	tasks: [{
+		uid: "dcbf57e0",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "caa4c06c",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "eb61f769",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

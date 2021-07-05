@@ -1,6 +1,13 @@
 {
-	x: 3.0d,
+	title: "Diggy Diggy hole!",
+	x: 4.0d,
 	y: -5.5d,
+	text: [
+		"The pickaxe is great for digging through hard materials, the better your pickaxe the better things you can dig!"
+	],
+	dependencies: [
+		"18909701"
+	],
 	tasks: [{
 		uid: "a67946fd",
 		type: "item",
@@ -9,5 +16,17 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dfbb336a",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "4397f883",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
 	}]
 }

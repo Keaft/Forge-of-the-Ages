@@ -1,0 +1,12 @@
+{
+	x: 1.5d,
+	y: 5.5d,
+	dependencies: [
+		"c2a58ee1"
+	],
+	tasks: [{
+		uid: "57795c2c",
+		type: "checkmark",
+		title: "Bricks"
+	}]
+}

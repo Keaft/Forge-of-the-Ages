@@ -1,0 +1,30 @@
+{
+	title: "Nothing to see here!",
+	x: 8.0d,
+	y: -11.5d,
+	text: [
+		"Smelt glass in your choice of furnace! Careful, you can move it once its placed."
+	],
+	dependencies: [
+		"24d7707a"
+	],
+	tasks: [{
+		uid: "073cd27f",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	}],
+	rewards: [{
+		uid: "0de22944",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "f1aa2bac",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "The Spirit",
+	x: 10.0d,
+	y: -7.5d,
+	text: [
+		"If I coulde wear armor I would."
+	],
+	dependencies: [
+		"16071082"
+	],
+	tasks: [{
+		uid: "6e7a2f0a",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9295cdde",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "73bddaea",
+		type: "xp",
+		auto: "enabled",
+		xp: 200
+	}]
+}

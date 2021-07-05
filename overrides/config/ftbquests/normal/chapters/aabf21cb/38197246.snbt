@@ -1,0 +1,30 @@
+{
+	title: "Flint!",
+	x: 5.0d,
+	y: -8.5d,
+	text: [
+		"You can find this in gravel by digging it with a shovel! Also a cool Avenger."
+	],
+	dependencies: [
+		"43f53fce"
+	],
+	tasks: [{
+		uid: "19975d9d",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}]
+	}],
+	rewards: [{
+		uid: "7936f3e5",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "8d69e31c",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

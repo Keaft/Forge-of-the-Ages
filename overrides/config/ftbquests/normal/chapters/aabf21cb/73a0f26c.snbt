@@ -1,0 +1,59 @@
+{
+	title: "ENCHANTING!!!!",
+	x: 6.0d,
+	y: -23.5d,
+	text: [
+		"Use this to upgrade your weapons, items and armor! You will need EXP and lapiz to do it."
+	],
+	dependencies: [
+		"d0abfc23"
+	],
+	optional: true,
+	tasks: [{
+		uid: "07e3c130",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "9838c9ee",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "06827371",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 0
+				}]
+			}
+		}
+	},
+	{
+		uid: "4a1119e9",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 32
+				}]
+			}
+		}
+	},
+	{
+		uid: "a58bc065",
+		type: "xp",
+		auto: "enabled",
+		xp: 1000
+	}]
+}

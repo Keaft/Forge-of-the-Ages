@@ -1,0 +1,25 @@
+{
+	title: "Flux Capacitors",
+	x: -11.5d,
+	y: -4.5d,
+	text: [
+		"EnderIO's capacitor blocks act as batteries, holding RF inside them, even when broken and held in your inventory.",
+		"",
+		"Craft a basic capacitor bank now, and come back with it for another four energy conduits.",
+		"",
+		"Once that's done, you should try using the conduits to connect your generator to your capacitor bank. Try putting fuel in the generator to start charging the capacitor!"
+	],
+	tasks: [{
+		uid: "7b2bd157",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "090d0eca",
+		type: "item",
+		item: "enderio:item_power_conduit",
+		count: 4
+	}]
+}

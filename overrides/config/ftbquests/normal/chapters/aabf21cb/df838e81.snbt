@@ -1,0 +1,29 @@
+{
+	title: "Strings!",
+	x: 5.0d,
+	y: -2.5d,
+	text: [
+		"You get these bad boys by killing spiders! or other means..... Check JEI!"
+	],
+	dependencies: [
+		"b739fbf4"
+	],
+	tasks: [{
+		uid: "b31ee8a3",
+		type: "item",
+		items: [{
+			item: "minecraft:string"
+		}]
+	}],
+	rewards: [{
+		uid: "542707c4",
+		type: "item",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "0b29b642",
+		type: "xp",
+		auto: "enabled",
+		xp: 113
+	}]
+}

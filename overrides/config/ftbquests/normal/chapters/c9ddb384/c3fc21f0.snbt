@@ -1,7 +1,13 @@
 {
 	title: "Lets make each one of these out of Iron",
 	x: 15.0d,
-	y: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"bc821cc2",
+		"2733a227",
+		"ec24d602",
+		"70e0af26"
+	],
 	tasks: [{
 		uid: "bc0341c9",
 		type: "item",

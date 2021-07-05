@@ -1,0 +1,12 @@
+{
+	x: 4.5d,
+	y: 7.5d,
+	dependencies: [
+		"432d4e47"
+	],
+	tasks: [{
+		uid: "a40f4b77",
+		type: "checkmark",
+		title: "Make that Forge Bigger!"
+	}]
+}

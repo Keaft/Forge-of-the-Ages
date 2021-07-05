@@ -1,0 +1,42 @@
+{
+	title: "The journey beings now!",
+	x: 14.5d,
+	y: -5.5d,
+	text: [
+		"Thanks for following this hopefully short tutorial! If you are new to minecraft welcome! if you are a solid veteran adventurer I salute you. Regardless of ",
+		"your current experiance welcome to the Forge of the Ages Modpack, it has been years in the making through the hard work of Keaft/Falcon and his ",
+		"fellow modders!",
+		"",
+		"As you now set off on your adventure remember that this is a game for you, if you are like me and just chill in spawn farming great! if you want to crash ",
+		"your server with a nuclear meltdown great! If magic and exploring is your thing there's so much to do here!",
+		"",
+		"",
+		"-Take Luck",
+		" The Sign Maker"
+	],
+	dependencies: [
+		"a2ad9d35"
+	],
+	tasks: [{
+		uid: "382560f4",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b94647cc",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "2907673d",
+		type: "xp",
+		auto: "enabled",
+		xp: 2000
+	},
+	{
+		uid: "8fd3229c",
+		type: "toast",
+		title: "A new Hero rises!",
+		auto: "enabled"
+	}]
+}

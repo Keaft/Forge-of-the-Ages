@@ -20,6 +20,13 @@
 	rewards: [{
 		uid: "95ff3dc6",
 		type: "item",
+		auto: "enabled",
 		item: "minecraft:cookie"
+	},
+	{
+		uid: "0c5fdbab",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
 	}]
 }

@@ -1,0 +1,32 @@
+{
+	title: "Y11",
+	x: 12.5d,
+	y: -5.5d,
+	text: [
+		"Diamonds are hard to find, you can find them deep underneath the earth, some say near lava, so say around Y 11(11 blocks above bed rock) but",
+		"you will have to go deep for this one!"
+	],
+	dependencies: [
+		"034ec5e2"
+	],
+	tasks: [{
+		uid: "7c402a74",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "5fe97236",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie",
+		count: 30
+	},
+	{
+		uid: "0ea6672d",
+		type: "xp",
+		auto: "enabled",
+		xp: 1000
+	}]
+}

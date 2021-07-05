@@ -1,0 +1,57 @@
+{
+	x: 20.5d,
+	y: 3.0d,
+	dependencies: [
+		"0730195e"
+	],
+	tasks: [{
+		uid: "310a07ce",
+		type: "item",
+		items: [{
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 291,
+					Defense: 15.0f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 291,
+					Defense: 15.0f
+				},
+				TinkerData: {
+					Materials: [
+						"iron",
+						"iron",
+						"iron"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "magnetic_armor",
+					color: -3487030,
+					magnetic2_armor: 1b,
+					level: 3,
+					magnetic1_armor: 1b
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"magnetic2_armor",
+					"magnetic1_armor",
+					"leveling_armor"
+				]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

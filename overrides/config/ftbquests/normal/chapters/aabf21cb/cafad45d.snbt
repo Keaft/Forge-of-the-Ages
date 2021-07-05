@@ -12,13 +12,31 @@
 		uid: "c15383e6",
 		type: "item",
 		items: [{
-			item: "minecraft:planks"
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any plankWood"
+				}
+			}
 		}],
 		count: 4L
 	}],
 	rewards: [{
 		uid: "3854c898",
 		type: "item",
+		auto: "enabled",
 		item: "minecraft:cookie"
+	},
+	{
+		uid: "182d2aa3",
+		type: "xp",
+		auto: "enabled",
+		xp: 150
 	}]
 }

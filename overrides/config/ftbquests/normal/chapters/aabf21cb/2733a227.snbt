@@ -1,0 +1,30 @@
+{
+	title: "Iron man!",
+	x: 8.5d,
+	y: -5.5d,
+	text: [
+		"We dont stone or iron tools any more we want iron!"
+	],
+	dependencies: [
+		"fa6f815e"
+	],
+	tasks: [{
+		uid: "92e51e8d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "40e37d95",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "f48acf08",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

@@ -1,5 +1,6 @@
 {
-	title: "Minecraft Basics",
+	title: "Age of the Basics",
+	icon: "minecraft:grass",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

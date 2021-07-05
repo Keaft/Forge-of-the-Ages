@@ -1,0 +1,30 @@
+{
+	title: "Storage!",
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"You just need some wood for this one! st"
+	],
+	dependencies: [
+		"a6e000fb"
+	],
+	tasks: [{
+		uid: "9e676c47",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "14ce8989",
+		type: "xp",
+		auto: "enabled",
+		xp: 300
+	},
+	{
+		uid: "396b1d2d",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

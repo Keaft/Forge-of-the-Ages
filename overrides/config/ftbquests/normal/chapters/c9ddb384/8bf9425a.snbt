@@ -5,6 +5,9 @@
 		"Let's Build a Weapon,",
 		"Tool, and a Chest Piece!"
 	],
+	dependencies: [
+		"d30d2a00"
+	],
 	tasks: [{
 		uid: "63686fac",
 		type: "checkmark",

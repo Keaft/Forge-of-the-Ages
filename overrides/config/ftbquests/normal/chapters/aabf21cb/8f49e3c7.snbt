@@ -1,0 +1,30 @@
+{
+	title: "Cook that bread!",
+	x: -2.0d,
+	y: -9.0d,
+	text: [
+		"just need cobblestones for this, you can fuel it with basics like coal, wood, sticks, planks and charcoal!"
+	],
+	dependencies: [
+		"18933968"
+	],
+	tasks: [{
+		uid: "e7ea7c7d",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "d04d51b2",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "49dbf6d9",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:log"
+	}]
+}

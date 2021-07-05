@@ -1,4 +1,5 @@
 {
+	title: "Welcome to Tinker's Construct",
 	x: -7.5d,
 	y: -4.5d,
 	shape: "gear",

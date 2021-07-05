@@ -1,6 +1,10 @@
 {
 	x: 6.0d,
 	y: 0.0d,
+	dependencies: [
+		"d8ccc1d6",
+		"063d0516"
+	],
 	tasks: [{
 		uid: "15556717",
 		type: "checkmark",

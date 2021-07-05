@@ -1,0 +1,30 @@
+{
+	title: "Don't tell Happyvibes......",
+	x: 6.0d,
+	y: -21.5d,
+	text: [
+		"This will help with enchanting"
+	],
+	dependencies: [
+		"1c1ab60f"
+	],
+	tasks: [{
+		uid: "80a837ad",
+		type: "item",
+		items: [{
+			item: "minecraft:bookshelf"
+		}]
+	}],
+	rewards: [{
+		uid: "f414c9a2",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "b580ec04",
+		type: "xp",
+		auto: "enabled",
+		xp: 140
+	}]
+}

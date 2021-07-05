@@ -1,0 +1,13 @@
+{
+	title: "Age of the Engineer",
+	icon: {
+		id: "enderio:block_cap_bank",
+		tag: {
+			"enderio:energy": 1000000
+		},
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

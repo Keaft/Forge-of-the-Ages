@@ -1,0 +1,30 @@
+{
+	title: "No longer do we require the use of legs",
+	x: 9.0d,
+	y: 1.5d,
+	text: [
+		"Kill creepers! Good luck!"
+	],
+	dependencies: [
+		"cc2636fd"
+	],
+	tasks: [{
+		uid: "a3502cc4",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}]
+	}],
+	rewards: [{
+		uid: "10d7ceb5",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "ff6a1da6",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}

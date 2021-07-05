@@ -1,0 +1,41 @@
+{
+	title: "Knock Knock!",
+	x: 2.0d,
+	y: -1.5d,
+	text: [
+		"Be sure to keep out the night!"
+	],
+	dependencies: [
+		"5ad32b49"
+	],
+	tasks: [{
+		uid: "ff7442ab",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "doorWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any doorWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "79f48053",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	},
+	{
+		uid: "c53c3167",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	}]
+}

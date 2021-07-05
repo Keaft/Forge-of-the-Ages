@@ -1,0 +1,30 @@
+{
+	title: "Swag Mill",
+	x: -9.0d,
+	y: -4.5d,
+	text: [
+		"A SAG mill grinds ore blocks down into pulverized powder. Craft a simple SAG mill and hook it up to your power (this is best done by placing energy conduits that lead from your capacitor bank to the SAG mill).",
+		"",
+		"Place a block of iron ore inside the SAG mill. Come back here with the pulverized iron and the SAG mill itself, and we'll give you some item conduits that can be used to transport items around."
+	],
+	tasks: [{
+		uid: "eea16e9e",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	},
+	{
+		uid: "1e746a69",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material"
+		}]
+	}],
+	rewards: [{
+		uid: "14907815",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 4
+	}]
+}

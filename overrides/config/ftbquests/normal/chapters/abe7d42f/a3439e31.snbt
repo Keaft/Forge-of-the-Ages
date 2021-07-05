@@ -1,0 +1,15 @@
+{
+	title: "Welcome to EnderIO!",
+	x: -16.5d,
+	y: -4.5d,
+	shape: "gear",
+	text: [
+		"This questline will introduce you to the basics of EnderIO (and a few other useful mods).",
+		"",
+		"EnderIO is a tech mod that adds a bunch of useful machines. This questline will walk you through creating a basic machine line that you can use to double your ores!"
+	],
+	tasks: [{
+		uid: "e2d52bb5",
+		type: "checkmark"
+	}]
+}

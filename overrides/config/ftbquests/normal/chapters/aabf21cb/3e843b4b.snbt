@@ -1,0 +1,31 @@
+{
+	title: "So you are a wizard now!",
+	x: 9.0d,
+	y: -4.0d,
+	text: [
+		"This is useful for enchanting! Also great decor!"
+	],
+	dependencies: [
+		"2733a227"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3a05d1a2",
+		type: "item",
+		items: [{
+			item: "minecraft:dye 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "cc07b3c7",
+		type: "item",
+		auto: "enabled",
+		item: "minecraft:cookie"
+	},
+	{
+		uid: "c52903e0",
+		type: "xp",
+		auto: "enabled",
+		xp: 100
+	}]
+}
