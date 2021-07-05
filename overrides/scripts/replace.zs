@@ -157,6 +157,15 @@ recipes.addShaped("naturescompass_natures_compass", <naturescompass:naturescompa
 
 //--------------------------------------------------------------------------------------
 
+// --- Scaling Health ---
+//Heart Dust
+recipes.removeByRecipeName("scalinghealth:heart_dust");
+recipes.addShapeless("scalinghealth_heart_dust", <scalinghealth:heartdust>, [hammer.transformDamage(), <scalinghealth:crystalshard>]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Storage Drawers ---
 //Controller Slave
 recipes.removeByRecipeName("storagedrawers:controller_slave");

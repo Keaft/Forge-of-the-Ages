@@ -99,12 +99,42 @@ recipes.addShapeless("minecraft_firework_rocket_3", <minecraft:fireworks>.withTa
 
 //--------------------------------------------------------------------------------------
 
+// --- Scaling health ---
+// - Cursed Heart
+recipes.addShapeless("scalinghealth_cursed_heart", <scalinghealth:difficultychanger:1>, [<scalinghealth:difficultychanger>]);
+recipes.addShaped("scalinghealth_cursed_heart_with_shards", <scalinghealth:difficultychanger:1>, [[null, <scalinghealth:crystalshard>, null],[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>],[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>]]);
+
+// - Enchanted Heart
+recipes.addShapeless("scalinghealth_enchanted_heart", <scalinghealth:difficultychanger>, [<scalinghealth:difficultychanger:1>]);
+recipes.addShaped("scalinghealth_enchanted_heart_with_shards", <scalinghealth:difficultychanger>, [[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>],[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>],[null, <scalinghealth:crystalshard>, null]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Vanilla Furnace ---
 furnace.addRecipe(<iceandfire:silver_ingot>, <iceandfire:silver_ore>);
 //furnace.addRecipe(<fluxnetworks:flux>, <minecraft:redstone>);
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>);
 furnace.addRecipe(<tconstruct:ingots:0>, <contenttweaker:cobalt_ore_stone>, 1.0);
 furnace.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_ore_stone>, 1.0);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Vanilla Recipes ---
+// - Leather armor into Leather
+recipes.addShapeless("leather_helmet_to_leather", <minecraft:leather> * 5, [<minecraft:leather_helmet>, <ore:toolShears>.transformDamage(3)]);
+recipes.addShapeless("leather_chestplate_to_leather", <minecraft:leather> * 8, [<minecraft:leather_chestplate>, <ore:toolShears>.transformDamage(3)]);
+recipes.addShapeless("leather_pants_to_leather", <minecraft:leather> * 7, [<minecraft:leather_leggings>, <ore:toolShears>.transformDamage(3)]);
+recipes.addShapeless("leather_boots_to_leather", <minecraft:leather> * 4, [<minecraft:leather_boots>, <ore:toolShears>.transformDamage(3)]);
+
+// - Leather armor into Leather with Supremium Shears
+recipes.addShapeless("leather_helmet_to_leather_mystical", <minecraft:leather> * 5, [<minecraft:leather_helmet>, <mysticalagriculture:supremium_shears>.reuse()]);
+recipes.addShapeless("leather_chestplate_to_leather_mystical", <minecraft:leather> * 8, [<minecraft:leather_chestplate>, <mysticalagriculture:supremium_shears>.reuse()]);
+recipes.addShapeless("leather_pants_to_leather_mystical", <minecraft:leather> * 7, [<minecraft:leather_leggings>, <mysticalagriculture:supremium_shears>.reuse()]);
+recipes.addShapeless("leather_boots_to_leather_mystical", <minecraft:leather> * 4, [<minecraft:leather_boots>, <mysticalagriculture:supremium_shears>.reuse()]);
 
 //--------------------------------------------------------------------------------------
 

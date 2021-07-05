@@ -106,6 +106,14 @@ mods.jei.JEI.removeAndHide(<harvestcraft:lycheeteaitem>);
 
 //--------------------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------------------
+
+// --- Scaling Health ---
+// - Heart Container
+mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
+
+//--------------------------------------------------------------------------------------
+
 //***********************************************************************************************************
 //Server specific removal 
 //***********************************************************************************************************
@@ -193,7 +201,7 @@ recipes.removeByRecipeName("enderio:enhanced_alloy_smelter");
 
 // --- Extra Utilities 2 ---
 
-// - Angel Ring, such that the base one is craftable, and the customizable ones use the base. May not be necessary with Project MMO flying skill restrictions.
+// - Angel Ring, such that the base one is craftable, and the customizable ones use the base.
 //recipes.removeByRecipeName("extrautils2:angel_ring_1");
 //recipes.removeByRecipeName("extrautils2:angel_ring_2");
 //recipes.removeByRecipeName("extrautils2:angel_ring_3");
@@ -237,6 +245,13 @@ recipes.remove(<moarsigns:moar_sign:1>.withTag({SignTexture: "bigreactors/steel_
 // - Extraneous string
 recipes.removeByRecipeName("natura:common/string");
 
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Scaling Health ---
+// - Heart Container
+recipes.removeByRecipeName("scalinghealth:heart_container");
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------

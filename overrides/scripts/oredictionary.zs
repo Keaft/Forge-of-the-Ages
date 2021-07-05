@@ -63,4 +63,35 @@ for item in hammerList{
     toolHammerEntries.add(item);
 }
 
+# Shears
+val toolShearsEntries = <ore:toolShears>;
+val shearsList = [
+    <botania:manasteelshears>,
+    <botania:elementiumshears>,
+    <enderio:item_dark_steel_shears>,
+    <mysticalagriculture:inferium_shears>,
+    <mysticalagriculture:prudentium_shears>,
+    <mysticalagriculture:intermedium_shears>,
+    <mysticalagriculture:superium_shears>,
+    <thebetweenlands:syrmorite_shears>,
+    <thermalfoundation:tool.shears_copper>,
+    <thermalfoundation:tool.shears_tin>,
+    <thermalfoundation:tool.shears_silver>,
+    <thermalfoundation:tool.shears_lead>,
+    <thermalfoundation:tool.shears_aluminum>,
+    <thermalfoundation:tool.shears_nickel>,
+    <thermalfoundation:tool.shears_platinum>,
+    <thermalfoundation:tool.shears_steel>,
+    <thermalfoundation:tool.shears_electrum>,
+    <thermalfoundation:tool.shears_invar>,
+    <thermalfoundation:tool.shears_bronze>,
+    <thermalfoundation:tool.shears_constantan>,
+    <thermalfoundation:tool.shears_diamond>,
+    <thermalfoundation:tool.shears_gold>
+] as IItemStack[];
+
+for item in shearsList{
+    toolShearsEntries.add(item);
+}
+
 print("Initialized 'oredictionary'");
