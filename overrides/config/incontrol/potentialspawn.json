@@ -42,6 +42,7 @@
         "dimension": 0,
         "random": 0.05,
         "biome": ["Ominous Woods"],
+        "block": "biomesoplenty:grass@2",
         "maxcount": {
             "amount": 2,
             "mob": "mod_lavacow:scarecrow",
