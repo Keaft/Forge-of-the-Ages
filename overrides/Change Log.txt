@@ -24,7 +24,7 @@ Configuration changes:
 - Removed furnace recipe for flux. Back to creating interesting machines to automate throwing into fire/lava!
 - Re-introduced Extra Utilities 2 Pipe system, but only for fluids.
 - Made Infinite lava sources just like water in the nether. Now you can pump to your hearts desire!
-- Changed recipe and skill requirement for some of Extra Utilities flight rings.
+- Changed recipe requirements for some of Extra Utilities flight rings.
 - Removed extraneous flight items that served no purpose.
 - Separated Ender IO into it's modular form to remove the Inventory System in favor of Applied Energistics 2.
 - Removed the Dislocator Pedestal from Draconic Evolution.
@@ -48,7 +48,9 @@ Configuration changes:
 - Fixed Pig Iron alloying recipe as additional mods messed up the value of a diamond.
 - Fish's Undead Rising mobs now spawn in dedicated areas instead of their defaults.
 - Added shears to the ore dictionary.
-
+- Made leather armor shearable down to regular leather.
+- Quests have been created and populated. Special thanks to BlackDawg, BlitzFalke, Orrinjelo, Pwnsbey for their work and insights!
+- Greenhouses from Agricraft have been disabled for causing many errors.
 
 Added the following mods:
 - AE2 Wireless Fluid Terminal 1.0.4.
