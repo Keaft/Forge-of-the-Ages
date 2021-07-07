@@ -10,6 +10,10 @@ print("Initializing 'oredictionary'...");
 # Block Amber
 <ore:blockAmber>.add(<thaumcraft:amber_block>);
 
+# Bamboo
+<ore:cropBamboo>.add(<biomesoplenty:bamboo>);
+<ore:stickWood>.add(<futuremc:bamboo>);
+
 # Flour
 <ore:dustWheat>.remove(<nuclearcraft:flour>);
 <ore:foodFlour>.add(<nuclearcraft:flour>);

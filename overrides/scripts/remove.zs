@@ -202,11 +202,18 @@ recipes.removeByRecipeName("enderio:enhanced_alloy_smelter");
 // --- Extra Utilities 2 ---
 
 // - Angel Ring, such that the base one is craftable, and the customizable ones use the base.
-//recipes.removeByRecipeName("extrautils2:angel_ring_1");
-//recipes.removeByRecipeName("extrautils2:angel_ring_2");
-//recipes.removeByRecipeName("extrautils2:angel_ring_3");
-//recipes.removeByRecipeName("extrautils2:angel_ring_4");
-//recipes.removeByRecipeName("extrautils2:angel_ring_5");
+recipes.removeByRecipeName("extrautils2:angel_ring_1");
+recipes.removeByRecipeName("extrautils2:angel_ring_2");
+recipes.removeByRecipeName("extrautils2:angel_ring_3");
+recipes.removeByRecipeName("extrautils2:angel_ring_4");
+recipes.removeByRecipeName("extrautils2:angel_ring_5");
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Future MC ---
+recipes.removeByRecipeName("futuremc:else/stick_from_bamboo");
 
 //--------------------------------------------------------------------------------------
 

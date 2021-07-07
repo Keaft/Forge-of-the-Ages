@@ -22,6 +22,43 @@
     },
     {
         "dimension": 0,
+        "biome": ["Bamboo Forest"],
+        "random": 0.25,
+        "block": "minecraft:dirt",
+        "maxcount": {
+            "amount": 8,
+            "mob": "futuremc:panda",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "futuremc:panda",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "biome": ["Flower Field","Flower Island","Flower Forest","Forest","Sunflower Plains","Lavender Fields","Plains"],
+        "random": 0.25,
+        "maxcount": {
+            "amount": 8,
+            "mob": "futuremc:bee",
+            "perplayer": true
+        },
+        "mobs": [
+            {
+                "mob": "futuremc:bee",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 0,
         "random": 0.15,
         "biome": ["Ominous Woods"],
         "maxcount": {

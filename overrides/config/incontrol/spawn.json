@@ -29,6 +29,12 @@
     },
     {
         "dimension": 0,
+        "mob": ["futuremc:panda","futuremc:bee"],
+        "minheight": 63,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
         "mob": "mod_lavacow:scarecrow",
         "mintime": 13800,
         "maxtime": 22000,

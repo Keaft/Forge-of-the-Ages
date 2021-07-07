@@ -69,8 +69,10 @@ recipes.addShaped("draconicevolution_tiny_chaos_shard", <draconicevolution:chaos
 
 //--------------------------------------------------------------------------------------
 
-// --- Extra Utilities 2 ---
-//recipes.addShaped("extrautils2_transfer_node_fluids", <extrautils2:grocket:2> * 4, [[<ore:dustRedstone>, <extrautils2:pipe>, <ore:dustRedstone>], [<ore:stone>, <minecraft:bucket:*>, <ore:stone>]]);
+// --- Future MC ---
+// - Bamboo swap
+recipes.addShapeless("biomes_bamboo_to_futuremc", <futuremc:bamboo>, [<biomesoplenty:bamboo>]);
+recipes.addShapeless("futuremc_bamboo_to_biomes", <biomesoplenty:bamboo>, [<futuremc:bamboo>]);
 
 //--------------------------------------------------------------------------------------
 
