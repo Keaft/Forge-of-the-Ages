@@ -30,6 +30,16 @@
     {
         "dimension": 0,
         "mob": ["futuremc:panda","futuremc:bee"],
+        "mintime": 24000,
+        "maxtime": 24999,
+        "minheight": 63,
+        "result": "allow"
+    },
+    {
+        "dimension": 0,
+        "mob": ["futuremc:panda","futuremc:bee"],
+        "mintime": 0,
+        "maxtime": 12500,
         "minheight": 63,
         "result": "allow"
     },
