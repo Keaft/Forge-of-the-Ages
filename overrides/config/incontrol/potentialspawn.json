@@ -6,7 +6,7 @@
         "maxcount": {
             "amount": 4,
             "mob": "atum:mummy",
-            "perplayer": true
+            "perchunk": true
         },
         "seesky": true,
         "mintime": 13800,
@@ -26,9 +26,9 @@
         "random": 0.25,
         "block": "minecraft:dirt",
         "maxcount": {
-            "amount": 8,
+            "amount": 7,
             "mob": "futuremc:panda",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -44,9 +44,9 @@
         "biome": ["Flower Field","Flower Island","Flower Forest","Forest","Sunflower Plains","Lavender Fields","Plains"],
         "random": 0.25,
         "maxcount": {
-            "amount": 8,
+            "amount": 15,
             "mob": "futuremc:bee",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -64,7 +64,7 @@
         "maxcount": {
             "amount": 5,
             "mob": "mod_lavacow:banshee",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -83,7 +83,7 @@
         "maxcount": {
             "amount": 2,
             "mob": "mod_lavacow:scarecrow",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -99,9 +99,9 @@
         "random": 0.05,
         "biome": ["Snowy Forest"],
         "maxcount": {
-            "amount": 2,
+            "amount": 1,
             "mob": "mod_lavacow:ithaqua",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -120,7 +120,7 @@
         "maxcount": {
             "amount": 5,
             "mob": "mod_lavacow:mimic",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -140,7 +140,7 @@
         "maxcount": {
             "amount": 2,
             "mob": "mod_lavacow:salamander",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -158,7 +158,7 @@
         "maxcount": {
             "amount": 2,
             "mob": "mod_lavacow:avaton",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -176,7 +176,7 @@
         "maxcount": {
             "amount": 4,
             "mob": "mod_lavacow:mummy",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -195,7 +195,7 @@
         "maxcount": {
             "amount": 5,
             "mob": "mod_lavacow:zombiemushroom",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -230,7 +230,7 @@
         "maxcount": {
             "amount": 5,
             "mob": "minecraft:evocation_illager",
-            "perplayer": true
+            "perchunk": true
         },
         "maxheight": 65,
         "minlight": 0,
@@ -251,7 +251,7 @@
         "maxcount": {
             "amount": 25,
             "mob": "srparasites:lodo",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -269,7 +269,7 @@
         "maxcount": {
             "amount": 15,
             "mob": "srparasites:mudo",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -287,7 +287,7 @@
         "maxcount": {
             "amount": 10,
             "mob": "srparasites:infhuman",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -305,7 +305,7 @@
         "maxcount": {
             "amount": 4,
             "mob": "srparasites:emana",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -323,7 +323,7 @@
         "maxcount": {
             "amount": 1,
             "mob": "srparasites:shyco",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -341,7 +341,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:canra",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -359,7 +359,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:hull",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -377,7 +377,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:nogla",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -395,7 +395,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:bano",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -413,7 +413,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:rathol",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -431,7 +431,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:buthol",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -449,7 +449,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:dorpa",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {
@@ -467,7 +467,7 @@
         "maxcount": {
             "amount": 3,
             "mob": "srparasites:alafha",
-            "perplayer": true
+            "perchunk": true
         },
         "mobs": [
             {

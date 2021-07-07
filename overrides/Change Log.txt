@@ -51,6 +51,7 @@ Configuration changes:
 - Made leather armor shearable down to regular leather.
 - Quests have been created and populated. Special thanks to BlackDawg, BlitzFalke, Orrinjelo, Pwnsbey for their work and insights!
 - Greenhouses from Agricraft have been disabled for causing many errors.
+- There are just too many intestines. Lowered the number of intestines.
 
 Added the following mods:
 - AE2 Wireless Fluid Terminal 1.0.4.

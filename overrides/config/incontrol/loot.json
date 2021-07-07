@@ -20,7 +20,7 @@
     },
     {
         "mob": "futuremc:bee",
-        "random": 0.75,
+        "random": 0.33,
         "item": "futuremc:honeycomb",
         "itemcount": "1/2/3"
     },
