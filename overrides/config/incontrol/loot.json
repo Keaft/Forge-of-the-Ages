@@ -19,6 +19,12 @@
         "itemcount": "1/2/3"
     },
     {
+        "mob": "futuremc:bee",
+        "random": 0.75,
+        "item": "futuremc:honeycomb",
+        "itemcount": "1/2/3"
+    },
+    {
         "mob": "twilightforest:penguin",
         "item": "minecraft:chicken",
         "itemcount": "1"
