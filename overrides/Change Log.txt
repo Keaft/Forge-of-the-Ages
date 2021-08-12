@@ -7,5 +7,6 @@ Removed the following mods:
 -- MCMultiPart.
 
 Updated the following mods:
-- Corail Tombstone 4.4.5
-- CraftTweaker 1.12-4.1.20.655.
+- Corail Tombstone 4.4.6.
+- CraftTweaker 1.12-4.1.20.656.
+- BrandonsCore 2.4.20.162.
