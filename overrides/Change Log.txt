@@ -1,4 +1,5 @@
 Configuration changes:
+- The mekanism jetpack tank size has been set to 1mb making it all but useless. It'll eventually be completely disabled.
 
 Added the following mods:
 - Emojicord 1.1.1.39.
@@ -14,6 +15,7 @@ Added the following mods:
 - More Overlays 1.15.1.
 - Energy Meters 1.0.2.
 - Tool Belt 1.9.13.
+- DMT 1.9.3.
 
 Removed the following mods:
 - Practical Logistics 2.
