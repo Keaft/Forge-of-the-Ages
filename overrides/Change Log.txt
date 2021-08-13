@@ -21,7 +21,7 @@ Added the following mods:
 - DMT 1.9.3.
 
 Removed the following mods:
-- Practical Logistics 2.
+- Practical Logistics 2 as it's incomplete and doesn't work.
 -- MCMultiPart.
 
 Updated the following mods:
