@@ -1,5 +1,8 @@
+***Before Updating ensure that you take a backup of your world!***
+
 Configuration changes:
 - The mekanism jetpack tank size has been set to 1mb making it all but useless. It'll eventually be completely disabled.
+- Hotsprings now have a 10% chance to cool into normal water when a player jumps into it.
 
 Added the following mods:
 - Emojicord 1.1.1.39.
