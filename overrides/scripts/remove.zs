@@ -60,8 +60,9 @@ mods.jei.JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio
 // - Deep Dark portal in favor of using the beneath.
 mods.jei.JEI.removeAndHide(<extrautils2:teleporter:1>);
 
-// - Transfer Nodes in favor of only allowing fluid movement.
+// - Transfer Nodes in favor of other pipe movements.
 mods.jei.JEI.removeAndHide(<extrautils2:grocket>);
+mods.jei.JEI.removeAndHide(<extrautils2:grocket:2>);
 mods.jei.JEI.removeAndHide(<extrautils2:grocket:3>);
 mods.jei.JEI.removeAndHide(<extrautils2:grocket:4>);
 mods.jei.JEI.removeAndHide(<extrautils2:grocket:6>);
@@ -148,6 +149,7 @@ mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
 
 // - Transfer Nodes in favor of only allowing fluid movement.
 //recipes.remove(<extrautils2:grocket>);
+//recipes.remove(<extrautils2:grocket:2>);
 //recipes.remove(<extrautils2:grocket:3>);
 //recipes.remove(<extrautils2:grocket:4>);
 //recipes.remove(<extrautils2:grocket:5>);
