@@ -3,6 +3,7 @@
 Configuration changes:
 - Re-removed fluid transfer nodes. They didn't work the way I had hoped and thank goodness for that! Much more fun to come up with a creative solution to fluid pumps. :D
 - Increased maximum fluid transfer rate for Xnet.
+- Removed Mekanism pipes.
 
 Added the following mods:
 
