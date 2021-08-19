@@ -71,6 +71,14 @@ mods.jei.JEI.removeAndHide(<extrautils2:grocket:6>);
 
 //--------------------------------------------------------------------------------------
 
+// --- Mekanism ---
+// - Item transport done through other mods
+mods.jei.JEI.removeAndHide(<mekanism:transmitter:3>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Mystical Agriculture ---
 // - All Paxels except Supremium for progression purposes
 mods.jei.JEI.removeAndHide(<mysticalagradditions:inferium_paxel>);
@@ -153,6 +161,14 @@ mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
 //recipes.remove(<extrautils2:grocket:3>);
 //recipes.remove(<extrautils2:grocket:4>);
 //recipes.remove(<extrautils2:grocket:5>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Mekanism ---
+// - Item transport done through other mods
+//recipes.remove(<mekanism:transmitter:3>);
 
 //--------------------------------------------------------------------------------------
 
