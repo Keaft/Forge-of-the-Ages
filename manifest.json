@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Forge of the Ages",
-  "version": "0.02",
+  "version": "0.03r",
   "author": "",
   "files": [
     {
@@ -101,7 +101,7 @@
     },
     {
       "projectID": 223565,
-      "fileID": 3051542,
+      "fileID": 3431261,
       "required": true
     },
     {
@@ -147,6 +147,11 @@
     {
       "projectID": 223852,
       "fileID": 2952606,
+      "required": true
+    },
+    {
+      "projectID": 261251,
+      "fileID": 3045651,
       "required": true
     },
     {
@@ -226,7 +231,7 @@
     },
     {
       "projectID": 254629,
-      "fileID": 2850842,
+      "fileID": 3425551,
       "required": true
     },
     {
@@ -366,7 +371,7 @@
     },
     {
       "projectID": 388172,
-      "fileID": 3197366,
+      "fileID": 3424174,
       "required": true
     },
     {
@@ -586,7 +591,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3411555,
+      "fileID": 3435328,
       "required": true
     },
     {
@@ -625,6 +630,11 @@
       "required": true
     },
     {
+      "projectID": 283525,
+      "fileID": 2947622,
+      "required": true
+    },
+    {
       "projectID": 363856,
       "fileID": 2886150,
       "required": true
@@ -660,13 +670,13 @@
       "required": true
     },
     {
-      "projectID": 250290,
-      "fileID": 2665849,
+      "projectID": 260262,
+      "fileID": 2988767,
       "required": true
     },
     {
-      "projectID": 260262,
-      "fileID": 2988767,
+      "projectID": 250290,
+      "fileID": 2665849,
       "required": true
     },
     {
@@ -781,7 +791,7 @@
     },
     {
       "projectID": 246996,
-      "fileID": 2722575,
+      "fileID": 3440963,
       "required": true
     },
     {
@@ -845,6 +855,16 @@
       "required": true
     },
     {
+      "projectID": 377201,
+      "fileID": 3140670,
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 3437866,
+      "required": true
+    },
+    {
       "projectID": 390497,
       "fileID": 3168647,
       "required": true
@@ -867,6 +887,11 @@
     {
       "projectID": 306851,
       "fileID": 2638208,
+      "required": true
+    },
+    {
+      "projectID": 342584,
+      "fileID": 3424560,
       "required": true
     },
     {
@@ -906,7 +931,7 @@
     },
     {
       "projectID": 243707,
-      "fileID": 3411517,
+      "fileID": 3431492,
       "required": true
     },
     {
@@ -1055,6 +1080,11 @@
       "required": true
     },
     {
+      "projectID": 347898,
+      "fileID": 3413947,
+      "required": true
+    },
+    {
       "projectID": 309674,
       "fileID": 3003364,
       "required": true
@@ -1107,6 +1137,11 @@
     {
       "projectID": 265917,
       "fileID": 2951731,
+      "required": true
+    },
+    {
+      "projectID": 254284,
+      "fileID": 3223298,
       "required": true
     }
   ],

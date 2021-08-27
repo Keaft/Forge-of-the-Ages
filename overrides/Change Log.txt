@@ -4,11 +4,23 @@ Configuration changes:
 - Re-removed fluid transfer nodes. They didn't work the way I had hoped and thank goodness for that! Much more fun to come up with a creative solution to fluid pumps. :D
 - Increased maximum fluid transfer rate for Xnet.
 - Removed Mekanism pipes.
+- Lowered the explosion radius of the Draconic reactor.
+- Fixed the mod manifest for Tool Belt.
+- Manifest for Configurable Beacons broken, so including the mod in the .zip on curseforge.
 
 Added the following mods:
-
-
-Removed the following mods:
-
+- LagGoggles 5.8-132.
+-- TickCentral 3.2.
+- Bad Wither No Cookie - Reloaded 3.4.18.
+- Easy Elytra Takeoff 2.1.
+-- Collective 2.58.
+- Ambient Sounds 3.1.5.
 
 Updated the following mods:
+- Base to 3.14.0.
+- Tombstone to 4.4.7.
+- CraftTweaker to 4.1.20.660.
+- CreativeCore to 1.10.63.
+- Draconic Evolution to 2.3.28.354.
+- Geckolib to 3.0.0-beta.8.
+- The Beneath to 1.7.1.
