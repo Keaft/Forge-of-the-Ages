@@ -61,11 +61,11 @@ mods.jei.JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio
 mods.jei.JEI.removeAndHide(<extrautils2:teleporter:1>);
 
 // - Transfer Nodes in favor of other pipe movements.
-mods.jei.JEI.removeAndHide(<extrautils2:grocket>);
-mods.jei.JEI.removeAndHide(<extrautils2:grocket:2>);
-mods.jei.JEI.removeAndHide(<extrautils2:grocket:3>);
-mods.jei.JEI.removeAndHide(<extrautils2:grocket:4>);
-mods.jei.JEI.removeAndHide(<extrautils2:grocket:6>);
+//mods.jei.JEI.removeAndHide(<extrautils2:grocket>);
+//mods.jei.JEI.removeAndHide(<extrautils2:grocket:2>);
+//mods.jei.JEI.removeAndHide(<extrautils2:grocket:3>);
+//mods.jei.JEI.removeAndHide(<extrautils2:grocket:4>);
+//mods.jei.JEI.removeAndHide(<extrautils2:grocket:6>);
 
 //--------------------------------------------------------------------------------------
 
