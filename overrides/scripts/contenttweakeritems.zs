@@ -43,4 +43,29 @@ var neptuniumIngot = VanillaFactory.createItem("neptunium_ingot");
 neptuniumIngot.maxStackSize = 64;
 neptuniumIngot.register();
 
+// - Fake Applied Energistics Cells
+var onekitem = VanillaFactory.createItem("onek_item");
+onekitem.maxStackSize = 1;
+onekitem.register();
+
+var fourkitem = VanillaFactory.createItem("fourk_item");
+fourkitem.maxStackSize = 1;
+fourkitem.register();
+
+var sixteenkitem = VanillaFactory.createItem("sixteenk_item");
+sixteenkitem.maxStackSize = 1;
+sixteenkitem.register();
+
+var onekfluid = VanillaFactory.createItem("onek_fluid");
+onekfluid.maxStackSize = 1;
+onekfluid.register();
+
+var fourkfluid = VanillaFactory.createItem("fourk_fluid");
+fourkfluid.maxStackSize = 1;
+fourkfluid.register();
+
+var sixteenkfluid = VanillaFactory.createItem("sixteenk_fluid");
+sixteenkfluid.maxStackSize = 1;
+sixteenkfluid.register();
+
 print("Initialized 'contenttweakeritems'");

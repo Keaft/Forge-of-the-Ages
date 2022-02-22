@@ -9,6 +9,14 @@ print("Initializing 'remove'...");
 
 //--------------------------------------------------------------------------------------
 
+// --- Applied Energistics 2 ---
+// - Gear
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:40>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Apotheosis ---
 // - Hellshelf
 mods.jei.JEI.removeAndHide(<apotheosis:hellshelf>);
@@ -42,6 +50,13 @@ mods.jei.JEI.removeAndHide(<minecraft:enchanted_book>.withTag({StoredEnchantment
 
 //--------------------------------------------------------------------------------------
 
+// --- Draconic Evolution ---
+mods.jei.JEI.removeAndHide(<draconicevolution:dislocator_pedestal>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- EnderIO ---
 // - Powered spawner in favor of mob farming through Woot.
 mods.jei.JEI.removeAndHide(<enderio:block_powered_spawner>);
@@ -67,6 +82,20 @@ mods.jei.JEI.removeAndHide(<extrautils2:teleporter:1>);
 // --- Mekanism ---
 // - Item transport done through other mods
 mods.jei.JEI.removeAndHide(<mekanism:transmitter:3>);
+// - Jetpack
+mods.jei.JEI.removeAndHide(<mekanism:jetpack>);
+mods.jei.JEI.removeAndHide(<mekanism:armoredjetpack>);
+// - Reactor
+mods.jei.JEI.removeAndHide(<mekanismgenerators:reactorglass>);
+mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor>);
+mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:1>);
+mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:2>);
+mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:3>);
+// - Flame Thrower
+mods.jei.JEI.removeAndHide(<mekanism:flamethrower>);
+// - Teleporter
+mods.jei.JEI.removeAndHide(<mekanism:portableteleporter>);
+mods.jei.JEI.removeAndHide(<mekanism:basicblock:7>);
 
 //--------------------------------------------------------------------------------------
 
@@ -116,9 +145,25 @@ mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
 
 //--------------------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------------------
+
+// --- Thermal Expansion ---
+// - Morbs.
+mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
+
+//--------------------------------------------------------------------------------------
+
 //***********************************************************************************************************
 //Server specific removal 
 //***********************************************************************************************************
+
+//--------------------------------------------------------------------------------------
+
+// --- Applied Energistics 2 ---
+// - Gear
+// recipes.remove(<appliedenergistics2:material:40>);
+
+//--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
 
@@ -155,6 +200,20 @@ mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
 // --- Mekanism ---
 // - Item transport done through other mods
 //recipes.remove(<mekanism:transmitter:3>);
+// - Jetpack
+// recipes.remove(<mekanism:jetpack>);
+// recipes.remove(<mekanism:armoredjetpack>);
+// - Reactor
+// recipes.remove(<mekanismgenerators:reactorglass>);
+// recipes.remove(<mekanismgenerators:reactor>);
+// recipes.remove(<mekanismgenerators:reactor:1>);
+// recipes.remove(<mekanismgenerators:reactor:2>);
+// recipes.remove(<mekanismgenerators:reactor:3>);
+// - Flame Thrower
+// recipes.remove(<mekanism:flamethrower>);
+// - Teleporter
+// recipes.remove(<mekanism:portableteleporter>);
+// recipes.remove(<mekanism:basicblock:7>);
 
 //--------------------------------------------------------------------------------------
 
@@ -180,6 +239,31 @@ mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
 //***********************************************************************************************************
 //Both Client and Server recipe removal 
 //***********************************************************************************************************
+
+//--------------------------------------------------------------------------------------
+
+// --- Aether Legacy ---
+// - Saddle
+recipes.removeByRecipeName("aether_legacy:saddle");
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Aquaculture ---
+// - Saddle
+recipes.removeByRecipeName("aquaculture:leather_from_boots");
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Biomes O' Plenty ---
+// - Honeycomb Blocks
+recipes.removeByRecipeName("biomesoplenty:honeycomb_block");
+recipes.removeByRecipeName("biomesoplenty:filled_honeycomb_block");
+
+//--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
 
@@ -218,6 +302,13 @@ recipes.removeByRecipeName("extrautils2:angel_ring_5");
 
 // --- Future MC ---
 recipes.removeByRecipeName("futuremc:else/stick_from_bamboo");
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Harvestcraft ---
+recipes.removeByRecipeName("harvestcraft:freshwateritem_listallwater");
 
 //--------------------------------------------------------------------------------------
 

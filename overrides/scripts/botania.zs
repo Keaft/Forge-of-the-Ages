@@ -1,7 +1,7 @@
 #Name: botania.zs
 #Author: Keaft
 
-import mods.appliedenergistics2.Grinder;
+import mods.botania.Brew;
 
 print("Initializing 'botania'...");
 

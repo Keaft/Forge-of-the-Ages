@@ -1,3 +1,4 @@
+#Name: unification.zs
 #priority 2
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDictEntry;
@@ -18,10 +19,8 @@ val oreDictNames = [
     <ore:blockCoal>,
     <ore:blockCobalt>,
     <ore:blockCopper>,
-    <ore:blockDiamond>,
     <ore:blockElectrum>,
     <ore:blockEmerald>,
-    <ore:blockGold>,
     <ore:blockGraphite>,
     <ore:blockInvar>,
     <ore:blockIron>,
@@ -58,7 +57,9 @@ val oreDictNames = [
     <ore:nuggetPlatinum>,
     <ore:nuggetQuartz>,
     <ore:nuggetSilver>,
-    <ore:nuggetTin>
+    <ore:nuggetTin>,
+    <ore:combFilledHoney>,
+    <ore:combWax>
 ] as IOreDictEntry[];
 
 # LIST MOD NAMES IN ORDER OF PRIORITY HERE VVV
@@ -66,6 +67,7 @@ val priorityModList = [
     "minecraft",
     "thermalfoundation",
     "harvestcraft",
+    "thaumcraft",
     "biomesoplenty",
     "nuclearcraft",
     "tconstruct"
@@ -77,13 +79,15 @@ for oreDictName in oreDictNames {
     val oreDictEntries = oreDictName.items;
 
     # loop thru all matching entries, get the index of the highest-priority one
-    var priorityIndex = 0;
+    var priorityModIndex = 0;
+    var priorityItemIndex = 0;
     var prioritySet = false;
     for i, oreDictEntry in oreDictEntries {
-        for priorityMod in priorityModList {
+        for t, priorityMod in priorityModList {
             if (oreDictEntry.definition.owner == priorityMod) {
-                if (!prioritySet || i < priorityIndex) {
-                    priorityIndex = i;
+                if (!prioritySet || t < priorityModIndex) {
+                    priorityModIndex = t;
+                    priorityItemIndex = i;
                     prioritySet = true;
                 }
                 break;
@@ -93,10 +97,10 @@ for oreDictName in oreDictNames {
 
     # set all the matching entries to the highest priority one, if one WAS priority
     if (prioritySet) {
-        recipes.replaceAllOccurences(oreDictName, oreDictEntries[priorityIndex]);
+        recipes.replaceAllOccurences(oreDictName, oreDictEntries[priorityItemIndex]);
 
         for i, oreDictEntry in oreDictEntries {
-            if (i != priorityIndex) {
+            if (i != priorityItemIndex) {
                 recipes.remove(oreDictEntry);
             }
         }
@@ -104,7 +108,7 @@ for oreDictName in oreDictNames {
         # remove duplicate recipes for the same item
         for oreDictEntry in oreDictEntries {
             var cullRecipes = recipes.getRecipesFor(oreDictEntry);
-            print("working to remove duplicates recipes for: " + oreDictEntry.definition.owner + ":" + oreDictEntry.name);
+            //print("working to remove duplicates recipes for: " + oreDictEntry.definition.owner + ":" + oreDictEntry.name);
 
             var finalCullRecipes = [] as ICraftingRecipe[];
             for recipe in cullRecipes {
@@ -113,12 +117,12 @@ for oreDictName in oreDictNames {
                     if (recipe.ingredients1D.length != targetRecipe.ingredients1D.length) {
                         sameIngredients = false;
                     } else {
-                        print("There are " + recipe.ingredients1D.length + " items for " + recipe.resourceDomain + ":" + recipe.name);
+                        //print("There are " + recipe.ingredients1D.length + " items for " + recipe.resourceDomain + ":" + recipe.name);
                         for i in 0 to recipe.ingredients1D.length {
                             // print("In the loop: " + i);
                             if (!isNull(recipe.ingredients1D[i])) {
                                 if (recipe.ingredients1D[i].items.length == 0) {
-                                    print("Recipe items for " + recipe.resourceDomain + ":" + recipe.name + " are broken for reasons?");
+                                    //print("Recipe items for " + recipe.resourceDomain + ":" + recipe.name + " are broken for reasons?");
                                     sameIngredients = false;
                                     break;
                                 }

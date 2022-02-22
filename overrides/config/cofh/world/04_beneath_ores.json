@@ -1,0 +1,123 @@
+{
+	"dependencies": "contenttweaker",
+	"populate": {
+		"ardite": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:ardite_ore_stone"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+            "chunk-chance": 6,
+			"cluster-count": 8,
+			"min-height": 15,
+			"max-height": 23,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+		"cobalt": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:cobalt_ore_stone"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+            "chunk-chance": 6,
+			"cluster-count": 7,
+			"min-height": 15,
+			"max-height": 23,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneathplatinum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+                    "properties": {
+						"type": "platinum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+            "chunk-chance": 5,
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 23,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneathcertusquartz": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:quartz_ore",
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 5,
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneathchargedcertusquartz": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:charged_quartz_ore",
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		}
+	}
+}

@@ -1,8 +1,14 @@
 #Name: replacerecipe.zs
 #Author: Keaft
+#priority 3
+
+
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemTransformer;
+import crafttweaker.data.IData;
+import crafttweaker.recipes.ICraftingInventory;
+import crafttweaker.item.IItemStack;
 
 print("Initializing 'replacerecipe'...");
 
@@ -15,6 +21,14 @@ for ore in <ore:toolHammer>.items {
     hammer = hammer | newHammer;
   }
 }
+
+//--------------------------------------------------------------------------------------
+
+// --- Aether Legacy ---
+// - Iron Ring
+recipes.removeByRecipeName("aether_legacy:iron_ring");
+recipes.addShaped("aether_legacy_iron_ring", <aether_legacy:iron_ring>, [[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>], [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>], [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]);
+//--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
 
@@ -47,6 +61,207 @@ recipes.addShapeless("appliedenergistics2_network/parts/terminals", <appliedener
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_ring");
 recipes.addShaped("appliedenergistics2_network/blocks/quantum_ring", <appliedenergistics2:quantum_ring>, [[<ore:ingotIron>,<appliedenergistics2:material:22>,<ore:ingotIron>], [<appliedenergistics2:material:24>,<appliedenergistics2:energy_cell>,<enderio:item_material:16>], [<ore:ingotIron>,<appliedenergistics2:material:22>,<ore:ingotIron>]]);
 
+// - Crafting Storage
+
+// recipes.removeByRecipeName("appliedenergistics2:network/crafting/cpu_crafting_storage_4k");
+// recipes.addShaped("appliedenergistics2_network/crafting/cpu_crafting_storage_4k", <appliedenergistics2:crafting_storage_4k>, [[<minecraft:redstone>,<appliedenergistics2:material:23>,<minecraft:redstone>],[<appliedenergistics2:material:35>,<appliedenergistics2:crafting_storage_1k>,<appliedenergistics2:material:35>],[<minecraft:redstone>,<appliedenergistics2:material:35>,<minecraft:redstone>]], null,
+// function(out, cInfo, player){
+// print(cInfo.inventory.getStack(4).displayName);
+// cInfo.inventory.setStack(4,null);
+// });
+
+// recipes.removeByRecipeName("appliedenergistics2:network/crafting/cpu_crafting_storage_16k");
+// recipes.addShaped("appliedenergistics2_network/crafting/cpu_crafting_storage_16k", <appliedenergistics2:crafting_storage_16k>, [[<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>],[<appliedenergistics2:material:36>,<appliedenergistics2:crafting_storage_4k>,<appliedenergistics2:material:36>],[<minecraft:glowstone_dust>,<appliedenergistics2:material:36>,<minecraft:glowstone_dust>]], null,
+// function(out, cInfo, player){
+// print(cInfo.inventory.getStack(4).displayName);
+// cInfo.inventory.setStack(4,null);
+// });
+
+// recipes.removeByRecipeName("appliedenergistics2:network/crafting/cpu_crafting_storage_64k");
+// recipes.addShaped("appliedenergistics2_network/crafting/cpu_crafting_storage_64k", <appliedenergistics2:crafting_storage_64k>, [[<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>],[<appliedenergistics2:material:37>,<appliedenergistics2:crafting_storage_16k>,<appliedenergistics2:material:37>],[<minecraft:glowstone_dust>,<appliedenergistics2:material:37>,<minecraft:glowstone_dust>]], null,
+// function(out, cInfo, player){
+// print(cInfo.inventory.getStack(4).displayName);
+// cInfo.inventory.setStack(4,null);
+// });
+
+// - Item Storage Cell
+// These recipes have a special function designed to auto craft from within the input grid itself. I do this because AE2 doesn't seem to notice the CraftTweaker recipe functions. I think it's in part because AE2 drives and crafting cpus have their own function of being crafted back down to it's constituent parts. Thus this script is born. It will take the drives and their existing data and upgrade them to the next tier up. I use ContentTweaker to make "fake" or "prop" items so that you can still see the recipe in JEI. I've also added JEI description pages to those prop items giving instructions on how to use this unique crafting style.
+
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_4k");
+recipes.addShaped("appliedenergistics2_network_storage_cell_4k_fake", <appliedenergistics2:storage_cell_4k>, [[<minecraft:redstone>,<appliedenergistics2:material:23>,<minecraft:redstone>],[<appliedenergistics2:material:35>,<contenttweaker:onek_item>,<appliedenergistics2:material:35>],[<minecraft:redstone>,<appliedenergistics2:material:35>,<minecraft:redstone>]]);
+recipes.addShaped("appliedenergistics2_network_cells_storage_cell_4k", null, [[<minecraft:redstone>,<appliedenergistics2:material:23>,<minecraft:redstone>],[<appliedenergistics2:material:35>,<appliedenergistics2:storage_cell_1k>.marked('onekitemcell'),<appliedenergistics2:material:35>],[<minecraft:redstone>,<appliedenergistics2:material:35>,<minecraft:redstone>]], function(out, ins, cInfo) {
+// This function occurs when the items are finished making what would be the script. Notice the output above is null.
+    // Grab the nbt data of the input item marked above.
+    var inTag = ins.onekitemcell.tag;
+    // Grab the crafting inventory and write it to "inv"
+    var inv = cInfo.inventory;
+    // Write the output item with the nbt "inTag" from above.
+    cInfo.inventory.setStack(4,<appliedenergistics2:storage_cell_4k>.withTag(inTag));
+    // Loop through all the items in the crafting inventory and decrement by 1 until empty.
+    for i in 0 to 9 {
+        var totali = 0 as int;
+        if (i != 4) {
+            var itemcheck as IItemStack = inv.getStack(i);
+            // print(itemcheck.name);
+            if !isNull(itemcheck) {
+                totali = itemcheck.amount;
+            }
+            // print(totali);
+            if (totali <= 1) {
+                inv.setStack(i,null);
+            } else {
+                totali -= 1;
+                // print(totali);
+                var newtotalitem as IItemStack = itemcheck * totali;
+                inv.setStack(i,newtotalitem);
+            }
+        }
+    }
+    return null;
+}, null);
+
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_16k");
+recipes.addShaped("appliedenergistics2_network_cells_storage_cell_16k_fake", <appliedenergistics2:storage_cell_16k>, [[<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>],[<appliedenergistics2:material:36>,<contenttweaker:fourk_item>,<appliedenergistics2:material:36>],[<minecraft:glowstone_dust>,<appliedenergistics2:material:36>,<minecraft:glowstone_dust>]]);
+recipes.addShaped("appliedenergistics2_network_cells_storage_cell_16k", null, [[<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>],[<appliedenergistics2:material:36>,<appliedenergistics2:storage_cell_4k>.marked('fourkitemcell'),<appliedenergistics2:material:36>],[<minecraft:glowstone_dust>,<appliedenergistics2:material:36>,<minecraft:glowstone_dust>]], function(out, ins, cInfo) {
+    var inTag = ins.fourkitemcell.tag;
+    var inv = cInfo.inventory;
+    cInfo.inventory.setStack(4,<appliedenergistics2:storage_cell_16k>.withTag(inTag));
+    for i in 0 to 9 {
+        var totali = 0 as int;
+        if (i != 4) {
+            var itemcheck as IItemStack = inv.getStack(i);
+            // print(itemcheck.name);
+            if !isNull(itemcheck) {
+                totali = itemcheck.amount;
+            }
+            // print(totali);
+            if (totali <= 1) {
+                inv.setStack(i,null);
+            } else {
+                totali -= 1;
+                // print(totali);
+                var newtotalitem as IItemStack = itemcheck * totali;
+                inv.setStack(i,newtotalitem);
+            }
+        }
+    }
+    return null;
+}, null);
+
+recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_cell_64k");
+recipes.addShaped("appliedenergistics2_network_cells_storage_cell_64k_fake", <appliedenergistics2:storage_cell_64k>, [[<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>],[<appliedenergistics2:material:37>,<contenttweaker:sixteenk_item>,<appliedenergistics2:material:37>],[<minecraft:glowstone_dust>,<appliedenergistics2:material:37>,<minecraft:glowstone_dust>]]);
+recipes.addShaped("appliedenergistics2_network_cells_storage_cell_64k", null, [[<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>],[<appliedenergistics2:material:37>,<appliedenergistics2:storage_cell_16k>.marked('sixteenkitemcell'),<appliedenergistics2:material:37>],[<minecraft:glowstone_dust>,<appliedenergistics2:material:37>,<minecraft:glowstone_dust>]], function(out, ins, cInfo) {
+    var inTag = ins.sixteenkitemcell.tag;
+    var inv = cInfo.inventory;
+    cInfo.inventory.setStack(4,<appliedenergistics2:storage_cell_64k>.withTag(inTag));
+    for i in 0 to 9 {
+        var totali = 0 as int;
+        if (i != 4) {
+            var itemcheck as IItemStack = inv.getStack(i);
+            // print(itemcheck.name);
+            if !isNull(itemcheck) {
+                totali = itemcheck.amount;
+            }
+            // print(totali);
+            if (totali <= 1) {
+                inv.setStack(i,null);
+            } else {
+                totali -= 1;
+                // print(totali);
+                var newtotalitem as IItemStack = itemcheck * totali;
+                inv.setStack(i,newtotalitem);
+            }
+        }
+    }
+    return null;
+}, null);
+
+// - Fluid Storage Cell
+
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_4k");
+recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_4k_fake", <appliedenergistics2:fluid_storage_cell_4k>, [[<minecraft:dye:4>,<appliedenergistics2:material:23>,<minecraft:dye:4>],[<appliedenergistics2:material:54>,<contenttweaker:onek_fluid>,<appliedenergistics2:material:54>],[<minecraft:dye:4>,<appliedenergistics2:material:54>,<minecraft:dye:4>]]);
+recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_4k", null, [[<minecraft:dye:4>,<appliedenergistics2:material:23>,<minecraft:dye:4>],[<appliedenergistics2:material:54>,<appliedenergistics2:fluid_storage_cell_1k>.marked("onekfluidcell"),<appliedenergistics2:material:54>],[<minecraft:dye:4>,<appliedenergistics2:material:54>,<minecraft:dye:4>]], function(out, ins, cInfo) {
+    var inTag = ins.onekfluidcell.tag;
+    var inv = cInfo.inventory;
+    cInfo.inventory.setStack(4,<appliedenergistics2:fluid_storage_cell_4k>.withTag(inTag));
+    for i in 0 to 9 {
+        var totali = 0 as int;
+        if (i != 4) {
+            var itemcheck as IItemStack = inv.getStack(i);
+            // print(itemcheck.name);
+            if !isNull(itemcheck) {
+                totali = itemcheck.amount;
+            }
+            // print(totali);
+            if (totali <= 1) {
+                inv.setStack(i,null);
+            } else {
+                totali -= 1;
+                // print(totali);
+                var newtotalitem as IItemStack = itemcheck * totali;
+                inv.setStack(i,newtotalitem);
+            }
+        }
+    }
+    return null;
+}, null);
+
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_16k_storage");
+recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_16k_storage_fake", <appliedenergistics2:fluid_storage_cell_16k>, [[<minecraft:dye:4>,<appliedenergistics2:material:23>,<minecraft:dye:4>],[<appliedenergistics2:material:55>,<contenttweaker:fourk_fluid>,<appliedenergistics2:material:55>],[<minecraft:dye:4>,<appliedenergistics2:material:55>,<minecraft:dye:4>]]);
+recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_16k_storage", null, [[<minecraft:dye:4>,<appliedenergistics2:material:23>,<minecraft:dye:4>],[<appliedenergistics2:material:55>,<appliedenergistics2:fluid_storage_cell_4k>.marked("fourkfluidcell"),<appliedenergistics2:material:55>],[<minecraft:dye:4>,<appliedenergistics2:material:55>,<minecraft:dye:4>]], function(out, ins, cInfo) {
+    var inTag = ins.fourkfluidcell.tag;
+    var inv = cInfo.inventory;
+    cInfo.inventory.setStack(4,<appliedenergistics2:fluid_storage_cell_16k>.withTag(inTag));
+    for i in 0 to 9 {
+        var totali = 0 as int;
+        if (i != 4) {
+            var itemcheck as IItemStack = inv.getStack(i);
+            // print(itemcheck.name);
+            if !isNull(itemcheck) {
+                totali = itemcheck.amount;
+            }
+            // print(totali);
+            if (totali <= 1) {
+                inv.setStack(i,null);
+            } else {
+                totali -= 1;
+                // print(totali);
+                var newtotalitem as IItemStack = itemcheck * totali;
+                inv.setStack(i,newtotalitem);
+            }
+        }
+    }
+    return null;
+}, null);
+
+recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_cell_64k");
+recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_64k_fake", <appliedenergistics2:fluid_storage_cell_64k>, [[<minecraft:dye:4>,<appliedenergistics2:material:23>,<minecraft:dye:4>],[<appliedenergistics2:material:56>,<contenttweaker:sixteenk_fluid>,<appliedenergistics2:material:56>],[<minecraft:dye:4>,<appliedenergistics2:material:56>,<minecraft:dye:4>]]);
+recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_64k", null, [[<minecraft:dye:4>,<appliedenergistics2:material:23>,<minecraft:dye:4>],[<appliedenergistics2:material:56>,<appliedenergistics2:fluid_storage_cell_16k>.marked("sixteenkfluidcell"),<appliedenergistics2:material:56>],[<minecraft:dye:4>,<appliedenergistics2:material:56>,<minecraft:dye:4>]], function(out, ins, cInfo) {
+    var inTag = ins.sixteenkfluidcell.tag;
+    var inv = cInfo.inventory;
+    cInfo.inventory.setStack(4,<appliedenergistics2:fluid_storage_cell_64k>.withTag(inTag));
+    for i in 0 to 9 {
+        var totali = 0 as int;
+        if (i != 4) {
+            var itemcheck as IItemStack = inv.getStack(i);
+            // print(itemcheck.name);
+            if !isNull(itemcheck) {
+                totali = itemcheck.amount;
+            }
+            // print(totali);
+            if (totali <= 1) {
+                inv.setStack(i,null);
+            } else {
+                totali -= 1;
+                // print(totali);
+                var newtotalitem as IItemStack = itemcheck * totali;
+                inv.setStack(i,newtotalitem);
+            }
+        }
+    }
+    return null;
+}, null);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -58,7 +273,24 @@ recipes.addShaped("bountifulbaubles_black_dragon_scale", <bountifulbaubles:trink
 
 // - Iron Ring
 recipes.removeByRecipeName("bountifulbaubles:ringiron");
-recipes.addShaped("bountifulbaubles_ringiron", <bountifulbaubles:ringiron>, [[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>], [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>], [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]);
+recipes.addShaped("bountifulbaubles_ringiron", <bountifulbaubles:ringiron>, [[<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>], [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>], [<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>]]);
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Corail's Tombstone ---
+// - Enchanted Grave Key - to be slightly more difficult and to stretch my creative legs.
+recipes.removeByRecipeName("tombstone:enchanted_grave_key");
+recipes.addShapeless("tombstone_enchanted_grave_key", <tombstone:grave_key>.withTag({enchant : 1 as byte}), [<minecraft:ender_eye>, <tombstone:grave_key>.marked("gravekey")], function(out, ins, cinfo) {
+var inTag = ins.gravekey.tag;
+// print("Current Tag: " + inTag);
+val addTag = {
+    enchant : 1 as byte
+} as IData;
+// print("Finalize Change to: " + (inTag + addTag).asString());
+return out.withTag(inTag + addTag);
+}, null);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -78,7 +310,12 @@ recipes.addShaped("eplus_table", <eplus:advanced_table>, [[<ore:ingotGold>, <atu
 // - Alloy Smelter
 recipes.removeByRecipeName("enderio:alloy_smelter");
 recipes.removeByRecipeName("enderio:alloy_smelter_upgrade");
-recipes.addShaped("enderio_alloy_smelter", <enderio:block_alloy_smelter>, [[<ore:ingotSilver>,<minecraft:furnace>,<ore:ingotSilver>], [<enderio:block_simple_alloy_smelter>,<enderio:item_material:0>,<enderio:block_simple_furnace>], [<enderio:item_material:11>,<minecraft:cauldron>,<enderio:item_material:11>]]);
+recipes.addShaped("enderio_alloy_smelter", <enderio:block_alloy_smelter>, [[<ore:ingotSilver>,<minecraft:furnace>,<ore:ingotSilver>], [<enderio:block_simple_alloy_smelter>,<enderio:item_material:1>,<enderio:block_simple_furnace>], [<enderio:item_material:11>,<minecraft:cauldron>,<enderio:item_material:11>]]);
+
+
+recipes.removeByRecipeName("enderio:s_a_g_mill");
+recipes.removeByRecipeName("enderio:s_a_g_mill_upgrade");
+recipes.addShaped("enderio_s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft:flint>,<minecraft:flint>,<minecraft:flint>], [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>], [<enderio:item_material:73>,<enderio:block_simple_sag_mill>,<enderio:item_material:73>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -100,7 +337,7 @@ recipes.addShaped("environmentaltech_m_multiblocks/m_void/m_ore/void_ore_miner_c
 // --- Extra Utilities 2 ---
 // - Ring of the flying squid
 recipes.removeByRecipeName("extrautils2:squid_ring");
-recipes.addShaped("extrautils2_squid_ring", <extrautils2:chickenring:1>, [[<minecraft:elytra>, <mysticalagriculture:gear:9>, <minecraft:elytra>], [<ore:gemDiamond>, <extrautils2:chickenring>, <ore:gemDiamond>], [<minecraft:elytra>, <extrautils2:goldenlasso>.withTag({Animal: {id: "minecraft:squid"}, No_Place: 1 as byte}), <minecraft:elytra>]]);
+recipes.addShaped("extrautils2_squid_ring", <extrautils2:chickenring:1>, [[<minecraft:elytra>, <mysticalagriculture:gear:9>, <minecraft:elytra>], [<ore:gemDiamond>, <extrautils2:chickenring>, <ore:gemDiamond>], [<minecraft:elytra>, <aquaculture:fish:15>, <minecraft:elytra>]]);
 
 // - Snow Globe
 recipes.removeByRecipeName("extrautils2:snow_globe");
@@ -166,6 +403,48 @@ recipes.addShapeless("scalinghealth_heart_dust", <scalinghealth:heartdust>, [ham
 
 //--------------------------------------------------------------------------------------
 
+// --- Serene Seasons ---
+//Greenhouse Glass
+recipes.removeByRecipeName("sereneseasons:greenhous_glass");
+recipes.addShaped("sereneseasons_greenhouse_glass", <sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>], [<ore:blockGlass>, <ore:plankWood>, <ore:blockGlass>], [<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+// TURNS OUT: Editing the recipe for simply backpacks can mess with the upgrade function retaining items in the backpack. So this was an attempt at fixing the problem that I caused in the unification.zs script. Silly Gold and Diamond Blocks... grumble grumble...
+// --- Simply Backpacks ---
+//Uncommon
+/* recipes.removeByRecipeName("simplybackpacks:uncommon");
+recipes.addShaped("simplybackpacks_uncommon", <simplybackpacks:uncommonbackpack>, [[<minecraft:gold_ingot>, null ,<minecraft:gold_ingot>], [<ore:dyeYellow>, <simplybackpacks:commonbackpack>.marked('commonpack'), <ore:dyeYellow>], [<ore:chest>, <minecraft:gold_block>, <ore:chest>]], function(out, ins, cinfo) {
+var inTag = ins.commonpack.tag;
+print("Backpack Current Size: " + inTag.inv.Size.asString());
+val outTag = {
+inv:
+    {
+        Size : 33,
+        Items : inTag.inv.Items
+    },
+filter:
+    {
+        Size : 16,
+        Items : inTag.filter.Items
+    }
+} as IData;
+print("Finalize Change to: " + outTag.asString());
+return out.withTag(outTag);
+}, null);
+
+//Rare
+recipes.removeByRecipeName("simplybackpacks:rare");
+recipes.addShaped("simplybackpacks_rare", <simplybackpacks:rarebackpack>, [[<minecraft:diamond>, null ,<minecraft:diamond>], [<ore:dyeBlue>, <simplybackpacks:uncommonbackpack>.marked('uncommonpack'), <ore:dyeBlue>], [<ore:chest>, <minecraft:diamond_block>, <ore:chest>]], function(out, ins, cinfo) {var inTag = ins.uncommonpack.tag; return out.withTag(inTag);}, null);
+
+//Epic
+recipes.removeByRecipeName("simplybackpacks:epic");
+recipes.addShaped("simplybackpacks_epic", <simplybackpacks:epicbackpack>, [[<ore:dyeMagenta>, null ,<ore:dyeMagenta>], [<minecraft:iron_bars>, <simplybackpacks:rarebackpack>.marked('rarepack'), <minecraft:iron_bars>], [<ore:chest>, <minecraft:nether_star>, <ore:chest>]], function(out, ins, cinfo) {var inTag = ins.rarepack.tag; return out.withTag(inTag);}, null); */
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Storage Drawers ---
 //Controller Slave
 recipes.removeByRecipeName("storagedrawers:controller_slave");
@@ -187,6 +466,14 @@ recipes.addShaped("storagedrawers_controller", <storagedrawers:controller>, [[<m
 //Transmitter
 //recipes.removeByRecipeName("telepads:transmitter");
 //recipes.addShaped("telepads_transmitter", <telepads:transmitter>, [[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>], [<minecraft:redstone>,<enderio:item_material:16>,<minecraft:redstone>], [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// -- Tesseract
+recipes.removeByRecipeName("tesseract:tesseract");
+recipes.addShaped("tesseract_tesseract", <tesseract:tesseract>, [[<ore:obsidian> | <minecraft:obsidian>, <enderstorage:ender_storage:1>, <ore:obsidian> | <minecraft:obsidian>], [<ore:enderpearl>, <enderio:block_cap_bank:2>, <ore:enderpearl>], [<ore:obsidian> | <minecraft:obsidian>, <enderstorage:ender_storage>, <ore:obsidian> | <minecraft:obsidian>]]);
 
 //--------------------------------------------------------------------------------------
 

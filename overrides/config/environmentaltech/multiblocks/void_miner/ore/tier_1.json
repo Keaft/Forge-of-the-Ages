@@ -107,11 +107,6 @@
     },
     {
       "target": "light_blue",
-      "weight": 150,
-      "id": "OD:orePlatinum"
-    },
-    {
-      "target": "light_blue",
       "weight": 169,
       "id": "OD:oreMithril"
     },

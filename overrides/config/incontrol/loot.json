@@ -20,8 +20,26 @@
     },
     {
         "mob": "futuremc:bee",
-        "random": 0.33,
-        "item": "futuremc:honeycomb",
+        "random": 0.25,
+        "item": "harvestcraft:honeycombitem",
+        "itemcount": "1/2/3"
+    },
+    {
+        "mob": "futuremc:bee",
+        "random": 0.25,
+        "item": "harvestcraft:beeswaxitem",
+        "itemcount": "1/2/3"
+    },
+    {
+        "mob": "futuremc:bee",
+        "random": 0.10,
+        "item": "harvestcraft:queenbeeitem",
+        "itemcount": "1"
+    },
+    {
+        "mob": "biomesoplenty:wasp",
+        "random": 0.25,
+        "item": "harvestcraft:beeswaxitem",
         "itemcount": "1/2/3"
     },
     {
@@ -71,6 +89,18 @@
     {
         "mob": "iceandfire:seaserpent",
         "item": "minecraft:prismarine_crystals",
+        "random": 0.33,
+        "itemcount": "1-2/2-3/4"
+    },
+    {
+        "mob": "minecraft:ender_dragon",
+        "item": "mysticalagriculture:crafting@2",
+        "random": 0.33,
+        "itemcount": "1-2/2-3/4"
+    },
+    {
+        "mob": "minecraft:wither",
+        "item": "mysticalagriculture:crafting@2",
         "random": 0.33,
         "itemcount": "1-2/2-3/4"
     }

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!--
+
+Enables all possible vanilla mobs.  The normally disabled mobs (Elder Guardian,
+Evoker, Snow Golem, Villager, Iron Golem, and Wither) have extremely high
+power requirements.  You are able to edit these values below.
+
+The Ender Dragon can't be captured in a Soul Vial due to technincal reasons.
+
+Copy this file into the enderio/config/recipes/user folder to activate it.
+
+-->
+
+  <recipe name="Soul Vial, blacklist" required="true">
+    <spawning>
+      <entity name="srparasites:ada_arachnida"              soulvial="false"/>
+      <entity name="srparasites:ada_bolster"                soulvial="false"/>
+      <entity name="srparasites:ada_longarms"               soulvial="false"/>
+      <entity name="srparasites:ada_manducater"             soulvial="false"/>
+      <entity name="srparasites:ada_reeker"                 soulvial="false"/>
+      <entity name="srparasites:ada_summoner"               soulvial="false"/>
+      <entity name="srparasites:ada_yelloweye"              soulvial="false"/>
+      <entity name="srparasites:anc_dreadnaut"              soulvial="false"/>
+      <entity name="srparasites:anc_dreadnaut_ten"          soulvial="false"/>
+      <entity name="srparasites:anc_overlord"               soulvial="false"/>
+      <entity name="srparasites:beckon_si"                  soulvial="false"/>
+      <entity name="srparasites:beckon_sii"                 soulvial="false"/>
+      <entity name="srparasites:beckon_siii"                soulvial="false"/>
+      <entity name="srparasites:beckon_siv"                 soulvial="false"/>
+      <entity name="srparasites:bomber_light"               soulvial="false"/>
+      <entity name="srparasites:buglin"                     soulvial="false"/> 
+      <entity name="srparasites:carrier_flying"             soulvial="false"/>
+      <entity name="srparasites:carrier_heavy"              soulvial="false"/> 
+      <entity name="srparasites:grunt"                      soulvial="false"/> 
+      <entity name="srparasites:homming"                    soulvial="false"/>
+      <entity name="srparasites:host"                       soulvial="false"/>
+      <entity name="srparasites:incompleteform_medium"      soulvial="false"/>
+      <entity name="srparasites:incompleteform_small"       soulvial="false"/>
+      <entity name="srparasites:kyphosis"                   soulvial="false"/>
+      <entity name="srparasites:marauder"                   soulvial="false"/>
+      <entity name="srparasites:movingflesh"                soulvial="false"/>
+      <entity name="srparasites:overseer"                   soulvial="false"/>
+      <entity name="srparasites:pri_arachnida"              soulvial="false"/>
+      <entity name="srparasites:pri_bolster"                soulvial="false"/>
+      <entity name="srparasites:pri_longarms"               soulvial="false"/>
+      <entity name="srparasites:pri_manducater"             soulvial="false"/>
+      <entity name="srparasites:pri_reeker"                 soulvial="false"/>
+      <entity name="srparasites:pri_summoner"               soulvial="false"/>
+      <entity name="srparasites:pri_yelloweye"              soulvial="false"/>
+      <entity name="srparasites:rupter"                     soulvial="false"/>
+      <entity name="srparasites:sentry"                     soulvial="false"/>
+      <entity name="srparasites:sim_adventurer"             soulvial="false"/>
+      <entity name="srparasites:sim_bear"                   soulvial="false"/>
+      <entity name="srparasites:sim_bigspider"              soulvial="false"/>
+      <entity name="srparasites:sim_cow"                    soulvial="false"/>
+      <entity name="srparasites:sim_cowhead"                soulvial="false"/>
+      <entity name="srparasites:sim_enderman"               soulvial="false"/>
+      <entity name="srparasites:sim_horse"                  soulvial="false"/>
+      <entity name="srparasites:sim_horsehead"              soulvial="false"/>
+      <entity name="srparasites:sim_human"                  soulvial="false"/>
+      <entity name="srparasites:sim_humanhead"              soulvial="false"/>
+      <entity name="srparasites:sim_pig"                    soulvial="false"/>
+      <entity name="srparasites:sim_pighead"                soulvial="false"/>
+      <entity name="srparasites:sim_sheep"                  soulvial="false"/>
+      <entity name="srparasites:sim_sheephead"              soulvial="false"/>
+      <entity name="srparasites:sim_villager"               soulvial="false"/>
+      <entity name="srparasites:sim_villagerhead"           soulvial="false"/>
+      <entity name="srparasites:sim_wolf"                   soulvial="false"/>
+      <entity name="srparasites:sim_wolfhead"               soulvial="false"/>
+      <entity name="srparasites:tendril"                    soulvial="false"/>
+      <entity name="srparasites:vigilante"                  soulvial="false"/>
+      <entity name="srparasites:warden"                     soulvial="false"/>
+      <entity name="srparasites:worker"                     soulvial="false"/>
+    </spawning>
+  </recipe>
+
+</enderio:recipes>

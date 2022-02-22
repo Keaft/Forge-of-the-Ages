@@ -8,6 +8,26 @@ print("Initializing 'add'...");
 //recipes.addShaped(name,output,inputs,function,action);
 //--------------------------------------------------------------------------------------
 
+
+//--------------------------------------------------------------------------------------
+
+// --- Biomes O' Plenty ---
+// - Brown Dye from reeds
+recipes.addShapeless("biome_brown_dye_from_reed", <biomesoplenty:brown_dye> * 2, [<biomesoplenty:plant_1:8>]);
+// - Crystal Shard
+recipes.addShapeless(<biomesoplenty:crystal_shard> * 2,
+[<minecraft:quartz>, <minecraft:glowstone_dust>, <biomesoplenty:gem>]);
+recipes.addShapeless(<biomesoplenty:crystal_shard> * 4,
+[<biomesoplenty:crystal>]);
+// - Mud Ball
+recipes.addShapeless(<biomesoplenty:mudball> * 4,
+[<biomesoplenty:mud>]);
+// - Flesh Chunk
+recipes.addShapeless(<biomesoplenty:fleshchunk> * 4,
+[<biomesoplenty:flesh>]);
+
+//--------------------------------------------------------------------------------------
+
 //--------------------------------------------------------------------------------------
 
 // --- Bountiful Baubles ---
@@ -74,6 +94,12 @@ recipes.addShaped("draconicevolution_tiny_chaos_shard", <draconicevolution:chaos
 recipes.addShapeless("biomes_bamboo_to_futuremc", <futuremc:bamboo>, [<biomesoplenty:bamboo>]);
 recipes.addShapeless("futuremc_bamboo_to_biomes", <biomesoplenty:bamboo>, [<futuremc:bamboo>]);
 
+// - Honey Bottle
+recipes.addShapeless("honey_bottle", <futuremc:honey_bottle>, [<minecraft:glass_bottle>,<harvestcraft:honeycombitem>,<harvestcraft:honeycombitem>,<harvestcraft:honeycombitem>,<harvestcraft:honeycombitem>,<harvestcraft:honeycombitem>]);
+
+// - Berries into red Dye
+recipes.addShapeless("berries_to_red_dye", <thermalfoundation:dye:1>, [<futuremc:sweet_berries>]);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -96,6 +122,27 @@ recipes.addShaped("minecraft_saddle", <minecraft:saddle>, [[<minecraft:leather>,
 recipes.addShapeless("minecraft_firework_rocket_1", <minecraft:fireworks>.withTag({Fireworks: {Flight: 1 as byte}}), [<minecraft:paper>,<minecraft:gunpowder>]);
 recipes.addShapeless("minecraft_firework_rocket_2", <minecraft:fireworks>.withTag({Fireworks: {Flight: 2 as byte}}), [<minecraft:paper>,<minecraft:gunpowder>,<minecraft:gunpowder>]);
 recipes.addShapeless("minecraft_firework_rocket_3", <minecraft:fireworks>.withTag({Fireworks: {Flight: 3 as byte}}), [<minecraft:paper>,<minecraft:gunpowder>,<minecraft:gunpowder>,<minecraft:gunpowder>]);
+
+// - Torch
+recipes.addShaped("minecraft_torch_biomes_river_cane", <minecraft:torch> * 4, [[<minecraft:coal>],[<biomesoplenty:plant_1:5>]]);
+recipes.addShaped("minecraft_torch_biomes_bamboo", <minecraft:torch> * 4, [[<minecraft:coal>],[<biomesoplenty:bamboo>]]);
+recipes.addShaped("minecraft_torch_futuremc_bamboo", <minecraft:torch> * 4, [[<minecraft:coal>],[<futuremc:bamboo>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Magic Feather ---
+recipes.addShaped("magic_feather_elytra_bauble", <magicfeather:magicfeather>, [[<minecraft:gold_ingot>,<minecraft:feather>,<minecraft:gold_ingot>],[<minecraft:gold_ingot>,<colytra:elytra_bauble>,<minecraft:gold_ingot>],[<minecraft:gold_ingot>,<minecraft:feather>,<minecraft:gold_ingot>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Pam's Harvestcraft ---
+// - Wax Comb
+recipes.addShapeless("pams_wax_comb", (<harvestcraft:beeswaxitem> * 3), [<harvestcraft:waxcombitem>]);
+recipes.addShapeless("pams_royal_jelly", <harvestcraft:royaljellyitem>, [<minecraft:gold_nugget>, <futuremc:honey_bottle>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -120,6 +167,20 @@ furnace.addRecipe(<iceandfire:silver_ingot>, <iceandfire:silver_ore>);
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>);
 furnace.addRecipe(<tconstruct:ingots:0>, <contenttweaker:cobalt_ore_stone>, 1.0);
 furnace.addRecipe(<tconstruct:ingots:1>, <contenttweaker:ardite_ore_stone>, 1.0);
+
+// - Compressed Cobblestone into Stone
+furnace.addRecipe(<minecraft:stone>*9, <extrautils2:compressedcobblestone>, 0.9);
+furnace.addRecipe(<minecraft:stone>*64, <extrautils2:compressedcobblestone:1>, 2.4);
+furnace.addRecipe(<minecraft:stonebrick>*64, <extrautils2:compressedcobblestone:2>, 5.0);
+
+// - Compressed Sand into Glass
+furnace.addRecipe(<minecraft:glass>*9, <extrautils2:compressedsand>, 1.5);
+furnace.addRecipe(<minecraft:glass>*64, <extrautils2:compressedsand:1>, 4.0);
+
+// - Compressed Netherrack into Nether Bricks
+furnace.addRecipe(<minecraft:netherbrick>*9, <extrautils2:compressednetherrack>, 0.75);
+furnace.addRecipe(<minecraft:netherbrick>*64, <extrautils2:compressednetherrack:1>, 1.5);
+furnace.addRecipe(<minecraft:nether_brick>*64, <extrautils2:compressednetherrack:2>, 4.0);
 
 //--------------------------------------------------------------------------------------
 

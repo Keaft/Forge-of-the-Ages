@@ -1,14 +1,16 @@
 #Name: tinker.zs
 #Author: Keaft
 
+import mods.tconstruct.Melting;
+import mods.tconstruct.Casting;
+import mods.tconstruct.Alloy;
+
 print("Initializing 'tinker'...");
 
 // --- Tinkers Construct ---
 //mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
 
 // - Melting
-//Silver from Ice and Fire
-mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <iceandfire:silver_ore>);
 
 // Diamond stuff
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 3330, <minecraft:diamond_helmet>, 1500);
@@ -20,6 +22,26 @@ mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 666, <minecraft:diamond_sho
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_pickaxe>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_axe>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <minecraft:diamond_hoe>, 1500);
+
+// Glowstone Block
+mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>, <minecraft:glowstone>);
+
+// Honey
+mods.tconstruct.Melting.addRecipe(<liquid:honey> * 250, <harvestcraft:honeycombitem>, 400);
+mods.tconstruct.Melting.addRecipe(<liquid:honey> * 1000, <futuremc:honey_block>, 400);
+
+//Silver from Ice and Fire
+mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <iceandfire:silver_ore>);
+
+// - Casting
+//mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
+//mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
+
+// Honey Block
+mods.tconstruct.Casting.addBasinRecipe(<futuremc:honey_block>, null, <liquid:honey>, 1000);
+
+// Honey Bottle
+mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass_bottle>, <liquid:honey>, 250, true);
 
 // - Alloy
 //Pig Iron

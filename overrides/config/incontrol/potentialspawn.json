@@ -1,7 +1,7 @@
 [
     {
         "dimension": 0,
-        "biome": ["Desert","DesertHills"],
+        "biome": ["Desert","DesertHills","Xeric Shrubland"],
         "random": 0.1,
         "maxcount": {
             "amount": 4,
@@ -44,7 +44,7 @@
         "biome": ["Flower Field","Flower Island","Flower Forest","Forest","Sunflower Plains","Lavender Fields","Plains"],
         "random": 0.25,
         "maxcount": {
-            "amount": 15,
+            "amount": 5,
             "mob": "futuremc:bee",
             "perchunk": true
         },
@@ -88,6 +88,25 @@
         "mobs": [
             {
                 "mob": "mod_lavacow:scarecrow",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 0,
+        "random": 0.15,
+        "biome": ["Ominous Woods"],
+        "block": "biomesoplenty:grass",
+        "maxcount": {
+            "amount": 5,
+            "mob": "minecraft:enderman",
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "minecraft:enderman",
                 "weight": 20,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -232,8 +251,8 @@
             "mob": "minecraft:evocation_illager",
             "perchunk": true
         },
-        "maxheight": 65,
-        "minlight": 0,
+        "maxheight": 150,
+        "minheight": 60,
         "maxlight": 0,
         "mobs": [
             {
@@ -248,14 +267,15 @@
         "dimension": 66,
         "random": 0.35,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
-            "amount": 25,
-            "mob": "srparasites:lodo",
+            "amount": 20,
+            "mob": ["srparasites:buglin","srparasites:rupter"],
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:lodo",
+                "mob": "srparasites:buglin",
                 "weight": 2,
                 "groupcountmin": 2,
                 "groupcountmax": 4
@@ -266,14 +286,15 @@
         "dimension": 66,
         "random": 0.25,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 15,
-            "mob": "srparasites:mudo",
+            "mob": "srparasites:rupter",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:mudo",
+                "mob": "srparasites:rupter",
                 "weight": 2,
                 "groupcountmin": 2,
                 "groupcountmax": 4
@@ -284,14 +305,15 @@
         "dimension": 66,
         "random": 0.10,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 10,
-            "mob": "srparasites:infhuman",
+            "mob": "srparasites:sim_human",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:infhuman",
+                "mob": "srparasites:sim_human",
                 "weight": 2,
                 "groupcountmin": 2,
                 "groupcountmax": 4
@@ -302,14 +324,15 @@
         "dimension": 66,
         "random": 0.075,
         "maxheight": 50,
+        "maxlight": 0,
         "maxcount": {
             "amount": 4,
-            "mob": "srparasites:emana",
+            "mob": "srparasites:pri_yelloweye",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:emana",
+                "mob": "srparasites:pri_yelloweye",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 2
@@ -320,14 +343,15 @@
         "dimension": 66,
         "random": 0.05,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 1,
-            "mob": "srparasites:shyco",
+            "mob": "srparasites:pri_longarms",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:shyco",
+                "mob": "srparasites:pri_longarms",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -338,14 +362,15 @@
         "dimension": 66,
         "random": 0.025,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:canra",
+            "mob": "srparasites:pri_summoner",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:canra",
+                "mob": "srparasites:pri_summoner",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -356,14 +381,15 @@
         "dimension": 66,
         "random": 0.025,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:hull",
+            "mob": "srparasites:pri_manducater",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:hull",
+                "mob": "srparasites:pri_manducater",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -374,14 +400,15 @@
         "dimension": 66,
         "random": 0.015,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:nogla",
+            "mob": "srparasites:pri_reeker",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:nogla",
+                "mob": "srparasites:pri_reeker",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -392,14 +419,15 @@
         "dimension": 66,
         "random": 0.015,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:bano",
+            "mob": "srparasites:pri_bolster",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:bano",
+                "mob": "srparasites:pri_bolster",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -410,14 +438,15 @@
         "dimension": 66,
         "random": 0.0075,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:rathol",
+            "mob": "srparasites:carrier_heavy",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:rathol",
+                "mob": "srparasites:carrier_heavy",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -428,14 +457,15 @@
         "dimension": 66,
         "random": 0.0075,
         "maxheight": 50,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:buthol",
+            "mob": "srparasites:carrier_flying",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:buthol",
+                "mob": "srparasites:carrier_flying",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -446,14 +476,15 @@
         "dimension": 66,
         "random": 0.0075,
         "maxheight": 33,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:dorpa",
+            "mob": "srparasites:sim_bigspider",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:dorpa",
+                "mob": "srparasites:sim_bigspider",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
@@ -464,14 +495,34 @@
         "dimension": 66,
         "random": 0.005,
         "maxheight": 50,
+        "maxlight": 0,
         "maxcount": {
             "amount": 3,
-            "mob": "srparasites:alafha",
+            "mob": "srparasites:overseer",
             "perchunk": true
         },
         "mobs": [
             {
-                "mob": "srparasites:alafha",
+                "mob": "srparasites:overseer",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    },
+    {
+        "dimension": 66,
+        "random": 0.005,
+        "maxheight": 33,
+        "maxlight": 0,
+        "maxcount": {
+            "amount": 3,
+            "mob": ["srparasites:beckon_sii","srparasites:beckon_siii","srparasites:beckon_siv"],
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "srparasites:beckon_sii",
                 "weight": 2,
                 "groupcountmin": 1,
                 "groupcountmax": 1
