@@ -62,9 +62,10 @@ Configuration changes:
 - Removed Shulker boxes off the chest ore dictionary.
 - Added Compressed versions of blocks from Extra Utilities to Furnace.
 - Disabled Thermal Foundation fishing rods in favor of Fishing Made Better.
+- Regenerated AE2 Configuration files.
 
 Added the following mod(s):
-- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v50c.
+- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v50f.
 - Thaumic Fixes 1.0.
 - Entity Culling 5.1.1.
 - Particle Culling 1.3.1.
