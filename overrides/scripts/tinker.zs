@@ -33,6 +33,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:honey> * 1000, <futuremc:honey_block>,
 //Silver from Ice and Fire
 mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <iceandfire:silver_ore>);
 
+
+
 // - Casting
 //mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 //mods.tconstruct.Casting.addTableRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
@@ -47,4 +49,5 @@ mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass
 //Pig Iron
 mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
 mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144,[<liquid:iron> * 576,<liquid:blood> * 200,<liquid:diamond> * 666]);
+
 print("Initialized 'tinker'");
