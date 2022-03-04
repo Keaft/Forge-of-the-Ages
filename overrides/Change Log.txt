@@ -67,6 +67,8 @@ Configuration changes:
 - Wrangled TAIGA to cause less cascading world gen issues.
 - Removed some TAIGA ores out of the veinmine pool... mine at your own risk.
 - Removed Quark additions that overlapped or didn't fit with the style of the pack.
+- Re-disabled the Wall of the North from Chocolate Quest Repoured.
+- Gorgon Temples now have a chance at spawning better.
 
 Added the following script(s):
 - Botania Materials 1.0.
