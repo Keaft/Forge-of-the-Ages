@@ -5,9 +5,9 @@
 // ===================================================================
 
 {
-	"generatorType": "SURFACE",
-	"minY": -1,
-	"maxY": -1,
+	"generatorType": "ANYWHERE",
+	"minY": 62,
+	"maxY": 63,
 	"offsetX": -26,
 	"offsetY": -7,
 	"offsetZ": -29,
@@ -27,9 +27,9 @@
 	"integrity": 1,
 	"decay": 0,
 
-	"filling": "",
+	"filling": "minecraft:sand",
 	"fillingMetadata": 0,
-	"fillingType": "AIR",
+	"fillingType": "WATER",
 	
-	"rarity": 200
+	"rarity": 400
 }
