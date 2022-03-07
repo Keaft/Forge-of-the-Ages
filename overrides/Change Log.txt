@@ -21,7 +21,7 @@ Configuration changes:
 - Balanced Blink for EnderIO Travel modifier.
 - Disabled Extra Utilities Golden Lasso.
 - Adjusted Squid ring recipe.
-- Lowered the spawn rate of Slime Islands... again... Why wont you just behave!
+- Lowered the spawn rate of Slime Islands... again... How many times do we have to teach you this lesson old man!
 - Items that should have stacked all along now stack!
 - Platinum now spawns in the beneath.
 - Re-enabled recipe for Redstone thrown into lava or fire for Flux. Where did it go in the first place?
@@ -34,8 +34,7 @@ Configuration changes:
 - Enchanted Grave Key now slightly more difficult to obtain requiring an eye of ender.
 - Added Bamboo and River Cane to vanilla Torch recipe.
 - Disabled Morbs as they don't respect the tamed Dragons and there are other methods.
-- Glowstone block now properly smelts down in the forge.
-- Added Pyrotheum recipe to Ice and Fire Dragon Forge.
+- Glowstone block now properly smelts down in the forge?
 - Brown dye from Biomes O' Plenty Reed.
 - Fixed custom pack Emojicord emojis.
 - Disabled Torches in the beneath.
@@ -64,17 +63,18 @@ Configuration changes:
 - Disabled Thermal Foundation fishing rods in favor of Fishing Made Better.
 - Regenerated AE2 Configuration files.
 - Adjusted Tinkers traits.
-- Wrangled TAIGA to cause less cascading world gen issues.
+- Wrangled TAIGA to cause no cascading world gen issues.
 - Removed some TAIGA ores out of the veinmine pool... mine at your own risk.
 - Removed Quark additions that overlapped or didn't fit with the style of the pack.
 - Re-disabled the Wall of the North from Chocolate Quest Repoured.
 - Gorgon Temples now have a chance at better spawning.
+- Added Pyrotheum and Cryotheum dust recipe to Ice and Fire Dragon Forge.
 
 Added the following script(s):
 - Botania Materials 1.0.
 
 Added the following mod(s):
-- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v50f.
+- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v50j.
 - Thaumic Fixes 1.0.
 - Entity Culling 5.2.0.
 - Particle Culling 1.3.1.
@@ -102,6 +102,8 @@ Added the following mod(s):
 -- LibNine 1.2.1.
 - Quark r1.6-179.
 - Quark Oddities 1.12.2.
+- Portal Super Cache 0.2 Alpha.
+- DupeFix Project. Fixes duping glitches from some mods.
 
 Removed the following mod(s):
 - Clumps for incompatibility with Simulacra from The Betweenlands.

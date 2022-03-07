@@ -20,7 +20,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+                    66
 				]
 			}
 		},
@@ -44,7 +45,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+                    66
 				]
 			}
 		},
@@ -68,33 +70,33 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+                    66
 				]
 			}
 		},
-        "duranite": {
-			"enabled": "true",
+        "duranite_geode": {
 			"distribution": "uniform",
 			"generator": {
-                "type": "cluster",
-				"block": {
-					"name": "taiga:duranite_ore"
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 5
+				"type": "boulder",
+				"block": [{"name": "taiga:duranite_ore","weight": 50},{"name": "taiga:meteorite_block","weight": 75}],
+                "material": "minecraft:stone",
+                "diameter": 1,
+                "count": 1,
+                "count-variance": 1
 			},
             "chunk-chance": 10,
-			"cluster-count": 2,
-			"min-height": 14,
-			"max-height": 61,
-			"retrogen": "true",
+			"cluster-count": 1,
+			"min-height": 10,
+			"max-height": 55,
 			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+					66
 				]
-			}
+            }
 		},
         "vibranium": {
 			"enabled": "true",
@@ -116,7 +118,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+                    66
 				]
 			}
 		},
@@ -140,7 +143,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+                    66
 				]
 			}
 		},
@@ -198,7 +202,8 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0
+					0,
+                    66
 				]
 			}
 		},
@@ -368,6 +373,28 @@
 					1
 				]
 			}
+		},
+        "uru_geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "taiga:obsidiorite_block",
+                "material": "minecraft:air",
+                "hollow": true,
+                "filler": "taiga:uru_ore", 
+                "crust": "taiga:obsidiorite_block"
+			},
+            "chunk-chance": 22,
+			"cluster-count": 1,
+			"min-height": 19,
+			"max-height": 93,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					1
+				]
+            }
 		}
 	}
 }

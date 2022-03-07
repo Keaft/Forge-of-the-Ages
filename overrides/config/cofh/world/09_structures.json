@@ -1,0 +1,66 @@
+{
+	"populate": {
+        "gorgon_temple_sand": {
+            "generator": {
+                "type": "structure",
+                "material": {"name": "minecraft:sand", "properties":{"variant": "sand"}},
+                "structure": [
+                    {"name": "./structures/gorgon_temple_sand.nbt"}
+                ]
+            },
+            "distribution": "custom",
+            "cluster-count": 1,
+            "chunk-chance": 75,
+            "x-offset": 0,
+            "y-offset": {"min": 53,"max": 56},
+            "z-offset": 0,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": ["minecraft:beaches"]
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            },
+            "retrogen": true
+        },
+        "gorgon_temple_gravel": {
+            "generator": {
+                "type": "structure",
+                "material": {"name": "minecraft:gravel"},
+                "structure": [
+                    {"name": "./structures/gorgon_temple_gravel.nbt"}
+                ]
+            },
+            "distribution": "custom",
+            "cluster-count": 1,
+            "chunk-chance": 75,
+            "x-offset": 0,
+            "y-offset": {"min": 53,"max": 56},
+            "z-offset": 0,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": ["minecraft:stone_beach"]
+                    }
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            },
+            "retrogen": true
+        }
+	}
+}

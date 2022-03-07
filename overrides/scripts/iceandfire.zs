@@ -16,8 +16,12 @@ mods.iceandfire.recipes.removeIceDragonForgeRecipe(<iceandfire:dragonsteel_ice_i
 // mods.iceandfire.recipes.addFireDragonForgeRecipe(<input>, <bloodInput>, <output>);
 // mods.iceandfire.recipes.addIceDragonForgeRecipe(<input>, <bloodInput>, <output>);
 
-mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:lava_bucket>, <minecraft:lava_bucket>, <forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}) * 2);
+// - Fire Forge
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<minecraft:redstone>, <minecraft:redstone>, <thermalfoundation:material:1024> * 2);
 mods.iceandfire.recipes.addFireDragonForgeRecipe(<botania:manaresource:7>, <iceandfire:fire_dragon_blood>, <iceandfire:dragonsteel_fire_ingot>);
+
+// - Ice Forge
+mods.iceandfire.recipes.addIceDragonForgeRecipe(<minecraft:redstone>, <minecraft:redstone>, <thermalfoundation:material:1025> * 2);
 mods.iceandfire.recipes.addIceDragonForgeRecipe(<botania:manaresource:7>, <iceandfire:ice_dragon_blood>, <iceandfire:dragonsteel_ice_ingot>);
 
 print("Initialized 'iceandfire'");

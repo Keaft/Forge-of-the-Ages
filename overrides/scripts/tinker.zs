@@ -24,7 +24,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_ax
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <minecraft:diamond_hoe>, 1500);
 
 // Glowstone Block
-mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>, <minecraft:glowstone>);
+// mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>, <minecraft:glowstone>);
 
 // Honey
 mods.tconstruct.Melting.addRecipe(<liquid:honey> * 250, <harvestcraft:honeycombitem>, 400);
