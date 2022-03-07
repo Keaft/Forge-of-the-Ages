@@ -69,6 +69,7 @@ Configuration changes:
 - Re-disabled the Wall of the North from Chocolate Quest Repoured.
 - Gorgon Temples now have a chance at better spawning.
 - Added Pyrotheum and Cryotheum dust recipe to Ice and Fire Dragon Forge.
+- Turned down ocean spawning. 
 
 Added the following script(s):
 - Botania Materials 1.0.
