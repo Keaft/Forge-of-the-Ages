@@ -101,7 +101,6 @@ Added the following mod(s):
 - Chunk Loaders 1.1.11.
 - Fishing Made Better 2.2.4.
 - ManaTweaks 1.4.
-- TAIGA (Tinkers alloying addon) 1.3.4.
 - Tinkers' Evolution 1.0.44. Better Tinkers Draconic integration.
 -- LibNine 1.2.1.
 - Quark r1.6-179.
