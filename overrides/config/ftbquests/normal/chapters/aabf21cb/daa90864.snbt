@@ -1,12 +1,13 @@
 {
 	title: "Make that Bread",
-	x: 2.5d,
-	y: -15.5d,
+	x: 4.0d,
+	y: -13.5d,
 	text: [
 		"Men cannot live on bread alone, but with memes will they be filled with holy fire.... "
 	],
 	dependencies: [
-		"9ee7309f"
+		"9ee7309f",
+		"8f49e3c7"
 	],
 	tasks: [{
 		uid: "c0a2b2ed",

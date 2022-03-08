@@ -3,7 +3,7 @@
 	x: 2.0d,
 	y: -1.5d,
 	text: [
-		"Be sure to keep out the night!"
+		"Build yourself a couple doors! This will help keep out monsters during the night."
 	],
 	dependencies: [
 		"5ad32b49"

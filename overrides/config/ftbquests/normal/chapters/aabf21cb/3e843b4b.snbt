@@ -1,7 +1,7 @@
 {
 	title: "So you are a wizard now!",
-	x: 9.0d,
-	y: -4.0d,
+	x: 10.0d,
+	y: -8.5d,
 	text: [
 		"This is useful for enchanting! Also great decor!"
 	],

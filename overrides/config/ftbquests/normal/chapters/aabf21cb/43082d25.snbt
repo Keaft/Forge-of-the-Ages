@@ -1,0 +1,19 @@
+{
+	title: "Iron Man",
+	x: 8.0d,
+	y: -11.5d,
+	text: [
+		"Smelt a block of iron ore in your furnace to produce an iron ingot."
+	],
+	dependencies: [
+		"2733a227",
+		"8f49e3c7"
+	],
+	tasks: [{
+		uid: "d864a9a1",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}]
+}

@@ -1,7 +1,7 @@
 {
 	title: "10 Cow Quest",
-	x: 6.0d,
-	y: -13.5d,
+	x: 2.0d,
+	y: -15.5d,
 	text: [
 		"kill a cow to get leather!"
 	],

@@ -1,12 +1,12 @@
 {
 	title: "The mind",
-	x: 9.0d,
-	y: -7.5d,
+	x: 10.0d,
+	y: -14.5d,
 	text: [
 		"Always wear a helmet, those who don't end up dead, I've worn one my whole life and have never died. "
 	],
 	dependencies: [
-		"16071082"
+		"43082d25"
 	],
 	tasks: [{
 		uid: "dcbf57e0",

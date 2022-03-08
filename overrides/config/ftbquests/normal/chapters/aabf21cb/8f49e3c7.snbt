@@ -1,12 +1,12 @@
 {
-	title: "Cook that bread!",
-	x: -2.0d,
-	y: -9.0d,
+	title: "Whoever Smelt It",
+	x: 6.0d,
+	y: -11.5d,
 	text: [
 		"just need cobblestones for this, you can fuel it with basics like coal, wood, sticks, planks and charcoal!"
 	],
 	dependencies: [
-		"18933968"
+		"9aa70470"
 	],
 	tasks: [{
 		uid: "e7ea7c7d",

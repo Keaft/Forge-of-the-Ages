@@ -1,12 +1,12 @@
 {
 	title: "The Heart",
-	x: 8.5d,
-	y: -6.5d,
+	x: 10.0d,
+	y: -13.5d,
 	text: [
 		"Build some armor my dude! its dangerous out there!"
 	],
 	dependencies: [
-		"16071082"
+		"43082d25"
 	],
 	tasks: [{
 		uid: "74b24e36",

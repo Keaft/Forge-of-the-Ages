@@ -1,7 +1,7 @@
 {
 	title: "So hear me out...",
-	x: -2.0d,
-	y: -10.5d,
+	x: 8.0d,
+	y: -13.5d,
 	text: [
 		"Just burn wood, its weird I know."
 	],

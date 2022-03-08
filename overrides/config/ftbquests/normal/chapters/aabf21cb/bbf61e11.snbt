@@ -1,7 +1,7 @@
 {
 	title: "Diggy Diggy hole!",
-	x: 4.0d,
-	y: -5.5d,
+	x: 5.0d,
+	y: -7.5d,
 	text: [
 		"The pickaxe is great for digging through hard materials, the better your pickaxe the better things you can dig!"
 	],
