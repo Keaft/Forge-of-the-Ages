@@ -74,6 +74,9 @@ Configuration changes:
 Added the following script(s):
 - Botania Materials 1.0.
 
+Added the following structure(s):
+- Woodland Mansion.
+
 Added the following mod(s):
 - AE2 Unofficial Extended Life rv6-stable-7-extended_life-v50j.
 - Thaumic Fixes 1.0.
@@ -104,7 +107,7 @@ Added the following mod(s):
 - Quark r1.6-179.
 - Quark Oddities 1.12.2.
 - Portal Super Cache 0.2 Alpha.
-- DupeFix Project. Fixes duping glitches from some mods.
+- DupeFix Project 3.1.6. Fixes duping glitches from some mods.
 
 Removed the following mod(s):
 - Clumps for incompatibility with Simulacra from The Betweenlands.
