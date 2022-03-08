@@ -6,11 +6,11 @@
 
 {
 	"generatorType": "ANYWHERE",
-	"minY": 62,
-	"maxY": 63,
-	"offsetX": -26,
-	"offsetY": -7,
-	"offsetZ": -29,
+	"minY": 53,
+	"maxY": 56,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
 
 	"mirrorType": "NONE",
 	"rotation": null,
