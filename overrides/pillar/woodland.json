@@ -5,12 +5,12 @@
 // ===================================================================
 
 {
-	"generatorType": "SURFACE",
-	"minY": -1,
-	"maxY": -1,
-	"offsetX": 0,
-	"offsetY": -13,
-	"offsetZ": 0,
+	"generatorType": "ANYWHERE",
+	"minY": 56,
+	"maxY": 62,
+	"offsetX": -55,
+	"offsetY": 0,
+	"offsetZ": -57,
 
 	"mirrorType": "NONE",
 	"rotation": null,
