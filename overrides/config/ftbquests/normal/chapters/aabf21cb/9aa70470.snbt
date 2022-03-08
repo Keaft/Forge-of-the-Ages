@@ -1,7 +1,7 @@
 {
 	title: "Le Coal",
-	x: 5.5d,
-	y: -5.5d,
+	x: 4.0d,
+	y: -9.5d,
 	text: [
 		"Coal is super useful for providing cooking fuel and running machines in this mod pack!"
 	],

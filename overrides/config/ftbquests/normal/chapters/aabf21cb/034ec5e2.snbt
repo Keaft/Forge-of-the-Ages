@@ -1,13 +1,13 @@
 {
 	title: "You've stuck potatoes!",
-	x: 10.5d,
-	y: -5.5d,
+	x: 10.0d,
+	y: -9.5d,
 	text: [
 		"Gold is great! It will be used later in your adventure for many differant mods! For now, gold tools and armor are actually the best, but their durability is ",
 		"low and will break quickly!"
 	],
 	dependencies: [
-		"16071082"
+		"2733a227"
 	],
 	tasks: [{
 		uid: "86c0436c",

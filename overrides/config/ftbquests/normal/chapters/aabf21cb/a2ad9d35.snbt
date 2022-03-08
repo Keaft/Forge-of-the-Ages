@@ -1,13 +1,13 @@
 {
 	title: "Y11",
-	x: 12.5d,
-	y: -5.5d,
+	x: 10.0d,
+	y: -6.5d,
 	text: [
 		"Diamonds are hard to find, you can find them deep underneath the earth, some say near lava, so say around Y 11(11 blocks above bed rock) but",
 		"you will have to go deep for this one!"
 	],
 	dependencies: [
-		"034ec5e2"
+		"2733a227"
 	],
 	tasks: [{
 		uid: "7c402a74",

@@ -1,7 +1,10 @@
 {
-	title: "Upgraded crafting",
+	title: "A Cooler Crafting Table",
 	x: -2.0d,
 	y: -7.5d,
+	text: [
+		"Create an upgraded crafting table for free by putting a crafting table block in any crafting interface by itself. This new table will keep items you leave in it, and pulls additional items from adjacent chests automagically."
+	],
 	dependencies: [
 		"2c51ccae"
 	],

@@ -3,7 +3,7 @@
 	x: 2.0d,
 	y: 0.0d,
 	text: [
-		"You just need some wood for this one! st"
+		"By now, you're probably running out of space in your inventory. Build yourself some chests to store your hard-earned items."
 	],
 	dependencies: [
 		"a6e000fb"

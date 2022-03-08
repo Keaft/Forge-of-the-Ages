@@ -1,12 +1,12 @@
 {
-	title: "Iron man!",
-	x: 8.5d,
-	y: -5.5d,
+	title: "Ore Mining",
+	x: 8.0d,
+	y: -9.5d,
 	text: [
-		"We dont stone or iron tools any more we want iron!"
+		"Find yourself a cave, and wander around until you find yourself a block of iron ore. Mine it with a stone pickaxe."
 	],
 	dependencies: [
-		"fa6f815e"
+		"bbf61e11"
 	],
 	tasks: [{
 		uid: "92e51e8d",

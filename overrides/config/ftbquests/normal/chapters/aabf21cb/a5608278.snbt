@@ -1,12 +1,12 @@
 {
 	title: "The Spirit",
 	x: 10.0d,
-	y: -7.5d,
+	y: -12.5d,
 	text: [
 		"If I coulde wear armor I would."
 	],
 	dependencies: [
-		"16071082"
+		"43082d25"
 	],
 	tasks: [{
 		uid: "6e7a2f0a",

@@ -8,20 +8,6 @@
 		uid: "faf59802",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"plustic:": {
-					Size: 1,
-					Items: []
-				},
-				"plustic:fruitsalad_cap": {
-					Size: 5,
-					Items: []
-				},
-				"plustic:musicofthespheres_cap": {
-					Size: 1,
-					Items: []
-				}
-			},
 			id: "tconstruct:pickaxe",
 			tag: {
 				StatsOriginal: {

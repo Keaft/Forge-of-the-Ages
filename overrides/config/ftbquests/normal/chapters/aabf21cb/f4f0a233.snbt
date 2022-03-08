@@ -1,7 +1,7 @@
 {
 	title: "Teach a man to read and write!",
 	x: 4.0d,
-	y: -19.5d,
+	y: -21.5d,
 	text: [
 		"This will be important for later with enchanting! "
 	],

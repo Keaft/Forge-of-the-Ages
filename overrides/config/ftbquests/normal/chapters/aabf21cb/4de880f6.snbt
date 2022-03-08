@@ -1,12 +1,12 @@
 {
 	title: "The Soul",
-	x: 10.5d,
-	y: -6.5d,
+	x: 10.0d,
+	y: -11.5d,
 	text: [
 		"Finish up your armor with some booties, if iron isnt your thing, find some slime boots and give thoses a spin. You might find those interesting..."
 	],
 	dependencies: [
-		"16071082"
+		"43082d25"
 	],
 	tasks: [{
 		uid: "87b8cb48",
