@@ -1,0 +1,34 @@
+{
+    "dependencies": "thermalfoundation",
+	"populate": {
+		"overworld_tar_pool": {
+            "enabled": true,
+			"distribution": "surface",
+            "material": [],
+			"generator": {
+				"type": "lake",
+				"block": "metallurgy:molten_tar",
+				"material": "minecraft:stone",
+				"use-material": false,
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": ["biomesoplenty:wasteland"]
+                    }
+                ]
+            }
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}
