@@ -81,21 +81,21 @@ mods.jei.JEI.removeAndHide(<extrautils2:teleporter:1>);
 
 // --- Mekanism ---
 // - Item transport done through other mods
-mods.jei.JEI.removeAndHide(<mekanism:transmitter:3>);
+// mods.jei.JEI.removeAndHide(<mekanism:transmitter:3>);
 // - Jetpack
-mods.jei.JEI.removeAndHide(<mekanism:jetpack>);
-mods.jei.JEI.removeAndHide(<mekanism:armoredjetpack>);
+// mods.jei.JEI.removeAndHide(<mekanism:jetpack>);
+// mods.jei.JEI.removeAndHide(<mekanism:armoredjetpack>);
 // - Reactor
-mods.jei.JEI.removeAndHide(<mekanismgenerators:reactorglass>);
-mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor>);
-mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:1>);
-mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:2>);
-mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:3>);
+// mods.jei.JEI.removeAndHide(<mekanismgenerators:reactorglass>);
+// mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor>);
+// mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:1>);
+// mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:2>);
+// mods.jei.JEI.removeAndHide(<mekanismgenerators:reactor:3>);
 // - Flame Thrower
-mods.jei.JEI.removeAndHide(<mekanism:flamethrower>);
+// mods.jei.JEI.removeAndHide(<mekanism:flamethrower>);
 // - Teleporter
-mods.jei.JEI.removeAndHide(<mekanism:portableteleporter>);
-mods.jei.JEI.removeAndHide(<mekanism:basicblock:7>);
+// mods.jei.JEI.removeAndHide(<mekanism:portableteleporter>);
+// mods.jei.JEI.removeAndHide(<mekanism:basicblock:7>);
 
 //--------------------------------------------------------------------------------------
 

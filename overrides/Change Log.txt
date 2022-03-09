@@ -119,6 +119,9 @@ Removed the following mod(s):
 - The Weirding Gadget in favor of Chunk Loaders.
 - xXx_MoreToolMats_xXx (PlusTiC Fork) in favor of TAIGA, Tinkers' Evolution, and ManaTweaks with scripting.
 - Morpheus in favor of Quark.
+- Mekanism.
+-- Mekanism Generators.
+-- Mekatweaker.
 
 Updated the following mod(s):
 - AmbientSounds 5 to 3.1.7.
