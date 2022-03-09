@@ -70,6 +70,7 @@ Configuration changes:
 - Gorgon Temples now have a chance at better spawning.
 - Added Pyrotheum and Cryotheum dust recipe to Ice and Fire Dragon Forge.
 - Turned down ocean spawning. 
+- Cleaned up Vanilla questline. Thanks pwnsbey!
 
 Added the following script(s):
 - Botania Materials 1.0.
@@ -107,6 +108,7 @@ Added the following mod(s):
 - Quark Oddities 1.12.2.
 - Portal Super Cache 0.2 Alpha.
 - DupeFix Project 3.1.6. Fixes duping glitches from some mods.
+- Metallurgy 4: Reforged 1.3.1.
 
 Removed the following mod(s):
 - Clumps for incompatibility with Simulacra from The Betweenlands.
@@ -117,7 +119,7 @@ Removed the following mod(s):
 - Flux Networks in favor of Tesseract.
 -- Sonar Core.
 - The Weirding Gadget in favor of Chunk Loaders.
-- xXx_MoreToolMats_xXx (PlusTiC Fork) in favor of TAIGA, Tinkers' Evolution, and ManaTweaks with scripting.
+- xXx_MoreToolMats_xXx (PlusTiC Fork) in favor of Metallurgy 4: Reforged, Tinkers' Evolution, and ManaTweaks with scripting.
 - Morpheus in favor of Quark.
 - Mekanism.
 -- Mekanism Generators.
