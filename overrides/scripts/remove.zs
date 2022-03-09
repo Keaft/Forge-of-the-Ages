@@ -79,6 +79,14 @@ mods.jei.JEI.removeAndHide(<extrautils2:teleporter:1>);
 
 //--------------------------------------------------------------------------------------
 
+// --- Metallurgy 4 Reforged ---
+// - Metal Detector
+mods.jei.JEI.removeAndHide(<metallurgy:ore_detector>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Mekanism ---
 // - Item transport done through other mods
 // mods.jei.JEI.removeAndHide(<mekanism:transmitter:3>);
@@ -192,6 +200,14 @@ mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
 // --- Extra Utilities 2 ---
 // - Deep Dark portal in favor of using the beneath.
 //recipes.remove(<extrautils2:teleporter:1>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Metallurgy 4 Reforged ---
+// - Metal Detector
+// recipes.remove(<metallurgy:ore_detector>);
 
 //--------------------------------------------------------------------------------------
 
