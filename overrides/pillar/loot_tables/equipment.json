@@ -1,0 +1,1095 @@
+{
+  "pools": [
+    {
+      "name": "chests/equipment_pool",
+      "entries": [
+        {
+          "entryName": "entry_0minecraft:arrow",
+          "weight": 20,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "entryName": "entry_1cqrepoured:spear_iron",
+          "weight": 40,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.4,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "cqrepoured:spear_iron"
+        },
+        {
+          "entryName": "entry_2minecraft:diamond_sword",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.03,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        },
+        {
+          "entryName": "entry_3cqrepoured:great_sword_iron",
+          "weight": 35,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.2,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "cqrepoured:great_sword_iron"
+        },
+        {
+          "entryName": "entry_4minecraft:golden_boots",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_boots"
+        },
+        {
+          "entryName": "entry_5cqrepoured:dagger_diamond",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.03,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cqrepoured:dagger_diamond"
+        },
+        {
+          "entryName": "entry_6minecraft:diamond_helmet",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.02,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond_helmet"
+        },
+        {
+          "entryName": "entry_7minecraft:chainmail_leggings",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:chainmail_leggings"
+        },
+        {
+          "entryName": "entry_8minecraft:iron_chestplate",
+          "weight": 80,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.8,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.4,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_chestplate"
+        },
+        {
+          "entryName": "entry_9minecraft:diamond_leggings",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.01,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "entryName": "entry_10minecraft:bow",
+          "weight": 30,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.3,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "entry_11minecraft:iron_boots",
+          "weight": 80,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.8,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.4,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_boots"
+        },
+        {
+          "entryName": "entry_12cqrepoured:spear_diamond",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.02,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cqrepoured:spear_diamond"
+        },
+        {
+          "entryName": "entry_13minecraft:golden_sword",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "entry_14cqrepoured:bullet_fire",
+          "weight": 5,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cqrepoured:bullet_fire"
+        },
+        {
+          "entryName": "entry_15minecraft:golden_helmet",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_helmet"
+        },
+        {
+          "entryName": "entry_16cqrepoured:revolver",
+          "weight": 15,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.15,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cqrepoured:revolver"
+        },
+        {
+          "entryName": "entry_17minecraft:chainmail_chestplate",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:chainmail_chestplate"
+        },
+        {
+          "entryName": "entry_18minecraft:chainmail_boots",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:chainmail_boots"
+        },
+        {
+          "entryName": "entry_19minecraft:iron_leggings",
+          "weight": 80,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.8,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.4,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "entryName": "entry_20cqrepoured:great_sword_diamond",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.02,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cqrepoured:great_sword_diamond"
+        },
+        {
+          "entryName": "entry_21minecraft:golden_leggings",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_leggings"
+        },
+        {
+          "entryName": "entry_22minecraft:iron_sword",
+          "weight": 70,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.7,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.35,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_sword"
+        },
+        {
+          "entryName": "entry_23minecraft:diamond_boots",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.02,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond_boots"
+        },
+        {
+          "entryName": "entry_24minecraft:chainmail_helmet",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:chainmail_helmet"
+        },
+        {
+          "entryName": "entry_25minecraft:diamond_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.01,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "entryName": "entry_26minecraft:golden_chestplate",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.25,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "entryName": "entry_27cqrepoured:bullet_iron",
+          "weight": 10,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cqrepoured:bullet_iron"
+        },
+        {
+          "entryName": "entry_28cqrepoured:dagger_iron",
+          "weight": 70,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.7,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.35,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "cqrepoured:dagger_iron"
+        },
+        {
+          "entryName": "entry_29minecraft:iron_helmet",
+          "weight": 80,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.8,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "levels": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels",
+              "conditions": [
+                {
+                  "chance": 0.4,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:iron_helmet"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0
+      }
+    },
+    {
+      "name": "tombstone:chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:crafting_ingredient_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
+        },
+        {
+          "entryName": "0tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "1tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "2tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "3tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "4tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "5tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "6tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "7tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "8tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:voodoo_poppet_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:voodoo_poppet"
+        },
+        {
+          "entryName": "tombstone:familiar_receptacle_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:familiar_receptacle"
+        },
+        {
+          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:fishing_rod_of_misadventure"
+        },
+        {
+          "entryName": "tombstone:empty",
+          "weight": 844,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

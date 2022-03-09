@@ -1,0 +1,343 @@
+{
+  "pools": [
+    {
+      "name": "chests/food_pool",
+      "entries": [
+        {
+          "entryName": "entry_0minecraft:chicken",
+          "weight": 20,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:chicken"
+        },
+        {
+          "entryName": "entry_1minecraft:cookie",
+          "weight": 10,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cookie"
+        },
+        {
+          "entryName": "entry_2minecraft:pumpkin_pie",
+          "weight": 10,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.1,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_pie"
+        },
+        {
+          "entryName": "entry_3minecraft:melon",
+          "weight": 25,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon"
+        },
+        {
+          "entryName": "entry_4minecraft:potato",
+          "weight": 30,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.3,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potato"
+        },
+        {
+          "entryName": "entry_5minecraft:carrot",
+          "weight": 30,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.3,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot"
+        },
+        {
+          "entryName": "entry_6minecraft:poisonous_potato",
+          "weight": 5,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.05,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:poisonous_potato"
+        },
+        {
+          "entryName": "entry_7minecraft:bread",
+          "weight": 40,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.4,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
+        },
+        {
+          "entryName": "entry_8minecraft:porkchop",
+          "weight": 35,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:porkchop"
+        },
+        {
+          "entryName": "entry_9minecraft:rabbit",
+          "weight": 20,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rabbit"
+        },
+        {
+          "entryName": "entry_10minecraft:fish",
+          "weight": 25,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:fish"
+        },
+        {
+          "entryName": "entry_11minecraft:apple",
+          "weight": 25,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:apple"
+        },
+        {
+          "entryName": "entry_12minecraft:beetroot",
+          "weight": 12,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.12,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot"
+        },
+        {
+          "entryName": "entry_13minecraft:mutton",
+          "weight": 25,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:mutton"
+        },
+        {
+          "entryName": "entry_14minecraft:beef",
+          "weight": 35,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.35,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beef"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 8.0
+      }
+    }
+  ]
+}
