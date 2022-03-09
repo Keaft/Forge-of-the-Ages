@@ -1,7 +1,7 @@
 {
     "dependencies": "thermalfoundation",
 	"populate": {
-		"oil_pool": {
+		"tar_pool": {
             "enabled": true,
 			"distribution": "cave",
 			"generator": {
@@ -15,7 +15,6 @@
 			"cluster-count": 1,
 			"chunk-chance": 5,
 			"ground-level": 24,
-			"follow-terrain": true,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
@@ -39,7 +38,6 @@
 			"cluster-count": 1,
 			"chunk-chance": 70,
 			"ground-level": 60,
-            "follow-terrain": true,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
@@ -63,7 +61,6 @@
 			"cluster-count": 1,
 			"chunk-chance": 50,
 			"ground-level": 19,
-            "follow-terrain": true,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
