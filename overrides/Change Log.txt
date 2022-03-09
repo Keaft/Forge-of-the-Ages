@@ -110,6 +110,7 @@ Added the following mod(s):
 - Portal Super Cache 0.2 Alpha.
 - DupeFix Project 3.1.6. Fixes duping glitches from some mods.
 - Metallurgy 4: Reforged 1.3.1.
+- Compact Machines 3.0.18-b278.
 
 Removed the following mod(s):
 - Clumps for incompatibility with Simulacra from The Betweenlands.
