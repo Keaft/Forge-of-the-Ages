@@ -76,7 +76,7 @@ events.onBlockPlace(function(blockPlaced as crafttweaker.event.BlockPlaceEvent){
     if (blockPlaced.player.dimension != 66){
         for minerCheck in beneathminers {
             if(blockPlaced.block.definition.id == minerCheck){
-                blockPlaced.player.sendStatusMessage("The void miner comes alive: " + format.obfuscated("Must go") +  format.white(" deeper. ") + format.obfuscated("Must go to") + format.white(" beneath ") + format.obfuscated("where greater source of matter exists."));
+                blockPlaced.player.sendChat("The void miner comes alive: Must go deeper. Must go to the beneath where a greater source of matter exists.");
                 blockPlaced.cancel();
                 blockPlaced.player.dropItem(true);
                 break;
