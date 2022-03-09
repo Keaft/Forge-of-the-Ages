@@ -6,7 +6,7 @@
 			"distribution": "cave",
 			"generator": {
 				"type": "lake",
-				"block": "thermalfoundation:fluid_crude_oil",
+				"block": "metallurgy:molten_tar",
 				"material": "minecraft:stone",
 				"use-material": false,
                 "outline-block": "minecraft:stone",

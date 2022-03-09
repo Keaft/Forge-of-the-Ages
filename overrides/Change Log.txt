@@ -38,7 +38,7 @@ Configuration changes:
 - Brown dye from Biomes O' Plenty Reed.
 - Fixed custom pack Emojicord emojis.
 - Disabled Torches in the beneath.
-- Adjusted mob spawning in the beneath. 
+- Adjusted mob spawning in the beneath.
 - Fixed night vision fog color in the beneath.
 - Halved damage output of mobs in beneath.
 - Adjusted ore spawning in the beneath.
@@ -71,6 +71,7 @@ Configuration changes:
 - Added Pyrotheum and Cryotheum dust recipe to Ice and Fire Dragon Forge.
 - Turned down ocean spawning. 
 - Cleaned up Vanilla questline. Thanks pwnsbey!
+- Changed beneath oil lakes into tar lakes.
 
 Added the following script(s):
 - Botania Materials 1.0.
