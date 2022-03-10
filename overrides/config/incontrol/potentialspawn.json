@@ -22,6 +22,27 @@
     },
     {
         "dimension": 0,
+        "biome": ["Wasteland"],
+        "random": 0.5,
+        "maxcount": {
+            "amount": 4,
+            "mob": "nuclearcraft:feral_ghoul",
+            "perchunk": true
+        },
+        "seesky": true,
+        "mintime": 13800,
+        "maxtime": 22000,
+        "mobs": [
+            {
+                "mob": "nuclearcraft:feral_ghoul",
+                "weight": 100,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 0,
         "biome": ["Bamboo Forest"],
         "random": 0.25,
         "block": "minecraft:dirt",
