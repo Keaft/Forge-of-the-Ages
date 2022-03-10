@@ -1,15 +1,17 @@
 {
     "dependencies": "thermalfoundation",
 	"populate": {
-		"overworld_tar_pool": {
+		"overworld_wasteland_tar_pool": {
             "enabled": true,
 			"distribution": "surface",
-            "material": [],
+            "material": ["biomesoplenty:dried_sand"],
 			"generator": {
 				"type": "lake",
 				"block": "metallurgy:molten_tar",
 				"material": "minecraft:stone",
 				"use-material": false,
+                "outline-block": "biomesoplenty:dried_sand",
+				"solid-outline": true
 			},
 			"cluster-count": 1,
 			"chunk-chance": 10,
@@ -21,7 +23,7 @@
                         "entry": ["biomesoplenty:wasteland"]
                     }
                 ]
-            }
+            },
 			"retrogen": true,
 			"dimension": {
 				"restriction": "whitelist",
@@ -29,6 +31,68 @@
 					0
 				]
 			}
-		}
+		},
+        "overworld_brushland_tar_pool": {
+            "enabled": true,
+			"distribution": "surface",
+            "material": ["biomesoplenty:dirt","biomesoplenty:grass","minecraft:sand"],
+			"generator": {
+				"type": "lake",
+				"block": "metallurgy:molten_tar",
+				"material": "minecraft:stone",
+				"use-material": false,
+                "outline-block": "minecraft:sand",
+				"solid-outline": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": ["biomesoplenty:brushland"]
+                    }
+                ]
+            },
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+        "overworld_deadswamp_and_quagmire_tar_pool": {
+            "enabled": true,
+			"distribution": "surface",
+            "material": ["biomesoplenty:dirt","biomesoplenty:grass","biomesoplenty:mud","minecraft:water"],
+			"generator": {
+				"type": "lake",
+				"block": "metallurgy:molten_tar",
+				"material": "minecraft:stone",
+				"use-material": false,
+                "outline-block": "biomesoplenty:mud",
+				"solid-outline": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,
+			"biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {
+                        "type": "id",
+                        "entry": ["biomesoplenty:dead_swamp","biomesoplenty:quagmire"]
+                    }
+                ]
+            },
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+        }
 	}
 }
