@@ -80,7 +80,7 @@ Added the following structure(s):
 - Woodland Mansion.
 
 Added the following mod(s):
-- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v50j.
+- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v51.
 - Thaumic Fixes 1.0.
 - Entity Culling 5.2.0.
 - Particle Culling 1.3.1.
