@@ -69,7 +69,7 @@ Configuration changes:
 - Re-disabled the Wall of the North from Chocolate Quest Repoured.
 - Gorgon Temples now have a chance at better spawning.
 - Added Pyrotheum and Cryotheum dust recipe to Ice and Fire Dragon Forge.
-- Turned down ocean spawning. 
+- Turned down ocean spawning. Huge thanks to Hanz174, Pwnsbey, and Orrinjelo for dedicating resources to gen worlds!
 - Cleaned up Vanilla questline. Thanks pwnsbey!
 - Changed beneath oil lakes into tar lakes.
 
