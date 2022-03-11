@@ -76,6 +76,8 @@ Configuration changes:
 - Bountiful Boards now provide emeralds to compliment TekTopia better.
 - Bounty Board now craftable for use in your own TekTopia Village.
 - Turned off extraneous items from Thermal in favor of Metallurgy.
+- Established appropriate darkness for the beneath. @advanceddarkness in JEI for the lantern that will work best.
+
 
 Added the following script(s):
 - Botania Materials 1.0.
