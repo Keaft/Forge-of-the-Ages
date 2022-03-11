@@ -49,10 +49,7 @@
 			"generator": {
 				"block": [
 					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "silver"
-						},
+						"name": "metallurgy:silver_ore",
 						"weight": 80
 					},
 					{
@@ -92,10 +89,7 @@
 						"weight": 90
 					},
 					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "silver"
-						},
+						"name": "metallurgy:silver_ore",
 						"weight": 10
 					}
 				],
