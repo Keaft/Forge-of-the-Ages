@@ -72,7 +72,9 @@ Configuration changes:
 - Turned down ocean spawning. Huge thanks to Hanz174, Pwnsbey, and Orrinjelo for dedicating resources to gen worlds!
 - Cleaned up Vanilla questline. Thanks pwnsbey!
 - Changed beneath oil lakes into tar lakes.
+- Feral Ghouls now spawn in Biomes O' Plenty's Wasteland.
 - Bountiful Boards now provide emeralds to compliment TekTopia better.
+- Bounty Board now craftable for use in your own TekTopia Village.
 
 Added the following script(s):
 - Botania Materials 1.0.
