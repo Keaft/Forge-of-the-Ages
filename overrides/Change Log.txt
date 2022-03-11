@@ -78,6 +78,7 @@ Configuration changes:
 - Turned off extraneous items from Thermal in favor of Metallurgy.
 - Unification setup for Metallurgy.
 - Established appropriate darkness for the beneath. @advanceddarkness in JEI for the lantern that will work best.
+- Added recipes for Chocolate Quest Tables.
 
 
 Added the following script(s):

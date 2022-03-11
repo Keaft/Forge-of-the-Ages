@@ -50,6 +50,18 @@ recipes.addShaped("bountifulbaubles_vitamins", <bountifulbaubles:trinketvitamins
 
 //--------------------------------------------------------------------------------------
 
+// --- Chocolate Quest ---
+recipes.addShaped("oak_table", <cqrepoured:table_oak> * 2, [[<minecraft:wooden_slab>],[<minecraft:fence>]]);
+recipes.addShaped("spruce_table", <cqrepoured:table_spruce> * 2, [[<minecraft:wooden_slab:1>],[<minecraft:spruce_fence>]]);
+recipes.addShaped("birch_table", <cqrepoured:table_birch> * 2, [[<minecraft:wooden_slab:2>],[<minecraft:birch_fence>]]);
+recipes.addShaped("jungle_table", <cqrepoured:table_jungle> * 2, [[<minecraft:wooden_slab:3>],[<minecraft:jungle_fence>]]);
+recipes.addShaped("acacia_table", <cqrepoured:table_acacia> * 2, [[<minecraft:wooden_slab:4>],[<minecraft:acacia_fence>]]);
+recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wooden_slab:5>],[<minecraft:dark_oak_fence>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- The Beneath ---
 // - Beneath Teleporter
 recipes.addShaped("beneath_teleporter", <beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>]]);
