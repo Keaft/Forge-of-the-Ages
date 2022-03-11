@@ -519,6 +519,16 @@
       "target": "green",
       "weight": 200,
       "id": "OD:oreEnderEssence"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "OD:oreOrichalcum"
+    },
+    {
+      "target": "brown",
+      "weight": 200,
+      "id": "OD:oreCarmot"
     }
   ]
 }
