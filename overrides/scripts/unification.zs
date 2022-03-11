@@ -35,7 +35,7 @@ val oreDictNames = [
     <ore:blockSteel>,
     <ore:blockTin>,
     <ore:blockUranium>,
-    <ore:blockManganese>
+    <ore:blockManganese>,
     <ore:gemAmber>,
     <ore:gemAmethyst>,
     <ore:gemSapphire>,
@@ -47,7 +47,7 @@ val oreDictNames = [
     <ore:ingotSilver>,
     <ore:ingotSteel>,
     <ore:ingotTin>,
-    <ore:ingotManganese>
+    <ore:ingotManganese>,
     <ore:ingotUranium>,
     <ore:nuggetAluminum>,
     <ore:nuggetCopper>,
