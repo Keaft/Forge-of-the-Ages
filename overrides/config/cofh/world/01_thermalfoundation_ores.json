@@ -5,12 +5,7 @@
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "copper"
-					}
-				},
+				"block": "metallurgy:copper_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
@@ -253,12 +248,7 @@
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "copper"
-					}
-				},
+				"block": "metallurgy:copper_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
@@ -287,12 +277,7 @@
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "copper"
-					}
-				},
+				"block": "metallurgy:copper_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
