@@ -57,7 +57,6 @@ Configuration changes:
 - Ice and Fire Dragonsteel Ingots harder to obtain. Makes some dang fine armor though! :D
 - Life Shard from Aether can only be used once.
 - Chisel now undamagable.
-- Disabled Mekanism crossover machines and items.
 - Removed Shulker boxes off the chest ore dictionary.
 - Added Compressed versions of blocks from Extra Utilities to Furnace.
 - Disabled Thermal Foundation fishing rods in favor of Fishing Made Better.
