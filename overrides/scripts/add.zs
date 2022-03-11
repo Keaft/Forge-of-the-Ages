@@ -140,6 +140,16 @@ recipes.addShaped("minecraft_torch_biomes_river_cane", <minecraft:torch> * 4, [[
 recipes.addShaped("minecraft_torch_biomes_bamboo", <minecraft:torch> * 4, [[<minecraft:coal>],[<biomesoplenty:bamboo>]]);
 recipes.addShaped("minecraft_torch_futuremc_bamboo", <minecraft:torch> * 4, [[<minecraft:coal>],[<futuremc:bamboo>]]);
 
+// - Ice and Fire and Metallurgy Silver Armor back and forth
+recipes.addShapeless("ice_silver_helmet_to_metallurgy_silver_helmet", <metallurgy:silver_helmet>, [<iceandfire:armor_silver_metal_helmet>]);
+recipes.addShapeless("ice_silver_chestplate_to_metallurgy_silver_chestplate", <metallurgy:silver_chestplate>, [<iceandfire:armor_silver_metal_chestplate>]);
+recipes.addShapeless("ice_silver_leggings_to_metallurgy_silver_leggings", <metallurgy:silver_leggings>, [<iceandfire:armor_silver_metal_leggings>]);
+recipes.addShapeless("ice_silver_boots_to_metallurgy_silver_boots", <metallurgy:silver_boots>, [<iceandfire:armor_silver_metal_boots>]);
+recipes.addShapeless("metallurgy_silver_helmet_to_ice_silver_helmet", <iceandfire:armor_silver_metal_helmet>, [<metallurgy:silver_helmet>]);
+recipes.addShapeless("metallurgy_silver_chestplate_to_ice_silver_chestplate", <iceandfire:armor_silver_metal_chestplate>, [<metallurgy:silver_chestplate>]);
+recipes.addShapeless("metallurgy_silver_leggings_to_ice_silver_leggings", <iceandfire:armor_silver_metal_leggings>, [<metallurgy:silver_leggings>]);
+recipes.addShapeless("metallurgy_silver_boots_to_ice_silver_boots", <iceandfire:armor_silver_metal_boots>, [<metallurgy:silver_boots>]);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------

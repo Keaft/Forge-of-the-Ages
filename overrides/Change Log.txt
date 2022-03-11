@@ -78,6 +78,7 @@ Configuration changes:
 - Unification setup for Metallurgy.
 - Established appropriate darkness for the beneath. @advanceddarkness in JEI for the lantern that will work best.
 - Added recipes for Chocolate Quest Tables.
+- Metallurgy and Ice and Fire silver armor crafts into each other, mostly for the fashion from Ice and Fire.
 
 
 Added the following script(s):
