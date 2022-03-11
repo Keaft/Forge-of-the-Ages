@@ -35,6 +35,7 @@ val oreDictNames = [
     <ore:blockSteel>,
     <ore:blockTin>,
     <ore:blockUranium>,
+    <ore:blockManganese>
     <ore:gemAmber>,
     <ore:gemAmethyst>,
     <ore:gemSapphire>,
@@ -46,6 +47,7 @@ val oreDictNames = [
     <ore:ingotSilver>,
     <ore:ingotSteel>,
     <ore:ingotTin>,
+    <ore:ingotManganese>
     <ore:ingotUranium>,
     <ore:nuggetAluminum>,
     <ore:nuggetCopper>,
@@ -65,6 +67,7 @@ val oreDictNames = [
 # LIST MOD NAMES IN ORDER OF PRIORITY HERE VVV
 val priorityModList = [
     "minecraft",
+    "metallurgy",
     "thermalfoundation",
     "harvestcraft",
     "thaumcraft",
