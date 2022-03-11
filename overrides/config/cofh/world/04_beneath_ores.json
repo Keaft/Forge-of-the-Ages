@@ -1,7 +1,7 @@
 {
 	"dependencies": "contenttweaker",
 	"populate": {
-		"ardite": {
+		"beneath_ardite_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -24,7 +24,7 @@
 				]
 			}
 		},
-		"cobalt": {
+		"beneath_cobalt_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -47,33 +47,7 @@
 				]
 			}
 		},
-        "beneathplatinum": {
-			"enabled": "true",
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-                    "properties": {
-						"type": "platinum"
-					}
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 8
-			},
-            "chunk-chance": 5,
-			"cluster-count": 7,
-			"min-height": 10,
-			"max-height": 23,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					66
-				]
-			}
-		},
-        "beneathcertusquartz": {
+        "beneath_certus_quartz_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -96,7 +70,7 @@
 				]
 			}
 		},
-        "beneathchargedcertusquartz": {
+        "beneath_charged_certus_quartz_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -110,6 +84,132 @@
 			"cluster-count": 7,
 			"min-height": 10,
 			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneath_platinum_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "metallurgy:platinum_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneath_orichalcum_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "metallurgy:orichalcum_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 80,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneath_mithril_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "metallurgy:mithril_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneath_carmot_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "metallurgy:carmot_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 10,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneath_adamantine_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "metallurgy:adamantine_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 15,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					66
+				]
+			}
+		},
+        "beneath_atlarus_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "metallurgy:atlarus_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 15,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
