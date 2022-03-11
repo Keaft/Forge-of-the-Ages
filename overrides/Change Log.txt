@@ -130,6 +130,7 @@ Removed the following mod(s):
 - Mekanism.
 -- Mekanism Generators.
 -- Mekatweaker.
+-- Gas Conduits.
 - NotEnoughPets.
 
 Updated the following mod(s):
