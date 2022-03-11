@@ -26,12 +26,7 @@
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"properties": {
-						"type": "tin"
-					}
-				},
+				"block": "metallurgy:tin_ore",
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
