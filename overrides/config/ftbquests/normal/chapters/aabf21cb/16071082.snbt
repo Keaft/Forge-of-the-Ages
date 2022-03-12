@@ -1,7 +1,7 @@
 {
 	title: "The more you know!",
-	x: 9.5d,
-	y: -6.5d,
+	x: 10.0d,
+	y: -5.5d,
 	text: [
 		"At this point in your adventure you should have found many different materarials! if you are still using that wood tool, its time to upgrade! ",
 		"The Basic Teirs goes as follows: Wood > Stone > Iron > Gold > Diamond! Upgrade as soon as possible! Check this off when you are ready!"
