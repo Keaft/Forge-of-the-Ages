@@ -62,8 +62,6 @@ Configuration changes:
 - Disabled Thermal Foundation fishing rods in favor of Fishing Made Better.
 - Regenerated AE2 Configuration files.
 - Adjusted Tinkers traits.
-- Wrangled TAIGA to cause no cascading world gen issues.
-- Removed some TAIGA ores out of the veinmine pool... mine at your own risk.
 - Removed Quark additions that overlapped or didn't fit with the style of the pack.
 - Re-disabled the Wall of the North from Chocolate Quest Repoured.
 - Gorgon Temples now have a chance at better spawning.
@@ -90,7 +88,7 @@ Added the following structure(s):
 - Woodland Mansion.
 
 Added the following mod(s):
-- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v51b.
+- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v51c.
 - Thaumic Fixes 1.0.
 - Entity Culling 5.2.0.
 - Particle Culling 1.3.1.
