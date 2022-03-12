@@ -183,6 +183,13 @@ mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
 
 //--------------------------------------------------------------------------------------
 
+// --- Draconic Evolution ---
+// recipes.remove(<draconicevolution:dislocator_pedestal>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- EnderIO ---
 // - Powered spawner in favor of mob farming through Woot.
 //recipes.remove(<enderio:block_powered_spawner>);
