@@ -1,0 +1,26 @@
+{
+	title: "Dig Greedily. Dig Deep.",
+	x: 23.5d,
+	y: 0.0d,
+	text: [
+		"Want to create advanced equipment? Looking for a place with more and better ores to mine? Craft yourself a Beneath portal, place it down, and right-click it to enter. Be warned, however: lovecraftian horrors and advanced darkness await you there. Do not enter without good fighting gear, healing items, and glowstone-based lighting items. Be sure to leave a waypoint at the entrance so you can find your way out."
+	],
+	dependencies: [
+		"a6c5d97c",
+		"c2f12d54",
+		"10a79cf8"
+	],
+	tasks: [{
+		uid: "90d87bf3",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	}],
+	rewards: [{
+		uid: "93629d48",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 16
+	}]
+}
