@@ -50,6 +50,18 @@ recipes.addShaped("bountifulbaubles_vitamins", <bountifulbaubles:trinketvitamins
 
 //--------------------------------------------------------------------------------------
 
+// --- Chocolate Quest ---
+recipes.addShaped("oak_table", <cqrepoured:table_oak> * 2, [[<minecraft:wooden_slab>],[<minecraft:fence>]]);
+recipes.addShaped("spruce_table", <cqrepoured:table_spruce> * 2, [[<minecraft:wooden_slab:1>],[<minecraft:spruce_fence>]]);
+recipes.addShaped("birch_table", <cqrepoured:table_birch> * 2, [[<minecraft:wooden_slab:2>],[<minecraft:birch_fence>]]);
+recipes.addShaped("jungle_table", <cqrepoured:table_jungle> * 2, [[<minecraft:wooden_slab:3>],[<minecraft:jungle_fence>]]);
+recipes.addShaped("acacia_table", <cqrepoured:table_acacia> * 2, [[<minecraft:wooden_slab:4>],[<minecraft:acacia_fence>]]);
+recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wooden_slab:5>],[<minecraft:dark_oak_fence>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- The Beneath ---
 // - Beneath Teleporter
 recipes.addShaped("beneath_teleporter", <beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>]]);
@@ -127,6 +139,16 @@ recipes.addShapeless("minecraft_firework_rocket_3", <minecraft:fireworks>.withTa
 recipes.addShaped("minecraft_torch_biomes_river_cane", <minecraft:torch> * 4, [[<minecraft:coal>],[<biomesoplenty:plant_1:5>]]);
 recipes.addShaped("minecraft_torch_biomes_bamboo", <minecraft:torch> * 4, [[<minecraft:coal>],[<biomesoplenty:bamboo>]]);
 recipes.addShaped("minecraft_torch_futuremc_bamboo", <minecraft:torch> * 4, [[<minecraft:coal>],[<futuremc:bamboo>]]);
+
+// - Ice and Fire and Metallurgy Silver Armor back and forth
+recipes.addShapeless("ice_silver_helmet_to_metallurgy_silver_helmet", <metallurgy:silver_helmet>, [<iceandfire:armor_silver_metal_helmet>]);
+recipes.addShapeless("ice_silver_chestplate_to_metallurgy_silver_chestplate", <metallurgy:silver_chestplate>, [<iceandfire:armor_silver_metal_chestplate>]);
+recipes.addShapeless("ice_silver_leggings_to_metallurgy_silver_leggings", <metallurgy:silver_leggings>, [<iceandfire:armor_silver_metal_leggings>]);
+recipes.addShapeless("ice_silver_boots_to_metallurgy_silver_boots", <metallurgy:silver_boots>, [<iceandfire:armor_silver_metal_boots>]);
+recipes.addShapeless("metallurgy_silver_helmet_to_ice_silver_helmet", <iceandfire:armor_silver_metal_helmet>, [<metallurgy:silver_helmet>]);
+recipes.addShapeless("metallurgy_silver_chestplate_to_ice_silver_chestplate", <iceandfire:armor_silver_metal_chestplate>, [<metallurgy:silver_chestplate>]);
+recipes.addShapeless("metallurgy_silver_leggings_to_ice_silver_leggings", <iceandfire:armor_silver_metal_leggings>, [<metallurgy:silver_leggings>]);
+recipes.addShapeless("metallurgy_silver_boots_to_ice_silver_boots", <iceandfire:armor_silver_metal_boots>, [<metallurgy:silver_boots>]);
 
 //--------------------------------------------------------------------------------------
 

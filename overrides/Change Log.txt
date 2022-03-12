@@ -57,7 +57,6 @@ Configuration changes:
 - Ice and Fire Dragonsteel Ingots harder to obtain. Makes some dang fine armor though! :D
 - Life Shard from Aether can only be used once.
 - Chisel now undamagable.
-- Disabled Mekanism crossover machines and items.
 - Removed Shulker boxes off the chest ore dictionary.
 - Added Compressed versions of blocks from Extra Utilities to Furnace.
 - Disabled Thermal Foundation fishing rods in favor of Fishing Made Better.
@@ -72,7 +71,17 @@ Configuration changes:
 - Turned down ocean spawning. Huge thanks to Hanz174, Pwnsbey, and Orrinjelo for dedicating resources to gen worlds!
 - Cleaned up Vanilla questline. Thanks pwnsbey!
 - Changed beneath oil lakes into tar lakes.
+- Feral Ghouls now spawn in Biomes O' Plenty's Wasteland.
 - Bountiful Boards now provide emeralds to compliment TekTopia better.
+- Bounty Board now craftable for use in your own TekTopia Village.
+- Turned off extraneous items from Thermal in favor of Metallurgy.
+- Unification setup for Metallurgy.
+- Established appropriate darkness for the beneath. Glowstone related light sources will work best.
+- Added recipes for Chocolate Quest Tables.
+- Metallurgy and Ice and Fire silver armor crafts into each other, mostly for the fashion from Ice and Fire.
+- Favor Metallurgy's ores spawning over Thermals.
+- Rare overworld Metallurgy ores moved to beneath.
+- Metallurgy's ores added to Environmental Tech's Void Miners.
 
 Added the following script(s):
 - Botania Materials 1.0.
@@ -81,7 +90,7 @@ Added the following structure(s):
 - Woodland Mansion.
 
 Added the following mod(s):
-- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v51.
+- AE2 Unofficial Extended Life rv6-stable-7-extended_life-v51b.
 - Thaumic Fixes 1.0.
 - Entity Culling 5.2.0.
 - Particle Culling 1.3.1.
@@ -112,6 +121,7 @@ Added the following mod(s):
 - DupeFix Project 3.1.6. Fixes duping glitches from some mods.
 - Metallurgy 4: Reforged 1.3.1.
 - Compact Machines 3.0.18-b278.
+- Advanced Darkness 1.5.
 
 Removed the following mod(s):
 - Clumps for incompatibility with Simulacra from The Betweenlands.
@@ -127,6 +137,8 @@ Removed the following mod(s):
 - Mekanism.
 -- Mekanism Generators.
 -- Mekatweaker.
+-- Gas Conduits.
+- NotEnoughPets.
 
 Updated the following mod(s):
 - AmbientSounds 5 to 3.1.7.
