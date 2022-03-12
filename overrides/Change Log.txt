@@ -137,6 +137,7 @@ Removed the following mod(s):
 -- Mekatweaker.
 -- Gas Conduits.
 - NotEnoughPets.
+- DMT as it is no longer hosted on CurseForge.
 
 Updated the following mod(s):
 - AmbientSounds 5 to 3.1.7.
