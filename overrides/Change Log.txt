@@ -76,11 +76,12 @@ Configuration changes:
 - Bounty Board now craftable for use in your own TekTopia Village.
 - Turned off extraneous items from Thermal in favor of Metallurgy.
 - Unification setup for Metallurgy.
-- Established appropriate darkness for the beneath. @advanceddarkness in JEI for the lantern that will work best.
+- Established appropriate darkness for the beneath. Glowstone related light sources will work best.
 - Added recipes for Chocolate Quest Tables.
 - Metallurgy and Ice and Fire silver armor crafts into each other, mostly for the fashion from Ice and Fire.
 - Favor Metallurgy's ores spawning over Thermals.
 - Rare overworld Metallurgy ores moved to beneath.
+- Metallurgy's ores added to Environmental Tech's Void Miners.
 
 Added the following script(s):
 - Botania Materials 1.0.
