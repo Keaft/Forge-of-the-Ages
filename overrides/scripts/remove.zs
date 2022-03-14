@@ -381,6 +381,13 @@ recipes.removeByRecipeName("scalinghealth:heart_container");
 
 //--------------------------------------------------------------------------------------
 
+// --- Seasons ---
+recipes.removeByRecipeName("sereneseasons:greenhouse_glass");
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Tinkers Construct ---
 // Slime Sling
 recipes.removeByRecipeName("tconstruct:gadgets/slimesling/fallback");
