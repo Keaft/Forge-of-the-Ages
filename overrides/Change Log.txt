@@ -79,6 +79,8 @@ Configuration changes:
 - Favor Metallurgy's ores spawning over Thermals.
 - Rare overworld Metallurgy ores moved to beneath.
 - Metallurgy's ores added to Environmental Tech's Void Miners.
+- Actually fixed Greenhouse glass.
+- Removed some items from stack size change list.
 
 Added the following script(s):
 - Botania Materials 1.0.

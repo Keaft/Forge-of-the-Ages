@@ -16,9 +16,6 @@ print("Initializing 'stacksize'...");
 <minecraft:egg>.maxStackSize = 64;
 <minecraft:snowball>.maxStackSize = 64;
 <minecraft:bucket>.maxStackSize = 64;
-<minecraft:water_bucket>.maxStackSize = 64;
-<minecraft:lava_bucket>.maxStackSize = 64;
-<minecraft:milk_bucket>.maxStackSize = 64;
 <inspirations:potato_soup>.maxStackSize = 64;
 <futuremc:suspicious_stew>.maxStackSize = 64;
 <natura:soups>.maxStackSize = 64;
@@ -26,7 +23,6 @@ print("Initializing 'stacksize'...");
 <minecraft:bed>.maxStackSize = 64;
 <aether_legacy:skyroot_bed_item>.maxStackSize = 64;
 <minecraft:enchanted_book>.maxStackSize = 64;
-<forge:bucketfilled>.maxStackSize = 64;
 
 //--------------------------------------------------------------------------------------
 
