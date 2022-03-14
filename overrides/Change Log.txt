@@ -13,7 +13,6 @@ Configuration changes:
 - Cleaned up ore spawning. There may be more to do and problems that arise. Time will tell!
 - Made Greenhouse Glass easier to obtain for year round plant growth.
 - Removed extra Saddle recipes.
-- Ocelots now remain vanilla until tamed for Not Enough Pets.
 - Natura Berry Bushes now Veinminable with Axe or Shears.
 - Disabled Fluxed Electrum as it's missing casting recipes.
 - Disabled Valkyrie Cape as dungeon loot to be better in line with flight for the pack.
@@ -94,7 +93,7 @@ Added the following mod(s):
 - Particle Culling 1.3.1.
 - Hole Filler Mod 1.2.4.1.
 - CraftTweaker Utils 0.7.
-- Just Sleep 1.0.0.1.
+- Let Me Sleep 1.2.3.
 -- RebornCore 3.19.5.
 - Reach Fix 1.0.5.
 - TexFix 4.0.
@@ -108,6 +107,8 @@ Added the following mod(s):
 - Tesseract 1.0.25 to replace Flux Networks.
 -- SuperMartijn642's Config Lib 1.0.9a.
 -- SuperMartijn642's Core Lib 1.0.16a.
+- TekTopia 1.1.0.
+-- TekTopia Harvestcraft Compat 1.3.
 - Chunk Loaders 1.1.11.
 - Fishing Made Better 2.2.4.
 - ManaTweaks 1.4.
