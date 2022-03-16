@@ -81,7 +81,7 @@ print("Initializing 'oredictionary'...");
 <ore:blockAmber>.add(<thaumcraft:amber_block>);
 
 # Quick Silver Nugget
-<ore:nuggetQuicksilver>.remove(<thaumcraft:nugget:5>)
+<ore:nuggetQuicksilver>.remove(<thaumcraft:nugget:5>);
 
 # Flour
 <ore:dustWheat>.remove(<nuclearcraft:flour>);
