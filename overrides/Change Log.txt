@@ -2,6 +2,8 @@
 
 Configuration changes:
 - Removed Thaumcraft quicksilver drop from the ore dictionary list.
+- Fixed InvMove disabling the GUI from Waystones.
+- Stopped InvMove from working while editing a sign.
 
 Added the following script(s):
 
@@ -10,9 +12,10 @@ Added the following structure(s):
 
 
 Added the following mod(s):
+- OAuth 1.06.3 as a replacement for ReAuth.
 
 
 Removed the following mod(s):
-
+- ReAuth as it no longer works.
 
 Updated the following mod(s):
