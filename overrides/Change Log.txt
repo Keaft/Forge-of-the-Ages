@@ -5,7 +5,7 @@ Configuration changes:
 - Fixed InvMove disabling the GUI from Waystones.
 - Stopped InvMove from working while editing a sign.
 - Melded together the functionality of Inventory Tweaks and Quark.
--- Inventory Tweaks throw stack out of inventory modifier now only works with the right alt and not the left. This is due to Quark's favoriting system requiring the left alt key.
+-- Inventory Tweaks throw stack from inventory now only works with the right alt and not the left. This is due to Quark's favoriting system requiring the left alt key.
 
 Added the following script(s):
 
