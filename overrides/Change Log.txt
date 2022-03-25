@@ -20,3 +20,4 @@ Removed the following mod(s):
 - Inventory Tweaks in favor of Quark's system.
 
 Updated the following mod(s):
+- Entity Culling to 5.2.2.
