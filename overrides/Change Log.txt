@@ -17,5 +17,6 @@ Added the following mod(s):
 
 Removed the following mod(s):
 - ReAuth as it no longer works.
+- Inventory Tweaks in favor of Quark's system.
 
 Updated the following mod(s):
