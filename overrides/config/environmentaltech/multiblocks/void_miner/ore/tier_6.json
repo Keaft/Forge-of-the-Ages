@@ -83,17 +83,17 @@
     {
       "target": "orange",
       "weight": 584,
-      "id": "OD:oreCopper"
+      "id": "metallurgy:copper_ore"
     },
     {
       "target": "gray",
       "weight": 602,
-      "id": "OD:oreTin"
+      "id": "metallurgy:tin_ore"
     },
     {
       "target": "silver",
       "weight": 381,
-      "id": "OD:oreSilver"
+      "id": "metallurgy:silver_ore"
     },
     {
       "target": "purple",
@@ -258,7 +258,7 @@
     {
       "target": "pink",
       "weight": 186,
-      "id": "OD:oreZinc"
+      "id": "metallurgy:zinc_ore"
     },
     {
       "target": "white",
