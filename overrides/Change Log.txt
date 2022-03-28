@@ -19,6 +19,7 @@ Added the following mod(s):
 Removed the following mod(s):
 - ReAuth as it no longer works.
 - Portal Super Cache for being incompatible with grave key teleporting to the nether.
+- TexFix. Some incompatibility which causes a crash.
 
 Updated the following mod(s):
 - Entity Culling to 5.2.2.
