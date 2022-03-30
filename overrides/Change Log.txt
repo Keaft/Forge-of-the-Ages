@@ -8,7 +8,7 @@ Configuration changes:
 -- Inventory Tweaks throw stack from inventory now only works with the right alt and not the left. This is due to Quark's favoriting system requiring the left alt key.
 - Disabled Quark Trash Can in favor of the FTB Utilities one.
 - Environmental Tech now prefers Metallurgy ores.
-- Tinkers Construct now prepers Metallurgy for pours.
+- Tinkers Construct now prefers Metallurgy for pours.
 
 Added the following script(s):
 
