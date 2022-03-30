@@ -1,17 +1,21 @@
 #Name: tinker.zs
 #Author: Keaft
 
+import mods.tconstruct.Fuel;
 import mods.tconstruct.Melting;
-import mods.tconstruct.Casting;
 import mods.tconstruct.Alloy;
+import mods.tconstruct.Casting;
 
 print("Initializing 'tinker'...");
 
 // --- Tinkers Construct ---
-//mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
+
+// - Smeltery Fuel -
+//mods.tconstruct.Fuel.registerFuel(ILiquidStack fuel, int duration);
+mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 2, 300);
 
 // - Melting
-
+//mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
 // Diamond stuff
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 3330, <minecraft:diamond_helmet>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 5328, <minecraft:diamond_chestplate>, 1500);
@@ -33,7 +37,10 @@ mods.tconstruct.Melting.addRecipe(<liquid:honey> * 1000, <futuremc:honey_block>,
 //Silver from Ice and Fire
 mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <iceandfire:silver_ore>);
 
-
+// - Alloy
+//Pig Iron
+mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
+mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144,[<liquid:iron> * 576,<liquid:blood> * 200,<liquid:diamond> * 666]);
 
 // - Casting
 //mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
@@ -45,9 +52,5 @@ mods.tconstruct.Casting.addBasinRecipe(<futuremc:honey_block>, null, <liquid:hon
 // Honey Bottle
 mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass_bottle>, <liquid:honey>, 250, true);
 
-// - Alloy
-//Pig Iron
-mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
-mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144,[<liquid:iron> * 576,<liquid:blood> * 200,<liquid:diamond> * 666]);
 
 print("Initialized 'tinker'");
