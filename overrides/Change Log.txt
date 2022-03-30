@@ -6,6 +6,8 @@ Configuration changes:
 - Stopped InvMove from working while editing a sign.
 - Melded together the functionality of Inventory Tweaks and Quark.
 -- Inventory Tweaks throw stack from inventory now only works with the right alt and not the left. This is due to Quark's favoriting system requiring the left alt key.
+- Disabled Quark Trash Can in favor of the FTB Utilities one.
+- Environmental Tech now prefers Metallurgy ores.
 
 Added the following script(s):
 
@@ -15,11 +17,12 @@ Added the following structure(s):
 
 Added the following mod(s):
 - OAuth 1.06.3 as a replacement for ReAuth.
+- ME Capability Adapter 1.1.3.
 
 Removed the following mod(s):
 - ReAuth as it no longer works.
 - Portal Super Cache for being incompatible with grave key teleporting to the nether.
-- TexFix. Some incompatibility which causes a crash.
+- TexFix. Some incompatibility with wormhole potion or loading chunks which causes a crash.
 
 Updated the following mod(s):
 - Entity Culling to 5.2.2.
