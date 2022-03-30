@@ -9,6 +9,7 @@ Configuration changes:
 - Disabled Quark Trash Can in favor of the FTB Utilities one.
 - Environmental Tech now prefers Metallurgy ores.
 - Tinkers Construct now prefers Metallurgy for pours.
+- Pyrotheum now properly added as a smeltery fuel.
 
 Added the following script(s):
 
