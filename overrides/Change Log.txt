@@ -28,6 +28,7 @@ Removed the following mod(s):
 
 Updated the following mod(s):
 - Entity Culling to 5.2.2.
-- AE2 Unofficial Extended Life to v51e.
+- AE2 Unofficial Extended Life to v51g.
 - Metallurgy 4: Reforged to 1.3.2.
 - FutureMC to 0.2.9.
+- Chocolate Quest Repoured to B6.8.
