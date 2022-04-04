@@ -10,6 +10,7 @@ Configuration changes:
 - Environmental Tech now prefers Metallurgy ores.
 - Tinkers Construct now prefers Metallurgy for pours.
 - Pyrotheum now properly added as a smeltery fuel.
+- Right Click for Pam's Harvestcraft re-enabled. (Might have conflicts with xp from harvest)
 
 Added the following script(s):
 
