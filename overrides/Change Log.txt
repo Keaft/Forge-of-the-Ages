@@ -26,6 +26,8 @@ Removed the following mod(s):
 - ReAuth as it no longer works.
 - Portal Super Cache for being incompatible with grave key teleporting to the nether.
 - TexFix. Some incompatibility with wormhole potion or loading chunks which causes a crash.
+- Easy Elytra Takeoff
+-- Collective
 
 Updated the following mod(s):
 - Entity Culling to 5.2.2.
