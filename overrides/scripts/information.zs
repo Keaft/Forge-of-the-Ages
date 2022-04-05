@@ -1,7 +1,7 @@
-#Name: tooltip.zs
+#Name: information.zs
 #Author: Keaft
 
-print("Initializing 'tooltip'...");
+print("Initializing 'information'...");
 
 //--------------------------------------------------------------------------------------
 
@@ -51,4 +51,4 @@ mods.jei.JEI.addDescription(<contenttweaker:sixteenk_fluid>, ["Unique crafting r
 
 //--------------------------------------------------------------------------------------
 
-print("Initialized 'tooltip'");
+print("Initialized 'information'");
