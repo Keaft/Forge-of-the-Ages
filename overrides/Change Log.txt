@@ -11,6 +11,7 @@ Configuration changes:
 - Tinkers Construct now prefers Metallurgy for pours.
 - Pyrotheum now properly added as a smeltery fuel.
 - Right Click for Pam's Harvestcraft re-enabled. (Might have conflicts with xp from harvest)
+- Regenerated and configured the Scape and Run: Parasites config.
 
 Added the following script(s):
 
@@ -31,7 +32,10 @@ Removed the following mod(s):
 
 Updated the following mod(s):
 - Entity Culling to 5.2.2.
-- AE2 Unofficial Extended Life to v51g.
+- AE2 Unofficial Extended Life to v51j.
 - Metallurgy 4: Reforged to 1.3.2.
 - FutureMC to 0.2.9.
 - Chocolate Quest Repoured to B6.8.
+- Chunk Loaders to 1.1.12.
+- Scape and Run: Parasites to 1.9.4.
+- Sledgehammer to 2.0.17.
