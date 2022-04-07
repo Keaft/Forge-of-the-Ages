@@ -3,7 +3,7 @@
 Configuration changes:
 - Removed Thaumcraft quicksilver drop from the ore dictionary list.
 - Fixed InvMove disabling the GUI from Waystones.
-- Stopped InvMove from working while editing a sign.
+- Adjusted InvMove to move only in appropriate times.
 - Melded together the functionality of Inventory Tweaks and Quark.
 -- Inventory Tweaks throw stack from inventory now only works with the right alt and not the left. This is due to Quark's favoriting system requiring the left alt key.
 - Disabled Quark Trash Can in favor of the FTB Utilities one.
