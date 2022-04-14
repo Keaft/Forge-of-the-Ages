@@ -12,6 +12,7 @@ Configuration changes:
 - Pyrotheum now properly added as a smeltery fuel.
 - Right Click for Pam's Harvestcraft re-enabled. (Might have conflicts with xp from harvest)
 - Regenerated and configured the Scape and Run: Parasites config.
+- Disabled the fear effect from SR:Parasites from panicking, because no... I'm not panicking until I have the fear effect.
 
 Added the following script(s):
 
