@@ -148,12 +148,12 @@
     {
       "target": "light_blue",
       "weight": 150,
-      "id": "OD:orePlatinum"
+      "id": "metallurgy:platinum_ore"
     },
     {
       "target": "light_blue",
       "weight": 169,
-      "id": "OD:oreMithril"
+      "id": "metallurgy:mithril_ore"
     },
     {
       "target": "black",
