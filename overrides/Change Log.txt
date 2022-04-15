@@ -13,6 +13,7 @@ Configuration changes:
 - Right Click for Pam's Harvestcraft re-enabled. (Might have conflicts with xp from harvest)
 - Regenerated and configured the Scape and Run: Parasites config.
 - Disabled the fear effect from SR:Parasites from panicking, because no... I'm not panicking until I have the fear effect.
+- Mystical Agriculture now never drops a second seed on harvest. It's a methodical, but the farm upgrade process is meant to be a chill experience. Those familiar with machines can make the process more automated for a more set and forget experience.
 
 Added the following script(s):
 
