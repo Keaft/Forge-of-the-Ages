@@ -1,38 +1,10 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 Configuration changes:
-- Removed Thaumcraft quicksilver drop from the ore dictionary list.
-- Fixed InvMove disabling the GUI from Waystones.
-- Adjusted InvMove to move only in appropriate times.
-- Melded together the functionality of Inventory Tweaks and Quark.
--- Inventory Tweaks throw stack from inventory now only works with the right alt and not the left. This is due to Quark's favoriting system requiring the left alt key.
-- Disabled Quark Trash Can in favor of the FTB Utilities one.
-- Environmental Tech now prefers Metallurgy ores.
-- Tinkers Construct now prefers Metallurgy for pours.
-- Pyrotheum now properly added as a smeltery fuel.
-- Right Click for Pam's Harvestcraft re-enabled. (Might have conflicts with xp from harvest)
-- Regenerated and configured the Scape and Run: Parasites config.
-- Disabled the fear effect from SR:Parasites from panicking, because no... I'm not panicking until I have the fear effect.
-- Mystical Agriculture now never drops a second seed on harvest. It's a methodical, but the farm upgrade process is meant to be a chill experience. Those familiar with machines can make the process more automated for a more set and forget experience.
+- Further integration improvements for Environmental Tech and unified ores.
 
 Added the following mod(s):
-- OAuth 1.06.3 as a replacement for ReAuth.
-- ME Capability Adapter 1.1.3.
 
 Removed the following mod(s):
-- ReAuth as it no longer works.
-- Portal Super Cache for being incompatible with grave key teleporting to the nether.
-- TexFix. Some incompatibility with wormhole potion or loading chunks which causes a crash.
-- Easy Elytra Takeoff
--- Collective
 
 Updated the following mod(s):
-- Entity Culling to 5.2.3.
-- AE2 Unofficial Extended Life to v0.52.2.
-- Metallurgy 4: Reforged to 1.3.2.
-- FutureMC to 0.2.9.
-- Chocolate Quest Repoured to B6.8.
-- Chunk Loaders to 1.1.12.
-- Scape and Run: Parasites to 1.9.4.
-- Sledgehammer to 2.0.17.
-- SuperMartijn642's Core Lib to 1.0.16b.
