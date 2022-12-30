@@ -4,6 +4,9 @@ Configuration changes:
 - Further integration improvements for Environmental Tech and unified ores.
 
 Added the following mod(s):
+- Legendary Tooltips 1.1.8.
+- Equipment Compare 1.3.3.
+
 
 Removed the following mod(s):
 
