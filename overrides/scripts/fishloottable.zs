@@ -212,13 +212,13 @@ for i in fishArray {
         fishBiomeConditions = AridBiomes;
     }
     if fishArray[i][5] = "Arctic"{
-        fishBiomeConditions = ArcticBiomes
+        fishBiomeConditions = ArcticBiomes;
     }
     if fishArray[i][5] = "Tropical"{
-        fishBiomeConditions = TropicalBiomes
+        fishBiomeConditions = TropicalBiomes;
     }
     if fishArray[i][5] = "Mushroom"{
-        fishBiomeConditions = MushroomBiomes
+        fishBiomeConditions = MushroomBiomes;
     }
     
     fish.addItemEntry(fishArray[i][1], fishArray[i][2], 1, 
