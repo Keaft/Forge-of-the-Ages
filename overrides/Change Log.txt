@@ -22,6 +22,7 @@ Added the following mod(s):
 - Loot Overhaul 1.2.
 
 Removed the following mod(s):
+- Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
 
 Updated the following mod(s):
 - The Betweenlands to 3.9.0.
