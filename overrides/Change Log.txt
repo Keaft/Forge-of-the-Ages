@@ -13,31 +13,43 @@ Configuration changes:
 -- Metallurgy 4 Reforged.
 -- Scape and Run: Parasites.
 --- InControl.
+-- FutureMC
 
 
 Added the following mod(s):
-- Legendary Tooltips 1.1.8.
+- Legendary Tooltips 1.1.9.
 - Mutant Beasts 1.0.2.
 - RenderLib 1.1.10 as a library for Entity Culling.
 - Loot Overhaul 1.2.
+- BiomeTweaker 3.2.369.
+-- BiomeTweakerCore 1.0.39.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
 
 Updated the following mod(s):
-- The Betweenlands to 3.9.0.
-- AE2 Unofficial Extended Life to 0.54.17.
+- The Betweenlands to 3.9.5.
+- AE2 Unofficial Extended Life to 0.55.8.
 - Chocolate Quest Repoured to Beta 6.12.
-- Chunk Loaders to 1.2.2.
-- Corail Tombstone to 4.5.13.
-- CraftTweaker to 4.1.20.682.
+- Chunk Loaders to 1.2.3.
+- Corail Tombstone to 4.6.1.
+- CraftTweaker to 4.1.20.685.
 - Entity Culling to 6.2.5.
+- Fishing Made Better to 2.2.6.
 - Fish's Undead Rising to 1.3.3.
 - FoamFix to 0.10.15.
+- FutureMC to 0.2.11.
 - GeckoLib to 3.0.31.
-- Metallurgy 4 Reforged to 1.3.5.
-- PackagedAuto to 1.0.6.21.
-- Reach Fix to 1.0.6.
-- Scape and Run: Parasites to 1.9.8.
+- Improvable Skills 3 to 12.4.68.
+- Metallurgy 4 Reforged to 1.3.6.
+- ModTweaker to 4.0.20.11.
+- NuclearCraft to 2.18zzz.
+- OAuth to 1.06.4.
+- PackagedAuto to 1.0.6.26.
+- Reach Fix to 1.0.8.
+- Scape and Run: Parasites to 1.9.10.
 - Sledgehammer to 2.0.21.
-- Zen Utils to 1.12.3.
+- SuperMartijn642's Config Lib to 1.1.6.
+- SuperMartijn642's Core Lib to 1.1.4.
+- Tesseract to 1.0.29.
+- Zen Utils to 1.12.8.
