@@ -14,6 +14,7 @@ Configuration changes:
 -- Scape and Run: Parasites.
 --- InControl.
 -- FutureMC
+- Disabled Ice and Fire random Dragon Skeleton spawning in the world.
 
 
 Added the following mod(s):
