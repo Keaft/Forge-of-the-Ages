@@ -33,6 +33,9 @@ Removed the following mod(s):
 -- Tinkers' Aether: DMAN Edition.
 - The Beneath in favor of The Midnight. The pack needs more biomes to add the ability for higher risk and reward.
 -- Advanced Darkness. The Midnight's atmosphere is great as is.
+- TekTopia. Didn't quite fit the city management itch the pack needed.
+-- Tektopia Harvestcraft Compat.
+-- TekTopia Information.
 
 
 Updated the following mod(s):
