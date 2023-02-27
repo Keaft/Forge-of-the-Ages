@@ -64,7 +64,7 @@ recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wo
 
 // --- The Beneath ---
 // - Beneath Teleporter
-recipes.addShaped("beneath_teleporter", <beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>]]);
+//recipes.addShaped("beneath_teleporter", <beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>]]);
 
 //--------------------------------------------------------------------------------------
 
