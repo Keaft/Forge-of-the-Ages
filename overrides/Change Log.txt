@@ -15,6 +15,9 @@ Configuration changes:
 --- InControl.
 -- FutureMC
 - Disabled Ice and Fire random Dragon Skeleton spawning in the world.
+- Food no longer decays in The Betweenlands.
+- All Armor and Weapons are now effective in The Betweenlands.
+- Disable Ambient Sounds in The Betweenlands.
 
 
 Added the following mod(s):
