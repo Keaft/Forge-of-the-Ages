@@ -31,6 +31,8 @@ Removed the following mod(s):
 - The Aether. Removed in order focus on enriching existing content.
 -- Aether: Lost Content.
 -- Tinkers' Aether: DMAN Edition.
+- The Beneath in favor of The Midnight. The pack needs more biomes to add the ability for higher risk and reward.
+-- Advanced Darkness. The Midnight's atmosphere is great as is.
 
 
 Updated the following mod(s):
