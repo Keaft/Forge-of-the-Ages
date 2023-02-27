@@ -7,9 +7,9 @@
 			"generator": {
 				"type": "lake",
 				"block": "metallurgy:molten_tar",
-				"material": "minecraft:stone",
+				"material": "midnight:nightstone",
 				"use-material": false,
-                "outline-block": "minecraft:stone",
+                "outline-block": "midnight:nightstone",
 				"solid-outline": true
 			},
 			"cluster-count": 1,
@@ -30,9 +30,9 @@
 			"generator": {
 				"type": "lake",
 				"block": "minecraft:water",
-				"material": "minecraft:stone",
+				"material": "midnight:nightstone",
 				"use-material": false,
-                "outline-block": "minecraft:stone",
+                "outline-block": "midnight:nightstone",
 				"solid-outline": true
 			},
 			"cluster-count": 1,
@@ -53,9 +53,9 @@
 			"generator": {
 				"type": "lake",
 				"block": "minecraft:lava",
-				"material": "minecraft:stone",
+				"material": "midnight:nightstone",
 				"use-material": false,
-                "outline-block": "minecraft:stone",
+                "outline-block": "midnight:nightstone",
 				"solid-outline": true
 			},
 			"cluster-count": 1,
