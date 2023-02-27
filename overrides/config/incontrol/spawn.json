@@ -85,16 +85,5 @@
             "perplayer": true
         },
         "result": "deny"
-    },
-    {
-        "dimension": 66,
-        "mob": "minecraft:bat",
-        "result": "deny"
-    },
-    {
-        "dimension": 66,
-        "mob": ["minecraft:creeper","minecraft:skeleton"],
-        "maxheight": 40,
-        "result": "deny"
     }
 ]
