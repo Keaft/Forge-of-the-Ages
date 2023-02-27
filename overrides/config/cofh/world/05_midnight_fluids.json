@@ -20,7 +20,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					66
+					-23
 				]
 			}
 		},
@@ -43,7 +43,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					66
+					-23
 				]
 			}
 		},
@@ -66,7 +66,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					66
+					-23
 				]
 			}
 		}
