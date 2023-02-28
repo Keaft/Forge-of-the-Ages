@@ -21,7 +21,7 @@ print("Initializing 'stacksize'...");
 <natura:soups>.maxStackSize = 64;
 <minecraft:cake>.maxStackSize = 64;
 <minecraft:bed>.maxStackSize = 64;
-<aether_legacy:skyroot_bed_item>.maxStackSize = 64;
+//<aether_legacy:skyroot_bed_item>.maxStackSize = 64;
 <minecraft:enchanted_book>.maxStackSize = 64;
 
 //--------------------------------------------------------------------------------------
