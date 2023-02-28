@@ -1,0 +1,49 @@
+{
+    "dependencies": "thermalfoundation",
+	"populate": {
+		"tar_pool": {
+            "enabled": true,
+			"distribution": "surface",
+            "follow-terrain": true,
+			"generator": {
+				"type": "lake",
+				"block": "metallurgy:molten_tar",
+				"material": [
+                    "atum:limestone",
+                    "atum:sand",
+                    "atum:sand_layer"
+                ],
+				"use-material": false,
+                "outline-block": "atum:limestone",
+				"solid-outline": true
+			},
+            "material": [
+                "atum:limestone",
+                "atum:sand",
+                "atum:sand_layer"
+            ],
+			"cluster-count": 1,
+			"chunk-chance": 15,
+            "min-height": 50,
+            "max-height": 80,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"atum:deadwood_forest"
+						]
+					}
+				]
+			},
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					17
+				]
+			}
+		}
+	}
+}
