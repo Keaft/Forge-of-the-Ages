@@ -22,4 +22,18 @@ arditeore.setToolClass("pickaxe");
 arditeore.setToolLevel(4);
 arditeore.register();
 
+// - Cobalt Ore Pitstone
+var cobaltore = VanillaFactory.createBlock("cobalt_ore_pitstone",<blockmaterial:rock>);
+cobaltore.setBlockHardness(10.0);
+cobaltore.setToolClass("pickaxe");
+cobaltore.setToolLevel(4);
+cobaltore.register();
+
+// - Ardite Ore Pitstone
+var arditeore = VanillaFactory.createBlock("ardite_ore_pitstone",<blockmaterial:rock>);
+arditeore.setBlockHardness(10.0);
+arditeore.setToolClass("pickaxe");
+arditeore.setToolLevel(4);
+arditeore.register();
+
 print("Initialized 'contenttweakerblocks'");
