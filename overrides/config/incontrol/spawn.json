@@ -78,6 +78,11 @@
         "result": "allow"
     },
     {
+        "dimension": 20,
+        "mod": ["srparasites"],
+        "result": "allow"
+    },
+    {
         "mob": "trumpetskeleton:trumpet_skeleton",
         "mincount": {
             "amount": 1,

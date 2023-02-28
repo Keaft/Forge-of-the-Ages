@@ -265,7 +265,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.01,
         "maxcount": {
             "amount": 5,
@@ -285,7 +285,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.35,
         "maxheight": 33,
         "maxlight": 0,
@@ -304,7 +304,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.25,
         "maxheight": 33,
         "maxlight": 0,
@@ -323,7 +323,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.10,
         "maxheight": 33,
         "maxlight": 0,
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.075,
         "maxheight": 50,
         "maxlight": 0,
@@ -361,7 +361,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.05,
         "maxheight": 33,
         "maxlight": 0,
@@ -380,7 +380,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.025,
         "maxheight": 33,
         "maxlight": 0,
@@ -399,7 +399,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.025,
         "maxheight": 33,
         "maxlight": 0,
@@ -418,7 +418,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.015,
         "maxheight": 33,
         "maxlight": 0,
@@ -437,7 +437,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.015,
         "maxheight": 33,
         "maxlight": 0,
@@ -456,7 +456,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.0075,
         "maxheight": 33,
         "maxlight": 0,
@@ -475,7 +475,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.0075,
         "maxheight": 50,
         "maxlight": 0,
@@ -494,7 +494,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.0075,
         "maxheight": 33,
         "maxlight": 0,
@@ -513,7 +513,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.005,
         "maxheight": 50,
         "maxlight": 0,
@@ -532,7 +532,7 @@
         ]
     },
     {
-        "dimension": 66,
+        "dimension": 20,
         "random": 0.005,
         "maxheight": 33,
         "maxlight": 0,
