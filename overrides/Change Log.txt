@@ -48,7 +48,7 @@ Updated the following mod(s):
 - Chunk Loaders to 1.2.3.
 - Corail Tombstone to 4.6.1.
 - CraftTweaker to 4.1.20.685.
-- Entity Culling to 6.3.0.
+- Entity Culling to 6.2.5.
 - Fishing Made Better to 2.2.6.
 - Fish's Undead Rising to 1.3.3.
 - FoamFix to 0.10.15.
