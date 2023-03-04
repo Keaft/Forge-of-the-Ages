@@ -39,6 +39,7 @@ Removed the following mod(s):
 - TekTopia. Didn't quite fit the city management itch the pack needed.
 -- Tektopia Harvestcraft Compat.
 -- TekTopia Information.
+- Quark Oddities. Goodbye potato...
 
 
 Updated the following mod(s):
