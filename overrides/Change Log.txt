@@ -27,6 +27,8 @@ Added the following mod(s):
 - Loot Overhaul 1.2.
 - BiomeTweaker 3.2.369.
 -- BiomeTweakerCore 1.0.39.
+- Millenaire 8.1.2. Lets try it again in replacement of TekTopia.
+-- Millenaire-JEI 1.0.0-beta001.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
