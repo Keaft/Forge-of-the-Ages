@@ -24,7 +24,6 @@ Added the following mod(s):
 - Legendary Tooltips 1.1.9.
 - Mutant Beasts 1.0.2.
 - RenderLib 1.2.6 as a library for Entity Culling.
-- Loot Overhaul 1.2.
 - BiomeTweaker 3.2.369.
 -- BiomeTweakerCore 1.0.39.
 - Millenaire 8.1.2. Lets try it again in replacement of TekTopia.
