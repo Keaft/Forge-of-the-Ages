@@ -23,11 +23,10 @@ Configuration changes:
 Added the following mod(s):
 - Legendary Tooltips 1.1.9.
 - Mutant Beasts 1.0.2.
-- RenderLib 1.1.10 as a library for Entity Culling.
+- RenderLib 1.2.6 as a library for Entity Culling.
 - Loot Overhaul 1.2.
 - BiomeTweaker 3.2.369.
 -- BiomeTweakerCore 1.0.39.
-- The Midnight. As a replacement for the beneath.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
@@ -59,9 +58,8 @@ Updated the following mod(s):
 - ModTweaker to 4.0.20.11.
 - NuclearCraft to 2.18zzz.
 - OAuth to 1.06.4.
-- PackagedAuto to 1.0.6.26.
+- PackagedAuto to 1.0.6.27.
 - Reach Fix to 1.0.8.
-- RenderLib to 1.2.6.
 - Scape and Run: Parasites to 1.9.10.
 - Sledgehammer to 2.0.21.
 - SuperMartijn642's Config Lib to 1.1.6.
