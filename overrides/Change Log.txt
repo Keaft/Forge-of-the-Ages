@@ -17,7 +17,8 @@ Configuration changes:
 - Disabled Ice and Fire random Dragon Skeleton spawning in the world.
 - Food no longer decays in The Betweenlands.
 - All Armor and Weapons are now effective in The Betweenlands.
-- Disable Ambient Sounds in The Betweenlands.
+- Disabled Ambient Sounds in The Betweenlands.
+- Vitamin recipe adjusted to be more compatible with AE2.
 
 
 Added the following mod(s):
