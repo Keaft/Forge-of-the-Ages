@@ -44,7 +44,7 @@ recipes.addShaped("bountifulbaubles_forbidden_fruit", <bountifulbaubles:trinketa
 recipes.addShaped("bountifulbaubles_ring_of_overclocking", <bountifulbaubles:ringoverclocking>, [[<mysticalagriculture:crafting:3>,<mysticalagriculture:charm:9>,<mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:3>,<atum:loot_silver_ring>,<mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]]);
 
 // - Vitamins
-recipes.addShaped("bountifulbaubles_vitamins", <bountifulbaubles:trinketvitamins>, [[null,<minecraft:prismarine_crystals> * 4,null], [null,<enderio:item_soul_vial>,null]]);
+recipes.addShapeless("bountifulbaubles_vitamins", <bountifulbaubles:trinketvitamins>, [<minecraft:prismarine_crystals>,<minecraft:prismarine_crystals>,<minecraft:prismarine_crystals>,<minecraft:prismarine_crystals>,<enderio:item_soul_vial>]);
 
 //--------------------------------------------------------------------------------------
 
