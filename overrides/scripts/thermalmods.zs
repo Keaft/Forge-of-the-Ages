@@ -1,11 +1,12 @@
-#Name: thermalexpansion.zs
+#Name: thermalmods.zs
 #Author: Keaft
 
 import mods.thermalexpansion.Enchanter;
 import mods.thermalexpansion.Centrifuge;
 import mods.thermalexpansion.Transposer;
+import mods.thermalexpansion.Compactor;
 
-print("Initializing 'thermalexpansion'...");
+print("Initializing 'thermalmods'...");
 
 // Arcane Ensorcellator
 //mods.thermalexpansion.Enchanter.addRecipe(IItemStack output, IItemStack input, IItemStack secondInput, int energy, int experience, boolean empowered);
@@ -52,4 +53,11 @@ mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:165
 mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:166>);
 mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material:167>);
 
-print("Initialized 'thermalexpansion'");
+// Storage
+//mods.thermalexpansion.Compactor.addStorageRecipe(IItemStack output, IItemStack input, int energy);
+//mods.thermalexpansion.Compactor.removeStorageRecipe(IItemStack input);
+
+mods.thermalexpansion.Compactor.removeStorageRecipe(<minecraft:iron_ingot>);
+mods.thermalexpansion.Compactor.addStorageRecipe(<thermalfoundation:material:32>, <minecraft:iron_ingot> * 2, 4000);
+
+print("Initialized 'thermalmods'");
