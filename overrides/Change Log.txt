@@ -74,6 +74,6 @@ Updated the following mod(s):
 - Scape and Run: Parasites to 1.9.11.
 - Sledgehammer to 2.0.22.
 - SuperMartijn642's Config Lib to 1.1.6.
-- SuperMartijn642's Core Lib to 1.1.6a.
+- SuperMartijn642's Core Lib to 1.1.7.
 - Tesseract to 1.0.29.
 - Zen Utils to 1.13.1.
