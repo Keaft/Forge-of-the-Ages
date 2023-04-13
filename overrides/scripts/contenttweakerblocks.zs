@@ -5,6 +5,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.BlockMaterial;
+import mods.contenttweaker.SoundType;
 
 print("Initializing 'contenttweakerblocks'...");
 
@@ -39,7 +40,9 @@ arditeorepitstone.register();
 // - Ardite Ore Pitstone
 var gravelobsidian = VanillaFactory.createBlock("gravel_obsidian",<blockmaterial:rock>);
 gravelobsidian.setBlockHardness(10.0);
+gravelobsidian.setGravity(true);
 gravelobsidian.setToolClass("shovel");
+gravelobsidian.setBlockSoundType(<soundtype:sand>);
 gravelobsidian.setToolLevel(4);
 gravelobsidian.register();
 
