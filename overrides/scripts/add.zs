@@ -32,7 +32,7 @@ recipes.addShapeless(<biomesoplenty:fleshchunk> * 4,
 
 // --- Bountiful Baubles ---
 // - Bezoar
-recipes.addShapeless("bountifulbaubles_bezoar", <bountifulbaubles:trinketbezoar>, [<minecraft:fermented_spider_eye>,<mysticalagriculture:charm:4>]);
+recipes.addShapeless("bountifulbaubles_bezoar", <bountifulbaubles:trinketbezoar>, [<minecraft:fermented_spider_eye>,<mowziesmobs:foliaath_seed>,<minecraft:ender_eye>]);
 
 // - Broken Heart
 recipes.addShapeless("bountifulbaubles_broken_heart", <bountifulbaubles:trinketbrokenheart>, [<draconicevolution:dragon_heart>,<mysticalagriculture:charm:6>,<minecraft:totem_of_undying>]);
@@ -215,11 +215,6 @@ recipes.addShapeless("leather_chestplate_to_leather", <minecraft:leather> * 8, [
 recipes.addShapeless("leather_pants_to_leather", <minecraft:leather> * 7, [<minecraft:leather_leggings>, <ore:toolShears>.transformDamage(3)]);
 recipes.addShapeless("leather_boots_to_leather", <minecraft:leather> * 4, [<minecraft:leather_boots>, <ore:toolShears>.transformDamage(3)]);
 
-// - Leather armor into Leather with Supremium Shears
-recipes.addShapeless("leather_helmet_to_leather_mystical", <minecraft:leather> * 5, [<minecraft:leather_helmet>, <mysticalagriculture:supremium_shears>.reuse()]);
-recipes.addShapeless("leather_chestplate_to_leather_mystical", <minecraft:leather> * 8, [<minecraft:leather_chestplate>, <mysticalagriculture:supremium_shears>.reuse()]);
-recipes.addShapeless("leather_pants_to_leather_mystical", <minecraft:leather> * 7, [<minecraft:leather_leggings>, <mysticalagriculture:supremium_shears>.reuse()]);
-recipes.addShapeless("leather_boots_to_leather_mystical", <minecraft:leather> * 4, [<minecraft:leather_boots>, <mysticalagriculture:supremium_shears>.reuse()]);
 
 //--------------------------------------------------------------------------------------
 

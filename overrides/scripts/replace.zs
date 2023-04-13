@@ -269,7 +269,7 @@ recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_64k", nu
 // --- BountifulBaubles ---
 // - Black Dragon Scale
 recipes.removeByRecipeName("bountifulbaubles:trinketblackdragonscale");
-recipes.addShaped("bountifulbaubles_black_dragon_scale", <bountifulbaubles:trinketblackdragonscale>, [[<ore:boneWithered>,<minecraft:skull:1>,<ore:boneWithered>], [<ore:boneWithered>,<bountifulbaubles:enderdragonscale>,<ore:boneWithered>], [<mysticalagriculture:charm:3>,<bountifulbaubles:brokenblackdragonscale>,<biomesoplenty:jar_filled:1>]]);
+recipes.addShaped("bountifulbaubles_black_dragon_scale", <bountifulbaubles:trinketblackdragonscale>, [[<ore:boneWithered>,<minecraft:skull:1>,<ore:boneWithered>], [<ore:boneWithered>,<bountifulbaubles:enderdragonscale>,<ore:boneWithered>], [<biomesoplenty:jar_filled:1>,<bountifulbaubles:brokenblackdragonscale>,<biomesoplenty:jar_filled:1>]]);
 
 // - Iron Ring
 recipes.removeByRecipeName("bountifulbaubles:ringiron");
@@ -337,7 +337,7 @@ recipes.addShaped("environmentaltech_m_multiblocks/m_void/m_ore/void_ore_miner_c
 // --- Extra Utilities 2 ---
 // - Ring of the flying squid
 recipes.removeByRecipeName("extrautils2:squid_ring");
-recipes.addShaped("extrautils2_squid_ring", <extrautils2:chickenring:1>, [[<minecraft:elytra>, <mysticalagriculture:gear:9>, <minecraft:elytra>], [<ore:gemDiamond>, <extrautils2:chickenring>, <ore:gemDiamond>], [<minecraft:elytra>, <aquaculture:fish:15>, <minecraft:elytra>]]);
+recipes.addShaped("extrautils2_squid_ring", <extrautils2:chickenring:1>, [[<minecraft:elytra>, null, <minecraft:elytra>], [<ore:gemDiamond>, <extrautils2:chickenring>, <ore:gemDiamond>], [<minecraft:elytra>, <aquaculture:fish:15>, <minecraft:elytra>]]);
 
 // - Snow Globe
 recipes.removeByRecipeName("extrautils2:snow_globe");
