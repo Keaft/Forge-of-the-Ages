@@ -25,7 +25,7 @@ Configuration changes:
 Added the following mod(s):
 - Legendary Tooltips 1.1.9.
 - Mutant Beasts 1.0.2.
-- RenderLib 1.2.6 as a library for Entity Culling.
+- RenderLib 1.2.8 as a library for Entity Culling.
 - BiomeTweaker 3.2.369.
 -- BiomeTweakerCore 1.0.39.
 - Millenaire 8.1.2. Lets try it again in replacement of TekTopia.
@@ -33,6 +33,8 @@ Added the following mod(s):
 - Clipboard 1.3.0. Down the rabbit hole... wait what was I doing? Where am I?
 - MixinBooter 7.1.
 - The Spice of Life 1.3.12. In combination with Spice of Life: Carrot Edition for greater neccessity for farming and cooking.
+- Ex Nihilo: Creatio 0.4.7.2.
+- Ex Compressum 3.0.32.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
@@ -45,6 +47,9 @@ Removed the following mod(s):
 -- Tektopia Harvestcraft Compat.
 -- TekTopia Information.
 - Quark Oddities. Goodbye potato...
+- Environmental Tech overpowered resource gathering.
+-- ValkyrieLib.
+
 
 
 Updated the following mod(s):
