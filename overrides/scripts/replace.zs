@@ -321,19 +321,6 @@ recipes.addShaped("enderio_s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft:f
 
 //--------------------------------------------------------------------------------------
 
-// --- Environmental Tech ---
-// - Tier 5 Void Ore Miner
-recipes.removeByRecipeName("environmentaltech:m_multiblocks/m_void/m_ore/void_ore_miner_cont_5");
-recipes.addShaped("environmentaltech_m_multiblocks/m_void/m_ore/void_ore_miner_cont_5", <environmentaltech:void_ore_miner_cont_5>, [[<ore:blockIonite>, <oresabovediamonds:amethyst_block>, <ore:blockIonite>], [<ore:blockIonite>, <environmentaltech:void_ore_miner_cont_4>, <ore:blockIonite>], [<ore:blockIonite>, <ore:etLaserLens>, <ore:blockIonite>]]);
-
-// - Tier 6 Void Ore Miner
-recipes.removeByRecipeName("environmentaltech:m_multiblocks/m_void/m_ore/void_ore_miner_cont_6");
-recipes.addShaped("environmentaltech_m_multiblocks/m_void/m_ore/void_ore_miner_cont_6", <environmentaltech:void_ore_miner_cont_6>, [[<ore:blockAethium>, <oresabovediamonds:black_opal_block>, <ore:blockAethium>], [<ore:blockAethium>, <environmentaltech:void_ore_miner_cont_5>, <ore:blockAethium>], [<ore:blockAethium>, <ore:etLaserLens>, <ore:blockAethium>]]);
-
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
 // --- Extra Utilities 2 ---
 // - Ring of the flying squid
 recipes.removeByRecipeName("extrautils2:squid_ring");

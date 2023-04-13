@@ -35,13 +35,13 @@ recipes.addShapeless(<biomesoplenty:fleshchunk> * 4,
 recipes.addShapeless("bountifulbaubles_bezoar", <bountifulbaubles:trinketbezoar>, [<minecraft:fermented_spider_eye>,<mowziesmobs:foliaath_seed>,<minecraft:ender_eye>]);
 
 // - Broken Heart
-recipes.addShapeless("bountifulbaubles_broken_heart", <bountifulbaubles:trinketbrokenheart>, [<draconicevolution:dragon_heart>,<mysticalagriculture:charm:6>,<minecraft:totem_of_undying>]);
+recipes.addShapeless("bountifulbaubles_broken_heart", <bountifulbaubles:trinketbrokenheart>, [<draconicevolution:dragon_heart>,<thebetweenlands:items_misc:24>,<minecraft:totem_of_undying>]);
 
 // - Forbidden Fruit
-recipes.addShaped("bountifulbaubles_forbidden_fruit", <bountifulbaubles:trinketapple>, [[<minecraft:emerald_block>,<minecraft:emerald_block>,<minecraft:emerald_block>], [<mysticalagradditions:insanium:2>,<minecraft:golden_apple>,<mysticalagradditions:insanium:2>], [<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>]]);
+recipes.addShaped("bountifulbaubles_forbidden_fruit", <bountifulbaubles:trinketapple>, [[<minecraft:emerald_block>,<minecraft:emerald_block>,<minecraft:emerald_block>], [null,<minecraft:golden_apple:1>,null], [<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>]]);
 
 // - Ring of Overclocking
-recipes.addShaped("bountifulbaubles_ring_of_overclocking", <bountifulbaubles:ringoverclocking>, [[<mysticalagriculture:crafting:3>,<mysticalagriculture:charm:9>,<mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:3>,<atum:loot_silver_ring>,<mysticalagriculture:crafting:3>], [<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>,<mysticalagriculture:crafting:3>]]);
+recipes.addShaped("bountifulbaubles_ring_of_overclocking", <bountifulbaubles:ringoverclocking>, [[null,<thermalfoundation:material:1024>,null], [<thermalfoundation:material:1024>,<atum:loot_silver_ring>,<thermalfoundation:material:1024>], [null,<thermalfoundation:material:1024>,null]]);
 
 // - Vitamins
 recipes.addShapeless("bountifulbaubles_vitamins", <bountifulbaubles:trinketvitamins>, [<minecraft:prismarine_crystals>,<minecraft:prismarine_crystals>,<minecraft:prismarine_crystals>,<minecraft:prismarine_crystals>,<enderio:item_soul_vial>]);
@@ -95,7 +95,7 @@ recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_ha
 
 // --- Draconic Evolution ---
 // - Tiny Chaos Shard
-recipes.addShaped("draconicevolution_tiny_chaos_shard", <draconicevolution:chaos_shard:3>, [[null,<mysticalagradditions:insanium:2>,null], [<mysticalagradditions:insanium:2>,<oresabovediamonds:black_opal>,<mysticalagradditions:insanium:2>], [null,<mysticalagradditions:insanium:2>,null]]);
+recipes.addShapeless("draconicevolution_tiny_chaos_shard", <draconicevolution:chaos_shard:3>, [<oresabovediamonds:black_opal>, <draconicevolution:awakened_core>]);
 
 //--------------------------------------------------------------------------------------
 

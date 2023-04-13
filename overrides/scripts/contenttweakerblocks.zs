@@ -36,4 +36,11 @@ arditeorepitstone.setToolClass("pickaxe");
 arditeorepitstone.setToolLevel(4);
 arditeorepitstone.register();
 
+// - Ardite Ore Pitstone
+var gravelobsidian = VanillaFactory.createBlock("gravel_obsidian",<blockmaterial:rock>);
+gravelobsidian.setBlockHardness(10.0);
+gravelobsidian.setToolClass("shovel");
+gravelobsidian.setToolLevel(4);
+gravelobsidian.register();
+
 print("Initialized 'contenttweakerblocks'");

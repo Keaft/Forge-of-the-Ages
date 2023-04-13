@@ -109,17 +109,6 @@ mods.jei.JEI.removeAndHide(<metallurgy:ore_detector>);
 
 //--------------------------------------------------------------------------------------
 
-// --- Mystical Agriculture ---
-// - All Paxels except Supremium for progression purposes
-mods.jei.JEI.removeAndHide(<mysticalagradditions:inferium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:prudentium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:intermedium_paxel>);
-mods.jei.JEI.removeAndHide(<mysticalagradditions:superium_paxel>);
-
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
 // --- Open Blocks ---
 // - Glider wing
 mods.jei.JEI.removeAndHide(<openblocks:generic>);
