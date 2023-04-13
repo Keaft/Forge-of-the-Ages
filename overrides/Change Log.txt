@@ -19,6 +19,7 @@ Configuration changes:
 - All Armor and Weapons are now effective in The Betweenlands.
 - Disabled Ambient Sounds in The Betweenlands.
 - Vitamin recipe adjusted to be more compatible with AE2.
+- Spawn Ores Above Diamonds in the betweenlands.
 
 
 Added the following mod(s):
