@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages: [\"{\\\"text\\\":\\\"Summer 4\\\\n\\\\nIt would appear that some of my crops have gone dormant. I\\\\u0027m not sure what I\\\\u0027m doing wrong.\\\\n\\\\nI\\\\u0027ll have to make a stop at the garden store soon.\\\"}\"], author: \"Larry\", title: \"Garden Journal\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{pages: [\"{\\\"text\\\":\\\"complicated\\\"}\"], author: \"keaft\", title: \"aoeu\"}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
