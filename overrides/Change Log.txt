@@ -1,7 +1,6 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 Configuration changes:
-- Further integration improvements for Environmental Tech and unified ores.
 - Adjusted Mutant Beasts to function more as dungeon bosses.
 - Adjusted difficulty of the beneath.
 - Regenerated and compared the following mod configs after updating:
@@ -47,8 +46,11 @@ Removed the following mod(s):
 -- Tektopia Harvestcraft Compat.
 -- TekTopia Information.
 - Quark Oddities. Goodbye potato...
-- Environmental Tech overpowered resource gathering.
+- Environmental Tech. Overpowered resource gathering.
 -- ValkyrieLib.
+- Mystical Agriculture. Overpowered, but tedious resource gathering.
+-- Mystical Agradditions.
+-- Cucumber Library.
 
 
 
