@@ -271,6 +271,26 @@
         "twilightforest:twilight_log"
       ]
     },
+    "hammer": {
+      "name": "Hammer",
+      "icon": "excompressum:chickenStick",
+      "toollist": [
+        "excompressum:hammer_mana",
+        "exnihilocreatio:hammer_wood",
+        "exnihilocreatio:hammer_stone",
+        "exnihilocreatio:hammer_iron",
+        "exnihilocreatio:hammer_diamond",
+        "exnihilocreatio:hammer_gold",
+        "exnihilocreatio:hammer_tconstruct",
+        "tconstruct:hammer"
+      ],
+      "blocklist": [
+        "minecraft:obsidian",
+        "minecraft:cobblestone",
+        "minecraft:gravel",
+        "minecraft:sand"
+      ]
+    },
     "hoe": {
       "name": "Hoe",
       "icon": "minecraft:diamond_hoe",
