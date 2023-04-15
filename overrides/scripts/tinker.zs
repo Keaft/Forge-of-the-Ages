@@ -37,6 +37,9 @@ mods.tconstruct.Melting.addRecipe(<liquid:honey> * 1000, <futuremc:honey_block>,
 //Silver from Ice and Fire
 mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <iceandfire:silver_ore>);
 
+//Resonant Clathrate
+mods.tconstruct.Melting.addRecipe(<liquid:ender> * 250, <thermalfoundation:material:895>);
+
 // - Alloy
 //Pig Iron
 mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
