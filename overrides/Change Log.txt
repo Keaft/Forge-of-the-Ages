@@ -53,6 +53,7 @@ Removed the following mod(s):
 - Mystical Agriculture. Overpowered, but tedious resource gathering.
 -- Mystical Agradditions.
 -- Cucumber Library.
+- Fishing Made Better. Didn't seem to work.
 
 
 
