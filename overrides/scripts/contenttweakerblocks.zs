@@ -37,12 +37,20 @@ arditeorepitstone.setToolClass("pickaxe");
 arditeorepitstone.setToolLevel(4);
 arditeorepitstone.register();
 
-// - Gravel Obsidian
-var gravelobsidian = VanillaFactory.createBlock("gravel_obsidian",<blockmaterial:sand>);
-gravelobsidian.setBlockHardness(5.0);
-gravelobsidian.setToolClass("shovel");
-gravelobsidian.setBlockSoundType(<soundtype:sand>);
-gravelobsidian.setToolLevel(4);
-gravelobsidian.register();
+// - Obsidian Gravel
+var obsidiangravel = VanillaFactory.createBlock("obsidian_gravel",<blockmaterial:sand>);
+obsidiangravel.setBlockHardness(5.0);
+obsidiangravel.setToolClass("shovel");
+obsidiangravel.setBlockSoundType(<soundtype:sand>);
+obsidiangravel.setToolLevel(4);
+obsidiangravel.register();
+
+// - Compressed Obsidian Gravel
+var compressedobsidiangravel = VanillaFactory.createBlock("compressed_obsidian_gravel",<blockmaterial:sand>);
+compressedobsidiangravel.setBlockHardness(5.0);
+compressedobsidiangravel.setToolClass("shovel");
+compressedobsidiangravel.setBlockSoundType(<soundtype:sand>);
+compressedobsidiangravel.setToolLevel(4);
+compressedobsidiangravel.register();
 
 print("Initialized 'contenttweakerblocks'");

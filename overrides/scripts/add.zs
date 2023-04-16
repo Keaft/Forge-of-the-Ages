@@ -62,6 +62,13 @@ recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wo
 
 //--------------------------------------------------------------------------------------
 
+// --- Content Tweaker ---
+recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- The Beneath ---
 // - Beneath Teleporter
 //recipes.addShaped("beneath_teleporter", <beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>]]);
