@@ -195,14 +195,14 @@ Sieve.addDiamondMeshRecipe(<ore:sand>, <atum:dusty_bone>, 0.01);
 // Sieve.addDiamondMeshRecipe(<ore:sand>, <exnihilocreatio:item_ore_zinc>, 0.15);
 
 //Dust
-Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.00125);
+Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.005);
 Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.0375);
-Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.0025);
+Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.01);
 Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.075);
-Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.001);
+Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.025);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.15);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.05);
-Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.005);
+Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.05);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.3);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.1);
 //Fun Items obtainable by manual sifting
