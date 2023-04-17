@@ -67,4 +67,8 @@ mods.nuclearcraft.pressurizer.addRecipe([<ore:ingotLumium> * 2, <thermalfoundati
 //Enderium
 mods.nuclearcraft.pressurizer.removeRecipeWithOutput([<thermalfoundation:material:359>]);
 mods.nuclearcraft.pressurizer.addRecipe([<ore:ingotEnderium> * 2, <thermalfoundation:material:359>]);
+//Certus Quartz
+mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material> * 2, <contenttweaker:certus_quartz_plate>]);
+//Fluix
+mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material:7> * 2, <contenttweaker:fluix_plate>]);
 print("Initialized 'nuclearcraft'");
