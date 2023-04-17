@@ -65,6 +65,7 @@ recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wo
 // --- Content Tweaker ---
 recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
 
+recipes.addShaped("contenttweaker_unfired_clay_plate", <contenttweaker:unfired_clay_plate>, [[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>]]);
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -191,6 +192,7 @@ recipes.addShaped("scalinghealth_enchanted_heart_with_shards", <scalinghealth:di
 //--------------------------------------------------------------------------------------
 
 // --- Vanilla Furnace ---
+//furnace.addRecipe(IItemStack output, IIngredient input);
 furnace.addRecipe(<iceandfire:silver_ingot>, <iceandfire:silver_ore>);
 //furnace.addRecipe(<fluxnetworks:flux>, <minecraft:redstone>);
 furnace.addRecipe(<minecraft:leather>, <minecraft:rotten_flesh>);
@@ -210,6 +212,9 @@ furnace.addRecipe(<minecraft:glass>*64, <extrautils2:compressedsand:1>, 4.0);
 furnace.addRecipe(<minecraft:netherbrick>*9, <extrautils2:compressednetherrack>, 0.75);
 furnace.addRecipe(<minecraft:netherbrick>*64, <extrautils2:compressednetherrack:1>, 1.5);
 furnace.addRecipe(<minecraft:nether_brick>*64, <extrautils2:compressednetherrack:2>, 4.0);
+
+// - Cooked clay plate from unfired clay plate
+furnace.addRecipe(<contenttweaker:cooked_clay_plate>, <contenttweaker:unfired_clay_plate>);
 
 //--------------------------------------------------------------------------------------
 
