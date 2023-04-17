@@ -68,4 +68,17 @@ var sixteenkfluid = VanillaFactory.createItem("sixteenk_fluid");
 sixteenkfluid.maxStackSize = 1;
 sixteenkfluid.register();
 
+// - Plates
+var unfiredclayplate = VanillaFactory.createItem("unfired_clay_plate");
+unfiredclayplate.maxStackSize = 1;
+unfiredclayplate.register();
+
+var cookedclayplate = VanillaFactory.createItem("cooked_clay_plate");
+cookedclayplate.maxStackSize = 1;
+cookedclayplate.register();
+
+var certusquartzplate = VanillaFactory.createItem("certus_quartz_plate");
+certusquartzplate.maxStackSize = 1;
+certusquartzplate.register();
+
 print("Initialized 'contenttweakeritems'");
