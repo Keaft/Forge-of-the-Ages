@@ -110,9 +110,11 @@ print("Initializing 'oredictionary'...");
 
 # Cobalt Ore
 <ore:oreCobalt>.add(<contenttweaker:cobalt_ore_stone>);
+<ore:oreCobalt>.add(<contenttweaker:cobalt_ore_pitstone>);
 
 # Ardite Ore
 <ore:oreArdite>.add(<contenttweaker:ardite_ore_stone>);
+<ore:oreArdite>.add(<contenttweaker:ardite_ore_pitstone>);
 
 # Aquaculture Items
 # Neptunium Ingot
