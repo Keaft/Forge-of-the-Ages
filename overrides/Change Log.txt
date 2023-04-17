@@ -73,6 +73,7 @@ Updated the following mod(s):
 - FutureMC to 0.2.11.
 - GeckoLib to 3.0.31.
 - Improvable Skills 3 to 12.4.68.
+- LagGoggles to 5.9-140.
 - Metallurgy 4 Reforged to 1.3.7.
 - ModTweaker to 4.0.20.11.
 - NuclearCraft to 2.18zzz.
@@ -81,7 +82,7 @@ Updated the following mod(s):
 - Particle Culling to 1.4.1.
 - Reach Fix to 1.0.8.
 - RenderLib to 1.2.7.
-- Scape and Run: Parasites to 1.9.11.
+- Scape and Run: Parasites to 1.9.12.
 - Sledgehammer to 2.0.22.
 - SuperMartijn642's Config Lib to 1.1.6.
 - SuperMartijn642's Core Lib to 1.1.7.
