@@ -69,13 +69,13 @@ sixteenkfluid.maxStackSize = 1;
 sixteenkfluid.register();
 
 // - Plates
-var unfiredclayplate = VanillaFactory.createItem("unfired_clay_plate");
-unfiredclayplate.maxStackSize = 1;
-unfiredclayplate.register();
+var unfiredporcelainplate = VanillaFactory.createItem("unfired_porcelain_plate");
+unfiredporcelainplate.maxStackSize = 1;
+unfiredporcelainplate.register();
 
-var cookedclayplate = VanillaFactory.createItem("cooked_clay_plate");
-cookedclayplate.maxStackSize = 1;
-cookedclayplate.register();
+var cookedporcelainplate = VanillaFactory.createItem("cooked_porcelain_plate");
+cookedporcelainplate.maxStackSize = 1;
+cookedporcelainplate.register();
 
 var certusquartzplate = VanillaFactory.createItem("certus_quartz_plate");
 certusquartzplate.maxStackSize = 1;

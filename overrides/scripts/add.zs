@@ -65,7 +65,7 @@ recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wo
 // --- Content Tweaker ---
 recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
 
-recipes.addShaped("contenttweaker_unfired_clay_plate", <contenttweaker:unfired_clay_plate>, [[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>]]);
+recipes.addShaped("contenttweaker_unfired_porcelain_plate", <contenttweaker:unfired_porcelain_plate>, [[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>]]);
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -213,8 +213,8 @@ furnace.addRecipe(<minecraft:netherbrick>*9, <extrautils2:compressednetherrack>,
 furnace.addRecipe(<minecraft:netherbrick>*64, <extrautils2:compressednetherrack:1>, 1.5);
 furnace.addRecipe(<minecraft:nether_brick>*64, <extrautils2:compressednetherrack:2>, 4.0);
 
-// - Cooked clay plate from unfired clay plate
-furnace.addRecipe(<contenttweaker:cooked_clay_plate>, <contenttweaker:unfired_clay_plate>);
+// - Cooked porcelain plate from unfired porcelain plate
+furnace.addRecipe(<contenttweaker:cooked_porcelain_plate>, <contenttweaker:unfired_porcelain_plate>);
 
 //--------------------------------------------------------------------------------------
 

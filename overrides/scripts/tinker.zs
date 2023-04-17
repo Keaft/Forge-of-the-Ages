@@ -119,9 +119,9 @@ mods.tconstruct.Casting.addBasinRecipe(<futuremc:honey_block>, null, <liquid:hon
 mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass_bottle>, <liquid:honey>, 250, true);
 
 // Plate mould
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_clay_plate>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_clay_plate>, <liquid:alubrass>, 144, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_clay_plate>, <liquid:brass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:alubrass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:brass>, 144, true);
 
 
 
