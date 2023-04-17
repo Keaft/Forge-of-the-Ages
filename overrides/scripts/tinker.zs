@@ -28,7 +28,14 @@ mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_ax
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <minecraft:diamond_hoe>, 1500);
 
 // Certus Quartz
+mods.tconstruct.Melting.addRecipe(<liquid:molten_certus_quartz> * 72, <appliedenergistics2:material:10>, 600);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_certus_quartz> * 144, <appliedenergistics2:material>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_certus_quartz> * 576, <appliedenergistics2:quartz_block>, 600);
+
+// Fluix
+mods.tconstruct.Melting.addRecipe(<liquid:molten_fluix> * 72, <appliedenergistics2:material:12>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_fluix> * 144, <appliedenergistics2:material:7>, 600);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_fluix> * 576, <appliedenergistics2:fluix_block>, 600);
 
 // Glowstone Block
 // mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>, <minecraft:glowstone>);
@@ -119,9 +126,21 @@ mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <tconst
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:gold>, 288, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:brass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:alubrass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:brass>, 144, true);
 
 // Certus Quartz
 mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material>, <tconstruct:cast_custom:2>, <liquid:molten_certus_quartz>, 144);
+mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:quartz_block>, null, <liquid:molten_certus_quartz>, 576);
+//Plate
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:certus_quartz_plate>, <tconstruct:cast_custom:3>, <liquid:molten_certus_quartz>, 288);
+
+// Fluix
+mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material:7>, <tconstruct:cast_custom:2>, <liquid:molten_fluix>, 144);
+mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:fluix_block>, null, <liquid:molten_fluix>, 576);
+//Plate
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:fluix_plate>, <tconstruct:cast_custom:3>, <liquid:molten_fluix>, 288);
 
 // Honey Block
 mods.tconstruct.Casting.addBasinRecipe(<futuremc:honey_block>, null, <liquid:honey>, 1000);
@@ -133,6 +152,8 @@ mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:gold>, 288, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:brass>, 144, true);
+
+// Certus Plate
 
 
 

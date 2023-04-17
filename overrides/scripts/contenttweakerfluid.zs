@@ -22,10 +22,15 @@ neptuniumFluid.fillSound = <soundevent:item.bucket.fill_lava>;
 neptuniumFluid.material = <blockmaterial:lava>;
 neptuniumFluid.register();
 
-var certusquartzFluid = VanillaFactory.createFluid("molten_certus_quartz", Color.fromHex("e6ffff"));
+var certusquartzFluid = VanillaFactory.createFluid("molten_certus_quartz", Color.fromHex("ccecff"));
 certusquartzFluid.fillSound = <soundevent:item.bucket.fill_lava>;
 certusquartzFluid.material = <blockmaterial:lava>;
 certusquartzFluid.register();
+
+var fluixFluid = VanillaFactory.createFluid("molten_fluix", Color.fromHex("a100e6"));
+fluixFluid.fillSound = <soundevent:item.bucket.fill_lava>;
+fluixFluid.material = <blockmaterial:lava>;
+fluixFluid.register();
 
 //--------------------------------------------------------------------------------------
 

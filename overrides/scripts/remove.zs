@@ -71,6 +71,21 @@ mods.jei.JEI.removeAndHide(<enderio:item_dark_steel_upgrade:1>.withTag({"enderio
 
 //--------------------------------------------------------------------------------------
 
+// --- Ex Nihilo: Creatio & Ex Compressum
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:1>);
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:2>);
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:3>);
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:4>);
+mods.jei.JEI.removeAndHide(<excompressum:compressed_block:9>);
+mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_cactus>);
+mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_sugarcane>);
+mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_carrot>);
+mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_potato>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Extra Utilities 2 ---
 // - Deep Dark portal in favor of using the beneath.
 mods.jei.JEI.removeAndHide(<extrautils2:teleporter:1>);
@@ -196,6 +211,21 @@ mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
 // --- Extra Utilities 2 ---
 // - Deep Dark portal in favor of using the beneath.
 //recipes.remove(<extrautils2:teleporter:1>);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Ex Nihilo: Creatio & Ex Compressum
+//recipes.remove(<excompressum:compressed_block:1>);
+//recipes.remove(<excompressum:compressed_block:2>);
+//recipes.remove(<excompressum:compressed_block:3>);
+//recipes.remove(<excompressum:compressed_block:4>);
+//recipes.remove(<excompressum:compressed_block:9>);
+//recipes.remove(<exnihilocreatio:item_seed_cactus>);
+//recipes.remove(<exnihilocreatio:item_seed_sugarcane>);
+//recipes.remove(<exnihilocreatio:item_seed_carrot>);
+//recipes.remove(<exnihilocreatio:item_seed_potato>);
 
 //--------------------------------------------------------------------------------------
 
