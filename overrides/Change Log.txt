@@ -2,7 +2,6 @@
 
 Configuration changes:
 - Adjusted Mutant Beasts to function more as dungeon bosses.
-- Adjusted difficulty of the beneath.
 - Regenerated and compared the following mod configs after updating:
 -- AE2 Unofficial Extended Life.
 -- Chocolate Quest Repoured.
