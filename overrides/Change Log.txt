@@ -88,5 +88,5 @@ Updated the following mod(s):
 - Sledgehammer to 2.0.22.
 - SuperMartijn642's Config Lib to 1.1.6.
 - SuperMartijn642's Core Lib to 1.1.7.
-- Tesseract to 1.0.30.
+- Tesseract to 1.0.31.
 - Zen Utils to 1.13.1.
