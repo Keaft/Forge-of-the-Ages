@@ -81,7 +81,7 @@ mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_cactus>);
 mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_sugarcane>);
 mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_carrot>);
 mods.jei.JEI.removeAndHide(<exnihilocreatio:item_seed_potato>);
-
+mods.jei.JEI.removeAndHide(<excompressum:auto_sieve>);
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -226,6 +226,7 @@ mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
 //recipes.remove(<exnihilocreatio:item_seed_sugarcane>);
 //recipes.remove(<exnihilocreatio:item_seed_carrot>);
 //recipes.remove(<exnihilocreatio:item_seed_potato>);
+//recipes.remove(<excompressum:auto_sieve>);
 
 //--------------------------------------------------------------------------------------
 
