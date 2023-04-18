@@ -36,6 +36,8 @@ Added the following mod(s):
 - The Spice of Life 1.3.12. In combination with Spice of Life: Carrot Edition for greater neccessity for farming and cooking.
 - Ex Nihilo: Creatio 0.4.7.2.
 - Ex Compressum 3.0.32.
+- Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
+- Seared Ladder (Backport) 1.1.2. I keep falling into the furnace, now I can on purpose.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
