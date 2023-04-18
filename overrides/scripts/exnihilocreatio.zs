@@ -9,6 +9,7 @@ print("Initializing 'exnihilocreatio.zs'...");
 // Hammer
 // mods.exnihilocreatio.Hammer.addRecipe(IIngredient, IItemStack, Int, Float, Float);
 mods.exnihilocreatio.Hammer.addRecipe(<minecraft:obsidian>, <contenttweaker:obsidian_gravel>, 2, 1, 1);
+// mods.exnihilocreatio.Hammer.addRecipe(<contenttweaker:compressed_obsidian>, <contenttweaker:obsidian_gravel> * 9, 2, 1, 1);
 
 // Sieve
 Sieve.removeAll();

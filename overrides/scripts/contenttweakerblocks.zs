@@ -45,6 +45,14 @@ obsidiangravel.setBlockSoundType(<soundtype:sand>);
 obsidiangravel.setToolLevel(4);
 obsidiangravel.register();
 
+// - Compressed Obsidian
+var compressedobsidian = VanillaFactory.createBlock("compressed_obsidian",<blockmaterial:rock>);
+compressedobsidian.setBlockHardness(10.0);
+compressedobsidian.setToolClass("pickaxe");
+compressedobsidian.setBlockSoundType(<soundtype:stone>);
+compressedobsidian.setToolLevel(4);
+compressedobsidian.register();
+
 // - Compressed Obsidian Gravel
 var compressedobsidiangravel = VanillaFactory.createBlock("compressed_obsidian_gravel",<blockmaterial:sand>);
 compressedobsidiangravel.setBlockHardness(5.0);
