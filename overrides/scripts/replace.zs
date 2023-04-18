@@ -35,15 +35,23 @@ for ore in <ore:toolHammer>.items {
 // --- Applied Energistics ---
 // - Energy Acceptor
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_energy_acceptor");
-recipes.addShaped("appliedenergistics2_network/blocks/energy_energy_acceptor", <appliedenergistics2:energy_acceptor>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:redstone>, <ore:crystalFluix> | <appliedenergistics2:material:12>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+recipes.addShaped("appliedenergistics2_network/blocks/energy_energy_acceptor", <appliedenergistics2:energy_acceptor>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:redstone>, <appliedenergistics2:fluix_block>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+
+// - Energy Cell
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_energy_cell");
+recipes.addShaped("appliedenergistics2_network/blocks/energy_energy_cell", <appliedenergistics2:energy_cell>.withTag({}), [[<contenttweaker:certus_quartz_plate>, <ore:dustFluix>, <contenttweaker:certus_quartz_plate>], [<ore:dustFluix>, <appliedenergistics2:quartz_glass>, <ore:dustFluix>], [<contenttweaker:certus_quartz_plate>, <ore:dustFluix>, <contenttweaker:certus_quartz_plate>]]);
+
+// - Charger
+recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_charger");
+recipes.addShaped("appliedenergistics2_network/blocks/crystal_processing_charger", <appliedenergistics2:charger>, [[<ore:ingotIron>, <contenttweaker:fluix_plate>, <ore:ingotIron>], [<contenttweaker:certus_quartz_plate>, null, null], [<ore:ingotIron>, <contenttweaker:fluix_plate>, <ore:ingotIron>]]);
 
 // - Illuminated Panel
 recipes.removeByRecipeName("appliedenergistics2:network/parts/panels_semi_dark_monitor");
-recipes.addShaped("appliedenergistics2_network/parts/panels_semi_dark_monitor", <appliedenergistics2:part:180> * 3, [[null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>], [<ore:ingotIron>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>]]);
+recipes.addShaped("appliedenergistics2_network/parts/panels_semi_dark_monitor", <appliedenergistics2:part:180> * 3, [[null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>], [<contenttweaker:certus_quartz_plate>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>]]);
 
 // - ME Fluid Interface
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/fluid_interfaces_interface");
-recipes.addShaped("appliedenergistics2_network/blocks/fluid_interfaces_interface", <appliedenergistics2:fluid_interface>, [[<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>], [<minecraft:redstone>, null, <minecraft:redstone>], [<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>]]);
+recipes.addShaped("appliedenergistics2_network/blocks/fluid_interfaces_interface", <appliedenergistics2:fluid_interface>, [[<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>], [<minecraft:redstone>, <contenttweaker:certus_quartz_plate>, <minecraft:redstone>], [<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>]]);
 
 // - ME Glass Cable
 recipes.removeByRecipeName("appliedenergistics2:network/cables/glass_fluix");
@@ -51,7 +59,7 @@ recipes.addShapeless("appliedenergistics2_network/cables/glass_fluix", <appliede
 
 // - ME Interface
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface");
-recipes.addShaped("appliedenergistics2_network/blocks/interfaces_interface", <appliedenergistics2:interface>, [[<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>], [<minecraft:redstone>, null, <minecraft:redstone>], [<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>]]);
+recipes.addShaped("appliedenergistics2_network/blocks/interfaces_interface", <appliedenergistics2:interface>, [[<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>], [<minecraft:redstone>, <contenttweaker:certus_quartz_plate>, <minecraft:redstone>], [<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>]]);
 
 // - ME Terminal
 recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals");
@@ -60,6 +68,11 @@ recipes.addShapeless("appliedenergistics2_network/parts/terminals", <appliedener
 // - ME Quantum Ring
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_ring");
 recipes.addShaped("appliedenergistics2_network/blocks/quantum_ring", <appliedenergistics2:quantum_ring>, [[<ore:ingotIron>,<appliedenergistics2:material:22>,<ore:ingotIron>], [<appliedenergistics2:material:24>,<appliedenergistics2:energy_cell>,<enderio:item_material:16>], [<ore:ingotIron>,<appliedenergistics2:material:22>,<ore:ingotIron>]]);
+
+// - Pattern
+recipes.removeByRecipeName("appliedenergistics2:network/crafting/patterns_blank");
+recipes.addShaped("appliedenergistics2_network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[<appliedenergistics2:quartz_glass>,<minecraft:glowstone_dust>,<appliedenergistics2:quartz_glass>], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:certus_quartz_plate>,<contenttweaker:certus_quartz_plate>]]);
+
 
 // - Crafting Storage
 

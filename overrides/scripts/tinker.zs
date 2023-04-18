@@ -26,6 +26,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 666, <minecraft:diamond_sho
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_pickaxe>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_axe>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <minecraft:diamond_hoe>, 1500);
+mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <contenttweaker:diamond_plate>, 1500);
+
 
 // Certus Quartz
 mods.tconstruct.Melting.addRecipe(<liquid:molten_certus_quartz> * 72, <appliedenergistics2:material:10>, 600);
@@ -67,60 +69,84 @@ mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144,[<liquid:iron> * 576,<liq
 //Iron
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:32>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:32>, <tconstruct:cast_custom:3>, <liquid:iron>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 288, <thermalfoundation:material:32>);
 //Gold
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:33>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:33>, <tconstruct:cast_custom:3>, <liquid:gold>, 288);
+mods.tconstruct.Melting.removeRecipe(<liquid:gold> * 144, <thermalfoundation:material:33>);
+mods.tconstruct.Melting.addRecipe(<liquid:gold> * 288, <thermalfoundation:material:33>);
 //Copper
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:320>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:320>, <tconstruct:cast_custom:3>, <liquid:copper>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:copper> * 288, <thermalfoundation:material:320>);
 //Tin
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:321>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:321>, <tconstruct:cast_custom:3>, <liquid:tin>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:tin> * 288, <thermalfoundation:material:321>);
 //Silver
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:322>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:322>, <tconstruct:cast_custom:3>, <liquid:silver>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <thermalfoundation:material:322>);
 //Lead
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:323>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:323>, <tconstruct:cast_custom:3>, <liquid:lead>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:lead> * 288, <thermalfoundation:material:323>);
 //Aluminum
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:324>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:324>, <tconstruct:cast_custom:3>, <liquid:aluminum>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 288, <thermalfoundation:material:324>);
 //Nickel
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:325>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:325>, <tconstruct:cast_custom:3>, <liquid:nickel>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:nickel> * 288, <thermalfoundation:material:325>);
 //Platinum
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:326>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:326>, <tconstruct:cast_custom:3>, <liquid:platinum>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:platinum> * 288, <thermalfoundation:material:326>);
 //Iridium
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:327>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:327>, <tconstruct:cast_custom:3>, <liquid:iridium>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 288, <thermalfoundation:material:327>);
 //Mana Infused
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:328>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:328>, <tconstruct:cast_custom:3>, <liquid:mithril>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:mithril> * 288, <thermalfoundation:material:328>);
 //Steel
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:352>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:352>, <tconstruct:cast_custom:3>, <liquid:steel>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:steel> * 288, <thermalfoundation:material:352>);
 //Electrum
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:353>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:353>, <tconstruct:cast_custom:3>, <liquid:electrum>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:electrum> * 288, <thermalfoundation:material:353>);
 //Invar
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:354>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:354>, <tconstruct:cast_custom:3>, <liquid:invar>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:invar> * 288, <thermalfoundation:material:354>);
 //Bronze
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:355>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:355>, <tconstruct:cast_custom:3>, <liquid:bronze>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:bronze> * 288, <thermalfoundation:material:355>);
 //Constantan
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:356>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:356>, <tconstruct:cast_custom:3>, <liquid:constantan>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:constantan> * 288, <thermalfoundation:material:356>);
 //Signalum
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:357>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:357>, <tconstruct:cast_custom:3>, <liquid:signalum>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:signalum> * 288, <thermalfoundation:material:357>);
 //Lumium
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:358>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:358>, <tconstruct:cast_custom:3>, <liquid:lumium>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:lumium> * 288, <thermalfoundation:material:358>);
 //Enderium
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:359>);
 mods.tconstruct.Casting.addTableRecipe(<thermalfoundation:material:359>, <tconstruct:cast_custom:3>, <liquid:enderium>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:enderium> * 288, <thermalfoundation:material:359>);
+
+//Diamond
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:diamond_plate>, <tconstruct:cast_custom:3>, <liquid:diamond>, 1332);
+
 
 // Gem Cast
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:gold>, 288, true);
@@ -135,12 +161,14 @@ mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material>, <tconstru
 mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:quartz_block>, null, <liquid:molten_certus_quartz>, 576);
 //Plate
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:certus_quartz_plate>, <tconstruct:cast_custom:3>, <liquid:molten_certus_quartz>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_certus_quartz> * 288, <contenttweaker:certus_quartz_plate>, 600);
 
 // Fluix
 mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material:7>, <tconstruct:cast_custom:2>, <liquid:molten_fluix>, 144);
 mods.tconstruct.Casting.addBasinRecipe(<appliedenergistics2:fluix_block>, null, <liquid:molten_fluix>, 576);
 //Plate
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:fluix_plate>, <tconstruct:cast_custom:3>, <liquid:molten_fluix>, 288);
+mods.tconstruct.Melting.addRecipe(<liquid:molten_fluix> * 288, <contenttweaker:fluix_plate>, 600);
 
 // Honey Block
 mods.tconstruct.Casting.addBasinRecipe(<futuremc:honey_block>, null, <liquid:honey>, 1000);

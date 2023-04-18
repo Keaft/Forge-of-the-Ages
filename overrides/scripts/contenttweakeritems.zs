@@ -81,6 +81,10 @@ var certusquartzplate = VanillaFactory.createItem("certus_quartz_plate");
 certusquartzplate.maxStackSize = 64;
 certusquartzplate.register();
 
+var diamondplate = VanillaFactory.createItem("diamond_plate");
+diamondplate.maxStackSize = 64;
+diamondplate.register();
+
 var fluixplate = VanillaFactory.createItem("fluix_plate");
 fluixplate.maxStackSize = 64;
 fluixplate.register();
