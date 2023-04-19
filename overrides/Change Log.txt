@@ -57,8 +57,6 @@ Removed the following mod(s):
 -- Cucumber Library.
 - Fishing Made Better. Didn't seem to work.
 
-
-
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
 - The Betweenlands to 3.9.6.
@@ -89,4 +87,4 @@ Updated the following mod(s):
 - SuperMartijn642's Config Lib to 1.1.6.
 - SuperMartijn642's Core Lib to 1.1.7.
 - Tesseract to 1.0.31.
-- Zen Utils to 1.13.1.
+- Zen Utils to 1.13.2.

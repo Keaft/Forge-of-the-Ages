@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{pages: [\"{\\\"text\\\":\\\"Summer 4\\\\n\\\\nIt would appear that some of my crops have gone dormant. I\\\\u0027m not sure what I\\\\u0027m doing wrong.\\\\n\\\\nI\\\\u0027ll have to make a stop at the garden store soon.\\\"}\"], author: \"Larry\", title: \"Garden Journal\"}"
+                            "tag": "{pages: [\"{\\\"text\\\":\\\"Summer 4\\\\n\\\\nIt would appear that some of my crops have gone dormant. I\\\\u0027m not sure what I\\\\u0027m doing wrong.\\\\n\\\\nI\\\\u0027ll have to make a stop at the garden store soon.\\\"}\"], author: \"Lyle\", title: \"Garden Journal\"}"
                         }
                     ]
                 },
