@@ -1,4 +1,4 @@
-#Name: tinker.zs
+#Name: iceandfire.zs
 #Author: Keaft
 
 import mods.iceandfire.recipes;
