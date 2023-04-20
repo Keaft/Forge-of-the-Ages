@@ -467,6 +467,54 @@
             }
           ],
           "name": "cqrepoured:longshot"
+        },
+        {
+          "entryName": "entry_19appliedenergistics2:certus_quartz",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "appliedenergistics2:material"
+        },
+        {
+          "entryName": "entry_19appliedenergistics2:charged_certus_quartz",
+          "weight": 50,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.5,
+              "condition": "minecraft:random_chance"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ],
+          "name": "appliedenergistics2:material"
         }
       ],
       "rolls": {
