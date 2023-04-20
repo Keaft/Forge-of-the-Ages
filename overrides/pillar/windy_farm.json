@@ -8,9 +8,9 @@
 	"generatorType": "NONE",
 	"minY": -1,
 	"maxY": -1,
-	"offsetX": -15,
-	"offsetY": -4,
-	"offsetZ": -16,
+	"offsetX": -17,
+	"offsetY": -6,
+	"offsetZ": -18,
 
 	"mirrorType": "NONE",
 	"rotation": null,

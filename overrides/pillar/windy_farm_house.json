@@ -7,9 +7,9 @@
 {
 	"generatorType": "SURFACE",
 	"minY": 63,
-	"maxY": 67,
+	"maxY": 70,
 	"offsetX": -20,
-	"offsetY": -2,
+	"offsetY": -4,
 	"offsetZ": -17,
 
 	"mirrorType": "NONE",
