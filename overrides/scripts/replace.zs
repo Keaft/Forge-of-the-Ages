@@ -47,7 +47,7 @@ recipes.addShaped("appliedenergistics2_network/blocks/crystal_processing_charger
 
 // - Illuminated Panel
 recipes.removeByRecipeName("appliedenergistics2:network/parts/panels_semi_dark_monitor");
-recipes.addShaped("appliedenergistics2_network/parts/panels_semi_dark_monitor", <appliedenergistics2:part:180> * 3, [[null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>], [<contenttweaker:certus_quartz_plate>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>]]);
+recipes.addShaped("appliedenergistics2_network/parts/panels_semi_dark_monitor", <appliedenergistics2:part:180>, [[null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>], [<contenttweaker:certus_quartz_plate>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>]]);
 
 // - ME Fluid Interface
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/fluid_interfaces_interface");
@@ -72,6 +72,10 @@ recipes.addShaped("appliedenergistics2_network/blocks/quantum_ring", <appliedene
 // - Pattern
 recipes.removeByRecipeName("appliedenergistics2:network/crafting/patterns_blank");
 recipes.addShaped("appliedenergistics2_network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[<appliedenergistics2:quartz_glass>,<minecraft:glowstone_dust>,<appliedenergistics2:quartz_glass>], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:certus_quartz_plate>,<contenttweaker:certus_quartz_plate>]]);
+
+// - Molecular Assembler
+recipes.removeByRecipeName("appliedenergistics2:network/crafting/molecular_assembler");
+recipes.addShaped("appliedenergistics2_network/crafting/molecular_assembler", <appliedenergistics2:molecular_assembler>, [[<contenttweaker:certus_quartz_plate>, <appliedenergistics2:quartz_glass>, <contenttweaker:certus_quartz_plate>], [<appliedenergistics2:material:44>, <ore:workbench>, <appliedenergistics2:material:43>], [<contenttweaker:certus_quartz_plate>, <appliedenergistics2:quartz_glass>, <contenttweaker:certus_quartz_plate>]]);
 
 
 // - Crafting Storage
