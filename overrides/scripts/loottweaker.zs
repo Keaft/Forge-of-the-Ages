@@ -27,4 +27,9 @@ val cqrepoured_chest_treasure = cqrepoured_treasure_chests.addPool("Extra AE2 Lo
 cqrepoured_chest_treasure.addItemEntry(<appliedenergistics2:material>, 50);
 cqrepoured_chest_treasure.addItemEntry(<appliedenergistics2:material:1>, 1);
 
+val mineshaft_fishing = LootTweaker.getTable("minecraft:gameplay/fishing/treasure");
+val minecraft_fishing_treasure = mineshaft_fishing.addPool("Extra AE2 Loot", 1, 4, 1, 2);
+minecraft_fishing_treasure.addItemEntry(<appliedenergistics2:material>, 5);
+minecraft_fishing_treasure.addItemEntry(<appliedenergistics2:material:1>, 2);
+
 print("Initialized 'loottweaker'");
