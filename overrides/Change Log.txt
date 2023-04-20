@@ -20,7 +20,6 @@ Configuration changes:
 - Vitamin recipe adjusted to be more compatible with AE2.
 - Spawn Ores Above Diamonds in the betweenlands.
 
-
 Added the following mod(s):
 - Legendary Tooltips 1.1.9.
 - Mutant Beasts 1.0.2.
@@ -37,7 +36,6 @@ Added the following mod(s):
 - Ex Compressum 3.0.32.
 - Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
 - Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
-- Loot Overhaul 1.2.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
