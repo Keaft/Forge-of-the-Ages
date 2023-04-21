@@ -1,23 +1,54 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 Configuration changes:
-- Adjusted Mutant Beasts to function more as dungeon bosses.
 - Regenerated and compared the following mod configs after updating:
 -- AE2 Unofficial Extended Life.
 -- Chocolate Quest Repoured.
 -- Corail Tombstone.
--- Fish's Undead Rising.
---- InControl.
 -- Scape and Run: Parasites.
 --- InControl.
 -- FutureMC.
--- AttributeFix.
-- Disabled Ice and Fire random Dragon Skeleton spawning in the world.
+-- Mowzies Mobs.
+-- Apotheosis.
+TECH:
+- Heavily adjusted Applied Energistics recipes to require doing different activities.
+- Added Certus Quartz and Charged Certus Quartz to various loot tables.
+- Set up custom sifting solutions to rein in generating resources to the most tedious vanilla items only.
+- Added new items for sifting and crafting!
+-- Compressed Obsidian, Obsidian Gravel, Compressed Obsidian Gravel, Certus Quartz Plate, Fluix Plate, Diamond Plate
+- Adjusted Plate recipes related to machine making and automation.
+- Added items to compacting drawers to allow easier solutions for heavy sifting.
+- Established a whole Tinkers system for both Certus Quartz and Fluix using molten varieties instead of Tinkers Evolution's gem implementation.
+- Added Tinkers casting and cast making recipes related to plates, gems, and blocks.
+- Liquid Ender can now be obtained by smelting Resonant Clathrate from the End.
+ADVENTURE:
 - Food no longer decays in The Betweenlands.
 - All Armor and Weapons are now effective in The Betweenlands.
 - Disabled Ambient Sounds in The Betweenlands.
+- Move and re-create custom ore spawning from the beneath to the betweenlands.
+- Moved SRParasites into the depths of the betweenlands.
+- Disabled Ice and Fire random Dragon Skeleton spawning in the world.
+- Made Dragons significantly more scary by allowing them to unroot trees. They are hungry... and they will eat you... Run.
+- Moved Dragons from 2000 blocks to 3000 from spawn to account for their new found terror.
+- Pyrotheum and Gelid Cryotheum now require grains of infinity in a dragon forge of it's appropriate type.
+- Lowered the drop rate and stopped the spread of Pam's gardens in favor of exploring for farm houses.
+- Established configs for Spice of Life to kick in after eating 30 different foods. Eating different foods is now much more important.
+- Disabled Tinkers Evolution from handling Botania as that is handled through scripting.
+- Added Vein Mine items related to Ex Nihilo: Creatio and Ex Compressum.
+- Lowered total vein mine from 800 to 200 to compensate for hammering more natural blocks.
 - Vitamin recipe adjusted to be more compatible with AE2.
-- Spawn Ores Above Diamonds in the betweenlands.
+- Adjusted Mutant Beasts to function more as dungeon bosses.
+GENERAL:
+- Added additional gui items to InvMove.
+- Enabled JEI memory usage optimizations.
+- Fixed various typos in scripts.
+- Disabled Code Chicken Lib's render error message.
+- Removed all traces of Environmental Tech and Mystical Agriculture from scripts.
+
+Structures:
+- Added farm house with procedural aspects, namely what crops the villager grows and what items he sells.
+- Adjusted the Woodland Mansion to be less cheesable, added more loot, and made it spawn more rarely.
+- Gorgon temples spawn more rarely as well.
 
 Added the following mod(s):
 - Legendary Tooltips 1.1.10.
