@@ -24,14 +24,6 @@ for ore in <ore:toolHammer>.items {
 
 //--------------------------------------------------------------------------------------
 
-// --- Aether Legacy ---
-// - Iron Ring
-//recipes.removeByRecipeName("aether_legacy:iron_ring");
-//recipes.addShaped("aether_legacy_iron_ring", <aether_legacy:iron_ring>, [[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>], [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>], [<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>]]);
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
 // --- Applied Energistics ---
 // - Energy Acceptor
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_energy_acceptor");
