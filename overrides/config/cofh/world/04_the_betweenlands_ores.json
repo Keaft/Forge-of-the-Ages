@@ -1,7 +1,7 @@
 {
 	"dependencies": "contenttweaker",
 	"populate": {
-		"beneath_ardite_ore": {
+		"betweenlands_ardite_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -24,7 +24,7 @@
 				]
 			}
 		},
-		"beneath_cobalt_ore": {
+		"betweenlands_cobalt_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -47,7 +47,7 @@
 				]
 			}
 		},
-        "beneath_certus_quartz_ore": {
+        "betweenlands_certus_quartz_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -70,7 +70,7 @@
 				]
 			}
 		},
-        "beneath_charged_certus_quartz_ore": {
+        "betweenlands_charged_certus_quartz_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -93,7 +93,7 @@
 				]
 			}
 		},
-        "beneath_platinum_ore": {
+        "betweenlands_platinum_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -114,7 +114,7 @@
 				]
 			}
 		},
-        "beneath_orichalcum_ore": {
+        "betweenlands_orichalcum_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -135,7 +135,7 @@
 				]
 			}
 		},
-        "beneath_mithril_ore": {
+        "betweenlands_mithril_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -156,7 +156,7 @@
 				]
 			}
 		},
-        "beneath_carmot_ore": {
+        "betweenlands_carmot_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -177,7 +177,7 @@
 				]
 			}
 		},
-        "beneath_adamantine_ore": {
+        "betweenlands_adamantine_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
@@ -198,7 +198,7 @@
 				]
 			}
 		},
-        "beneath_atlarus_ore": {
+        "betweenlands_atlarus_ore": {
 			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
