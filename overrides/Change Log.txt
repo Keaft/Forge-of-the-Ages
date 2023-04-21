@@ -52,6 +52,11 @@ Removed the following mod(s):
 -- Mystical Agradditions.
 -- Cucumber Library.
 - Fishing Made Better. Didn't seem to work.
+- AE2 Wireless Interface Terminal. Now covered by AE2 Unofficial Extended Life inherently. WOO!
+- AE2 Wireless Fluid Terminal.
+- Wireless Pattern Terminal.
+- Wireless Crafting Terminal.
+-- AE2 Wireless Terminal Library.
 
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
