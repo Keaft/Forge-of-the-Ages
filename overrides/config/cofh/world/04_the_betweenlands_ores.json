@@ -218,6 +218,48 @@
 					20
 				]
 			}
+		},
+        "betweenlands_amethyst_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "oresabovediamonds:amethyst_ore",
+				"material": "thebetweenlands:pitstone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 25,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					20
+				]
+			}
+		},
+        "betweenlands_black_opal_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": "oresabovediamonds:black_opal_ore",
+				"material": "thebetweenlands:pitstone",
+				"cluster-size": 7
+			},
+            "chunk-chance": 8,
+			"cluster-count": 7,
+			"min-height": 4,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					20
+				]
+			}
 		}
 	}
 }
