@@ -8,7 +8,6 @@ Configuration changes:
 -- Corail Tombstone.
 -- Fish's Undead Rising.
 --- InControl.
--- Metallurgy 4 Reforged.
 -- Scape and Run: Parasites.
 --- InControl.
 -- FutureMC.
