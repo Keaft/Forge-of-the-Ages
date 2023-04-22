@@ -6,7 +6,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "contenttweaker:ardite_ore_stone"
+					"name": "contenttweaker:ardite_ore_pitstone"
 				},
 				"material": "thebetweenlands:pitstone",
 				"cluster-size": 8
@@ -29,7 +29,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "contenttweaker:cobalt_ore_stone"
+					"name": "contenttweaker:cobalt_ore_pitstone"
 				},
 				"material": "thebetweenlands:pitstone",
 				"cluster-size": 8
