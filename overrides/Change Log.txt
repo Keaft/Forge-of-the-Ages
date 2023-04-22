@@ -114,7 +114,7 @@ Updated the following mod(s):
 - Reach Fix to 1.0.8.
 - RenderLib to 1.2.7.
 - Scape and Run: Parasites to 1.9.10.
-- Sledgehammer to 2.0.22.
+- Sledgehammer to 2.0.23.
 - SuperMartijn642's Config Lib to 1.1.6.
 - SuperMartijn642's Core Lib to 1.1.7.
 - Tesseract to 1.0.32.
