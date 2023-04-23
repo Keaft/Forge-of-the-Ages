@@ -87,6 +87,7 @@ Removed the following mod(s):
 - Wireless Pattern Terminal.
 - Wireless Crafting Terminal.
 -- AE2 Wireless Terminal Library.
+- Tinkering with Blood Magic. Handled better with Tinkers Evolution.
 
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
