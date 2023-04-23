@@ -89,4 +89,8 @@ var fluixplate = VanillaFactory.createItem("fluix_plate");
 fluixplate.maxStackSize = 64;
 fluixplate.register();
 
+var demonwillcrystalperfected = VanillaFactory.createItem("demon_will_crystal_perfected");
+demonwillcrystalperfected.maxStackSize = 64;
+demonwillcrystalperfected.register();
+
 print("Initialized 'contenttweakeritems'");
