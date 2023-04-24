@@ -1,4 +1,5 @@
 ***Before Updating ensure that you take a backup of your world!***
+This update's focal point is trying to create greater interconnectivity and balance to the vairous gameplay loops. This should hopefully bring greater longevity to the enjoyment of the content available!
 
 Configuration changes:
 - Regenerated and compared the following mod configs after updating:
