@@ -64,6 +64,7 @@ Added the following mod(s):
 - Ex Compressum 3.0.32.
 - Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
 - Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
+- Had Enough Items 4.24.5. Replacement for JEI with more optimizations.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
@@ -88,6 +89,7 @@ Removed the following mod(s):
 - Wireless Crafting Terminal.
 -- AE2 Wireless Terminal Library.
 - Tinkering with Blood Magic. Handled better with Tinkers Evolution.
+- Just Enough Items (JEI). Handled by HEI now.
 
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
