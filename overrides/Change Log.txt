@@ -110,7 +110,7 @@ Removed the following mod(s):
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
 - The Betweenlands to 3.9.6.
-- AE2 Unofficial Extended Life to 0.55.12.
+- AE2 Unofficial Extended Life to 0.55.13.
 - Chocolate Quest Repoured to Beta 6.12.
 - Chunk Loaders to 1.2.3.
 - Controlling to 3.0.12.2.
