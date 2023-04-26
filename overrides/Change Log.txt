@@ -65,7 +65,7 @@ Added the following mod(s):
 - Ex Compressum 3.0.32.
 - Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
 - Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
-- Had Enough Items 4.24.5. Replacement for JEI with more optimizations.
+- Had Enough Items 4.24.6. Replacement for JEI with more optimizations.
 - CensoredASM 5.6. Replacement for VanillaFix, more optimizations.
 - Universal Tweaks 1.5.0. Combination of a lot of tweaks, fixes, and optimizations.
 - 燐/Hesperus as a fork of Phosphor 0.2.9.2.
