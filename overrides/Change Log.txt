@@ -35,7 +35,7 @@ ADVENTURE:
 - Lowered the drop rate and stopped the spread of Pam's gardens in favor of exploring for farm houses.
 - Established configs for Spice of Life to kick in after eating 30 different foods. Eating different foods is now much more important.
 - Disabled Tinkers Evolution from handling Botania as that is handled through scripting.
-- Changed Reinforced to not be able to make tools unbreakable.
+- Changed Reinforced to not be able to make tools unbreakable. Max level 4 for 40% chance to not consume durability.
 - Unbreakable now only available for shovel head through new material, Unobtanium. Check JEI for alloying recipe.
 - Added Vein Mine items related to Ex Nihilo: Creatio and Ex Compressum.
 - Lowered total vein mine from 800 to 200 to compensate for hammering more natural blocks.
