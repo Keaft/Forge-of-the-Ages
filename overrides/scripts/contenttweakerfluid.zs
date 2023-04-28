@@ -32,6 +32,11 @@ fluixFluid.fillSound = <soundevent:item.bucket.fill_lava>;
 fluixFluid.material = <blockmaterial:lava>;
 fluixFluid.register();
 
+var unobtaniumFluid = VanillaFactory.createFluid("molten_unobtanium", Color.fromHex("2D5576"));
+unobtaniumFluid.fillSound = <soundevent:item.bucket.fill_lava>;
+unobtaniumFluid.material = <blockmaterial:lava>;
+unobtaniumFluid.register();
+
 //--------------------------------------------------------------------------------------
 
 print("Initialized 'contenttweakerfluid'");

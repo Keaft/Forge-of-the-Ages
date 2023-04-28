@@ -93,4 +93,8 @@ var demonwillcrystalperfected = VanillaFactory.createItem("demon_will_crystal_pe
 demonwillcrystalperfected.maxStackSize = 64;
 demonwillcrystalperfected.register();
 
+var unobtaniumingot = VanillaFactory.createItem("unobtanium_ingot");
+unobtaniumingot.maxStackSize = 64;
+unobtaniumingot.register();
+
 print("Initialized 'contenttweakeritems'");

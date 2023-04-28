@@ -3,15 +3,20 @@
 #Author: Keaft
 // Currently unused with the removal of Environmental Tech and Beneath. However, when in use this script would restrict torch placing in the beneath as well as restrict Environmental Tech void miners to only be buildable in the beneath.
 
-import crafttweaker.events.IEventManager;
-import crafttweaker.command.ICommandManager;
-import crafttweaker.event.IEventCancelable;
-import crafttweaker.event.EntityJoinWorldEvent;
-import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
 import crafttweaker.block.IBlock;
-import crafttweaker.formatting.IFormattedText;
-import crafttweaker.world.IBlockPos;
 import crafttweaker.block.IBlockState;
+import crafttweaker.command.ICommandManager;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.EntityJoinWorldEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerInteractEvent;
+import crafttweaker.events.IEventManager;
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IWorld;
 
 print("Initializing 'events'...");
@@ -96,6 +101,72 @@ print("Initializing 'events'...");
 
 // events.onEntityJoinWorld(function(entityJoin as crafttweaker.event.EntityJoinWorldEvent){
     // print(entityJoin.entity.definition.name);
+// });
+
+// events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
+    // if(event.world.remote || event.hand == "OFF_HAND") {
+        // return; // If it is on the client or the OFF_HAND, do not continue. 1.12.2 forge doesn't seem to be able to differentiate which hand is being fired here, but limiting it to 1 makes sure it doesn't fire multiple times.
+    // }
+	// if (event.block.definition.id == "minecraft:stone") {
+		// var mhItem = event.player.mainHandHeldItem;
+		// var ohItem = event.player.offHandHeldItem;
+		// var x as float = event.x as float;
+        // var y as float = event.y as float;
+        // var z as float = event.z as float;
+		// if (!isNull(mhItem) && <minecraft:diamond>.matches(mhItem)) {
+			// event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount == 1 ? null : mhItem.withAmount(mhItem.amount - 1));
+            // y = y + 1;
+            // val customZombieNBT as IData = {
+                // ForgeCaps:{
+                    // Health:20.0f,
+                    // ArmorItems:[
+                        // {
+                            // id:"minecraft:iron_boots",
+                            // Count:1,
+                            // Damage:0
+                        // },
+                        // {},
+                        // {},
+                        // {
+                            // id:"minecraft:diamond_helmet",
+                            // Count:1,
+                            // Damage:0
+                        // }
+                    // ],
+                    // HandItems:[
+                        // {},
+                        // {}
+                    // ],
+                    // ArmorDropChances:[
+                        // 0.085f,
+                        // 0.085f,
+                        // 0.085f,
+                        // 0.085f
+                    // ],
+                    // HandDropChances:[
+                        // 0.085f,
+                        // 0.085f
+                    // ],
+                    // Leashed:0,
+                    // LeftHanded:0,
+                    // CanBreakDoors:0
+                // }
+            // };
+            // val zombie = <entity:minecraft:zombie>;
+            // zombie.setNBT(customZombieNBT);
+            // event.world.spawnEntity(<entity:minecraft:zombie>.spawnEntity(event.world, crafttweaker.util.Position3f.create(x, y, z).asBlockPos()));
+			// server.commandManager.executeCommand(server, "summon minecraft:zombie "~x~" "~y~" "~z);
+			// event.cancel();
+		// } else {
+			// if (!isNull(ohItem) && <minecraft:diamond>.matches(ohItem)) {
+				// event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
+                // y = y + 1;
+				// server.commandManager.executeCommand(server, "summon minecraft:zombie "~x~" "~y~" "~z);
+				// event.cancel();
+			// }
+		// }
+		// return;
+	// }
 // });
 
 print("Initialized 'events'");

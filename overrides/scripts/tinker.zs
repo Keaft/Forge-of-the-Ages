@@ -28,6 +28,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1998, <minecraft:diamond_ax
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <minecraft:diamond_hoe>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 1332, <contenttweaker:diamond_plate>, 1500);
 
+// Unobtanium
+mods.tconstruct.Melting.addRecipe(<liquid:molten_unobtanium> * 144, <contenttweaker:unobtanium_ingot>, 1500);
 
 // Certus Quartz
 mods.tconstruct.Melting.addRecipe(<liquid:molten_certus_quartz> * 72, <appliedenergistics2:material:10>, 600);
@@ -56,6 +58,9 @@ mods.tconstruct.Melting.addRecipe(<liquid:ender> * 250, <thermalfoundation:mater
 //Pig Iron
 mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
 mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144,[<liquid:iron> * 576,<liquid:blood> * 200,<liquid:diamond> * 666]);
+
+//Unobtanium
+mods.tconstruct.Alloy.addRecipe(<liquid:molten_unobtanium> * 144,[<liquid:diamond> * 666,<liquid:emerald> * 666,<liquid:ender> * 250]);
 
 // - Casting
 //mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
@@ -147,14 +152,8 @@ mods.tconstruct.Melting.addRecipe(<liquid:enderium> * 288, <thermalfoundation:ma
 //Diamond
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:diamond_plate>, <tconstruct:cast_custom:3>, <liquid:diamond>, 1332);
 
-
-// Gem Cast
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:alubrass>, 144, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:brass>, 144, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:alubrass>, 144, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:brass>, 144, true);
+//Unobtanium
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:unobtanium_ingot>, <tconstruct:cast_custom>, <liquid:molten_unobtanium>, 144);
 
 // Certus Quartz
 mods.tconstruct.Casting.addTableRecipe(<appliedenergistics2:material>, <tconstruct:cast_custom:2>, <liquid:molten_certus_quartz>, 144);
@@ -176,13 +175,44 @@ mods.tconstruct.Casting.addBasinRecipe(<futuremc:honey_block>, null, <liquid:hon
 // Honey Bottle
 mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass_bottle>, <liquid:honey>, 250, true);
 
-// Plate mould
+// Gem Cast
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:alubrass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:brass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:alubrass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:brass>, 144, true);
+
+// Plate Cast
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:gold>, 288, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:brass>, 144, true);
 
-// Certus Plate
 
+// - Part removal
+mods.tconstruct.Casting.removeTableRecipe(<tcomplement:chisel_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:pick_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:axe_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:broad_axe_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:sword_blade>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:large_sword_blade>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:hammer_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:excavator_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:kama_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:scythe_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:pan_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:sign_head>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:tool_rod>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:large_plate>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:sharpening_kit>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<tconstruct:shard>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:polishing_kit>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:helmet_core>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:armor_trim>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:armor_plate>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:chest_core>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:leggings_core>.withTag({Material: "unobtanium_mat"}));
+mods.tconstruct.Casting.removeTableRecipe(<conarm:boots_core>.withTag({Material: "unobtanium_mat"}));
 
 
 print("Initialized 'tinker'");

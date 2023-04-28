@@ -160,9 +160,38 @@ mods.jei.JEI.removeAndHide(<scalinghealth:heartcontainer>);
 //--------------------------------------------------------------------------------------
 
 // --- Thermal Expansion ---
-// - Morbs.
+// - Morbs
 mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
 
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Tinkers Construct ---
+// - Unobtanium
+mods.jei.JEI.removeAndHide(<tcomplement:chisel_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:pick_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:axe_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:broad_axe_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:sword_blade>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:large_sword_blade>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:hammer_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:excavator_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:kama_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:scythe_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:pan_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:sign_head>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:tool_rod>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:large_plate>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:sharpening_kit>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<tconstruct:shard>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:polishing_kit>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:helmet_core>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:armor_trim>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:armor_plate>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:chest_core>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:leggings_core>.withTag({Material: "unobtanium_mat"}));
+mods.jei.JEI.removeAndHide(<conarm:boots_core>.withTag({Material: "unobtanium_mat"}));
 //--------------------------------------------------------------------------------------
 
 //***********************************************************************************************************
@@ -282,14 +311,6 @@ mods.jei.JEI.removeAndHide(<thermalexpansion:morb>);
 //***********************************************************************************************************
 //Both Client and Server recipe removal 
 //***********************************************************************************************************
-
-//--------------------------------------------------------------------------------------
-
-// --- Aether Legacy ---
-// - Saddle
-recipes.removeByRecipeName("aether_legacy:saddle");
-
-//--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
 

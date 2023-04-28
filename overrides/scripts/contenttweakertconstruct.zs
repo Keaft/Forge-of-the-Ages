@@ -17,17 +17,30 @@ print("Initializing 'contenttweakertconstruct'...");
 
 
 // Not currently properly implemented
-val testTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("fishing");
-testTrait.color = 0xffaadd;
-testTrait.maxLevel = 100;
-testTrait.countPerLevel = 20;
-testTrait.addItem(<item:aquaculture:loot:1>);
-testTrait.localizedName = "Improved Fishing";
-testTrait.localizedDescription = "Improve the catching speed. \u2639";
-testTrait.afterHit = function(thisTrait, tool, attacker, target, damageDealt, wasCrit, wasHit) {
-	attacker.heal(damageDealt);
-};
-testTrait.register();
+// val testTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("fishing");
+// testTrait.color = 0xffaadd;
+// testTrait.maxLevel = 100;
+// testTrait.countPerLevel = 20;
+// testTrait.addItem(<item:aquaculture:loot:1>);
+// testTrait.localizedName = "Improved Fishing";
+// testTrait.localizedDescription = "Improve the catching speed. \u2639";
+// testTrait.afterHit = function(thisTrait, tool, attacker, target, damageDealt, wasCrit, wasHit) {
+	// attacker.heal(damageDealt);
+// };
+// testTrait.register();
+
+// Unbreaking not working
+// val unbreakingTrait = mods.contenttweaker.tconstruct.TraitBuilder.create("unbreaking");
+// unbreakingTrait.color = 0x5b5b5b;
+// unbreakingTrait.maxLevel = 1;
+// unbreakingTrait.countPerLevel = 1;
+// unbreakingTrait.addItem(<item:aquaculture:loot:1>);
+// unbreakingTrait.localizedName = "Unbreaking";
+// unbreakingTrait.localizedDescription = "This tool is unbreakable!";
+// unbreakingTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
+	// return unmodifiedAmount; //Or your modified value
+// };
+// unbreakingTrait.register();
 
 //--------------------------------------------------------------------------------------
 
@@ -36,26 +49,26 @@ testTrait.register();
 //--------------------------------------------------------------------------------------
 
 // Not currently properly implemented
-val neptuniumMaterial = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("neptunium_mat");
-neptuniumMaterial.color = 0x06e3b2;
-neptuniumMaterial.craftable = true;
-neptuniumMaterial.liquid = <liquid:molten_neptunium>;
-neptuniumMaterial.castable = true;
-neptuniumMaterial.addItem(<item:minecraft:comparator>); // I think these addItems are mostly for demonstration purposes. It's been a minute since I've looked at this...
-neptuniumMaterial.addItem(<item:minecraft:repeater>, 1, 2);
-neptuniumMaterial.addItem(<item:minecraft:red_flower:4>);
-neptuniumMaterial.representativeItem = <item:aquaculture:loot:1>;
-neptuniumMaterial.addHeadMaterialStats(100, 1.5f, 5.5f, 5);
-neptuniumMaterial.addHandleMaterialStats(0.3, 500);
-neptuniumMaterial.addBowStringMaterialStats(0.5f);
-neptuniumMaterial.addMaterialTrait(<ticontrait:fishing>, "bowstring");
-neptuniumMaterial.addMaterialTrait(<ticontrait:fishing>, "head");
-neptuniumMaterial.addMaterialTrait("blasting", "bowstring");
-neptuniumMaterial.addMaterialTrait("blasting", "head");
-neptuniumMaterial.addMaterialTrait("dense", null);
-neptuniumMaterial.itemLocalizer = function(thisMaterial, itemName){return "Neptunium " + itemName;};
-neptuniumMaterial.localizedName = "Neptunium";
-neptuniumMaterial.register();
+// val neptuniumMaterial = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("neptunium_mat");
+// neptuniumMaterial.color = 0x06e3b2;
+// neptuniumMaterial.craftable = true;
+// neptuniumMaterial.liquid = <liquid:molten_neptunium>;
+// neptuniumMaterial.castable = true;
+// neptuniumMaterial.addItem(<item:minecraft:comparator>); // I think these addItems are mostly for demonstration purposes. It's been a minute since I've looked at this...
+// neptuniumMaterial.addItem(<item:minecraft:repeater>, 1, 2);
+// neptuniumMaterial.addItem(<item:minecraft:red_flower:4>);
+// neptuniumMaterial.representativeItem = <item:aquaculture:loot:1>;
+// neptuniumMaterial.addHeadMaterialStats(100, 1.5f, 5.5f, 5);
+// neptuniumMaterial.addHandleMaterialStats(0.3, 500);
+// neptuniumMaterial.addBowStringMaterialStats(0.5f);
+// neptuniumMaterial.addMaterialTrait(<ticontrait:fishing>, "bowstring");
+// neptuniumMaterial.addMaterialTrait(<ticontrait:fishing>, "head");
+// neptuniumMaterial.addMaterialTrait("blasting", "bowstring");
+// neptuniumMaterial.addMaterialTrait("blasting", "head");
+// neptuniumMaterial.addMaterialTrait("dense", null);
+// neptuniumMaterial.itemLocalizer = function(thisMaterial, itemName){return "Neptunium " + itemName;};
+// neptuniumMaterial.localizedName = "Neptunium";
+// neptuniumMaterial.register();
 
 //Certus Quartz
 val certusquartzMaterial = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("certusquartz_mat");
@@ -96,6 +109,19 @@ fluixMaterial.addProjectileMaterialStats();
 fluixMaterial.itemLocalizer = function(thisMaterial, itemName){return "Fluix " + itemName;};
 fluixMaterial.localizedName = "Fluix";
 fluixMaterial.register();
+
+//Unobtanium
+val unobtaniumMaterial = mods.contenttweaker.conarm.ExtendedMaterialBuilder.create("unobtanium_mat");
+unobtaniumMaterial.color = 0x2D5576;
+unobtaniumMaterial.craftable = false;
+unobtaniumMaterial.liquid = <liquid:molten_unobtanium>;
+unobtaniumMaterial.castable = true;
+unobtaniumMaterial.addItem(<item:contenttweaker:unobtanium_ingot>);
+unobtaniumMaterial.representativeItem = <item:contenttweaker:unobtanium_ingot>;
+unobtaniumMaterial.addHeadMaterialStats(206, 4.5f, 3.38f, 2);
+unobtaniumMaterial.itemLocalizer = function(thisMaterial, itemName){return "Unobtanium " + itemName;};
+unobtaniumMaterial.localizedName = "Unobtanium";
+unobtaniumMaterial.register();
 
 //--------------------------------------------------------------------------------------
 
