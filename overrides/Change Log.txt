@@ -111,7 +111,7 @@ Updated the following mod(s):
 - AttributeFix to 1.0.12.
 - The Betweenlands to 3.9.6.
 - AE2 Unofficial Extended Life to 0.55.13.
-- Chocolate Quest Repoured to Beta 6.12.
+- Chocolate Quest Repoured to Beta 6.13.
 - Chunk Loaders to 1.2.3.
 - Controlling to 3.0.12.2.
 - Corail Tombstone to 4.6.2.
@@ -137,7 +137,7 @@ Updated the following mod(s):
 - SuperMartijn642's Config Lib to 1.1.6.
 - SuperMartijn642's Core Lib to 1.1.7.
 - Tesseract to 1.0.32.
-- Zen Utils to 1.13.4.
+- Zen Utils to 1.13.5.
 
 Downgraded the following mod(s):
 - spark to 1.5.2. Compatibility issue with CensoredASM.
