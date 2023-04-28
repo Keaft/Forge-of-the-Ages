@@ -1,0 +1,29 @@
+[
+    {
+        "modifier": "reinforced_armor",
+        "mutations": [
+            {
+                "type": "colour",
+                "value": "562C72"
+            },
+            {
+                "type": "max_level",
+                "value": 2
+            },
+            {
+                "type": "per_level",
+                "value": 1
+            },
+            {
+                "type": "material",
+                "value": [
+                    {
+                        "type": "item",
+                        "item": "tconstruct:materials",
+                        "meta": 14
+                    }
+                ]
+            }
+        ]
+    }
+]
