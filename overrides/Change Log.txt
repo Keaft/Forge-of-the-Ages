@@ -22,6 +22,7 @@ TECH:
 - Established a whole Tinkers system for both Certus Quartz and Fluix using molten varieties instead of Tinkers Evolution's gem implementation.
 - Added Tinkers casting and cast making recipes related to plates, gems, and blocks.
 - Liquid Ender can now be obtained by smelting Resonant Clathrate from the End.
+- Recipes changed to require more Steelworks. You might want to establish a botania tree farm.
 ADVENTURE:
 - Food no longer decays in The Betweenlands.
 - All Armor and Weapons are now effective in The Betweenlands.
