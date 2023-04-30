@@ -71,4 +71,11 @@ mods.nuclearcraft.pressurizer.addRecipe([<ore:ingotEnderium> * 2, <thermalfounda
 mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material> * 2, <contenttweaker:certus_quartz_plate>]);
 //Fluix
 mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material:7> * 2, <contenttweaker:fluix_plate>]);
+
+// Infuser
+// mods.nuclearcraft.infuser.removeRecipeWithOutput([itemOutput]);
+// mods.nuclearcraft.infuser.addRecipe([itemInput, fluidInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
+
+// End Stone
+mods.nuclearcraft.infuser.removeRecipeWithOutput([<minecraft:end_stone>]);
 print("Initialized 'nuclearcraft'");
