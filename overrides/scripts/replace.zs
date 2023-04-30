@@ -335,8 +335,8 @@ recipes.removeByRecipeName("enderio:s_a_g_mill_upgrade");
 recipes.addShaped("enderio_s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft:flint>,<minecraft:flint>,<minecraft:flint>], [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>], [<enderio:item_material:73>,<enderio:block_simple_sag_mill>,<enderio:item_material:73>]]);
 
 // - Basic Capacitor
-recipes.removeByRecipeName("enderio_capacitor_bank_simple_modified");
-recipes.addShaped("enderio_capacitor_bank_simple_remodified", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
+recipes.removeByRecipeName("enderio:capacitor_bank_simple");
+recipes.addShaped("enderio_capacitor_bank_simple", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -357,16 +357,16 @@ recipes.addShapeless("extrautils2_snow_globe", <extrautils2:snowglobe>, [<ore:bl
 
 // --- Extreme Reactors ---
 // - Reactor Casing
-recipes.removeByRecipeName("bigreactors_reactorcasing_modified");
-recipes.addShaped("bigreactors_reactorcasing_remodified", <bigreactors:reactorcasing> * 4, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<nuclearcraft:ingot:8>, <bigreactors:reactorcasingcores>, <nuclearcraft:ingot:8>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+recipes.removeByRecipeName("bigreactors:reactorcasing");
+recipes.addShaped("bigreactors_reactorcasing", <bigreactors:reactorcasing> * 4, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<nuclearcraft:ingot:8>, <bigreactors:reactorcasingcores>, <nuclearcraft:ingot:8>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 // - Reactor Fuel Rod
-recipes.removeByRecipeName("bigreactors_reactorfuelrod_vanillaglass_modified");
-recipes.addShaped("bigreactors_reactorfuelrod_vanillaglass_remodified", <bigreactors:reactorfuelrod>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:blockGlass>, <nuclearcraft:ingot:4>, <ore:blockGlass>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+recipes.removeByRecipeName("bigreactors:reactorfuelrod_vanillaglass");
+recipes.addShaped("bigreactors_reactorfuelrod_vanillaglass", <bigreactors:reactorfuelrod>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:blockGlass>, <nuclearcraft:ingot:4>, <ore:blockGlass>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
-// - 
-recipes.removeByRecipeName("bigreactors_reactorcasingcores_modified");
-recipes.addShaped("bigreactors_reactorcasingcores_remodified", <bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+// - Reactor Casing Core
+recipes.removeByRecipeName("bigreactors:reactorcasingcores");
+recipes.addShaped("bigreactors_reactorcasingcores", <bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 //--------------------------------------------------------------------------------------
 
