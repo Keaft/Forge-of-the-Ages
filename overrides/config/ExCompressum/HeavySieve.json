@@ -8,7 +8,7 @@
     "excompressum:compressed_gravel": false,
     "excompressum:compressed_sand": false,
     "excompressum:compressed_dirt": false,
-    "excompressum:compressed_soul_sand": false,
+    "excompressum:compressed_soul_sand": true,
     "excompressum:compressed_dust": true,
     "excompressum:compressed_nether_gravel": true,
     "excompressum:compressed_ender_gravel": false,
