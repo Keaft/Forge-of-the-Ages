@@ -64,8 +64,11 @@ recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wo
 
 // --- Content Tweaker ---
 recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
+recipes.addShapeless("contenttweaker_obsidian_gravel_from_pulverized_obsidian", <contenttweaker:obsidian_gravel>, [<thermalfoundation:material:770>,<thermalfoundation:material:770>,<thermalfoundation:material:770>,<thermalfoundation:material:770>]);
+recipes.addShapeless("contenttweaker_obsidian_gravel_to_pulverized_obsidian", <thermalfoundation:material:770> * 4, [<contenttweaker:obsidian_gravel>]);
 recipes.addShapeless("contenttweaker_compressed_obsidian", <contenttweaker:compressed_obsidian>, [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]);
 recipes.addShaped("contenttweaker_unfired_porcelain_plate", <contenttweaker:unfired_porcelain_plate>, [[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>]]);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -104,6 +107,14 @@ recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_ha
 // --- Draconic Evolution ---
 // - Tiny Chaos Shard
 recipes.addShapeless("draconicevolution_tiny_chaos_shard", <draconicevolution:chaos_shard:3>, [<oresabovediamonds:black_opal>, <draconicevolution:awakened_core>]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
+// --- Ex Nihilo Creatio ---
+recipes.addShapeless("crushed_endstone_from_endstone_dust", <exnihilocreatio:block_endstone_crushed>, [<nuclearcraft:gem_dust:11>,<nuclearcraft:gem_dust:11>,<nuclearcraft:gem_dust:11>,<nuclearcraft:gem_dust:11>]);
+recipes.addShapeless("crushed_endstone_to_endstone_dust", <nuclearcraft:gem_dust:11> * 4, [<exnihilocreatio:block_endstone_crushed>]);
 
 //--------------------------------------------------------------------------------------
 

@@ -22,5 +22,23 @@ mods.enderio.Enchanter.addRecipe(<enchantment:endercore:autosmelt>, <thermalfoun
 mods.enderio.SagMill.addRecipe([<scalinghealth:heartdust>], [100], <scalinghealth:crystalshard>, "MULTIPLY_OUTPUT");
 mods.enderio.SagMill.addRecipe([<scalinghealth:heartdust> * 4], [100], <scalinghealth:crystalore>, "MULTIPLY_OUTPUT");
 
+// Cobblestone
+mods.enderio.SagMill.removeRecipe(<minecraft:cobblestone>);
+mods.enderio.SagMill.addRecipe([<minecraft:gravel>, <minecraft:gravel>, <minecraft:sand>, <minecraft:flint>], [1.0, 0.3, 0.1, 0.05], <ore:cobblestone>, "MULTIPLY_OUTPUT");
+
+// Gravel
+mods.enderio.SagMill.removeRecipe(<minecraft:gravel>);
+mods.enderio.SagMill.addRecipe([<minecraft:sand>, <minecraft:sand>, <minecraft:flint>], [1.0, 0.3, 0.3], <ore:gravel>, "MULTIPLY_OUTPUT");
+
+// Sand
+mods.enderio.SagMill.removeRecipe(<minecraft:sand>);
+mods.enderio.SagMill.addRecipe([<exnihilocreatio:block_dust>, <nuclearcraft:gem:6>, <nuclearcraft:gem:6>], [1.0, 1.0, 0.1], <ore:sand>, "MULTIPLY_OUTPUT");
+
+// Endstone
+mods.enderio.SagMill.addRecipe([<exnihilocreatio:block_endstone_crushed>, <nuclearcraft:gem_dust:11>, <nuclearcraft:gem_dust:11>], [1.0, 0.2, 0.05], <minecraft:end_stone>, "MULTIPLY_OUTPUT");
+
+// Obsidian
+mods.enderio.SagMill.removeRecipe(<minecraft:obsidian>);
+mods.enderio.SagMill.addRecipe([<contenttweaker:obsidian_gravel>, <thermalfoundation:material:770>, <thermalfoundation:material:770>], [1.0, 0.2, 0.05], <minecraft:obsidian>, "MULTIPLY_OUTPUT");
 
 print("Initialized 'enderio'");
