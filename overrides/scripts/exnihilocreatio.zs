@@ -197,15 +197,15 @@ Sieve.addDiamondMeshRecipe(<ore:sand>, <atum:dusty_bone>, 0.01);
 
 //Dust
 Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.005);
-Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.0375);
+Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.0375);
 Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.01);
-Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.075);
+Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.075);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.025);
-Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.15);
-Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.05);
+Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.15);
+Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.05);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.05);
-Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.3);
-Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:dye:15>, 0.1);
+Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.3);
+Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.1);
 //Fun Items obtainable by manual sifting
 Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <woot:xpshard>, 0.001);
 Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <atum:coin_dirty>, 0.01);
@@ -256,7 +256,13 @@ Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_netherrack_crushed>, <exnihilo
 // Sieve.addFlintMeshRecipe(<minecraft:soul_sand>, <minecraft:quartz>, 0.33);
 // Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:quartz>, 1);
 // Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:quartz>, 0.8);
-// Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:ghast_tear>, 0.02);
+Sieve.addFlintMeshRecipe(<minecraft:soul_sand>, <minecraft:bone>, 0.05);
+Sieve.addIronMeshRecipe(<minecraft:soul_sand>, <minecraft:bone>, 0.1);
+Sieve.addIronMeshRecipe(<minecraft:soul_sand>, <iceandfire:witherbone>, 0.15);
+Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:bone>, 0.2);
+Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <iceandfire:witherbone>, 0.3);
+Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <witherskelefix:fragment>, 0.2);
+Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:ghast_tear>, 0.02);
 
 //Obsidian Gravel
 Sieve.addIronMeshRecipe(<contenttweaker:obsidian_gravel>, <minecraft:redstone>, 0.05);
