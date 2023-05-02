@@ -25,10 +25,13 @@ tile.contenttweaker.ardite_ore_pitstone.name=Ardite Ore
 tile.contenttweaker.obsidian_gravel.name=Obsidian Gravel
 tile.contenttweaker.compressed_obsidian.name=Compressed Obsidian
 tile.contenttweaker.compressed_obsidian_gravel.name=Compressed Obsidian Gravel
+tile.contenttweaker.spore_endstone.name=Spore End Stone
+tile.contenttweaker.ender_corrupter.name=Ender Corrupter
 fluid.molten_neptunium=Molten Neptunium
 fluid.molten_certus_quartz=Molten Certus Quartz
 fluid.molten_fluix=Molten Fluix
 fluid.molten_unobtanium=Molten Unobtanium
+fluid.etheric_dew=Etheric Dew
 
 # BOTANIA MATERIALS
 ########

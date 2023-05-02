@@ -61,4 +61,18 @@ compressedobsidiangravel.setBlockSoundType(<soundtype:sand>);
 compressedobsidiangravel.setToolLevel(4);
 compressedobsidiangravel.register();
 
+// - Spore Endstone
+var sporeEndstone = VanillaFactory.createBlock("spore_endstone",<blockmaterial:rock>);
+sporeEndstone.setBlockHardness(5.0);
+sporeEndstone.setToolClass("pickaxe");
+sporeEndstone.setToolLevel(3);
+sporeEndstone.register();
+
+// - Ender Corrupter
+var enderCorrupter = VanillaFactory.createBlock("ender_corrupter",<blockmaterial:rock>);
+enderCorrupter.setBlockHardness(5.0);
+enderCorrupter.setToolClass("pickaxe");
+enderCorrupter.setToolLevel(3);
+enderCorrupter.register();
+
 print("Initialized 'contenttweakerblocks'");

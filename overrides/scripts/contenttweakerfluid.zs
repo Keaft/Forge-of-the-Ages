@@ -32,10 +32,15 @@ fluixFluid.fillSound = <soundevent:item.bucket.fill_lava>;
 fluixFluid.material = <blockmaterial:lava>;
 fluixFluid.register();
 
-var unobtaniumFluid = VanillaFactory.createFluid("molten_unobtanium", Color.fromHex("2D5576"));
+var unobtaniumFluid = VanillaFactory.createFluid("molten_unobtanium", Color.fromHex("2d5576"));
 unobtaniumFluid.fillSound = <soundevent:item.bucket.fill_lava>;
 unobtaniumFluid.material = <blockmaterial:lava>;
 unobtaniumFluid.register();
+
+var ethericDewFluid = VanillaFactory.createFluid("etheric_dew", Color.fromHex("003e5f"));
+ethericDewFluid.fillSound = <soundevent:item.bucket.fill>;
+ethericDewFluid.material = <blockmaterial:water>;
+ethericDewFluid.register();
 
 //--------------------------------------------------------------------------------------
 
