@@ -301,6 +301,7 @@ Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_skystone_crushed>, <appliedene
 // Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_endstone_crushed>, <exnihilocreatio:item_ore_aluminium>, 0.25);
 // Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_endstone_crushed>, <exnihilocreatio:item_ore_silver>, 0.25);
 // Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_endstone_crushed>, <draconicevolution:draconium_dust>, 0.08);
+Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_endstone_crushed>, <minecraft:chorus_fruit>, 0.1);
 
 //Leaves
 
