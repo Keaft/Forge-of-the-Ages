@@ -2,7 +2,7 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/spore_endstone"
+      "all": "contenttweaker:blocks/spore_endstone_up"
     },
     "model": "contenttweaker:spore_endstone_block",
     "uvlock": true,
