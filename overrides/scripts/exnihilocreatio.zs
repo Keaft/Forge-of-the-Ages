@@ -263,6 +263,13 @@ Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:bone>, 0.2);
 Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <iceandfire:witherbone>, 0.3);
 Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <witherskelefix:fragment>, 0.2);
 Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <minecraft:ghast_tear>, 0.02);
+//Fun Items obtainable by manual sifting
+Sieve.addFlintMeshRecipe(<minecraft:soul_sand>, <woot:xpshard>, 0.001);
+Sieve.addFlintMeshRecipe(<minecraft:soul_sand>, <atum:coin_dirty>, 0.001);
+Sieve.addIronMeshRecipe(<minecraft:soul_sand>, <woot:xpshard>, 0.001);
+Sieve.addIronMeshRecipe(<minecraft:soul_sand>, <atum:coin_dirty>, 0.001);
+Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <woot:xpshard>, 0.005);
+Sieve.addDiamondMeshRecipe(<minecraft:soul_sand>, <atum:coin_dirty>, 0.005);
 
 //Obsidian Gravel
 Sieve.addIronMeshRecipe(<contenttweaker:obsidian_gravel>, <minecraft:redstone>, 0.05);
