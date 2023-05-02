@@ -419,6 +419,16 @@ recipes.addShaped("naturescompass_natures_compass", <naturescompass:naturescompa
 
 //--------------------------------------------------------------------------------------
 
+// --- NuclearCraft ---
+
+//Dimensional Blend
+recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.compound.dimensional_blend");
+recipes.addShapeless("nuclearcraft_item.nuclearcraft.compound.dimensional_blend", <nuclearcraft:compound:8>, [<ore:dustObsidian>, <ore:dustEndstone>, <ore:dustObsidian>, <ore:dustEndstone>, <enderio:item_material:20>, <ore:dustEndstone>, <ore:dustObsidian>, <ore:dustEndstone>, <ore:dustObsidian>]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Packaged Auto ---
 
 recipes.removeByRecipeName("packagedauto:packager");

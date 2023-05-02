@@ -78,4 +78,13 @@ mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material:7> * 2, <
 
 // End Stone
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<minecraft:end_stone>]);
+
+// Manufactory
+// mods.nuclearcraft.manufactory.removeRecipeWithInput([itemInput]);
+// mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemOutput]);
+// mods.nuclearcraft.manufactory.addRecipe([itemInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
+
+mods.nuclearcraft.manufactory.removeRecipeWithOutput(<nuclearcraft:gem_dust:11>);
+mods.nuclearcraft.manufactory.addRecipe(<minecraft:end_stone>, <nuclearcraft:gem_dust:11> * 4);
+
 print("Initialized 'nuclearcraft'");

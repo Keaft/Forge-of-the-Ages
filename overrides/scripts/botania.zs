@@ -8,6 +8,9 @@ print("Initializing 'botania'...");
 //PureDaisy recipe addition
 //mods.botania.PureDaisy.addRecipe(IIngredient blockInput, IItemStack blockOutput, @Optional int time);
 
-//NO CURRENT RECIPES HERE. YOUR RECIPE IS IN ANOTHER CASTLE.
+// Elven Trading through Alfheim Portal
+//mods.botania.ElvenTrade.addRecipe(IIngredient[] outputs, IIngredient[] input);
+
+mods.botania.ElvenTrade.addRecipe([<draconicevolution:draconium_dust>], [<nuclearcraft:compound:8>,<nuclearcraft:compound:8>]);
 
 print("Initialized 'botania'");
