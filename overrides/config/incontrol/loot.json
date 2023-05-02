@@ -91,5 +91,10 @@
         "item": "minecraft:prismarine_crystals",
         "random": 0.33,
         "itemcount": "1-2/2-3/4"
+    },
+    {
+        "mob": "minecraft:ender_dragon",
+        "item": "contenttweaker:ender_corrupter",
+        "itemcount": "1-2/2-3/4"
     }
 ]
