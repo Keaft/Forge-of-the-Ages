@@ -75,6 +75,7 @@ Added the following mod(s):
 - 燐/Hesperus as a fork of Phosphor 0.2.9.2.
 - Tinkers' Modifier Modifier 1.0.5. Gives greater control over modifiers on weapons and armor.
 - Zen Summoning 1.1.2. For use in respawning boss fights.
+- Builder's Bag 1.4.2.25. A bag to hold items for building. It's compatible with builder wands and building gadgets!
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
