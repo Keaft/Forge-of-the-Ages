@@ -572,5 +572,13 @@ recipes.addShaped("tinker_io_slotupg4", <tinker_io:upg:4>, [[null,<ore:gemDiamon
 
 //--------------------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------------------
+
+// -- Waystones --
+//Warp Stone
+recipes.removeByRecipeName("waystones:warp_stone");
+recipes.addShaped("waystones_warp_stone", <waystones:warp_stone>, [[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>], [<ore:enderpearl>, <tconstruct:materials:9>, <ore:enderpearl>], [<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>]]);
+
+//--------------------------------------------------------------------------------------
 
 print("Initialized 'replacerecipe'");
