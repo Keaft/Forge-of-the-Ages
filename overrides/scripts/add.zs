@@ -62,25 +62,6 @@ recipes.addShaped("dark_oak_table", <cqrepoured:table_dark> * 2, [[<minecraft:wo
 
 //--------------------------------------------------------------------------------------
 
-// --- Content Tweaker ---
-recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
-recipes.addShapeless("contenttweaker_obsidian_gravel_from_pulverized_obsidian", <contenttweaker:obsidian_gravel>, [<thermalfoundation:material:770>,<thermalfoundation:material:770>,<thermalfoundation:material:770>,<thermalfoundation:material:770>]);
-recipes.addShapeless("contenttweaker_obsidian_gravel_to_pulverized_obsidian", <thermalfoundation:material:770> * 4, [<contenttweaker:obsidian_gravel>]);
-recipes.addShapeless("contenttweaker_compressed_obsidian", <contenttweaker:compressed_obsidian>, [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]);
-recipes.addShaped("contenttweaker_unfired_porcelain_plate", <contenttweaker:unfired_porcelain_plate>, [[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>]]);
-
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
-// --- The Beneath ---
-// - Beneath Teleporter
-//recipes.addShaped("beneath_teleporter", <beneath:teleporterbeneath>, [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>], [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:2>]]);
-
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
 // --- ContentTweaker ---
 // - Elytra Wing
 recipes.addShaped("contenttweaker_elytra_wing", <contenttweaker:elytra_wing>, [[null, <minecraft:feather>, <minecraft:end_rod>],[<minecraft:feather>, <harvestcraft:wovencottonitem>, <minecraft:end_rod>],[<minecraft:feather>, <harvestcraft:wovencottonitem>, <minecraft:end_rod>]]);
@@ -99,6 +80,27 @@ recipes.addShaped("contenttweaker_purple_slime_handle", <contenttweaker:slime_ha
 
 // - Orange Slime Handle
 recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_handle_orange>, [[<ore:slimeballMagma>, null, <ore:slimeballMagma>],[null, <tconstruct:slime_congealed:4>, null],[null, <minecraft:ender_eye>, null]]);
+
+// - Compressed Obsidian Gravel
+recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
+
+// - Obsidian gravel from pulverized obsidian and vice versa
+recipes.addShapeless("contenttweaker_obsidian_gravel_from_pulverized_obsidian", <contenttweaker:obsidian_gravel>, [<thermalfoundation:material:770>,<thermalfoundation:material:770>,<thermalfoundation:material:770>,<thermalfoundation:material:770>]);
+recipes.addShapeless("contenttweaker_obsidian_gravel_to_pulverized_obsidian", <thermalfoundation:material:770> * 4, [<contenttweaker:obsidian_gravel>]);
+
+// - Compressed Obsidian
+recipes.addShapeless("contenttweaker_compressed_obsidian", <contenttweaker:compressed_obsidian>, [<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]);
+
+// - Unfired Porcelain Plate
+recipes.addShaped("contenttweaker_unfired_porcelain_plate", <contenttweaker:unfired_porcelain_plate>, [[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>],[<exnihilocreatio:item_material:1>,<exnihilocreatio:item_material:1>]]);
+
+// - Unfired Porcelain Crystal
+recipes.addShaped("contenttweaker_unfired_porcelain_crystal", <contenttweaker:unfired_porcelain_crystal>, [[null, <exnihilocreatio:item_material:1>, null],[<exnihilocreatio:item_material:1>, <exnihilocreatio:item_material:1>, <exnihilocreatio:item_material:1>],[null, <exnihilocreatio:item_material:1>, null]]);
+
+
+// - Stagnant Slime Crystals
+recipes.addShapeless("contenttweaker_stagnant_green_slime_crystal", <contenttweaker:stagnant_green_slime_crystal>, [<contenttweaker:steel_crystal_shell>, <minecraft:slime_ball>]);
+recipes.addShapeless("contenttweaker_stagnant_blue_slime_crystal", <contenttweaker:stagnant_blue_slime_crystal>, [<contenttweaker:stagnant_green_slime_crystal>, <minecraft:diamond>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -224,8 +226,11 @@ furnace.addRecipe(<minecraft:netherbrick>*9, <extrautils2:compressednetherrack>,
 furnace.addRecipe(<minecraft:netherbrick>*64, <extrautils2:compressednetherrack:1>, 1.5);
 furnace.addRecipe(<minecraft:nether_brick>*64, <extrautils2:compressednetherrack:2>, 4.0);
 
-// - Cooked porcelain plate from unfired porcelain plate
-furnace.addRecipe(<contenttweaker:cooked_porcelain_plate>, <contenttweaker:unfired_porcelain_plate>);
+// - Porcelain plate from unfired porcelain plate
+furnace.addRecipe(<contenttweaker:porcelain_plate>, <contenttweaker:unfired_porcelain_plate>);
+
+// - Porcelain Crystal from unfired porcelain crystal
+furnace.addRecipe(<contenttweaker:porcelain_crystal>, <contenttweaker:unfired_porcelain_crystal>);
 
 //--------------------------------------------------------------------------------------
 

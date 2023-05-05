@@ -22,4 +22,11 @@ Inscriber.addRecipe(<appliedenergistics2:material:16>, <contenttweaker:certus_qu
 Inscriber.addRecipe(<appliedenergistics2:material:17>, <contenttweaker:diamond_plate>, true, <appliedenergistics2:material:14>);
 Inscriber.addRecipe(<appliedenergistics2:material:18>, <thermalfoundation:material:33>, true, <appliedenergistics2:material:15>);
 
+// Inscriber Crystal Press
+Inscriber.addRecipe(<contenttweaker:inscriber_crystal_press>, <contenttweaker:solid_crystal_blank>, false, <ore:blockIron>);
+Inscriber.addRecipe(<contenttweaker:inscriber_crystal_press>, <ore:blockIron>, true, <contenttweaker:inscriber_crystal_press>, <contenttweaker:inscriber_crystal_press>);
+
+// Steel Crystal Shell
+Inscriber.addRecipe(<contenttweaker:steel_crystal_shell>, <thermalfoundation:material:352>, true, <contenttweaker:inscriber_crystal_press>, <contenttweaker:inscriber_crystal_press>);
+
 print("Initialized 'appliedenergistics'");

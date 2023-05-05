@@ -1,3 +1,5 @@
+#Items
+
 item.contenttweaker.enchanted_tome_of_knowledge.name=Enchanted Tome of Knowledge
 item.contenttweaker.elytra_wing.name=Elytra Wing
 item.contenttweaker.slime_handle_green.name=Green Slime Handle
@@ -14,10 +16,21 @@ item.contenttweaker.sixteenk_fluid.name=16k ME Fluid Storage Cell TO UPGRADE
 item.contenttweaker.demon_will_crystal_perfected.name=Demon Will Crystal Perfected
 item.contenttweaker.unobtanium_ingot.name=Unobtanium Ingot
 item.contenttweaker.unfired_porcelain_plate.name=Unfired Porcelain Plate
-item.contenttweaker.cooked_porcelain_plate.name=Cooked Porcelain Plate
+item.contenttweaker.porcelain_plate.name=Porcelain Plate
 item.contenttweaker.certus_quartz_plate.name=Certus Quartz Plate
 item.contenttweaker.diamond_plate.name=Diamond Plate
 item.contenttweaker.fluix_plate.name=Fluix Plate
+item.contenttweaker.unfired_porcelain_crystal.name=Unfired Porcelain Crystal
+item.contenttweaker.porcelain_crystal.name=Porcelain Crystal
+item.contenttweaker.crystal_cast.name=Crystal Cast
+item.contenttweaker.inscriber_crystal_press.name=Inscriber Crystal Press
+item.contenttweaker.solid_crystal_blank.name=Solid Crystal Blank
+item.contenttweaker.steel_crystal_shell.name=Steel Crystal Shell
+item.contenttweaker.stagnant_green_slime_crystal.name=Stagnant Green Slime Crystal
+item.contenttweaker.stagnant_blue_slime_crystal.name=Stagnant Blue Slime Crystal
+item.contenttweaker.stagnant_magma_slime_crystal.name=Stagnant Magma Slime Crystal
+
+# Blocks
 tile.contenttweaker.cobalt_ore_stone.name=Cobalt Ore
 tile.contenttweaker.ardite_ore_stone.name=Ardite Ore
 tile.contenttweaker.cobalt_ore_pitstone.name=Cobalt Ore
@@ -27,6 +40,8 @@ tile.contenttweaker.compressed_obsidian.name=Compressed Obsidian
 tile.contenttweaker.compressed_obsidian_gravel.name=Compressed Obsidian Gravel
 tile.contenttweaker.spore_endstone.name=Spore End Stone
 tile.contenttweaker.ender_corrupter.name=Ender Corrupter
+
+# Fluids
 fluid.molten_neptunium=Molten Neptunium
 fluid.molten_certus_quartz=Molten Certus Quartz
 fluid.molten_fluix=Molten Fluix

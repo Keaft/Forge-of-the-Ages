@@ -443,4 +443,12 @@ recipes.removeShaped(<tinker_io:upg>, [[<minecraft:dye:4>,<minecraft:dye:4>,<min
 
 //--------------------------------------------------------------------------------------
 
+// --- Vanilla Furnace ---
+// furnace.remove(IIngredient output)
+//Slime Crystals, handled through contenttweaker and 
+furnace.remove(<tconstruct:materials:9>);
+furnace.remove(<tconstruct:materials:10>);
+furnace.remove(<tconstruct:materials:11>);
+furnace.remove(<tconevo:material:1>);
+
 print("Initialized 'remove'");

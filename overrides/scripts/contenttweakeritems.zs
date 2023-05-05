@@ -73,9 +73,9 @@ var unfiredporcelainplate = VanillaFactory.createItem("unfired_porcelain_plate")
 unfiredporcelainplate.maxStackSize = 64;
 unfiredporcelainplate.register();
 
-var cookedporcelainplate = VanillaFactory.createItem("cooked_porcelain_plate");
-cookedporcelainplate.maxStackSize = 64;
-cookedporcelainplate.register();
+var porcelainplate = VanillaFactory.createItem("porcelain_plate");
+porcelainplate.maxStackSize = 64;
+porcelainplate.register();
 
 var certusquartzplate = VanillaFactory.createItem("certus_quartz_plate");
 certusquartzplate.maxStackSize = 64;
@@ -97,4 +97,39 @@ var unobtaniumingot = VanillaFactory.createItem("unobtanium_ingot");
 unobtaniumingot.maxStackSize = 64;
 unobtaniumingot.register();
 
+var unfiredporcelaincrystal = VanillaFactory.createItem("unfired_porcelain_crystal");
+unfiredporcelaincrystal.maxStackSize = 64;
+unfiredporcelaincrystal.register();
+
+var porcelaincrystal = VanillaFactory.createItem("porcelain_crystal");
+porcelaincrystal.maxStackSize = 64;
+porcelaincrystal.register();
+
+var crystalcast = VanillaFactory.createItem("crystal_cast");
+crystalcast.maxStackSize = 1;
+crystalcast.register();
+
+var inscribercrystalpress = VanillaFactory.createItem("inscriber_crystal_press");
+inscribercrystalpress.maxStackSize = 64;
+inscribercrystalpress.register();
+
+var solidcrystalblank = VanillaFactory.createItem("solid_crystal_blank");
+solidcrystalblank.maxStackSize = 64;
+solidcrystalblank.register();
+
+var steelcrystalshell = VanillaFactory.createItem("steel_crystal_shell");
+steelcrystalshell.maxStackSize = 64;
+steelcrystalshell.register();
+
+var stagnantgreenslimecrystal = VanillaFactory.createItem("stagnant_green_slime_crystal");
+stagnantgreenslimecrystal.maxStackSize = 64;
+stagnantgreenslimecrystal.register();
+
+var stagnantblueslimecrystal = VanillaFactory.createItem("stagnant_blue_slime_crystal");
+stagnantblueslimecrystal.maxStackSize = 64;
+stagnantblueslimecrystal.register();
+
+var stagnantmagmaslimecrystal = VanillaFactory.createItem("stagnant_magma_slime_crystal");
+stagnantmagmaslimecrystal.maxStackSize = 64;
+stagnantmagmaslimecrystal.register();
 print("Initialized 'contenttweakeritems'");

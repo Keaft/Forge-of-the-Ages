@@ -27,7 +27,7 @@ for ore in <ore:toolHammer>.items {
 // --- Applied Energistics ---
 // - Crystal Growth Accellerator
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator");
-recipes.addShaped("appliedenergistics2_network/blocks/crystal_processing_quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, [[<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>]]);
+recipes.addShaped("appliedenergistics2_network/blocks/crystal_processing_quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, [[<contenttweaker:steel_crystal_shell>, <appliedenergistics2:part:16>, <contenttweaker:steel_crystal_shell>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>]]);
 
 // - Advanced Inscriber
 recipes.removeByRecipeName("ae2stuff:recipe3");
@@ -67,11 +67,11 @@ recipes.addShapeless("appliedenergistics2_network/parts/terminals", <appliedener
 
 // - ME Quantum Ring
 recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_ring");
-recipes.addShaped("appliedenergistics2_network/blocks/quantum_ring", <appliedenergistics2:quantum_ring>, [[<ore:ingotSteel>,<appliedenergistics2:material:22>,<ore:ingotSteel>], [<appliedenergistics2:material:24>,<appliedenergistics2:energy_cell>,<enderio:item_material:16>], [<ore:ingotSteel>,<appliedenergistics2:material:22>,<ore:ingotSteel>]]);
+recipes.addShaped("appliedenergistics2_network/blocks/quantum_ring", <appliedenergistics2:quantum_ring>, [[<contenttweaker:steel_crystal_shell>,<appliedenergistics2:material:22>,<contenttweaker:steel_crystal_shell>], [<appliedenergistics2:material:24>,<appliedenergistics2:energy_cell>,<enderio:item_material:16>], [<contenttweaker:steel_crystal_shell>,<appliedenergistics2:material:22>,<contenttweaker:steel_crystal_shell>]]);
 
 // - Pattern
 recipes.removeByRecipeName("appliedenergistics2:network/crafting/patterns_blank");
-recipes.addShaped("appliedenergistics2_network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[<ore:ingotSteel>,<appliedenergistics2:quartz_glass>,<ore:ingotSteel>], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:certus_quartz_plate>,<contenttweaker:certus_quartz_plate>]]);
+recipes.addShaped("appliedenergistics2_network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[null,<appliedenergistics2:quartz_glass>,null], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:steel_crystal_shell>,<contenttweaker:certus_quartz_plate>]]);
 
 // - Molecular Assembler
 recipes.removeByRecipeName("appliedenergistics2:network/crafting/molecular_assembler");

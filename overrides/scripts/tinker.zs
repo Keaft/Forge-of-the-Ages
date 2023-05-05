@@ -54,6 +54,12 @@ mods.tconstruct.Melting.addRecipe(<liquid:silver> * 288, <iceandfire:silver_ore>
 //Resonant Clathrate
 mods.tconstruct.Melting.addRecipe(<liquid:ender> * 250, <thermalfoundation:material:895>);
 
+//Steel from Steel Crystal Shell
+mods.tconstruct.Melting.addRecipe(<liquid:steel> * 288, <contenttweaker:steel_crystal_shell>);
+
+//Iron from Solid Crystal Blank
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 432, <contenttweaker:solid_crystal_blank>);
+
 // - Alloy
 //Pig Iron
 mods.tconstruct.Alloy.removeRecipe(<liquid:pigiron>);
@@ -184,9 +190,17 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenerg
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:brass>, 144, true);
 
 // Plate Cast
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:alubrass>, 144, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:cooked_porcelain_plate>, <liquid:brass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:porcelain_plate>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:porcelain_plate>, <liquid:alubrass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:porcelain_plate>, <liquid:brass>, 144, true);
+
+// Crystal Cast
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:crystal_cast>, <contenttweaker:porcelain_crystal>, <liquid:gold>, 288, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:crystal_cast>, <contenttweaker:porcelain_crystal>, <liquid:alubrass>, 144, true);
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:crystal_cast>, <contenttweaker:porcelain_crystal>, <liquid:brass>, 144, true);
+
+// Solid Crystal Blank
+mods.tconstruct.Casting.addTableRecipe(<contenttweaker:solid_crystal_blank>, <contenttweaker:crystal_cast>, <liquid:iron>, 432);
 
 
 // - Part removal

@@ -79,6 +79,18 @@ mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material:7> * 2, <
 // End Stone
 mods.nuclearcraft.infuser.removeRecipeWithOutput([<minecraft:end_stone>]);
 
+// Nether Rack
+mods.nuclearcraft.infuser.addRecipe(<minecraft:redstone>, <liquid:lava> * 1000, <minecraft:netherrack>);
+
+// Soul Sand
+mods.nuclearcraft.infuser.addRecipe(<minecraft:sand>, <liquid:witchwater> * 1000, <minecraft:soul_sand>);
+
+// Spore End Stone
+mods.nuclearcraft.infuser.addRecipe(<minecraft:mycelium>, <liquid:etheric_dew> * 1000, <contenttweaker:spore_endstone>);
+
+// Stagnant Magma Slime Crystal
+mods.nuclearcraft.infuser.addRecipe(<contenttweaker:stagnant_blue_slime_crystal>, <liquid:lava> * 1000, <contenttweaker:stagnant_magma_slime_crystal>);
+
 // Manufactory
 // mods.nuclearcraft.manufactory.removeRecipeWithInput([itemInput]);
 // mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemOutput]);

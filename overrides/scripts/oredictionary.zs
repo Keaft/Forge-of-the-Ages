@@ -125,6 +125,9 @@ print("Initializing 'oredictionary'...");
 <ore:toolSkillet>.add(<tconstruct:frypan>);
 recipes.replaceAllOccurences(<ore:toolSkillet>,<ore:toolSkillet>.reuse());
 
+# Cast
+<ore:cast>.add(<contenttweaker:crystal_cast>);
+
 # Hammers
 val toolHammerEntries = <ore:toolHammer>;
 val hammerList = [
