@@ -26,13 +26,13 @@ mods.botania.ElvenTrade.addRecipe([<appliedenergistics2:crystal_seed>.withTag({p
 //mods.botania.ManaInfusion.addAlchemy(IItemStack output, IIngredient input, int mana);
 
 // Green Slime Crystal
-mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:9>, <contenttweaker:stagnant_green_slime_crystal>, 25000);
+mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:9>, <contenttweaker:stagnant_green_slime_crystal>, 12500);
 
 // Blue Slime Crystal
-mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:10>, <contenttweaker:stagnant_blue_slime_crystal>, 50000);
+mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:10>, <contenttweaker:stagnant_blue_slime_crystal>, 25000);
 
 // Green Slime Crystal
-mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:11>, <contenttweaker:stagnant_magma_slime_crystal>, 100000);
+mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:11>, <contenttweaker:stagnant_magma_slime_crystal>, 50000);
 
 // Copper
 mods.botania.ManaInfusion.addAlchemy(<metallurgy:copper_ingot>, <metallurgy:tin_ingot>, 2000);
