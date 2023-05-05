@@ -198,11 +198,14 @@ Sieve.addDiamondMeshRecipe(<ore:sand>, <atum:dusty_bone>, 0.01);
 //Dust
 Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.005);
 Sieve.addStringMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.0375);
+Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <exnihilocreatio:item_ore_tin>, 0.01);
 Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.01);
 Sieve.addFlintMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.075);
+Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <exnihilocreatio:item_ore_tin>, 0.025);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.025);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.15);
 Sieve.addIronMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.05);
+Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <exnihilocreatio:item_ore_tin>, 0.05);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:redstone>, 0.05);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.3);
 Sieve.addDiamondMeshRecipe(<exnihilocreatio:block_dust>, <minecraft:gunpowder>, 0.1);
