@@ -16,6 +16,9 @@ print("Initializing 'botania'...");
 // Draconium Dust
 mods.botania.ElvenTrade.addRecipe([<draconicevolution:draconium_dust>], [<nuclearcraft:compound:8>,<nuclearcraft:compound:8>]);
 
+// Ender Corrupter
+mods.botania.ElvenTrade.addRecipe([<contenttweaker:ender_corrupter>], [<bountifulbaubles:enderdragonscale>]);
+
 // - Mana Infusion Alchemy
 //mods.botania.ManaInfusion.addAlchemy(IItemStack output, IIngredient input, int mana);
 
