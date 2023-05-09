@@ -102,6 +102,18 @@ recipes.addShaped("contenttweaker_unfired_porcelain_crystal", <contenttweaker:un
 recipes.addShapeless("contenttweaker_stagnant_green_slime_crystal", <contenttweaker:stagnant_green_slime_crystal>, [<contenttweaker:steel_crystal_shell>, <minecraft:slime_ball>]);
 recipes.addShapeless("contenttweaker_stagnant_blue_slime_crystal", <contenttweaker:stagnant_blue_slime_crystal>, [<contenttweaker:stagnant_green_slime_crystal>, <minecraft:diamond>]);
 
+// - Durt Clicker Items
+recipes.addShapeless("contenttweaker_clips_from_clop", <contenttweaker:clip> * 9, [<contenttweaker:clop>]);
+recipes.addShapeless("contenttweaker_clop_from_clips", <contenttweaker:clop>, [<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>]);
+recipes.addShapeless("contenttweaker_clops_from_clorp", <contenttweaker:clop> * 9, [<contenttweaker:clorp>]);
+recipes.addShapeless("contenttweaker_clorp_from_clops", <contenttweaker:clorp>, [<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>,<contenttweaker:clop>]);
+recipes.addShapeless("contenttweaker_clorps_from_clod", <contenttweaker:clorp> * 9, [<contenttweaker:clod>]);
+recipes.addShapeless("contenttweaker_clod_from_clorps", <contenttweaker:clod>, [<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>]);
+recipes.addShapeless("contenttweaker_clods_from_basic_durt", <contenttweaker:clod> * 9, [<contenttweaker:basic_durt>]);
+recipes.addShapeless("contenttweaker_basic_durt_from_clods", <contenttweaker:basic_durt>, [<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>]);
+recipes.addShaped("contenttweaker_dirt_claw", <contenttweaker:dirt_claw>, [[<exnihilocreatio:item_pebble>,null,<exnihilocreatio:item_pebble>],[null,<exnihilocreatio:item_pebble>,<exnihilocreatio:item_pebble>],[<exnihilocreatio:item_pebble>,<exnihilocreatio:item_pebble>,<exnihilocreatio:item_pebble>]]);
+recipes.addShaped("contenttweaker_dirty_claw", <contenttweaker:dirty_claw>, [[<contenttweaker:clop>,null,<contenttweaker:clop>],[null,<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clop>,<contenttweaker:clorp>,<contenttweaker:dirt_claw>]]);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -117,6 +129,7 @@ recipes.addShapeless("draconicevolution_tiny_chaos_shard", <draconicevolution:ch
 // --- Ex Nihilo Creatio ---
 recipes.addShapeless("crushed_endstone_from_endstone_dust", <exnihilocreatio:block_endstone_crushed>, [<nuclearcraft:gem_dust:11>,<nuclearcraft:gem_dust:11>,<nuclearcraft:gem_dust:11>,<nuclearcraft:gem_dust:11>]);
 recipes.addShapeless("crushed_endstone_to_endstone_dust", <nuclearcraft:gem_dust:11> * 4, [<exnihilocreatio:block_endstone_crushed>]);
+recipes.addShapeless("pebbles_from_cobble", <exnihilocreatio:item_pebble> * 4, [<minecraft:cobblestone>]);
 
 //--------------------------------------------------------------------------------------
 

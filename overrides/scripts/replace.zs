@@ -22,60 +22,57 @@ for ore in <ore:toolHammer>.items {
   }
 }
 
+function replaceRecipeShaped(name as string, output as IItemStack, recipe as IIngredient[][]) {
+    recipes.removeByRecipeName(name);
+    recipes.addShaped(name.replace(":","_"), output, recipe);
+}
+
+function replaceRecipeShapeless(name as string, output as IItemStack, recipe as IIngredient[]) {
+    recipes.removeByRecipeName(name);
+    recipes.addShapeless(name.replace(":","_"), output, recipe);
+}
+
 //--------------------------------------------------------------------------------------
 
 // --- Applied Energistics ---
 // - Crystal Growth Accellerator
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator");
-recipes.addShaped("appliedenergistics2_network/blocks/crystal_processing_quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, [[<contenttweaker:steel_crystal_shell>, <appliedenergistics2:part:16>, <contenttweaker:steel_crystal_shell>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, [[<contenttweaker:steel_crystal_shell>, <appliedenergistics2:part:16>, <contenttweaker:steel_crystal_shell>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>]]);
 
 // - Advanced Inscriber
-recipes.removeByRecipeName("ae2stuff:recipe3");
-recipes.addShaped("ae2stuff_recipe3", <ae2stuff:inscriber>, [[<ore:ingotSteel>, <minecraft:hopper:*>, <ore:ingotSteel>], [<appliedenergistics2:material:24>, <appliedenergistics2:inscriber:*>, <appliedenergistics2:material:24>], [<ore:ingotSteel>, <minecraft:hopper:*>, <ore:ingotSteel>]]);
+replaceRecipeShaped("ae2stuff:recipe3", <ae2stuff:inscriber>, [[<ore:ingotSteel>, <minecraft:hopper:*>, <ore:ingotSteel>], [<appliedenergistics2:material:24>, <appliedenergistics2:inscriber:*>, <appliedenergistics2:material:24>], [<ore:ingotSteel>, <minecraft:hopper:*>, <ore:ingotSteel>]]);
 
 // - Energy Acceptor
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_energy_acceptor");
-recipes.addShaped("appliedenergistics2_network/blocks/energy_energy_acceptor", <appliedenergistics2:energy_acceptor>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:redstone>, <appliedenergistics2:fluix_block>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/energy_energy_acceptor", <appliedenergistics2:energy_acceptor>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:redstone>, <appliedenergistics2:fluix_block>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
 
 // - Energy Cell
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/energy_energy_cell");
-recipes.addShaped("appliedenergistics2_network/blocks/energy_energy_cell", <appliedenergistics2:energy_cell>.withTag({}), [[<contenttweaker:certus_quartz_plate>, <ore:dustFluix>, <contenttweaker:certus_quartz_plate>], [<ore:dustFluix>, <appliedenergistics2:quartz_glass>, <ore:dustFluix>], [<contenttweaker:certus_quartz_plate>, <ore:dustFluix>, <contenttweaker:certus_quartz_plate>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/energy_energy_cell", <appliedenergistics2:energy_cell>.withTag({}), [[<contenttweaker:certus_quartz_plate>, <ore:dustFluix>, <contenttweaker:certus_quartz_plate>], [<ore:dustFluix>, <appliedenergistics2:quartz_glass>, <ore:dustFluix>], [<contenttweaker:certus_quartz_plate>, <ore:dustFluix>, <contenttweaker:certus_quartz_plate>]]);
 
 // - Charger
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/crystal_processing_charger");
-recipes.addShaped("appliedenergistics2_network/blocks/crystal_processing_charger", <appliedenergistics2:charger>, [[<ore:ingotIron>, <contenttweaker:fluix_plate>, <ore:ingotIron>], [<contenttweaker:certus_quartz_plate>, null, null], [<ore:ingotIron>, <contenttweaker:fluix_plate>, <ore:ingotIron>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/crystal_processing_charger", <appliedenergistics2:charger>, [[<ore:ingotIron>, <contenttweaker:fluix_plate>, <ore:ingotIron>], [<contenttweaker:certus_quartz_plate>, null, null], [<ore:ingotIron>, <contenttweaker:fluix_plate>, <ore:ingotIron>]]);
 
 // - Illuminated Panel
-recipes.removeByRecipeName("appliedenergistics2:network/parts/panels_semi_dark_monitor");
-recipes.addShaped("appliedenergistics2_network/parts/panels_semi_dark_monitor", <appliedenergistics2:part:180>, [[null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>], [<contenttweaker:certus_quartz_plate>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>]]);
+replaceRecipeShaped("appliedenergistics2:network/parts/panels_semi_dark_monitor", <appliedenergistics2:part:180>, [[null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>], [<contenttweaker:certus_quartz_plate>, <ore:dustRedstone>, <appliedenergistics2:quartz_glass>], [null, <ore:ingotGold>, <appliedenergistics2:quartz_glass>]]);
 
 // - ME Fluid Interface
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/fluid_interfaces_interface");
-recipes.addShaped("appliedenergistics2_network/blocks/fluid_interfaces_interface", <appliedenergistics2:fluid_interface>, [[<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>], [<minecraft:redstone>, <contenttweaker:certus_quartz_plate>, <minecraft:redstone>], [<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/fluid_interfaces_interface", <appliedenergistics2:fluid_interface>, [[<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>], [<minecraft:redstone>, <contenttweaker:certus_quartz_plate>, <minecraft:redstone>], [<ore:ingotIron>, <ore:dyeBlue>, <ore:ingotIron>]]);
 
 // - ME Glass Cable
-recipes.removeByRecipeName("appliedenergistics2:network/cables/glass_fluix");
-recipes.addShapeless("appliedenergistics2_network/cables/glass_fluix", <appliedenergistics2:part:16> * 4, [<appliedenergistics2:part:140>, <ore:crystalFluix> | <appliedenergistics2:material:12>]);
+replaceRecipeShapeless("appliedenergistics2:network/cables/glass_fluix", <appliedenergistics2:part:16> * 4, [<appliedenergistics2:part:140>, <ore:crystalFluix> | <appliedenergistics2:material:12>]);
 
 // - ME Interface
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/interfaces_interface");
-recipes.addShaped("appliedenergistics2_network/blocks/interfaces_interface", <appliedenergistics2:interface>, [[<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>], [<minecraft:redstone>, <contenttweaker:certus_quartz_plate>, <minecraft:redstone>], [<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/interfaces_interface", <appliedenergistics2:interface>, [[<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>], [<minecraft:redstone>, <contenttweaker:certus_quartz_plate>, <minecraft:redstone>], [<ore:ingotIron>, <ore:blockGlass> | <ore:glass> | <minecraft:glass>, <ore:ingotIron>]]);
 
 // - ME Terminal
-recipes.removeByRecipeName("appliedenergistics2:network/parts/terminals");
-recipes.addShapeless("appliedenergistics2_network/parts/terminals", <appliedenergistics2:part:380>, [<minecraft:diamond>, <ore:itemIlluminatedPanel>, <storagedrawers:controller>, <minecraft:diamond>]);
+replaceRecipeShapeless("appliedenergistics2:network/parts/terminals", <appliedenergistics2:part:380>, [<minecraft:diamond>, <ore:itemIlluminatedPanel>, <storagedrawers:controller>, <minecraft:diamond>]);
 
 // - ME Quantum Ring
-recipes.removeByRecipeName("appliedenergistics2:network/blocks/quantum_ring");
-recipes.addShaped("appliedenergistics2_network/blocks/quantum_ring", <appliedenergistics2:quantum_ring>, [[<contenttweaker:steel_crystal_shell>,<appliedenergistics2:material:22>,<contenttweaker:steel_crystal_shell>], [<appliedenergistics2:material:24>,<appliedenergistics2:energy_cell>,<enderio:item_material:16>], [<contenttweaker:steel_crystal_shell>,<appliedenergistics2:material:22>,<contenttweaker:steel_crystal_shell>]]);
+replaceRecipeShaped("appliedenergistics2:network/blocks/quantum_ring", <appliedenergistics2:quantum_ring>, [[<contenttweaker:steel_crystal_shell>,<appliedenergistics2:material:22>,<contenttweaker:steel_crystal_shell>], [<appliedenergistics2:material:24>,<appliedenergistics2:energy_cell>,<enderio:item_material:16>], [<contenttweaker:steel_crystal_shell>,<appliedenergistics2:material:22>,<contenttweaker:steel_crystal_shell>]]);
 
 // - Pattern
-recipes.removeByRecipeName("appliedenergistics2:network/crafting/patterns_blank");
-recipes.addShaped("appliedenergistics2_network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[null,<appliedenergistics2:quartz_glass>,null], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:steel_crystal_shell>,<contenttweaker:certus_quartz_plate>]]);
+replaceRecipeShaped("appliedenergistics2:network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[null,<appliedenergistics2:quartz_glass>,null], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:steel_crystal_shell>,<contenttweaker:certus_quartz_plate>]]);
 
 // - Molecular Assembler
-recipes.removeByRecipeName("appliedenergistics2:network/crafting/molecular_assembler");
-recipes.addShaped("appliedenergistics2_network/crafting/molecular_assembler", <appliedenergistics2:molecular_assembler>, [[<contenttweaker:certus_quartz_plate>, <appliedenergistics2:quartz_glass>, <contenttweaker:certus_quartz_plate>], [<appliedenergistics2:material:44>, <ore:workbench>, <appliedenergistics2:material:43>], [<contenttweaker:certus_quartz_plate>, <ore:blockSteel>, <contenttweaker:certus_quartz_plate>]]);
+replaceRecipeShaped("appliedenergistics2:network/crafting/molecular_assembler", <appliedenergistics2:molecular_assembler>, [[<contenttweaker:certus_quartz_plate>, <appliedenergistics2:quartz_glass>, <contenttweaker:certus_quartz_plate>], [<appliedenergistics2:material:44>, <ore:workbench>, <appliedenergistics2:material:43>], [<contenttweaker:certus_quartz_plate>, <ore:blockSteel>, <contenttweaker:certus_quartz_plate>]]);
 
 
 // - Crafting Storage
@@ -285,12 +282,10 @@ recipes.addShaped("appliedenergistics2_network_cells_fluid_storage_cell_64k", nu
 
 // --- BountifulBaubles ---
 // - Black Dragon Scale
-recipes.removeByRecipeName("bountifulbaubles:trinketblackdragonscale");
-recipes.addShaped("bountifulbaubles_black_dragon_scale", <bountifulbaubles:trinketblackdragonscale>, [[<ore:boneWithered>,<minecraft:skull:1>,<ore:boneWithered>], [<ore:boneWithered>,<bountifulbaubles:enderdragonscale>,<ore:boneWithered>], [<biomesoplenty:jar_filled:1>,<bountifulbaubles:brokenblackdragonscale>,<biomesoplenty:jar_filled:1>]]);
+replaceRecipeShaped("bountifulbaubles:black_dragon_scale", <bountifulbaubles:trinketblackdragonscale>, [[<ore:boneWithered>,<minecraft:skull:1>,<ore:boneWithered>], [<ore:boneWithered>,<bountifulbaubles:enderdragonscale>,<ore:boneWithered>], [<biomesoplenty:jar_filled:1>,<bountifulbaubles:brokenblackdragonscale>,<biomesoplenty:jar_filled:1>]]);
 
 // - Iron Ring
-recipes.removeByRecipeName("bountifulbaubles:ringiron");
-recipes.addShaped("bountifulbaubles_ringiron", <bountifulbaubles:ringiron>, [[<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>], [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>], [<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>]]);
+replaceRecipeShaped("bountifulbaubles:ringiron", <bountifulbaubles:ringiron>, [[<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>], [<minecraft:iron_ingot>,null,<minecraft:iron_ingot>], [<minecraft:iron_nugget>,<minecraft:iron_ingot>,<minecraft:iron_nugget>]]);
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
@@ -314,10 +309,8 @@ return out.withTag(inTag + addTag);
 
 // --- Enchanting Plus ---
 // - Advanced Enchanting Table
-recipes.removeByRecipeName("eplus:upgrade");
-recipes.addShaped("eplus_upgrade", <eplus:table_upgrade>, [[<ore:ingotGold>, <atum:heart_of_ra>, <ore:ingotGold>], [<contenttweaker:enchanted_tome_of_knowledge>, <minecraft:enchanting_table:*>, <contenttweaker:enchanted_tome_of_knowledge>], [<ore:ingotGold>, <minecraft:end_crystal>, <ore:ingotGold>]]);
-recipes.removeByRecipeName("eplus:table");
-recipes.addShaped("eplus_table", <eplus:advanced_table>, [[<ore:ingotGold>, <atum:heart_of_ra>, <ore:ingotGold>], [<contenttweaker:enchanted_tome_of_knowledge>, <minecraft:enchanting_table:*>, <contenttweaker:enchanted_tome_of_knowledge>], [<ore:ingotGold>, <minecraft:end_crystal>, <ore:ingotGold>]]);
+replaceRecipeShaped("eplus:upgrade", <eplus:table_upgrade>, [[<ore:ingotGold>, <atum:heart_of_ra>, <ore:ingotGold>], [<contenttweaker:enchanted_tome_of_knowledge>, <minecraft:enchanting_table:*>, <contenttweaker:enchanted_tome_of_knowledge>], [<ore:ingotGold>, <minecraft:end_crystal>, <ore:ingotGold>]]);
+replaceRecipeShaped("eplus:table", <eplus:advanced_table>, [[<ore:ingotGold>, <atum:heart_of_ra>, <ore:ingotGold>], [<contenttweaker:enchanted_tome_of_knowledge>, <minecraft:enchanting_table:*>, <contenttweaker:enchanted_tome_of_knowledge>], [<ore:ingotGold>, <minecraft:end_crystal>, <ore:ingotGold>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -325,18 +318,15 @@ recipes.addShaped("eplus_table", <eplus:advanced_table>, [[<ore:ingotGold>, <atu
 
 // --- Ender IO ---
 // - Alloy Smelter
-recipes.removeByRecipeName("enderio:alloy_smelter");
 recipes.removeByRecipeName("enderio:alloy_smelter_upgrade");
-recipes.addShaped("enderio_alloy_smelter", <enderio:block_alloy_smelter>, [[<ore:ingotSilver>,<minecraft:furnace>,<ore:ingotSilver>], [<enderio:block_simple_alloy_smelter>,<enderio:item_material:1>,<enderio:block_simple_furnace>], [<enderio:item_material:11>,<minecraft:cauldron>,<enderio:item_material:11>]]);
+replaceRecipeShaped("enderio:alloy_smelter", <enderio:block_alloy_smelter>, [[<ore:ingotSilver>,<minecraft:furnace>,<ore:ingotSilver>], [<enderio:block_simple_alloy_smelter>,<enderio:item_material:1>,<enderio:block_simple_furnace>], [<enderio:item_material:11>,<minecraft:cauldron>,<enderio:item_material:11>]]);
 
 // - Sag Mill
-recipes.removeByRecipeName("enderio:s_a_g_mill");
 recipes.removeByRecipeName("enderio:s_a_g_mill_upgrade");
-recipes.addShaped("enderio_s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft:flint>,<minecraft:flint>,<minecraft:flint>], [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>], [<enderio:item_material:73>,<enderio:block_simple_sag_mill>,<enderio:item_material:73>]]);
+replaceRecipeShaped("enderio:s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft:flint>,<minecraft:flint>,<minecraft:flint>], [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>], [<enderio:item_material:73>,<enderio:block_simple_sag_mill>,<enderio:item_material:73>]]);
 
 // - Basic Capacitor
-recipes.removeByRecipeName("enderio:capacitor_bank_simple");
-recipes.addShaped("enderio_capacitor_bank_simple", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
+replaceRecipeShaped("enderio:capacitor_bank_simple", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -344,12 +334,10 @@ recipes.addShaped("enderio_capacitor_bank_simple", <enderio:block_cap_bank:1>, [
 
 // --- Extra Utilities 2 ---
 // - Ring of the flying squid
-recipes.removeByRecipeName("extrautils2:squid_ring");
-recipes.addShaped("extrautils2_squid_ring", <extrautils2:chickenring:1>, [[<minecraft:elytra>, null, <minecraft:elytra>], [<ore:gemDiamond>, <extrautils2:chickenring>, <ore:gemDiamond>], [<minecraft:elytra>, <aquaculture:fish:15>, <minecraft:elytra>]]);
+replaceRecipeShaped("extrautils2:squid_ring", <extrautils2:chickenring:1>, [[<minecraft:elytra>, null, <minecraft:elytra>], [<ore:gemDiamond>, <extrautils2:chickenring>, <ore:gemDiamond>], [<minecraft:elytra>, <aquaculture:fish:15>, <minecraft:elytra>]]);
 
 // - Snow Globe
-recipes.removeByRecipeName("extrautils2:snow_globe");
-recipes.addShapeless("extrautils2_snow_globe", <extrautils2:snowglobe>, [<ore:blockGlass>, <ore:treeSapling>, <minecraft:snowball:*>, <ore:doorWood>, <ore:logWood>, <ore:grass>, <minecraft:ender_pearl:*>, <ore:netherStar>, <oresabovediamonds:black_opal_block>]);
+replaceRecipeShapeless("extrautils2:snow_globe", <extrautils2:snowglobe>, [<ore:blockGlass>, <ore:treeSapling>, <minecraft:snowball:*>, <ore:doorWood>, <ore:logWood>, <ore:grass>, <minecraft:ender_pearl:*>, <ore:netherStar>, <oresabovediamonds:black_opal_block>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -357,32 +345,27 @@ recipes.addShapeless("extrautils2_snow_globe", <extrautils2:snowglobe>, [<ore:bl
 
 // --- Extreme Reactors ---
 // - Reactor Casing
-recipes.removeByRecipeName("bigreactors:reactorcasing");
-recipes.addShaped("bigreactors_reactorcasing", <bigreactors:reactorcasing> * 4, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<nuclearcraft:ingot:8>, <bigreactors:reactorcasingcores>, <nuclearcraft:ingot:8>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+replaceRecipeShaped("bigreactors:reactorcasing", <bigreactors:reactorcasing> * 4, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<nuclearcraft:ingot:8>, <bigreactors:reactorcasingcores>, <nuclearcraft:ingot:8>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 // - Reactor Fuel Rod
-recipes.removeByRecipeName("bigreactors:reactorfuelrod_vanillaglass");
-recipes.addShaped("bigreactors_reactorfuelrod_vanillaglass", <bigreactors:reactorfuelrod>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:blockGlass>, <nuclearcraft:ingot:4>, <ore:blockGlass>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+replaceRecipeShaped("bigreactors:reactorfuelrod_vanillaglass", <bigreactors:reactorfuelrod>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:blockGlass>, <nuclearcraft:ingot:4>, <ore:blockGlass>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 // - Reactor Casing Core
-recipes.removeByRecipeName("bigreactors:reactorcasingcores");
-recipes.addShaped("bigreactors_reactorcasingcores", <bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+replaceRecipeShaped("bigreactors:reactorcasingcores", <bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
 
 // --- Improvable Skills 3 ---
-recipes.removeByRecipeName("improvableskills:skills_book");
-recipes.addShapeless("improvableskills_skills_book", <improvableskills:skills_book>, [<minecraft:book>,<minecraft:wooden_sword>.anyDamage(),<minecraft:wooden_shovel>.anyDamage(),<minecraft:wooden_pickaxe>.anyDamage(),<minecraft:wooden_axe>.anyDamage()]);
+replaceRecipeShapeless("improvableskills:skills_book", <improvableskills:skills_book>, [<minecraft:book>,<minecraft:wooden_sword>.anyDamage(),<minecraft:wooden_shovel>.anyDamage(),<minecraft:wooden_pickaxe>.anyDamage(),<minecraft:wooden_axe>.anyDamage()]);
 
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
 
 // --- Inspirations ---
-recipes.removeByRecipeName("inspirations:tools/redstone_charger");
-recipes.addShapeless("inspirations_tools/redstone_charger", <inspirations:redstone_charger>, [<ore:ingotGold>, <minecraft:flint_and_steel>, <ore:dustRedstone>]);
+replaceRecipeShapeless("inspirations:tools/redstone_charger", <inspirations:redstone_charger>, [<ore:ingotGold>, <minecraft:flint_and_steel>, <ore:dustRedstone>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -390,21 +373,16 @@ recipes.addShapeless("inspirations_tools/redstone_charger", <inspirations:redsto
 
 // --- Natura ---
 //Natura Bookshelves
-recipes.removeByRecipeName("natura:decorative/nether/bookshelf/ghostwood_bookshelf");
-recipes.addShaped("natura_decorative/nether/bookshelf/ghostwood_bookshelf", <natura:nether_bookshelves>, [[<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>], [<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>], [<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>]]);
+replaceRecipeShaped("natura:decorative/nether/bookshelf/ghostwood_bookshelf", <natura:nether_bookshelves>, [[<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>], [<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>], [<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>]]);
 
-recipes.removeByRecipeName("natura:decorative/nether/bookshelf/bloodwood_bookshelf");
-recipes.addShaped("natura_decorative/nether/bookshelf/bloodwood_bookshelf", <natura:nether_bookshelves:1>, [[<natura:nether_planks:1>,<minecraft:book>,<natura:nether_planks:1>], [<natura:nether_planks:1>,<minecraft:book>,<natura:nether_planks:1>], [<natura:nether_planks:1>,<minecraft:book>,<natura:nether_planks:1>]]);
+replaceRecipeShaped("natura:decorative/nether/bookshelf/bloodwood_bookshelf", <natura:nether_bookshelves:1>, [[<natura:nether_planks:1>,<minecraft:book>,<natura:nether_planks:1>], [<natura:nether_planks:1>,<minecraft:book>,<natura:nether_planks:1>], [<natura:nether_planks:1>,<minecraft:book>,<natura:nether_planks:1>]]);
 
-recipes.removeByRecipeName("natura:decorative/nether/bookshelf/darkwood_bookshelf");
-recipes.addShaped("natura_decorative/nether/bookshelf/darkwood_bookshelf", <natura:nether_bookshelves:2>, [[<natura:nether_planks:2>,<minecraft:book>,<natura:nether_planks:2>], [<natura:nether_planks:2>,<minecraft:book>,<natura:nether_planks:2>], [<natura:nether_planks:2>,<minecraft:book>,<natura:nether_planks:2>]]);
+replaceRecipeShaped("natura:decorative/nether/bookshelf/darkwood_bookshelf", <natura:nether_bookshelves:2>, [[<natura:nether_planks:2>,<minecraft:book>,<natura:nether_planks:2>], [<natura:nether_planks:2>,<minecraft:book>,<natura:nether_planks:2>], [<natura:nether_planks:2>,<minecraft:book>,<natura:nether_planks:2>]]);
 
-recipes.removeByRecipeName("natura:decorative/nether/bookshelf/fusewood_bookshelf");
-recipes.addShaped("natura_decorative/nether/bookshelf/fusewood_bookshelf", <natura:nether_bookshelves:3>, [[<natura:nether_planks:3>,<minecraft:book>,<natura:nether_planks:3>], [<natura:nether_planks:3>,<minecraft:book>,<natura:nether_planks:3>], [<natura:nether_planks:3>,<minecraft:book>,<natura:nether_planks:3>]]);
+replaceRecipeShaped("natura:decorative/nether/bookshelf/fusewood_bookshelf", <natura:nether_bookshelves:3>, [[<natura:nether_planks:3>,<minecraft:book>,<natura:nether_planks:3>], [<natura:nether_planks:3>,<minecraft:book>,<natura:nether_planks:3>], [<natura:nether_planks:3>,<minecraft:book>,<natura:nether_planks:3>]]);
 
 //Cactus Juice
-recipes.removeByRecipeName("natura:common/cactus_juice");
-recipes.addShapeless("natura_common/cactus_juice", <natura:edibles:11>, [<minecraft:cactus>,<harvestcraft:juiceritem>]);
+replaceRecipeShapeless("natura:common/cactus_juice", <natura:edibles:11>, [<minecraft:cactus>,<harvestcraft:juiceritem>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -412,8 +390,7 @@ recipes.addShapeless("natura_common/cactus_juice", <natura:edibles:11>, [<minecr
 
 // --- Nature's Compass ---
 //Nature's Compass
-recipes.removeByRecipeName("naturescompass:natures_compass");
-recipes.addShaped("naturescompass_natures_compass", <naturescompass:naturescompass>, [[<ore:treeSapling>,<ore:gemEmerald>,<ore:treeSapling>], [<ore:logWood>,<minecraft:compass>,<ore:logWood>], [<ore:treeSapling>,<ore:gemEmerald>,<ore:treeSapling>]]);
+replaceRecipeShaped("naturescompass:natures_compass", <naturescompass:naturescompass>, [[<ore:treeSapling>,<ore:gemEmerald>,<ore:treeSapling>], [<ore:logWood>,<minecraft:compass>,<ore:logWood>], [<ore:treeSapling>,<ore:gemEmerald>,<ore:treeSapling>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -422,8 +399,7 @@ recipes.addShaped("naturescompass_natures_compass", <naturescompass:naturescompa
 // --- NuclearCraft ---
 
 //Dimensional Blend
-recipes.removeByRecipeName("nuclearcraft:item.nuclearcraft.compound.dimensional_blend");
-recipes.addShapeless("nuclearcraft_item.nuclearcraft.compound.dimensional_blend", <nuclearcraft:compound:8>, [<ore:dustObsidian>, <ore:dustEndstone>, <ore:dustObsidian>, <ore:dustEndstone>, <enderio:item_material:20>, <ore:dustEndstone>, <ore:dustObsidian>, <ore:dustEndstone>, <ore:dustObsidian>]);
+replaceRecipeShapeless("nuclearcraft:item.nuclearcraft.compound.dimensional_blend", <nuclearcraft:compound:8>, [<ore:dustObsidian>, <ore:dustEndstone>, <ore:dustObsidian>, <ore:dustEndstone>, <enderio:item_material:20>, <ore:dustEndstone>, <ore:dustObsidian>, <ore:dustEndstone>, <ore:dustObsidian>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -431,17 +407,13 @@ recipes.addShapeless("nuclearcraft_item.nuclearcraft.compound.dimensional_blend"
 
 // --- Packaged Auto ---
 
-recipes.removeByRecipeName("packagedauto:packager");
-recipes.addShaped("packagedauto_packager", <packagedauto:packager>, [[<ore:ingotSteel>, <packagedauto:me_package_component>, <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:crafting_table>, <ore:dustRedstone>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
+replaceRecipeShaped("packagedauto:packager", <packagedauto:packager>, [[<ore:ingotSteel>, <packagedauto:me_package_component>, <ore:ingotSteel>], [<ore:dustRedstone>, <minecraft:crafting_table>, <ore:dustRedstone>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
 
-recipes.removeByRecipeName("packagedauto:encoder");
-recipes.addShaped("packagedauto_encoder", <packagedauto:encoder>, [[<ore:ingotSteel>, <packagedauto:package_component>, <ore:ingotSteel>], [<minecraft:crafting_table>, <ore:glowstone>, <minecraft:crafting_table>], [<ore:ingotSteel>, <minecraft:comparator>, <ore:ingotSteel>]]);
+replaceRecipeShaped("packagedauto:encoder", <packagedauto:encoder>, [[<ore:ingotSteel>, <packagedauto:package_component>, <ore:ingotSteel>], [<minecraft:crafting_table>, <ore:glowstone>, <minecraft:crafting_table>], [<ore:ingotSteel>, <minecraft:comparator>, <ore:ingotSteel>]]);
 
-recipes.removeByRecipeName("packagedauto:unpackager");
-recipes.addShaped("packagedauto_unpackager", <packagedauto:unpackager>, [[<ore:ingotSteel>, <packagedauto:me_package_component>, <ore:ingotSteel>], [<ore:dustRedstone>, <ore:chestWood>, <ore:dustRedstone>], [<ore:ingotSteel>, <minecraft:hopper>, <ore:ingotSteel>]]);
+replaceRecipeShaped("packagedauto:unpackager", <packagedauto:unpackager>, [[<ore:ingotSteel>, <packagedauto:me_package_component>, <ore:ingotSteel>], [<ore:dustRedstone>, <ore:chestWood>, <ore:dustRedstone>], [<ore:ingotSteel>, <minecraft:hopper>, <ore:ingotSteel>]]);
 
-recipes.removeByRecipeName("packagedauto:packager_extension");
-recipes.addShaped("packagedauto_packager_extension", <packagedauto:packager_extension>, [[<ore:ingotSteel>, <packagedauto:me_package_component>, <ore:ingotSteel>], [<ore:dustGlowstone>, <minecraft:crafting_table>, <ore:dustGlowstone>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
+replaceRecipeShaped("packagedauto:packager_extension", <packagedauto:packager_extension>, [[<ore:ingotSteel>, <packagedauto:me_package_component>, <ore:ingotSteel>], [<ore:dustGlowstone>, <minecraft:crafting_table>, <ore:dustGlowstone>], [<ore:ingotSteel>, <minecraft:piston>, <ore:ingotSteel>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -449,8 +421,7 @@ recipes.addShaped("packagedauto_packager_extension", <packagedauto:packager_exte
 
 // --- Scaling Health ---
 //Heart Dust
-recipes.removeByRecipeName("scalinghealth:heart_dust");
-recipes.addShapeless("scalinghealth_heart_dust", <scalinghealth:heartdust>, [hammer.transformDamage(), <scalinghealth:crystalshard>]);
+replaceRecipeShapeless("scalinghealth:heart_dust", <scalinghealth:heartdust>, [hammer.transformDamage(), <scalinghealth:crystalshard>]);
 
 //--------------------------------------------------------------------------------------
 
@@ -458,8 +429,7 @@ recipes.addShapeless("scalinghealth_heart_dust", <scalinghealth:heartdust>, [ham
 
 // --- Serene Seasons ---
 //Greenhouse Glass
-recipes.removeByRecipeName("sereneseasons:greenhous_glass");
-recipes.addShaped("sereneseasons_greenhouse_glass", <sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>], [<ore:blockGlass>, <ore:plankWood>, <ore:blockGlass>], [<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>]]);
+replaceRecipeShaped("sereneseasons:greenhouse_glass", <sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>], [<ore:blockGlass>, <ore:plankWood>, <ore:blockGlass>], [<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -500,12 +470,10 @@ recipes.addShaped("simplybackpacks_epic", <simplybackpacks:epicbackpack>, [[<ore
 
 // --- Storage Drawers ---
 //Controller Slave
-recipes.removeByRecipeName("storagedrawers:controller_slave");
-recipes.addShaped("storagedrawers_controller_slave", <storagedrawers:controllerslave>, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:redstone_torch>, <ore:drawerBasic>, <minecraft:redstone_torch>], [<minecraft:stone>, <ore:ingotGold>, <minecraft:stone>]]);
+replaceRecipeShaped("storagedrawers:controller_slave", <storagedrawers:controllerslave>, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:redstone_torch>, <ore:drawerBasic>, <minecraft:redstone_torch>], [<minecraft:stone>, <ore:ingotGold>, <minecraft:stone>]]);
 
 //Drawer Controller
-recipes.removeByRecipeName("storagedrawers:controller");
-recipes.addShaped("storagedrawers_controller", <storagedrawers:controller>, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:redstone_torch>, <ore:drawerBasic>, <minecraft:redstone_torch>], [<minecraft:stone>, <ore:gemDiamond>, <minecraft:stone>]]);
+replaceRecipeShaped("storagedrawers:controller", <storagedrawers:controller>, [[<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], [<minecraft:redstone_torch>, <ore:drawerBasic>, <minecraft:redstone_torch>], [<minecraft:stone>, <ore:gemDiamond>, <minecraft:stone>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -525,8 +493,7 @@ recipes.addShaped("storagedrawers_controller", <storagedrawers:controller>, [[<m
 //--------------------------------------------------------------------------------------
 
 // -- Tesseract
-recipes.removeByRecipeName("tesseract:tesseract");
-recipes.addShaped("tesseract_tesseract", <tesseract:tesseract>, [[<ore:obsidian> | <minecraft:obsidian>, <enderstorage:ender_storage:1>, <ore:obsidian> | <minecraft:obsidian>], [<ore:enderpearl>, <enderio:block_cap_bank:2>, <ore:enderpearl>], [<ore:obsidian> | <minecraft:obsidian>, <enderstorage:ender_storage>, <ore:obsidian> | <minecraft:obsidian>]]);
+replaceRecipeShaped("tesseract:tesseract", <tesseract:tesseract>, [[<ore:obsidian> | <minecraft:obsidian>, <enderstorage:ender_storage:1>, <ore:obsidian> | <minecraft:obsidian>], [<ore:enderpearl>, <enderio:block_cap_bank:2>, <ore:enderpearl>], [<ore:obsidian> | <minecraft:obsidian>, <enderstorage:ender_storage>, <ore:obsidian> | <minecraft:obsidian>]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -534,20 +501,16 @@ recipes.addShaped("tesseract_tesseract", <tesseract:tesseract>, [[<ore:obsidian>
 
 // -- Tinkers Construct
 //Green Slime Sling
-recipes.removeByRecipeName("tconstruct:gadgets/slimesling/green");
-recipes.addShaped("tconstruct_gadgets/slimesling/green", <tconstruct:slimesling>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_green>, null], [null, <ore:slimeballGreen>, null]]);
+replaceRecipeShaped("tconstruct:gadgets/slimesling/green", <tconstruct:slimesling>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_green>, null], [null, <ore:slimeballGreen>, null]]);
 
 //Blue Slime Sling
-recipes.removeByRecipeName("tconstruct:gadgets/slimesling/blue");
-recipes.addShaped("tconstruct_gadgets/slimesling/blue", <tconstruct:slimesling:1>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_blue>, null], [null, <ore:slimeballBlue>, null]]);
+replaceRecipeShaped("tconstruct:gadgets/slimesling/blue", <tconstruct:slimesling:1>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_blue>, null], [null, <ore:slimeballBlue>, null]]);
 
 //Purple Slime Sling
-recipes.removeByRecipeName("tconstruct:gadgets/slimesling/purple");
-recipes.addShaped("tconstruct_gadgets/slimesling/purple", <tconstruct:slimesling:2>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_purple>, null], [null, <ore:slimeballPurple>, null]]);
+replaceRecipeShaped("tconstruct:gadgets/slimesling/purple", <tconstruct:slimesling:2>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_purple>, null], [null, <ore:slimeballPurple>, null]]);
 
 //Orange Slime Sling
-recipes.removeByRecipeName("tconstruct:gadgets/slimesling/magma");
-recipes.addShaped("tconstruct_gadgets/slimesling/magma", <tconstruct:slimesling:4>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_orange>, null], [null, <ore:slimeballMagma>, null]]);
+replaceRecipeShaped("tconstruct:gadgets/slimesling/magma", <tconstruct:slimesling:4>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_orange>, null], [null, <ore:slimeballMagma>, null]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -555,20 +518,16 @@ recipes.addShaped("tconstruct_gadgets/slimesling/magma", <tconstruct:slimesling:
 
 // -- Tinker I/O --
 //Slot Upgrade I
-recipes.removeByRecipeName("tinker_io:slotupg1");
-recipes.addShaped("tinker_io_slotupg1", <tinker_io:upg:1>, [[null,<minecraft:chest>,null], [<minecraft:chest>,<tinker_io:upg>,<minecraft:chest>], [null,<minecraft:chest>,null]]);
+replaceRecipeShaped("tinker:io_slotupg1", <tinker_io:upg:1>, [[null,<minecraft:chest>,null], [<minecraft:chest>,<tinker_io:upg>,<minecraft:chest>], [null,<minecraft:chest>,null]]);
 
 //Slot Upgrade II
-recipes.removeByRecipeName("tinker_io:slotupg2");
-recipes.addShaped("tinker_io_slotupg2", <tinker_io:upg:2>, [[null,<minecraft:iron_ingot>,null], [<minecraft:iron_ingot>,<tinker_io:upg:1>,<minecraft:iron_ingot>], [null,<minecraft:iron_ingot>,null]]);
+replaceRecipeShaped("tinker:io_slotupg2", <tinker_io:upg:2>, [[null,<minecraft:iron_ingot>,null], [<minecraft:iron_ingot>,<tinker_io:upg:1>,<minecraft:iron_ingot>], [null,<minecraft:iron_ingot>,null]]);
 
 //Slot Upgrade III
-recipes.removeByRecipeName("tinker_io:slotupg3");
-recipes.addShaped("tinker_io_slotupg3", <tinker_io:upg:3>, [[null,<ore:ingotGold>,null], [<ore:ingotGold>,<tinker_io:upg:2>,<ore:ingotGold>], [null,<ore:ingotGold>,null]]);
+replaceRecipeShaped("tinker:io_slotupg3", <tinker_io:upg:3>, [[null,<ore:ingotGold>,null], [<ore:ingotGold>,<tinker_io:upg:2>,<ore:ingotGold>], [null,<ore:ingotGold>,null]]);
 
 //Slot Upgrade IV
-recipes.removeByRecipeName("tinker_io:slotupg4");
-recipes.addShaped("tinker_io_slotupg4", <tinker_io:upg:4>, [[null,<ore:gemDiamond>,null], [<ore:gemDiamond>,<tinker_io:upg:3>,<ore:gemDiamond>], [null,<ore:gemDiamond>,null]]);
+replaceRecipeShaped("tinker:io_slotupg4", <tinker_io:upg:4>, [[null,<ore:gemDiamond>,null], [<ore:gemDiamond>,<tinker_io:upg:3>,<ore:gemDiamond>], [null,<ore:gemDiamond>,null]]);
 
 //--------------------------------------------------------------------------------------
 
@@ -576,8 +535,7 @@ recipes.addShaped("tinker_io_slotupg4", <tinker_io:upg:4>, [[null,<ore:gemDiamon
 
 // -- Waystones --
 //Warp Stone
-recipes.removeByRecipeName("waystones:warp_stone");
-recipes.addShaped("waystones_warp_stone", <waystones:warp_stone>, [[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>], [<ore:enderpearl>, <tconstruct:materials:9>, <ore:enderpearl>], [<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>]]);
+replaceRecipeShaped("waystones:warp_stone", <waystones:warp_stone>, [[<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>], [<ore:enderpearl>, <tconstruct:materials:9>, <ore:enderpearl>], [<ore:dyePurple>, <ore:enderpearl>, <ore:dyePurple>]]);
 
 //--------------------------------------------------------------------------------------
 

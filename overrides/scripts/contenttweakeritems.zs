@@ -3,13 +3,23 @@
 #Author: Keaft
 
 import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Item;
+
+static localizeItems as string[] = [];
+static verbose as bool = true;
 
 print("Initializing 'contenttweakeritems'...");
 //itemConstructor(name, stackSize, rarity, glowing);
-function itemConstructor(name as string, stackSize as int = 64, rarity as string = "common", glowing as bool = false) {
+function itemConstructor(name as string, stackSize as int = 64, rarity as string = "common", glowing as bool = false, durability as int = -1) {
     var itemToMake = VanillaFactory.createItem(name);
     itemToMake.maxStackSize = stackSize;
+    if (durability != -1){
+        itemToMake.maxDamage = durability;
+    }
     itemToMake.register();
+    if (verbose) {
+        localizeItems += name;
+    }
 }
 
 // - Enchanted Tome of Knowledge
@@ -50,4 +60,18 @@ itemConstructor("stagnant_green_slime_crystal");
 itemConstructor("stagnant_blue_slime_crystal");
 itemConstructor("stagnant_magma_slime_crystal");
 
+// - Durt Idle Game items
+itemConstructor("clip");
+itemConstructor("clop");
+itemConstructor("clorp");
+itemConstructor("clod");
+itemConstructor("dirt_claw", 1, "common", false, 200);
+itemConstructor("dirty_claw", 1, "common", false, 500);
+
+if (verbose) {
+    print("The following can be copy pasted for use in lang files:");
+    for i in localizeItems {
+        print("item.contenttweaker."~i~".name=");
+    }
+}
 print("Initialized 'contenttweakeritems'");

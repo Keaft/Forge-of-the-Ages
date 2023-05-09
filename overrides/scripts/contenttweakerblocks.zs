@@ -7,72 +7,82 @@ import mods.contenttweaker.Block;
 import mods.contenttweaker.BlockMaterial;
 import mods.contenttweaker.SoundType;
 
+static localizeBlocks as string[] = [];
+static verbose as bool = true;
+
 print("Initializing 'contenttweakerblocks'...");
+// rockBlockConstructor(name, blockHardness, toolLevel);
+function rockBlockConstructor(name as string, blockHardness as float = 10.0, toolLevel as int = 4) {
+    var blockToMake = VanillaFactory.createBlock(name,<blockmaterial:rock>);
+    blockToMake.setBlockHardness(blockHardness);
+    blockToMake.setToolClass("pickaxe");
+    blockToMake.setBlockSoundType(<soundtype:stone>);
+    blockToMake.setToolLevel(toolLevel);
+    blockToMake.register();
+    if (verbose) {
+        localizeBlocks += name;
+    }
+}
+
+function sandBlockConstructor(name as string, blockHardness as float = 5.0, toolLevel as int = 4) {
+    var blockToMake = VanillaFactory.createBlock(name,<blockmaterial:sand>);
+    blockToMake.setBlockHardness(blockHardness);
+    blockToMake.setToolClass("shovel");
+    blockToMake.setBlockSoundType(<soundtype:sand>);
+    blockToMake.setToolLevel(toolLevel);
+    blockToMake.register();
+    if (verbose) {
+        localizeBlocks += name;
+    }
+}
+
+function dirtBlockConstructor(name as string, blockHardness as float = 1.0, toolLevel as int = 1) {
+    var blockToMake = VanillaFactory.createBlock(name,<blockmaterial:grass>);
+    blockToMake.setBlockHardness(blockHardness);
+    blockToMake.setToolClass("shovel");
+    blockToMake.setBlockSoundType(<soundtype:ground>);
+    blockToMake.setToolLevel(toolLevel);
+    blockToMake.register();
+    if (verbose) {
+        localizeBlocks += name;
+    }
+}
 
 // - Cobalt Ore Stone
-var cobaltorestone = VanillaFactory.createBlock("cobalt_ore_stone",<blockmaterial:rock>);
-cobaltorestone.setBlockHardness(10.0);
-cobaltorestone.setToolClass("pickaxe");
-cobaltorestone.setToolLevel(4);
-cobaltorestone.register();
+rockBlockConstructor("cobalt_ore_stone");
 
 // - Ardite Ore Stone
-var arditeorestone = VanillaFactory.createBlock("ardite_ore_stone",<blockmaterial:rock>);
-arditeorestone.setBlockHardness(10.0);
-arditeorestone.setToolClass("pickaxe");
-arditeorestone.setToolLevel(4);
-arditeorestone.register();
+rockBlockConstructor("ardite_ore_stone");
 
 // - Cobalt Ore Pitstone
-var cobaltorepitstone = VanillaFactory.createBlock("cobalt_ore_pitstone",<blockmaterial:rock>);
-cobaltorepitstone.setBlockHardness(10.0);
-cobaltorepitstone.setToolClass("pickaxe");
-cobaltorepitstone.setToolLevel(4);
-cobaltorepitstone.register();
+rockBlockConstructor("cobalt_ore_pitstone");
 
 // - Ardite Ore Pitstone
-var arditeorepitstone = VanillaFactory.createBlock("ardite_ore_pitstone",<blockmaterial:rock>);
-arditeorepitstone.setBlockHardness(10.0);
-arditeorepitstone.setToolClass("pickaxe");
-arditeorepitstone.setToolLevel(4);
-arditeorepitstone.register();
+rockBlockConstructor("ardite_ore_pitstone");
 
 // - Obsidian Gravel
-var obsidiangravel = VanillaFactory.createBlock("obsidian_gravel",<blockmaterial:sand>);
-obsidiangravel.setBlockHardness(5.0);
-obsidiangravel.setToolClass("shovel");
-obsidiangravel.setBlockSoundType(<soundtype:sand>);
-obsidiangravel.setToolLevel(4);
-obsidiangravel.register();
+sandBlockConstructor("obsidian_gravel");
 
 // - Compressed Obsidian
-var compressedobsidian = VanillaFactory.createBlock("compressed_obsidian",<blockmaterial:rock>);
-compressedobsidian.setBlockHardness(10.0);
-compressedobsidian.setToolClass("pickaxe");
-compressedobsidian.setBlockSoundType(<soundtype:stone>);
-compressedobsidian.setToolLevel(4);
-compressedobsidian.register();
+rockBlockConstructor("compressed_obsidian");
 
 // - Compressed Obsidian Gravel
-var compressedobsidiangravel = VanillaFactory.createBlock("compressed_obsidian_gravel",<blockmaterial:sand>);
-compressedobsidiangravel.setBlockHardness(5.0);
-compressedobsidiangravel.setToolClass("shovel");
-compressedobsidiangravel.setBlockSoundType(<soundtype:sand>);
-compressedobsidiangravel.setToolLevel(4);
-compressedobsidiangravel.register();
+sandBlockConstructor("compressed_obsidian_gravel");
 
 // - Spore Endstone
-var sporeEndstone = VanillaFactory.createBlock("spore_endstone",<blockmaterial:rock>);
-sporeEndstone.setBlockHardness(5.0);
-sporeEndstone.setToolClass("pickaxe");
-sporeEndstone.setToolLevel(3);
-sporeEndstone.register();
+rockBlockConstructor("spore_endstone", 5.0, 3);
 
 // - Ender Corrupter
-var enderCorrupter = VanillaFactory.createBlock("ender_corrupter",<blockmaterial:rock>);
-enderCorrupter.setBlockHardness(5.0);
-enderCorrupter.setToolClass("pickaxe");
-enderCorrupter.setToolLevel(3);
-enderCorrupter.register();
+rockBlockConstructor("ender_corrupter", 5.0, 3);
+
+// - Basic Durt
+dirtBlockConstructor("basic_durt");
+
+if (verbose) {
+    print("The following can be copy pasted for use in lang files:");
+    for i in localizeBlocks {
+        print("tile.contenttweaker."~i~".name=");
+    }
+}
 
 print("Initialized 'contenttweakerblocks'");
