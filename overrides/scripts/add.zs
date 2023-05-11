@@ -2,7 +2,13 @@
 #Author: Keaft
 #priority 1
 
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemCondition;
+import crafttweaker.item.IItemTransformer;
+
 print("Initializing 'add'...");
+
 //--------------------------------------------------------------------------------------
 //Adding recipes
 //recipes.addShaped(name,output,inputs,function,action);
@@ -112,7 +118,9 @@ recipes.addShapeless("contenttweaker_clod_from_clorps", <contenttweaker:clod>, [
 recipes.addShapeless("contenttweaker_clods_from_basic_durt", <contenttweaker:clod> * 9, [<contenttweaker:basic_durt>]);
 recipes.addShapeless("contenttweaker_basic_durt_from_clods", <contenttweaker:basic_durt>, [<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>,<contenttweaker:clod>]);
 recipes.addShaped("contenttweaker_dirt_claw", <contenttweaker:dirt_claw>, [[<exnihilocreatio:item_pebble>,null,<exnihilocreatio:item_pebble>],[null,<exnihilocreatio:item_pebble>,<exnihilocreatio:item_pebble>],[<exnihilocreatio:item_pebble>,<exnihilocreatio:item_pebble>,<exnihilocreatio:item_pebble>]]);
-recipes.addShaped("contenttweaker_dirty_claw", <contenttweaker:dirty_claw>, [[<contenttweaker:clop>,null,<contenttweaker:clop>],[null,<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clop>,<contenttweaker:clorp>,<contenttweaker:dirt_claw>]]);
+recipes.addShaped("contenttweaker_dirty_claw", <contenttweaker:dirty_claw>, [[<contenttweaker:clip>,null,<contenttweaker:clip>], [null,<contenttweaker:clop>,<contenttweaker:clop>], [<contenttweaker:clip>,<contenttweaker:clop>,<contenttweaker:dirt_claw>]]);
+recipes.addShaped("contenttweaker_durt_claw_core", <contenttweaker:durt_claw_core>, [[<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clorp>,<contenttweaker:clorp>]]);
+recipes.addShapeless("contenttweaker_durt_claw", <contenttweaker:durt_claw>, [<contenttweaker:dirty_claw>,<contenttweaker:durt_claw_core>]);
 
 //--------------------------------------------------------------------------------------
 

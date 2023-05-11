@@ -29,6 +29,14 @@ item.contenttweaker.steel_crystal_shell.name=Steel Crystal Shell
 item.contenttweaker.stagnant_green_slime_crystal.name=Stagnant Green Slime Crystal
 item.contenttweaker.stagnant_blue_slime_crystal.name=Stagnant Blue Slime Crystal
 item.contenttweaker.stagnant_magma_slime_crystal.name=Stagnant Magma Slime Crystal
+item.contenttweaker.dirt_claw.name=Dirt Claw
+item.contenttweaker.dirty_claw.name=Dirty Claw
+item.contenttweaker.durt_claw_core.name=Durt Claw Core
+item.contenttweaker.durt_claw.name=Durt Claw
+item.contenttweaker.clip.name=Clip
+item.contenttweaker.clop.name=Clop
+item.contenttweaker.clorp.name=Clorp
+item.contenttweaker.clod.name=Clod
 
 # Blocks
 tile.contenttweaker.cobalt_ore_stone.name=Cobalt Ore
@@ -40,6 +48,7 @@ tile.contenttweaker.compressed_obsidian.name=Compressed Obsidian
 tile.contenttweaker.compressed_obsidian_gravel.name=Compressed Obsidian Gravel
 tile.contenttweaker.spore_endstone.name=Spore End Stone
 tile.contenttweaker.ender_corrupter.name=Ender Corrupter
+tile.contenttweaker.basic_durt.name=Basic Durt
 
 # Fluids
 fluid.molten_neptunium=Molten Neptunium

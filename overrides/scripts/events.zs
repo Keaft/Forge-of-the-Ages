@@ -18,6 +18,7 @@ import crafttweaker.formatting.IFormattedText;
 import crafttweaker.item.IItemStack;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IWorld;
+import crafttweaker.player.IPlayer;
 
 print("Initializing 'events'...");
 
@@ -168,5 +169,40 @@ print("Initializing 'events'...");
 		// return;
 	// }
 // });
+
+// events.onPlayerRightClickItem(
+    // function(event as crafttweaker.event.PlayerRightClickItemEvent){
+        // if(event.world.remote){
+            // return;
+        // }
+        // if (event.item.name == <contenttweaker:durt_claw>.name){
+            // val player = event.player;
+            // val totalInv = player.inventorySize;
+            // var clips = 0;
+            // var clops = 0;
+            // var clorps = 0;
+            // var clods = 0;
+            // for i in 0 to totalInv {
+                // var itemCheck = player.getInventoryStack(i);
+                // if (!isNull(itemCheck)){
+                    // print(itemCheck.amount~" "~itemCheck.name);
+                    // if (itemCheck.definition.id == <contenttweaker:clip>.definition.id){
+                        // clips += itemCheck.amount;
+                        // player.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.index(i),null);
+                    // }
+                    // if (itemCheck.definition.id == <contenttweaker:clop>.definition.id){
+                        // clops += itemCheck.amount;
+                    // }
+                    // if (itemCheck.definition.id == <contenttweaker:clorp>.definition.id){
+                        // clorps += itemCheck.amount;
+                    // }
+                    // if (itemCheck.definition.id == <contenttweaker:clod>.definition.id){
+                        // clods += itemCheck.amount;
+                    // }
+                // }
+            // }
+        // }
+    // }
+// );
 
 print("Initialized 'events'");

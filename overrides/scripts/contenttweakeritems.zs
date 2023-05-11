@@ -9,7 +9,7 @@ static localizeItems as string[] = [];
 static verbose as bool = true;
 
 print("Initializing 'contenttweakeritems'...");
-//itemConstructor(name, stackSize, rarity, glowing);
+//itemConstructor(name, stackSize, rarity, glowing, durability);
 function itemConstructor(name as string, stackSize as int = 64, rarity as string = "common", glowing as bool = false, durability as int = -1) {
     var itemToMake = VanillaFactory.createItem(name);
     itemToMake.maxStackSize = stackSize;
@@ -65,8 +65,10 @@ itemConstructor("clip");
 itemConstructor("clop");
 itemConstructor("clorp");
 itemConstructor("clod");
-itemConstructor("dirt_claw", 1, "common", false, 200);
-itemConstructor("dirty_claw", 1, "common", false, 500);
+itemConstructor("dirt_claw", 1);
+itemConstructor("dirty_claw", 1);
+itemConstructor("durt_claw_core", 1);
+itemConstructor("durt_claw", 1);
 
 if (verbose) {
     print("The following can be copy pasted for use in lang files:");

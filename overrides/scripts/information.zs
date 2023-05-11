@@ -23,7 +23,6 @@ print("Initializing 'information'...");
 <contenttweaker:fourk_fluid>.addTooltip(format.red("Open in JEI for more information."));
 <contenttweaker:sixteenk_fluid>.addTooltip(format.red("Open in JEI for more information."));
 
-
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
