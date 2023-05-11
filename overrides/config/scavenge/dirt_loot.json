@@ -1,0 +1,98 @@
+{
+	"block_pools" :
+	[
+        {
+			"name": "Dirt_DirtClaw",
+			"type": {
+				"type": "block",
+				"name": "minecraft:dirt"
+			},
+			"clicktype": "leftclick",
+			"properties": [
+				{
+					"type": "drop_items",
+                    "doDrop": false
+				},
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:dirt_claw"
+                },
+				{
+					"type": "player_cooldown",
+					"time": "20"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.sand.hit"
+				}
+			],
+			"drops": [
+				{
+					"name": "contenttweaker:clip"
+				}
+			]
+		},
+        {
+			"name": "Dirt_DirtyClaw",
+			"type": {
+				"type": "block",
+				"name": "minecraft:dirt"
+			},
+			"clicktype": "leftclick",
+			"properties": [
+				{
+					"type": "drop_items",
+                    "doDrop": false
+				},
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:dirty_claw"
+                },
+				{
+					"type": "player_cooldown",
+					"time": "10"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.sand.hit"
+				}
+			],
+			"drops": [
+				{
+					"name": "contenttweaker:clip"
+				}
+			]
+		},
+        {
+			"name": "Dirt_DurtClaw",
+			"type": {
+				"type": "block",
+				"name": "minecraft:dirt"
+			},
+			"clicktype": "leftclick",
+			"properties": [
+				{
+					"type": "drop_items",
+                    "doDrop": false
+				},
+                {
+                    "type": "require_item",
+                    "name": "contenttweaker:durt_claw"
+                },
+				{
+					"type": "player_cooldown",
+					"time": "5"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.sand.hit"
+				}
+			],
+			"drops": [
+				{
+					"name": "contenttweaker:clip"
+				}
+			]
+		},
+    ]
+}

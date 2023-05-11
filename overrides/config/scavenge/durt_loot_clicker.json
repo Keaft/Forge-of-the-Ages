@@ -1,0 +1,70 @@
+{
+	"block_pools" :
+	[
+        {
+			"name": "dirtLeftClickPebble",
+			"type": {
+				"type": "block",
+				"name": "minecraft:dirt"
+			},
+			"clicktype": "both",
+			"properties": [
+				{
+					"type": "drop_items",
+                    "doDrop": false
+				},
+                {
+                    "type": "require_player",
+                    "require": false
+                },
+				{
+					"type": "player_cooldown",
+					"time": "2"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.sand.hit"
+				}
+			],
+			"drops": [
+				{
+					"name": "contenttweaker:clip"
+				}
+			]
+		},
+        {
+			"name": "durtRightClickEmptyHand",
+			"type": {
+				"type": "block",
+				"name": "contenttweaker:basic_durt"
+			},
+			"clicktype": "both",
+			"properties": [
+				{
+					"type": "drop_items",
+                    "doDrop": false
+				},
+                {
+                    "type": "require_player",
+                    "require": false
+                },
+				{
+					"type": "player_cooldown",
+					"time": "2"
+				},
+				{
+					"type": "play_sound",
+					"name": "block.sand.hit"
+				},
+				{
+					"type": "swing_hand"
+				}
+			],
+			"drops": [
+				{
+					"name": "contenttweaker:clip"
+				}
+			]
+		}
+    ]
+}
