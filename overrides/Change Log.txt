@@ -69,8 +69,8 @@ Added the following mod(s):
 - Ex Compressum 3.0.32.
 - Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
 - Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
-- Had Enough Items 4.24.6. Replacement for JEI with more optimizations.
-- CensoredASM 5.7. Replacement for VanillaFix, more optimizations.
+- Had Enough Items 4.24.7. Replacement for JEI with more optimizations.
+- CensoredASM 5.8. Replacement for VanillaFix, more optimizations.
 - Universal Tweaks 1.6.0. Combination of a lot of tweaks, fixes, and optimizations.
 - 燐/Hesperus as a fork of Phosphor 0.2.9.2.
 - Tinkers' Modifier Modifier 1.0.5. Gives greater control over modifiers on weapons and armor.
@@ -146,7 +146,7 @@ Updated the following mod(s):
 - Scape and Run: Parasites to 1.9.10.
 - Sledgehammer to 2.0.23.
 - SuperMartijn642's Config Lib to 1.1.6.
-- SuperMartijn642's Core Lib to 1.1.7a.
+- SuperMartijn642's Core Lib to 1.1.8.
 - Tesseract to 1.0.34.
 - Zen Utils to 1.13.7.
 
