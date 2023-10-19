@@ -1,5 +1,5 @@
 ***Before Updating ensure that you take a backup of your world!***
-This update's focal point is trying to create greater interconnectivity and balance to the vairous gameplay loops. This should hopefully bring greater longevity to the enjoyment of the content available!
+This update's big focal point is restructuring content to instill greater interconnectivity and balance to the vairous gameplay loops. This should hopefully breath new life into the available content creating greater enjoyment and longevity!
 
 Configuration changes:
 - Regenerated and compared the following mod configs after updating:
@@ -162,7 +162,7 @@ Updated the following mod(s):
 - Placebo to 1.6.1.
 - Reach Fix to 1.0.9.
 - RenderLib to 1.3.3.
-- Scape and Run: Parasites to 1.9.12.
+- Scape and Run: Parasites to 1.9.10.
 - Sledgehammer to 2.0.23.
 - Storage Drawers to 5.5.0.
 - SuperMartijn642's Config Lib to 1.1.8.
