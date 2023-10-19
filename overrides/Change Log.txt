@@ -57,6 +57,8 @@ Structures:
 - Gorgon temples spawn more rarely as well.
 
 Added the following mod(s):
+- Astral Sorcery 1.10.27. 
+-- PackagedAstral 1.0.2.9.
 - Legendary Tooltips 1.1.10.
 - Mutant Beasts 1.0.2.
 - RenderLib 1.2.8 as a library for Entity Culling.
@@ -91,6 +93,10 @@ Removed the following mod(s):
 -- Tinkers' Aether: DMAN Edition.
 - The Beneath in favor of The Midnight. The pack needs more biomes to add the ability for higher risk and reward.
 -- Advanced Darkness. The Midnight's atmosphere is great as is.
+- Thaumcraft. in favor of Astral Sorcery
+-- Thaumic Fixes.
+-- Thaumic Energistics.
+-- Thaumcraft 6 Aspects for JEI.
 - TekTopia. Didn't quite fit the city management itch the pack needed.
 -- Tektopia Harvestcraft Compat.
 -- TekTopia Information.
