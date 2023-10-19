@@ -71,7 +71,7 @@ Added the following mod(s):
 - Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
 - Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
 - Had Enough Items 4.25.0. Replacement for JEI with more optimizations.
-- CensoredASM 5.17. Replacement for VanillaFix, more optimizations.
+- CensoredASM 5.18. Replacement for VanillaFix, more optimizations.
 - Universal Tweaks 1.8.0. Combination of a lot of tweaks, fixes, and optimizations.
 -- ConfigAnytime 1.0.
 - 燐/Hesperus as a fork of Phosphor 0.2.9.3.
@@ -82,7 +82,7 @@ Added the following mod(s):
 - ProjectE 1.4.1. Utilizing it's mechanics for Durt Idle.
 - Scavenge 1.8.3.2. Utilizing it's mechanics for Durt Idle.
 -- Scavenge Timing Addon 1.1. Utilizing it's mechanics for Durt Idle.
-
+- SerializationIsBad 1.5. Fixes serialization exploits of several mods.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
@@ -144,7 +144,7 @@ Updated the following mod(s):
 - FoamFix to 0.10.15.
 - FutureMC to 0.2.11.
 - GeckoLib to 3.0.31.
-- HammerLib to 12.2.38
+- HammerLib to 12.2.39.
 - Improvable Skills 3 to 12.4.68.
 - LagGoggles to 5.9-140.
 - Metallurgy 4 Reforged to 1.3.9.
