@@ -58,7 +58,7 @@ Structures:
 
 Added the following mod(s):
 - Astral Sorcery 1.10.27. 
--- PackagedAstral 1.0.2.9.
+-- PackagedAstral 1.0.2.10.
 - Legendary Tooltips 1.1.10.
 - Mutant Beasts 1.0.2.
 - RenderLib 1.2.8 as a library for Entity Culling.
@@ -66,15 +66,15 @@ Added the following mod(s):
 -- Millenaire-JEI 1.0.0-beta001.
 - Clipboard 1.3.0. Down the rabbit hole... wait what was I doing? Where am I?
 -- ShadowMC 3.8.0.
-- MixinBooter 8.6.
+- MixinBooter 8.9.
 - The Spice of Life 1.3.12. In combination with Spice of Life: Carrot Edition for greater neccessity for farming and cooking.
 - Ex Nihilo: Creatio 0.4.7.2.
 - Ex Compressum 3.0.32.
 - Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
 - Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
-- Had Enough Items 4.25.0. Replacement for JEI with more optimizations.
+- Had Enough Items 4.25.1. Replacement for JEI with more optimizations.
 - CensoredASM 5.18. Replacement for VanillaFix, more optimizations.
-- Universal Tweaks 1.8.0. Combination of a lot of tweaks, fixes, and optimizations.
+- Universal Tweaks 1.9.0. Combination of a lot of tweaks, fixes, and optimizations.
 -- ConfigAnytime 1.0.
 - 燐/Hesperus as a fork of Phosphor 0.2.9.3.
 - Tinkers' Modifier Modifier 1.0.5. Gives greater control over modifiers on weapons and armor.
@@ -132,43 +132,44 @@ Removed the following mod(s):
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
 - The Betweenlands to 3.9.6.
-- AE2 Unofficial Extended Life to 0.55.24.
+- AE2 Unofficial Extended Life to 0.55.29.
 - BdLib to 1.14.4.1.
 - Better Hurt Timer to 1.5.0.2.
-- Chocolate Quest Repoured to Beta 6.15.
-- Chunk Loaders to 1.2.8.
+- Chocolate Quest Repoured to Beta 6.16B.
+- Chunk Loaders to 1.2.8a.
 - Controlling to 3.0.12.2.
 - Corail Tombstone to 4.6.2.
-- CraftTweaker to 4.1.20.694.
+- CraftTweaker to 4.1.20.699.
 - CreativeCore to 1.10.71.
 - Emojicord to 1.1.1.45.
 - EnderIO (modules) to 5.3.72.
 - EnderCore to 0.5.78.
-- Entity Culling to 6.4.1.
+- Entity Culling to 6.4.2.
 - Fishing Made Better to 2.2.6.
-- Fish's Undead Rising to 1.4.0.
+- Fish's Undead Rising to 1.4.1.
 - FoamFix to 0.10.15.
-- FutureMC to 0.2.11.
+- FutureMC to 0.2.15.
 - GeckoLib to 3.0.31.
-- HammerLib to 12.2.39.
+- HammerLib to 12.2.46.
 - Improvable Skills 3 to 12.4.68.
 - LagGoggles to 5.9-140.
 - Metallurgy 4 Reforged to 1.3.9.
 - ModTweaker to 4.0.20.11.
 - NuclearCraft to 2.18zzz.
 - OAuth to 1.06.4.
-- PackagedAuto to 1.0.9.34.
+- PackagedAuto to 1.0.10.36.
 - Particle Culling to 1.4.1.
 - Placebo to 1.6.1.
 - Reach Fix to 1.0.9.
 - RenderLib to 1.3.3.
 - Scape and Run: Parasites to 1.9.10.
-- Sledgehammer to 2.0.23.
+- Sledgehammer to 2.0.25.
 - Storage Drawers to 5.5.0.
 - SuperMartijn642's Config Lib to 1.1.8.
-- SuperMartijn642's Core Lib to 1.1.15.
-- Tesseract to 1.0.35a.
-- Zen Utils to 1.14.15.
+- SuperMartijn642's Core Lib to 1.1.16a.
+- Tesseract to 1.0.35b.
+- Tinkers' Evolution to 1.0.49.
+- Zen Utils to 1.16.3.
 
 Downgraded the following mod(s):
 - spark to 1.5.2. Compatibility issue with CensoredASM.
