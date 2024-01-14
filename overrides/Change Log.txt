@@ -1,5 +1,5 @@
 ***Before Updating ensure that you take a backup of your world!***
-This update's big focal point is restructuring content to instill greater interconnectivity and balance to the vairous gameplay loops. This should hopefully breath new life into the available content creating greater enjoyment and longevity!
+This update's big focal point is restructuring and adding content to instill greater interconnectivity and balance to the vairous gameplay loops. This should hopefully breath new life into the available content creating greater enjoyment and longevity!
 
 Configuration changes:
 - Regenerated and compared the following mod configs after updating:
@@ -52,7 +52,7 @@ GENERAL:
 - Removed all traces of Environmental Tech and Mystical Agriculture from scripts.
 
 Structures:
-- Added a windy garden farm house with procedural aspects, namely what crops the villager grows and what items he sells.
+- Added a windy garden farm house with procedural aspects, namely what crops the villager grows, what items he sells, and whether he's home.
 - Adjusted the Woodland Mansion to be less cheesable, added more loot, and made it spawn more rarely.
 - Gorgon temples spawn more rarely as well.
 
@@ -87,20 +87,20 @@ Added the following mod(s):
 - SerializationIsBad 1.5. Fixes serialization exploits of several mods.
 
 Removed the following mod(s):
-- Solar Flux Reborn. Tedious, not enough interesting mechanics which take away from other more interesting sources of power. Overpowered.
+- Solar Flux Reborn. Begrudgingly as it's neat, but tedious. Not enough interesting mechanics. Takes away from other more interesting sources of power. Overpowered.
 - The Aether. Removed in order focus on enriching existing content.
 -- Aether: Lost Content.
 -- Tinkers' Aether: DMAN Edition.
-- The Beneath in favor of The Midnight. The pack needs more biomes to add the ability for higher risk and reward.
--- Advanced Darkness. The Midnight's atmosphere is great as is.
-- Thaumcraft. in favor of Astral Sorcery
+- The Beneath in favor of The Betweenlands. Improper exploration restricting the ability for higher risk and reward.
+-- Advanced Darkness. The Betweenlands' atmosphere is great as is.
+- Thaumcraft. In favor of Astral Sorcery
 -- Thaumic Fixes.
 -- Thaumic Energistics.
 -- Thaumcraft 6 Aspects for JEI.
 - TekTopia. Didn't quite fit the city management itch the pack needed.
 -- Tektopia Harvestcraft Compat.
 -- TekTopia Information.
-- Quark Oddities. Goodbye potato...
+- Quark Oddities. Goodbye tiny potato... or maybe?
 - Environmental Tech. Overpowered resource gathering.
 -- ValkyrieLib.
 - Mystical Agriculture. Overpowered, but tedious resource gathering.
@@ -169,7 +169,7 @@ Updated the following mod(s):
 - SuperMartijn642's Core Lib to 1.1.16a.
 - Tesseract to 1.0.35b.
 - Tinkers' Evolution to 1.0.49.
-- Zen Utils to 1.16.3.
+- Zen Utils to 1.16.4.
 
 Downgraded the following mod(s):
 - spark to 1.5.2. Compatibility issue with CensoredASM.
