@@ -6,11 +6,11 @@
 
 {
 	"generatorType": "SURFACE",
-	"minY": 63,
-	"maxY": 70,
-	"offsetX": -20,
-	"offsetY": -4,
-	"offsetZ": -17,
+	"minY": 64,
+	"maxY": 86,
+	"offsetX": -21,
+	"offsetY": -6,
+	"offsetZ": -24,
 
 	"mirrorType": "NONE",
 	"rotation": null,
@@ -18,7 +18,7 @@
 
 	"dimensionSpawns": [],
 	"biomeNameSpawns": [],
-	"biomeTagSpawns": ["PLAINS","SAVANNA"],
+	"biomeTagSpawns": ["FOREST","SPOOKY"],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": false,

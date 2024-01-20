@@ -5,11 +5,11 @@
 // ===================================================================
 
 {
-	"generatorType": "SURFACE",
-	"minY": 63,
-	"maxY": 70,
-	"offsetX": -20,
-	"offsetY": -4,
+	"generatorType": "NONE",
+	"minY": -1,
+	"maxY": -1,
+	"offsetX": -13,
+	"offsetY": -8,
 	"offsetZ": -17,
 
 	"mirrorType": "NONE",
@@ -18,7 +18,7 @@
 
 	"dimensionSpawns": [],
 	"biomeNameSpawns": [],
-	"biomeTagSpawns": ["PLAINS","SAVANNA"],
+	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": false,
@@ -31,5 +31,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 600
+	"rarity": 100
 }
