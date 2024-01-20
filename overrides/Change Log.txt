@@ -53,7 +53,9 @@ GENERAL:
 - Removed all traces of Environmental Tech and Mystical Agriculture from scripts.
 
 Structures:
-- Added a windy garden farm house with procedural aspects, namely what crops the villager grows, what items he sells, and whether he's home.
+- Added the following Farm Houses to suplement the lowering of Pam's Gardens drop rate and spreading. Each having procedural aspects, namely what crops the villager grows, what items they sells, and whether they're home.
+-- Windy garden farm house.
+-- Shaded garden farm house.
 - Adjusted the Woodland Mansion to be less cheesable, added more loot, and made it spawn more rarely.
 - Gorgon temples spawn more rarely as well.
 
