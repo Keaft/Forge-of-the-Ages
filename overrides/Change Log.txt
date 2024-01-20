@@ -44,6 +44,7 @@ ADVENTURE:
 - Vitamin recipe adjusted to be more compatible with AE2.
 - Adjusted Mutant Beasts to function more as dungeon bosses.
 - Added initial scripting for custom mob/boss spawning.
+- Removed Chicken laying rotten eggs. There are other ways of gaining a cockatrice companion.
 GENERAL:
 - Added additional gui items to InvMove.
 - Enabled JEI memory usage optimizations.
