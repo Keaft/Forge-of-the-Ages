@@ -51,6 +51,7 @@ GENERAL:
 - Fixed various typos in scripts.
 - Disabled Code Chicken Lib's render error message.
 - Removed all traces of Environmental Tech and Mystical Agriculture from scripts.
+- Rewrite of the recipe removal script to use functions instead of brute force. Makes the maintenance of server script easier.
 
 Structures:
 - Added the following Farm Houses to suplement the lowering of Pam's Gardens drop rate and spreading. Each having procedural aspects, namely what crops the villager grows, what items they sells, and whether they're home.
