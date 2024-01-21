@@ -183,20 +183,16 @@ mods.tconstruct.Casting.addTableRecipe(<futuremc:honey_bottle>, <minecraft:glass
 
 // Gem Cast
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material>, <liquid:brass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:2>, <appliedenergistics2:material:7>, <liquid:brass>, 144, true);
 
 // Plate Cast
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:porcelain_plate>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:porcelain_plate>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast_custom:3>, <contenttweaker:porcelain_plate>, <liquid:brass>, 144, true);
 
 // Crystal Cast
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:crystal_cast>, <contenttweaker:porcelain_crystal>, <liquid:gold>, 288, true);
-mods.tconstruct.Casting.addTableRecipe(<contenttweaker:crystal_cast>, <contenttweaker:porcelain_crystal>, <liquid:alubrass>, 144, true);
 mods.tconstruct.Casting.addTableRecipe(<contenttweaker:crystal_cast>, <contenttweaker:porcelain_crystal>, <liquid:brass>, 144, true);
 
 // Solid Crystal Blank

@@ -134,6 +134,7 @@ Removed the following mod(s):
 -- Tinkers OreDict Cache
 -- Unloader
 - Pillar in favor of Pillar Patched.
+- Tinkers Construct in favor of Binkers' Bonstruct. Did you get your photos printed? Bogos binted?
 
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
