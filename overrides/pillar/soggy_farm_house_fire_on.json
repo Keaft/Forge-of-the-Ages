@@ -4,7 +4,7 @@
 	"maxY": -1,
 	"offsetX": 0,
 	"offsetY": 0,
-	"offsetZ": 0,
+	"offsetZ": -3,
 
 	"mirrorType": "NONE",
 	"rotation": null,

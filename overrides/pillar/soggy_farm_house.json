@@ -1,10 +1,10 @@
 {
-	"generatorType": "NONE",
-	"minY": -1,
-	"maxY": -1,
-	"offsetX": 0,
-	"offsetY": 0,
-	"offsetZ": 0,
+	"generatorType": "SURFACE",
+	"minY": 63,
+	"maxY": 63,
+	"offsetX": -17,
+	"offsetY": -5,
+	"offsetZ": -17,
 
 	"mirrorType": "NONE",
 	"rotation": null,
@@ -12,7 +12,7 @@
 
 	"dimensionSpawns": [],
 	"biomeNameSpawns": [],
-	"biomeTagSpawns": [],
+	"biomeTagSpawns": ["SWAMP","RIVER"],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": false,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 100
+	"rarity": 50
 }
