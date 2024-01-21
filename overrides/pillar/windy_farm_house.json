@@ -3,7 +3,7 @@
 	"minY": 63,
 	"maxY": 70,
 	"offsetX": -20,
-	"offsetY": -3,
+	"offsetY": -4,
 	"offsetZ": -17,
 
 	"mirrorType": "NONE",
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 600
+	"rarity": 400
 }
