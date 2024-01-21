@@ -136,7 +136,7 @@ Removed the following mod(s):
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
 - The Betweenlands to 3.9.6.
-- AE2 Unofficial Extended Life to 0.56.1.
+- AE2 Unofficial Extended Life to 0.56.2.
 - BdLib to 1.14.4.1.
 - Better Hurt Timer to 1.5.0.4.
 - Chocolate Quest Repoured to Beta 6.16B.
