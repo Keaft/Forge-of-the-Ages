@@ -11,10 +11,10 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [],
-	"biomeNameSpawns": [],
+	"biomeNameSpawns": ["biomesoplenty:moor"],
 	"biomeTagSpawns": ["SWAMP","RIVER"],
 	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": true,
 	"isBiomeTagSpawnsBlacklist": false,
 	"generateEverywhere": false,
 
