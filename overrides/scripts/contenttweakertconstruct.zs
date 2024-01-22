@@ -118,7 +118,7 @@ unobtaniumMaterial.liquid = <liquid:molten_unobtanium>;
 unobtaniumMaterial.castable = true;
 unobtaniumMaterial.addItem(<item:contenttweaker:unobtanium_ingot>);
 unobtaniumMaterial.representativeItem = <item:contenttweaker:unobtanium_ingot>;
-unobtaniumMaterial.addHeadMaterialStats(206, 4.5f, 3.38f, 2);
+unobtaniumMaterial.addHeadMaterialStats(5, 4.5f, 0.01f, 1);
 unobtaniumMaterial.itemLocalizer = function(thisMaterial, itemName){return "Unobtanium " + itemName;};
 unobtaniumMaterial.localizedName = "Unobtanium";
 unobtaniumMaterial.register();
