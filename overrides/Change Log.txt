@@ -57,6 +57,7 @@ Structures:
 - Added the following Farm Houses to suplement the lowering of Pam's Gardens drop rate and spreading. Each having procedural aspects, namely what crops the villager grows, what items they sells, and whether they're home.
 -- Windy garden farm house.
 -- Shaded garden farm house.
+-- Soggy garden farm house.
 - Adjusted the Woodland Mansion to be less cheesable, added more loot, and made it spawn more rarely.
 - Gorgon temples spawn more rarely as well.
 
