@@ -1,9 +1,9 @@
 {
-	"generatorType": "ANYWHERE",
-	"minY": 62,
-	"maxY": 63,
+	"generatorType": "SKY",
+	"minY": 63,
+	"maxY": 64,
 	"offsetX": -17,
-	"offsetY": -5,
+	"offsetY": -6,
 	"offsetZ": -17,
 
 	"mirrorType": "NONE",
@@ -11,7 +11,7 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [],
-	"biomeNameSpawns": ["atum:dried_river","biomesoplenty:bayou","biomesoplenty:bog","biomesoplenty:fen","biomesoplenty:land_of_lakes","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:quagmire","biomesoplenty:wetland","minecraft:frozen_river","minecraft:mutated_swampland","minecraft:river","minecraft:swampland","thebetweenlands:coarse_islands","thebetweenlands:deep_waters","thebetweenlands:marsh_0","thebetweenlands:marsh_1","thebetweenlands:patchy_islands","thebetweenlands:raised_isles","thebetweenlands:sludge_plains","thebetweenlands:sludge_plains_clearing","thebetweenlands:swamplands","thebetweenlands:swamplands_clearing","twilightforest:fire_swamp","twilightforest:twilight_stream","twilightforest:twilight_swamp"],
+	"biomeNameSpawns": ["biomesoplenty:bayou","biomesoplenty:fen","biomesoplenty:land_of_lakes","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:quagmire","biomesoplenty:wetland","minecraft:frozen_river","minecraft:river","minecraft:swampland","thebetweenlands:coarse_islands","thebetweenlands:deep_waters","thebetweenlands:marsh_0","thebetweenlands:marsh_1","thebetweenlands:patchy_islands","thebetweenlands:raised_isles","thebetweenlands:sludge_plains","thebetweenlands:sludge_plains_clearing","thebetweenlands:swamplands","thebetweenlands:swamplands_clearing","twilightforest:fire_swamp","twilightforest:twilight_stream","twilightforest:twilight_swamp"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 400
+	"rarity": 300
 }

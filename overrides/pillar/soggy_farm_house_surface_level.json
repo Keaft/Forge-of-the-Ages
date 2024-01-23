@@ -11,7 +11,7 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [],
-	"biomeNameSpawns": ["biomesoplenty:dead_swamp","biomesoplenty:moor"],
+	"biomeNameSpawns": ["biomesoplenty:bog","biomesoplenty:dead_swamp","biomesoplenty:moor","minecraft:mutated_swampland"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 400
+	"rarity": 300
 }
