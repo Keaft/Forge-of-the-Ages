@@ -371,6 +371,17 @@ replaceRecipeShapeless("inspirations:tools/redstone_charger", <inspirations:reds
 
 //--------------------------------------------------------------------------------------
 
+// --- Macaw's Various Mods ---
+replaceRecipeShaped("mcwtrpdoors:print_cottage", <mcwtrpdoors:print_cottage> * 4, [[null, <minecraft:paper>, null], [<minecraft:paper>, <futuremc:spruce_trapdoor>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
+replaceRecipeShaped("mcwtrpdoors:print_paper", <mcwtrpdoors:print_paper> * 4, [[null, <minecraft:paper>, null], [<minecraft:paper>, <futuremc:birch_trapdoor>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
+replaceRecipeShaped("mcwtrpdoors:print_beach", <mcwtrpdoors:print_beach> * 4, [[null, <minecraft:paper>, null], [<minecraft:paper>, <futuremc:jungle_trapdoor>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
+replaceRecipeShaped("mcwtrpdoors:print_tropical", <mcwtrpdoors:print_tropical> * 4, [[null, <minecraft:paper>, null], [<minecraft:paper>, <futuremc:acacia_trapdoor>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
+replaceRecipeShaped("mcwtrpdoors:print_four_panel", <mcwtrpdoors:print_four_panel> * 4, [[null, <minecraft:paper>, null], [<minecraft:paper>, <futuremc:dark_oak_trapdoor>, <minecraft:paper>], [null, <minecraft:paper>, null]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Natura ---
 //Natura Bookshelves
 replaceRecipeShaped("natura:decorative/nether/bookshelf/ghostwood_bookshelf", <natura:nether_bookshelves>, [[<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>], [<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>], [<natura:nether_planks>,<minecraft:book>,<natura:nether_planks>]]);

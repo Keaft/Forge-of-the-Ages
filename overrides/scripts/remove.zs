@@ -77,9 +77,43 @@ val recipesItems as IIngredient[] = [
     // --- Extra Utilities 2 ---
     // - Deep Dark Portal
     <extrautils2:teleporter:1>,
+    // --- Macaw's various mods ---
+    // - Ceiling Lights
+    <mcwlights:white_ceiling_light>,
+    <mcwlights:orange_ceiling_light>,
+    <mcwlights:magenta_ceiling_light>,
+    <mcwlights:light_blue_ceiling_light>,
+    <mcwlights:yellow_ceiling_light>,
+    <mcwlights:lime_ceiling_light>,
+    <mcwlights:pink_ceiling_light>,
+    <mcwlights:gray_ceiling_light>,
+    <mcwlights:light_gray_ceiling_light>,
+    <mcwlights:cyan_ceiling_light>,
+    <mcwlights:purple_ceiling_light>,
+    <mcwlights:blue_ceiling_light>,
+    <mcwlights:brown_ceiling_light>,
+    <mcwlights:green_ceiling_light>,
+    <mcwlights:red_ceiling_light>,
+    <mcwlights:black_ceiling_light>,
+    // - Extra Trap Doors
+    <mcwtrpdoors:dark_oak_four_panel_trapdoor>,
+    <mcwtrpdoors:spruce_cottage_trapdoor>,
+    <mcwtrpdoors:birch_paper_trapdoor>,
+    <mcwtrpdoors:jungle_beach_trapdoor>,
+    <mcwtrpdoors:acacia_tropical_trapdoor>,
+    // - Wired Fences
+    <mcwfences:oak_wired_fence>,
+    <mcwfences:spruce_wired_fence>,
+    <mcwfences:birch_wired_fence>,
+    <mcwfences:jungle_wired_fence>,
+    <mcwfences:acacia_wired_fence>,
+    <mcwfences:dark_oak_wired_fence>,
     // --- Metallurgy 4 Reforged ---
     // - Metal Detector
     <metallurgy:ore_detector>,
+    // --- Minecraft ---
+    // - Oak Trap door, handled by Macaw's Trap Doors
+    <minecraft:trapdoor>,
     // --- Open Blocks ---
     // - Glider Wing
     <openblocks:generic>,
@@ -189,6 +223,10 @@ val recipesItems as IIngredient[] = [
     <projecte:item.pe_lens_explosive>,
     <projecte:item.pe_fire_projectile>,
     <projecte:item.pe_wind_projectile>,
+    // --- Quark ---
+    // - Stone Brick Wall, handled by FuterMC
+    <quark:stonebrick_wall>,
+    <quark:stonebrick_mossy_wall>,
     // --- Scaling Health ---
     // - Heart Container
     <scalinghealth:heartcontainer>,

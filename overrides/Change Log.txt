@@ -94,6 +94,13 @@ Added the following mod(s):
 - Binkers' Bonstruct 2.13.0.187.
 - ToroHealth Damage Indicators 1.12.2-11.
 - MmmMmmMmmMmm (Target Dummy) 1.12-1.14. Now you can test your weapons on your friends and a target dummy!
+- Macaw's stuff for more aesthetic options that maintain the vanilla look:
+-- Macaw's Doors 1.0.3.
+-- Macaw's Fences and Walls 1.0.0.
+-- Macaw's Lights and Lamps 1.0.6.
+-- Macaw's Paintings 1.0.5.
+-- Macaw's Trapdoors 1.0.3.
+-- Macaw's Windows 1.0.0.
 
 Removed the following mod(s):
 - Solar Flux Reborn. Begrudgingly as it's neat, but tedious. Not enough interesting mechanics. Takes away from other more interesting sources of power. Overpowered.
@@ -182,7 +189,7 @@ Updated the following mod(s):
 - SuperMartijn642's Core Lib to 1.1.16a.
 - Tesseract to 1.0.35b.
 - Tinkers' Evolution to 1.0.49.
-- Zen Utils to 1.16.5.
+- Zen Utils to 1.16.6.
 
 Downgraded the following mod(s):
 - spark to 1.5.2. Compatibility issue with CensoredASM.
