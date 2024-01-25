@@ -430,6 +430,14 @@ replaceRecipeShaped("packagedauto:packager_extension", <packagedauto:packager_ex
 
 //--------------------------------------------------------------------------------------
 
+// --- Quark ---
+// - Trap door
+replaceRecipeShaped("quark:spruce_trapdoor", <quark:spruce_trapdoor> * 6, [[<minecraft:planks:1>, <minecraft:iron_nugget>, <minecraft:planks:1>], [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Scaling Health ---
 //Heart Dust
 replaceRecipeShapeless("scalinghealth:heart_dust", <scalinghealth:heartdust>, [hammer.transformDamage(), <scalinghealth:crystalshard>]);

@@ -224,9 +224,14 @@ val recipesItems as IIngredient[] = [
     <projecte:item.pe_fire_projectile>,
     <projecte:item.pe_wind_projectile>,
     // --- Quark ---
-    // - Stone Brick Wall, handled by FuterMC
+    // - Stone Brick Wall, handled by FutureMC
     <quark:stonebrick_wall>,
     <quark:stonebrick_mossy_wall>,
+    // - Trap doors, handled by FutureMC and Macaw's
+    <quark:birch_trapdoor>,
+    <quark:jungle_trapdoor>,
+    <quark:acacia_trapdoor>,
+    <quark:dark_oak_trapdoor>,
     // --- Scaling Health ---
     // - Heart Container
     <scalinghealth:heartcontainer>,
