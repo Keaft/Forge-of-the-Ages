@@ -148,6 +148,7 @@ Removed the following mod(s):
 - Pillar in favor of Pillar Patched.
 - Tinkers Construct in favor of Binkers' Bonstruct. Did you get your photos printed? Bogos binted?
 - Damage Indicators Mod in favor of ToroHealth. Tired of excess messages when starting the game up.
+- Ruins (Structure Spawning System). Some of the structures don't spawn well in the world as well as small volcano causing forest fires.
 
 Updated the following mod(s):
 - AttributeFix to 1.0.12.
