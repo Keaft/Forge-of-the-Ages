@@ -59,6 +59,7 @@ Structures:
 -- Shaded garden farm house.
 -- Soggy garden farm house.
 -- Frost garden farm house.
+-- Tropical garden farm house.
 - Adjusted the Woodland Mansion to be less cheesable, added more loot, and made it spawn more rarely.
 - Gorgon temples spawn more rarely as well.
 
