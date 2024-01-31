@@ -81,7 +81,7 @@ Added the following mod(s):
 - Had Enough Items 4.25.1. Replacement for JEI with more optimizations.
 - CensoredASM 5.18. Replacement for VanillaFix, more optimizations.
 - Universal Tweaks 1.9.0. Combination of a lot of tweaks, fixes, and optimizations.
--- ConfigAnytime 1.0.
+-- ConfigAnytime 2.0.
 - 燐/Hesperus as a fork of Phosphor 0.2.9.3.
 - Tinkers' Modifier Modifier 1.0.5. Gives greater control over modifiers on weapons and armor.
 - Zen Summoning 1.1.2. For use in respawning boss fights.
