@@ -172,7 +172,7 @@ Updated the following mod(s):
 - FoamFix to 0.10.15.
 - FutureMC to 0.2.15.
 - GeckoLib to 3.0.31.
-- HammerLib to 12.2.46.
+- HammerLib to 12.2.47.
 - Improvable Skills 3 to 12.4.68.
 - JourneyMap to 5.7.1p1.
 - LagGoggles to 5.9-140.
@@ -192,7 +192,7 @@ Updated the following mod(s):
 - SuperMartijn642's Core Lib to 1.1.16a.
 - Tesseract to 1.0.35b.
 - Tinkers' Evolution to 1.0.49.
-- Zen Utils to 1.16.6.
+- Zen Utils to 1.16.8.
 
 Downgraded the following mod(s):
 - spark to 1.5.2. Compatibility issue with CensoredASM.
