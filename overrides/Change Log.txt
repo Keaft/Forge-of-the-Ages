@@ -176,7 +176,6 @@ Updated the following mod(s):
 - Improvable Skills 3 to 12.4.68.
 - JourneyMap to 5.7.1p1.
 - LagGoggles to 5.9-140.
-- LootTweaker to 0.3.2.
 - Metallurgy 4 Reforged to 1.3.9.
 - ModTweaker to 4.0.20.11.
 - NuclearCraft to 2.18zzz.
