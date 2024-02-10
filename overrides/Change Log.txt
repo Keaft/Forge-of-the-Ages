@@ -103,6 +103,7 @@ Added the following mod(s):
 -- Macaw's Paintings 1.0.5.
 -- Macaw's Trapdoors 1.0.3.
 -- Macaw's Windows 1.0.0.
+- Simple Voice Chat 2.5.1. The social aspect of minecraft is far to important not to have this!
 
 Removed the following mod(s):
 - Solar Flux Reborn. Begrudgingly as it's neat, but tedious. Not enough interesting mechanics. Takes away from other more interesting sources of power. Overpowered.
