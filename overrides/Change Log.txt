@@ -167,7 +167,7 @@ Updated the following mod(s):
 - Emojicord to 1.1.1.45.
 - EnderIO (modules) to 5.3.72.
 - EnderCore to 0.5.78.
-- Entity Culling to 6.4.2.
+- Entity Culling to 6.4.3.
 - Fishing Made Better to 2.2.6.
 - Fish's Undead Rising to 1.4.1.
 - FoamFix to 0.10.15.
