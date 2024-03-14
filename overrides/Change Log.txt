@@ -183,7 +183,7 @@ Updated the following mod(s):
 - ModTweaker to 4.0.20.11.
 - NuclearCraft to 2.18zzz.
 - OAuth to 1.06.4.
-- PackagedAuto to 1.0.12.42.
+- PackagedAuto to 1.0.12.43.
 - Particle Culling to 1.4.1.
 - Placebo to 1.6.1.
 - Reach Fix to 1.0.9.
