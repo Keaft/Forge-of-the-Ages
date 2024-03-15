@@ -144,11 +144,12 @@ Removed the following mod(s):
 - VanillaFix. Handled by CensoredASM.
 - Performant. Likely subtly problematic.
 - Phosphor. Replaced by 燐/Hesperus.
-- These are replaced by Universal Tweaks 1.8.0
+- These are replaced by Universal Tweaks
 -- AI Improvements
 -- Anti-Ghost
 -- AttributeFix
 -- Born In A Barn
+-- Configurable Beacons
 -- DupeFixProject
 -- HelpFixer
 -- Surge
