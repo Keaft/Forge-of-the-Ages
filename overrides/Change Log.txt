@@ -12,6 +12,12 @@ Configuration changes:
 -- Mowzies Mobs.
 -- Apotheosis.
 -- Fish's Undead Rising
+-- EntityCulling.
+-- Sledgehammer.
+-- Storage Drawers.
+-- TConEvo.
+-- Metallurgy 4.
+-- Veinminer.
 TECH:
 - Heavily adjusted Applied Energistics recipes to require doing different activities.
 - Added Certus Quartz and Charged Certus Quartz to various loot tables.
