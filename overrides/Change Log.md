@@ -1,0 +1,230 @@
+***Before Updating ensure that you take a backup of your world!***
+
+This is a huge update with a big focal point in restructuring and adding content to instill greater interconnectivity and balance to the various gameplay loops. This should hopefully breathe new life into the available content creating greater enjoyment and longevity!
+
+### **__Configuration changes:__**
+
+**__Tech:__**
+* Heavily adjusted Applied Energistics recipes to require doing different activities.
+* Added Certus Quartz and Charged Certus Quartz to various loot tables.
+* Set up custom sifting solutions to rein in generating resources to the most tedious vanilla items only.
+* Added new items for sifting and crafting!
+  * Compressed Obsidian, Obsidian Gravel, Compressed Obsidian Gravel, Certus Quartz Plate, Fluix Plate, Diamond Plate
+* Adjusted Plate recipes related to machine making and automation.
+* Added items to compacting drawers to allow easier solutions for heavy sifting.
+* Established a whole Tinkers system for both Certus Quartz and Fluix using molten varieties instead of Tinkers Evolution's gem implementation.
+* Added Tinkers casting and cast-making recipes related to plates, gems, and blocks.
+* Liquid Ender can now be obtained by smelting Resonant Clathrate from the End.
+* Recipes changed to require more Steelworks. You might want to establish a botania tree farm.
+
+**__Adventure:__**
+* Food no longer decays in The Betweenlands.
+* All Armor and Weapons are now effective in The Betweenlands.
+* Disabled Ambient Sounds in The Betweenlands.
+* Move and re-create custom ore spawning from the beneath to the betweenlands.
+* Moved SRParasites into the depths of the betweenlands.
+* Disabled Ice and Fire random Dragon Skeleton spawning in the world.
+* Made Dragons significantly more scary by allowing them to uproot trees. They are hungry... and they will eat you... Run.
+* Moved Dragons from 2000 blocks to 3000 from spawn to account for their newfound terror.
+* Pyrotheum and Gelid Cryotheum now require grains of infinity in a dragon forge of its appropriate type.
+* Lowered the drop rate and stopped the spread of Pam's gardens in favor of exploring for farmhouses.
+* Established configs for Spice of Life to kick in after eating 30 different foods. Eating different foods is now much more important.
+* Disabled Tinkers Evolution from handling Botania as that is handled through scripting.
+* Changed Reinforced to not be able to make tools unbreakable. Max level 4 for a 40% chance to not consume durability.
+* Unbreakable now only available for shovel head through new material, Unobtanium. Not great for weapons. Check JEI for the alloying recipe.
+* Added Vein Mine items related to Ex Nihilo: Creatio and Ex Compressum.
+* Lowered total vein mine from 800 to 200 to compensate for hammering more natural blocks. Use Builder Gadgets for bigger removal operations.
+* Vitamin recipe adjusted to be more compatible with AE2.
+* Removed Chicken laying rotten eggs. There are other ways of gaining a cockatrice companion.
+* Waystones recipe changed to make them a little more involved.
+* Embossing weapons, tools, and armor is now integrated with many other gameplay loops.
+
+**__Configs regenerated and compared:__**
+* AE2 Unofficial Extended Life.
+* Apotheosis.
+* Binkers Bonstruct, previously Tinkers Construct.
+* Chocolate Quest Repoured.
+* Climate Control/Geographicraft.
+* Corail Tombstone.
+* Dynamic Surroundings.
+* EnderCore.
+* Entity Culling.
+* EntityCulling.
+* Fish's Undead Rising
+* FutureMC.
+* InControl.
+* Inventory Tweaks.
+* Metallurgy 4.
+* Mowzies Mobs.
+* Scape and Run: Parasites.
+* Sledgehammer.
+* Storage Drawers.
+* TConEvo.
+* Veinminer.
+
+**__General:__**
+* Added additional GUI items to InvMove.
+* Enabled JEI memory usage optimizations.
+* Fixed various typos in scripts.
+* Disabled Code Chicken Lib's render error message.
+* Removed all traces of Environmental Tech and Mystical Agriculture from scripts.
+* Rewrite of the recipe removal script to use functions instead of brute force. Makes the maintenance of the script easier as well as gives a toggle for server/client side.
+* Rewrite of the contenttweakeritems script to have a function for more easily creating basic items.
+* Removed some extraneous items. (Walls from quark for instance which are already covered by FutureMC)
+* Fixed some recipes to not overlap. (Quark spruce trapdoor, for instance, allowing it as a variant to FutureMC)
+* Fixed berry bushes trying to instakill you through no i-frames. Will need to monitor for other sources.
+* Removed integration settings for thaumcraft with various mods.
+
+### **__Structures:__**
+* Added the following Farm Houses to supplement the lowering of Pam's Gardens drop rate and spreading. Each has procedural aspects, namely what crops the villager grows, what items they sell, and whether they're home.
+  * Windy garden farm house.
+  * Shaded garden farm house.
+  * Soggy garden farm house.
+  * Frost garden farm house.
+  * Tropical garden farm house.
+  * Arid garden farm house.
+* Adjusted the Woodland Mansion to be less cheesable, added more loot, made it spawn more rarely, and adjusted spawn platform to allow filling.
+* Gorgon temples spawn more rarely, (hopefully) more correctly in their biomes, and adjusted spawn platform to allow filling.
+
+### **__Durt Idle:__**
+* Initial framework as an "idle game" idea I have where you punch and get dirt.
+* It's not implemented well right now. I'm leaving it for now as something to come back to in the future.
+
+### **__Added the following mod(s):__**
+* Astral Sorcery 1.10.27. 
+  * PackagedAstral 1.0.2.13.
+* Legendary Tooltips 1.1.10.
+* Mutant Beasts 1.0.2.
+* RenderLib 1.2.8 as a library for Entity Culling.
+* Millenaire 8.1.2. Let's try it again in replacement of TekTopia.
+  * Millenaire-JEI 1.0.0-beta001.
+* Clipboard 1.3.0. Down the rabbit hole... wait what was I doing? Where am I?
+  * ShadowMC 3.8.0.
+* MixinBooter 9.1.
+* The Spice of Life 1.3.12. In combination with Spice of Life: Carrot Edition for greater necessity for farming and cooking.
+* Ex Nihilo: Creatio 0.4.7.2.
+* Ex Compressum 3.0.32.
+* Tinkers' Complement 0.4.3. It's about time. :) Should be useful for small automation purposes.
+* Seared Ladder (Backport) 1.1.2. I keep falling into the smeltery, now I can on purpose.
+* Had Enough Items 4.25.3. Replacement for JEI with more optimizations.
+* CensoredASM 5.19. Replacement for VanillaFix, more optimizations.
+* Universal Tweaks 1.10.0. Combination of a lot of tweaks, fixes, and optimizations.
+  * ConfigAnytime 2.0.
+* Alfheim Lighting Engine 1.3 Dev 2. As a continuation of 燐/Hesperus a fork of Phosphor.
+  * Red Core 1.8-1.12 0.6 Dev 3.
+* Tinkers' Modifier Modifier 1.0.5. Gives greater control over modifiers on weapons and armor.
+* Zen Summoning 1.1.2. For use in respawning boss fights. (to be implemented later)
+* Builder's Bag 1.4.2.25. A bag to hold items for building. It's compatible with builder wands and building gadgets!
+* Modular Machinery 1.11.1. Utilizing its mechanics currently for Durt Idle.
+* ProjectE 1.4.1. Utilizing it's mechanics for Durt Idle.
+* Scavenge 1.8.3.2. Utilizing it's mechanics for Durt Idle.
+  * Scavenge Timing Addon 1.1. Utilizing it's mechanics for Durt Idle.
+* SerializationIsBad 1.5.2. Fixes serialization exploits of several mods.
+* Pillar Patched 1.3.0.
+* Binkers' Bonstruct 2.13.0.187.
+* ToroHealth Damage Indicators 1.12.2-11.
+* MmmMmmMmmMmm (Target Dummy) 1.12-1.14. Now you can test your weapons on your friends and a target dummy!
+* Macaw's stuff for more aesthetic options that maintain the vanilla look:
+  * Macaw's Doors 1.0.3.
+  * Macaw's Fences and Walls 1.0.0. Established with some fences and walls removed for not fitting pack theming.
+  * Macaw's Lights and Lamps 1.0.6. Established with some lights removed for not fitting pack theming.
+  * Macaw's Paintings 1.0.5.
+  * Macaw's Trapdoors 1.0.3. Established with some trapdoor removed for being extraneous.
+  * Macaw's Windows 1.0.0.
+* Simple Voice Chat 2.5.10. Established with pre-enabled settings. The social aspect of minecraft is far too important not to have this!
+
+### **__Removed the following mod(s):__**
+* Solar Flux Reborn. Begrudgingly as it's neat but tedious. Not enough interesting mechanics. Takes away from other more interesting sources of power. Overpowered.
+* The Aether. Removed to focus on enriching existing content.
+  * Aether: Lost Content.
+  * Tinkers' Aether: DMAN Edition.
+* The Beneath in favor of The Betweenlands. Improper exploration restricting the ability for higher risk and reward.
+  * Advanced Darkness. The Betweenlands' atmosphere is great as is.
+* Thaumcraft. In favor of Astral Sorcery
+  * Thaumic Fixes.
+  * Thaumic Energistics.
+  * Thaumcraft 6 Aspects for JEI.
+* TekTopia. Didn't quite fit the city management itch the pack needed.
+  * Tektopia Harvestcraft Compat.
+  * TekTopia Information.
+* Quark Oddities. Goodbye, tiny potato... or maybe?
+* Environmental Tech. Overpowered resource gathering.
+  * ValkyrieLib.
+* Mystical Agriculture. Overpowered, but tedious resource gathering.
+  * Mystical Agradditions.
+  * Cucumber Library.
+* Fishing Made Better. Didn't seem to work.
+* AE2 Wireless Interface Terminal. Now covered by AE2 Unofficial Extended Life inherently. WOO!
+* AE2 Wireless Fluid Terminal.
+* Wireless Pattern Terminal.
+* Wireless Crafting Terminal.
+  * AE2 Wireless Terminal Library.
+* Tinkering with Blood Magic. Handled better with Tinkers Evolution.
+* Just Enough Items (JEI). Handled by HEI now.
+* VanillaFix. Handled by CensoredASM.
+* Performant. Likely subtly problematic.
+* Phosphor. Replaced by Alfheim Lighting Engine.
+* These are replaced by Universal Tweaks
+  * AI Improvements
+  * Anti-Ghost
+  * AttributeFix
+  * Born In A Barn
+  * Configurable Beacons
+  * DupeFixProject
+  * HelpFixer
+  * Surge
+  * SwingThroughGrass
+  * Tinkers OreDict Cache
+  * Unloader
+* Pillar in favor of Pillar Patched.
+* Tinkers Construct in favor of Binkers' Bonstruct. Did you get your photos printed? Bogos binted?
+* Damage Indicators Mod in favor of ToroHealth. Tired of excess messages when starting the game up.
+* Ruins (Structure Spawning System). Some of the structures don't spawn well in the world as well as small volcanoes causing forest fires.
+
+### **__Updated the following mod(s):__**
+* AttributeFix to 1.0.12.
+* The Betweenlands to 3.9.6.
+* AE2 Unofficial Extended Life to 0.56.4.
+* BdLib to 1.14.4.1.
+* Better Hurt Timer to 1.5.0.5.
+* Chocolate Quest Repoured to Beta 6.16B.
+* Chunk Loaders to 1.2.8a.
+* Climate Control/Geographicraft to 0.9.4.
+* Controlling to 3.0.12.3.
+* Corail Tombstone to 4.6.6.
+* CraftTweaker to 4.1.20.699.
+* CreativeCore to 1.10.71.
+* Emojicord to 1.1.1.45.
+* EnderIO (modules) to 5.3.72.
+* EnderCore to 0.5.78.
+* Entity Culling to 6.4.3.
+* Fishing Made Better to 2.2.6.
+* Fish's Undead Rising to 1.4.2.
+* FoamFix to 0.10.15.
+* FutureMC to 0.2.19.
+* GeckoLib to 3.0.31.
+* HammerLib to 12.2.49.
+* Improvable Skills 3 to 12.4.68.
+* JourneyMap to 5.7.1p2.
+* LagGoggles to 5.9-140.
+* LootTweaker to 0.3.3.
+* Metallurgy 4 Reforged to 1.3.9.
+* ModTweaker to 4.0.20.11.
+* NuclearCraft to 2.18zzz.
+* OAuth to 1.06.4.
+* PackagedAuto to 1.0.12.43.
+* Particle Culling to 1.4.1.
+* Placebo to 1.6.1.
+* Reach Fix to 1.0.9.
+* RenderLib to 1.3.4.
+* Scape and Run: Parasites to 1.9.18.
+* Sledgehammer to 2.0.25.
+* Storage Drawers to 5.5.0.
+* SuperMartijn642's Config Lib to 1.1.8.
+* SuperMartijn642's Core Lib to 1.1.17.
+* Tesseract to 1.0.35b.
+* Tinkers' Evolution to 1.0.49.
+* Zen Utils to 1.17.1.
+
+### **__Downgraded the following mod(s):__**
+* spark to 1.5.2. Compatibility issue with CensoredASM.
