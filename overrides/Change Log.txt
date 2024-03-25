@@ -91,6 +91,7 @@ Added the following mod(s):
 - Universal Tweaks 1.10.0. Combination of a lot of tweaks, fixes, and optimizations.
 -- ConfigAnytime 2.0.
 - Alfheim Lighting Engine 1.2. As a continuation of 燐/Hesperus a fork of Phosphor
+-- Red Core 1.8-1.12 0.6 Dev 3.
 - Tinkers' Modifier Modifier 1.0.5. Gives greater control over modifiers on weapons and armor.
 - Zen Summoning 1.1.2. For use in respawning boss fights.
 - Builder's Bag 1.4.2.25. A bag to hold items for building. It's compatible with builder wands and building gadgets!
