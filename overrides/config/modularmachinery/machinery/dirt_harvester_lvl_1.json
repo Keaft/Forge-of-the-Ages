@@ -2,15 +2,49 @@
     "registryName": "dirt_harvester_lvl_1",
     "localizedname": "Dirt Harvester Lvl. 1",
     "color": "785335",
-    "parts": [
+    "modifiers": [
         {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "minecraft:iron_block@0"
-            ]
+            "elements": "minecraft:dirt@0",
+            "x": [1,0,-1],
+            "y": 0,
+            "z": [3,2],
+            "description": "Add dirt for more yield.",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 0,
+                "multiplier": 1.0
+            }
         },
+        {
+            "elements": "minecraft:dirt@0",
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "description": "Add dirt for more yield.",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 0,
+                "multiplier": 1.0
+            }
+        },
+        {
+            "elements": "minecraft:dirt@0",
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "description": "Add dirt for more yield.",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 0,
+                "multiplier": 1.0
+            }
+        }
+
+    ],
+    "parts": [
         {
             "x": 0,
             "y": -1,
@@ -23,6 +57,54 @@
             "z": 1,
             "elements": [
                 "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:basic_durt_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:basic_durt_casing@0"
+            ]
+        },
+        {
+            "x": [1,0,-1],
+            "y": -1,
+            "z": [3,2,1],
+            "elements": [
+                "contenttweaker:basic_durt_casing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": [3,2,1],
+            "elements": [
+                "contenttweaker:basic_durt_casing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": [3,2,1],
+            "elements": [
+                "contenttweaker:basic_durt_casing@0"
+            ]
+        },
+        {
+            "x": [1,0,-1],
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:basic_durt_casing@0"
             ]
         }
     ]}

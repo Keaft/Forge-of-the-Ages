@@ -59,6 +59,9 @@ GENERAL:
 - Removed all traces of Environmental Tech and Mystical Agriculture from scripts.
 - Rewrite of the recipe removal script to use functions instead of brute force. Makes the maintenance of server script easier.
 
+Initial framework for Durt Idle, an "idle game" idea I have where you punch and get dirt.
+- It's not implemented well right now. I'm leaving it for now as something to come back to in the future.
+
 Structures:
 - Added the following Farm Houses to suplement the lowering of Pam's Gardens drop rate and spreading. Each having procedural aspects, namely what crops the villager grows, what items they sell, and whether they're home.
 -- Windy garden farm house.
