@@ -78,6 +78,9 @@ rockBlockConstructor("ender_corrupter", 5.0, 3);
 // - Basic Durt
 dirtBlockConstructor("basic_durt");
 
+// - Basic Durt Casing
+dirtBlockConstructor("basic_durt_casing");
+
 if (verbose) {
     print("The following can be copy pasted for use in lang files:");
     for i in localizeBlocks {

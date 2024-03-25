@@ -121,6 +121,7 @@ recipes.addShaped("contenttweaker_dirt_claw", <contenttweaker:dirt_claw>, [[<exn
 recipes.addShaped("contenttweaker_dirty_claw", <contenttweaker:dirty_claw>, [[<contenttweaker:clip>,null,<contenttweaker:clip>], [null,<contenttweaker:clop>,<contenttweaker:clop>], [<contenttweaker:clip>,<contenttweaker:clop>,<contenttweaker:dirt_claw>]]);
 recipes.addShaped("contenttweaker_durt_claw_core", <contenttweaker:durt_claw_core>, [[<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clorp>,<contenttweaker:clorp>]]);
 recipes.addShapeless("contenttweaker_durt_claw", <contenttweaker:durt_claw>, [<contenttweaker:dirty_claw>,<contenttweaker:durt_claw_core>]);
+recipes.addShaped("contenttweaker_durt_casing", <contenttweaker:basic_durt_casing>, [[<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clorp>,null,<contenttweaker:clorp>],[<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>]]);
 
 //--------------------------------------------------------------------------------------
 
