@@ -98,7 +98,7 @@ Added the following mod(s):
 - ProjectE 1.4.1. Utilizing it's mechanics for Durt Idle.
 - Scavenge 1.8.3.2. Utilizing it's mechanics for Durt Idle.
 -- Scavenge Timing Addon 1.1. Utilizing it's mechanics for Durt Idle.
-- SerializationIsBad 1.5. Fixes serialization exploits of several mods.
+- SerializationIsBad 1.5.2. Fixes serialization exploits of several mods.
 - Pillar Patched 1.3.0.
 - Binkers' Bonstruct 2.13.0.187.
 - ToroHealth Damage Indicators 1.12.2-11.
@@ -110,7 +110,7 @@ Added the following mod(s):
 -- Macaw's Paintings 1.0.5.
 -- Macaw's Trapdoors 1.0.3.
 -- Macaw's Windows 1.0.0.
-- Simple Voice Chat 2.5.1. The social aspect of minecraft is far to important not to have this!
+- Simple Voice Chat 2.5.10. The social aspect of minecraft is far to important not to have this!
 - Oceanic Expanse 1.0.7. To be used in tandem with FutureMC.
 
 Removed the following mod(s):
@@ -166,11 +166,12 @@ Updated the following mod(s):
 - The Betweenlands to 3.9.6.
 - AE2 Unofficial Extended Life to 0.56.4.
 - BdLib to 1.14.4.1.
-- Better Hurt Timer to 1.5.0.4.
+- Better Hurt Timer to 1.5.0.5.
 - Chocolate Quest Repoured to Beta 6.16B.
 - Chunk Loaders to 1.2.8a.
+- Climate Control/Geographicraft to 0.9.4.
 - Controlling to 3.0.12.3.
-- Corail Tombstone to 4.6.5.
+- Corail Tombstone to 4.6.6.
 - CraftTweaker to 4.1.20.699.
 - CreativeCore to 1.10.71.
 - Emojicord to 1.1.1.45.
