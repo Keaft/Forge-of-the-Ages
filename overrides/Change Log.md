@@ -8,6 +8,12 @@ The 0.10r holds huge changes and you should read that changelog. :D
 ### **__Added the following mod(s):__**
 * FermiumASM 5.21. Replacement of CensoredASM.
   * FermiumBooter 1.0.1
+* Spark Unforged 1.11.1. Replacement of Spark.
+
+### **__Updated the following mod(s):__**
+* ConfigAnytime to 3.0.
+* Climate Control/Geographicraft to 0.9.5.
 
 ### **__Removed the following mod(s):__**
 * CensoredASM.
+* Spark.
