@@ -12,6 +12,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Roughly Enough IDs 2.0.7. Replacement of JustEnoughIDs.
 * Realistic Terrain Generation Unofficial 1.1.0. Replacement of Realistic Terrain Generation.
 * VintageFix 0.4.1. Replacement of FoamFix.
+* NoDamI 1.3.1. Replacement of Better Hurt Timer.
 
 ### **__Updated the following mod(s):__**
 * ConfigAnytime to 3.0.
@@ -23,3 +24,4 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * JustEnoughIDs.
 * Realistic Terrain Generation.
 * FoamFix.
+* Better Hurt Timer.
