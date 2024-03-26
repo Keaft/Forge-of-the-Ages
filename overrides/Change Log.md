@@ -1,6 +1,6 @@
 ***Before Updating ensure that you take a backup of your world!***
 
-This is a huge update with a big focal point in restructuring and adding content to instill greater interconnectivity and balance to the various gameplay loops. This should hopefully breathe new life into the available content creating greater enjoyment and longevity!
+The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
 * BetterHurtTimer syntax structure changes as old style was depreciated.
