@@ -3,7 +3,8 @@
 The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
-* BetterHurtTimer syntax structure changes as old style was depreciated.
+* Established NoDamI config, to apply only to mobs and to remove near instakill mechanics towards mobs.
+* Set HEI search bar to centered.
 
 ### **__Added the following mod(s):__**
 * FermiumASM 5.21. Replacement of CensoredASM.
