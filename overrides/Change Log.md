@@ -1,7 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 The 0.10r holds huge changes and you should read that changelog. :D
-This update should fix the potential insta-death through various damage sources.
+This update should fix the potential insta-death through various damage sources, as well as update some of the performance mods to later iterations via forked projects.
 
 ### **__Configuration changes:__**
 * Established NoDamI config, to apply only to mobs and to remove near instakill mechanics towards mobs.
