@@ -1,10 +1,12 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 The 0.10r holds huge changes and you should read that changelog. :D
+This update should fix the potential insta-death through various damage sources.
 
 ### **__Configuration changes:__**
 * Established NoDamI config, to apply only to mobs and to remove near instakill mechanics towards mobs.
 * Set HEI search bar to centered.
+* Established VintageFix configs to minimize lag from scrolling through items in HEI for the first time.
 
 ### **__Added the following mod(s):__**
 * FermiumASM 5.21. Replacement of CensoredASM.
