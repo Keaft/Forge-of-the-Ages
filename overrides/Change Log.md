@@ -3,10 +3,7 @@
 The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
-
-
-### **__Added the following mod(s):__**
-
+* Re-enabled VintageFix Dynamic Resources, as lag while scrolling HEI and tinkers related things has diminished.
 
 ### **__Updated the following mod(s):__**
 * Alheim Lighting Engine to 1.3.
@@ -14,5 +11,6 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Mowzie's Mobs to 1.5.8.
 * Simple Voice Chat to 2.5.11.
 * Zen Utils to 1.17.2.
+* VintageFix to 0.4.2.
+* Metallurgy 4 Reforged to 1.4.0.
 
-### **__Removed the following mod(s):__**
