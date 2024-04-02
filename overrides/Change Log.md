@@ -3,7 +3,9 @@
 The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
-* Re-enabled VintageFix Dynamic Resources, as lag while scrolling HEI and tinkers related things has diminished.
+* Disabled the chicken module from contenttweaker as it's unused.
+* Reverted config for JEI.
+* Regenerate Metallurgy 4 Reforged configs.
 
 ### **__Updated the following mod(s):__**
 * Alheim Lighting Engine to 1.3.
@@ -18,8 +20,8 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Metallurgy 4 Reforged to 1.3.9. Introduced a bunch of errors on load.
 
 ### **__Added the following mod(s):__**
-* Just Enough Items (JEI) as it's more compatible with Chisels and Bits settings for removal.
-* FoamFix 0.10.15.
+* Just Enough Items (JEI) 4.16.1.1012. It's more compatible with Chisels and Bits settings for removal.
+* FoamFix 0.10.15. Currently more established with less startup bugs.
 
 ### **__Removed the following mod(s):__**
 * Had Enough Items.
