@@ -14,6 +14,9 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * VintageFix to 0.4.2.
 * Metallurgy 4 Reforged to 1.4.0.
 
+### **__Downgraded the following mod(s):__**
+* Metallurgy 4 Reforged to 1.3.9. Introduced a bunch of errors on load.
+
 ### **__Added the following mod(s):__**
 * Just Enough Items (JEI) as it's more compatible with Chisels and Bits settings for removal.
 * FoamFix 0.10.15.
