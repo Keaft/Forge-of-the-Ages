@@ -14,10 +14,6 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Simple Voice Chat to 2.5.11.
 * Zen Utils to 1.17.2.
 * VintageFix to 0.4.2.
-* Metallurgy 4 Reforged to 1.4.0.
-
-### **__Downgraded the following mod(s):__**
-* Metallurgy 4 Reforged to 1.3.9. Introduced a bunch of errors on load.
 
 ### **__Added the following mod(s):__**
 * Just Enough Items (JEI) 4.16.1.1012. It's more compatible with Chisels and Bits settings for removal.
