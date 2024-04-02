@@ -16,6 +16,8 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Added the following mod(s):__**
 * Just Enough Items (JEI) as it's more compatible with Chisels and Bits settings for removal.
+* FoamFix 0.10.15.
 
 ### **__Removed the following mod(s):__**
 * Had Enough Items.
+* VintageFix.
