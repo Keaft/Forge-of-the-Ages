@@ -328,6 +328,9 @@ replaceRecipeShaped("enderio:s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft
 // - Basic Capacitor
 replaceRecipeShaped("enderio:capacitor_bank_simple", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
 
+// - Fluid Conduit
+replaceRecipeShaped("enderio:conduit_liquid_basic", <enderio:item_liquid_conduit> * 8, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------
