@@ -30,11 +30,16 @@ SummoningDirector.addSummonInfo(
             var x = pos.x as int;
             var y = pos.y as int;
             var z = pos.z as int;
+            var underBlockPos = crafttweaker.util.Position3f.create(pos.x, pos.y - 1, pos.z);
+            var underBlock = attempt.world.getBlockState(underBlockPos);
+            var underBlockName = underBlock.block.definition.id;
+            var underBlockMeta = underBlock.block.meta;
+            var underBlockString as string = underBlockName + ":" + underBlockMeta;
             if (attempt.world.raining) {
                 attempt.success = false;
                 attempt.message = "Can't summon this in the rain!";
             } else {
-                attempt.message = "X:" + x as string + " Y:" + y as string + " Z:" + z as string;
+                attempt.message = "X:" + x as string + " Y:" + y as string + " Z:" + z as string + " on " + underBlockString;
             }
         })
 );
