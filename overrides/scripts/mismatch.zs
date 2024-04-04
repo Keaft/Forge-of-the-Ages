@@ -1,7 +1,7 @@
 #Name: mismatch.zs
 #Author: Keaft
 
-// Hello fellow modpack maker! What a mess this is... ore dicionary is super awesome right up until it isn't. Heck this work may not even be worth it. :D Update: You know what it was by and large not as worth it. I installed UniDict and washed my hands of it. What remains is the few things not handled by UniDict.
+// Hello fellow modpack maker! What a mess this is... ore dicionary is super awesome right up until it isn't. Heck this work may not even be worth it. :D Update: You know what, it was by and large not worth it. I installed UniDict and washed my hands of it. What remains is the few things not handled by UniDict.
 
 print("Initializing 'mismatch'...");
 
