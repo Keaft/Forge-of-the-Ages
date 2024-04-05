@@ -11,11 +11,11 @@ import crafttweaker.block.IBlock;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
-
+import crafttweaker.command.ICommand;
 
 print("Initializing 'zen_summoning'...");
 
-function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob as string, mobNBT as IData, altarBlock as string) {
+function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob as string, mobNBT as IData, altarBlock as string, localSummonMessage as string = null) {
     SummoningDirector.addSummonInfo(
         SummoningInfo.create()
             .setCatalyst(catalyst)
@@ -41,7 +41,8 @@ function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob 
                     attempt.success = false;
                     attempt.message = "Altar block " + altarBlock + " not found moving on.";
                 } else {
-                    attempt.message = "X:" + x as string + " Y:" + y as string + " Z:" + z as string + " on " + underBlockString;
+                    server.commandManager.executeCommand(server,"execute @a[x=" + x + ",y=" + y + ",z=" + z + ",r=15] ~ ~ ~ tellraw @a[x=~1,y=~1,z=~1,rm=0,r=15] [\"" + localSummonMessage + "\"]");
+                    /* attempt.message = "X:" + x as string + " Y:" + y as string + " Z:" + z as string + " on " + underBlockString; */
                 }
             })
     );
@@ -50,7 +51,7 @@ function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob 
 val customZombieNBT as IData = {Health:200.0f,Attributes:[{Base:200.0d,Name:"generic.maxHealth"},{Base:2.0d,Name:"generic.armor"}],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1 as byte,Damage:0 as short}]};
 
 /* basicBossSummon(catalyst,reagents,mob,mobNBT,alterBlock); */
-basicBossSummon(<minecraft:stick>,[],"minecraft:zombie",customZombieNBT,"minecraft:stone:0");
+basicBossSummon(<minecraft:stick>,[],"minecraft:zombie",customZombieNBT,"minecraft:stone:0", "you feel the air get cold");
 
 /* SummoningDirector.addSummonInfo(
     SummoningInfo.create()
