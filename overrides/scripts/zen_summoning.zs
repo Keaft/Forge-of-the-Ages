@@ -51,6 +51,9 @@ function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob 
     );
 }
 
+/* Set summoning altar to un-minable */
+<zensummoning:altar>.hardness = 1000000;
+
 val customZombieNBT as IData = 
 {
     Health:200.0f,Attributes:[
