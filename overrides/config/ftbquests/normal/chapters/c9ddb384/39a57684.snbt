@@ -13,10 +13,12 @@
 		"18933968"
 	],
 	tasks: [{
-		uid: "ecf319c9",
-		type: "custom",
-		title: "Welcome to Tinkers",
-		icon: "tconstruct:smeltery_controller"
+		uid: "4789330a",
+		type: "item",
+		title: "Craft a Smeltery Controller",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
 	}],
 	rewards: [{
 		uid: "bee86808",

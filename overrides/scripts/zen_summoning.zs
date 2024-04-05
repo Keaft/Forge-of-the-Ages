@@ -15,8 +15,6 @@ import crafttweaker.item.IItemStack;
 
 print("Initializing 'zen_summoning'...");
 
-val customZombieNBT as IData = {Health:200.0f,Attributes:[{Base:200.0d,Name:"generic.maxHealth"},{Base:2.0d,Name:"generic.armor"}],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1 as byte,Damage:0 as short}]};
-
 function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob as string, mobNBT as IData, altarBlock as string) {
     SummoningDirector.addSummonInfo(
         SummoningInfo.create()
@@ -48,6 +46,8 @@ function basicBossSummon(catalyst as IItemStack, reagents as IIngredient[], mob 
             })
     );
 }
+
+val customZombieNBT as IData = {Health:200.0f,Attributes:[{Base:200.0d,Name:"generic.maxHealth"},{Base:2.0d,Name:"generic.armor"}],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1 as byte,Damage:0 as short}]};
 
 /* basicBossSummon(catalyst,reagents,mob,mobNBT,alterBlock); */
 basicBossSummon(<minecraft:stick>,[],"minecraft:zombie",customZombieNBT,"minecraft:stone:0");
