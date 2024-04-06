@@ -13,6 +13,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 ### **__Added the following mod(s):__**
 * Aqua Acrobatics v1.15.4.
 * Mixin 0.7-0.8 Compatibility 1.1-1.12.2.
+* Fluidlogged API 2.2.4.
 
 ### **__Removed the following mod(s):__**
 Idō (Deprecated). Replaced by Aqua Acrobatics.
