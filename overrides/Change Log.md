@@ -16,4 +16,4 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Fluidlogged API 2.2.4.
 
 ### **__Removed the following mod(s):__**
-Idō (Deprecated). Replaced by Aqua Acrobatics.
+* Idō (Deprecated). Replaced by Aqua Acrobatics.
