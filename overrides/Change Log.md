@@ -5,7 +5,6 @@ The 0.10r holds huge changes and you should read that changelog. :D
 ### **__Configuration changes:__**
 * Made enderio fluid conduits slightly easier to make.
 * Fix "Welcome to Tinkers" quest not progressing.
-* Adjustments to boss spawning scripts.
 
 ### **__Updated the following mod(s):__**
 * Particle Culling to 1.4.2.
@@ -17,3 +16,4 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Removed the following mod(s):__**
 * Idō (Deprecated). Replaced by Aqua Acrobatics.
+* Zen Summoning. Didn't fill the role I was hoping for.
