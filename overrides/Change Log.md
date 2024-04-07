@@ -5,6 +5,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 ### **__Configuration changes:__**
 * Made enderio fluid conduits slightly easier to make.
 * Fix "Welcome to Tinkers" quest not progressing.
+* Disable Pantheon from Millenaire.
 
 ### **__Structures:__**
 * New Mining Site Dungeon! Thanks pwnsbey for the inspiration!
