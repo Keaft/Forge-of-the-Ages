@@ -6,6 +6,9 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Made enderio fluid conduits slightly easier to make.
 * Fix "Welcome to Tinkers" quest not progressing.
 
+### **__Structures:__**
+* New Mining Site Dungeon! Thanks pwnsbey for the inspiration!
+
 ### **__Updated the following mod(s):__**
 * Particle Culling to 1.4.2.
 
