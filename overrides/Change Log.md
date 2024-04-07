@@ -8,6 +8,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Structures:__**
 * New Mining Site Dungeon! Thanks pwnsbey for the inspiration!
+* Lowered the spawn rate of farm houses.
 
 ### **__Updated the following mod(s):__**
 * Particle Culling to 1.4.2.

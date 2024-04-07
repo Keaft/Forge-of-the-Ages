@@ -1,5 +1,5 @@
 {
-	"generatorType": "SKY",
+	"generatorType": "ANYWHERE",
 	"minY": 63,
 	"maxY": 64,
 	"offsetX": -17,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 300
+	"rarity": 450
 }
