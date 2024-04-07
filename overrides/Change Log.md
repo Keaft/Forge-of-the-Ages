@@ -8,7 +8,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Disable Pantheon from Millenaire.
 
 ### **__Structures:__**
-* New Mining Site Dungeon! Thanks pwnsbey for the inspiration!
+* **__New Mining Site Dungeon!__** Thanks pwnsbey for the inspiration!
 * Lowered the spawn rate of farm houses.
 
 ### **__Updated the following mod(s):__**
