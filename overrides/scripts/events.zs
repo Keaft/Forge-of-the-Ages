@@ -7,9 +7,11 @@ import crafttweaker.data.IData;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 import crafttweaker.command.ICommandManager;
-import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.event.EntityJoinWorldEvent;
 import crafttweaker.event.IEventCancelable;
 import crafttweaker.event.PlayerInteractBlockEvent;
@@ -95,12 +97,12 @@ events.onBlockPlace(function(blockPlaced as crafttweaker.event.BlockPlaceEvent){
 
 
 // Checks the block underneath and displays it to the player.
-/* events.onPlayerTick(function(playerTickCheck as crafttweaker.event.PlayerTickEvent){
-    var pworldobj = playerTickCheck.player.world;
-    var ppos as IBlockPos = playerTickCheck.player.position;
+/* events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent){
+    var pworldobj = event.player.world;
+    var ppos as IBlockPos = event.player.position;
     var lpos = crafttweaker.util.Position3f.create(ppos.x, ppos.y - 1, ppos.z);
     var plight = pworldobj.getBlockState(ppos).getLightValue(pworldobj, lpos);
-    playerTickCheck.player.sendStatusMessage("X:" + ppos.x as string + " Y:" + ppos.y as string + " Z:" + ppos.z as string + " Light Value:" + plight as string + " of block X:" + lpos.x as string + " Y:" + lpos.y as string + " Z:" + lpos.z as string);
+    event.player.sendStatusMessage("X:" + ppos.x as string + " Y:" + ppos.y as string + " Z:" + ppos.z as string + " Light Value:" + plight as string + " of block X:" + lpos.x as string + " Y:" + lpos.y as string + " Z:" + lpos.z as string);
 });
 
 events.onEntityJoinWorld(function(entityJoin as crafttweaker.event.EntityJoinWorldEvent){
@@ -117,55 +119,30 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
 		var x as float = event.x as float;
         var y as float = event.y as float;
         var z as float = event.z as float;
+        var aboveY = y + 1;
+        var localSummonMessage as string = "You feel the ground shake beneath you.";
 		if (!isNull(mhItem) && <minecraft:diamond>.matches(mhItem)) {
 			event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount == 1 ? null : mhItem.withAmount(mhItem.amount - 1));
-            y = y + 1;
-            val customZombieNBT as IData = {
-                ForgeCaps:{
-                    Health:20.0f,
-                    ArmorItems:[
-                        {
-                            id:"minecraft:iron_boots",
-                            Count:1,
-                            Damage:0
-                        },
-                        {},
-                        {},
-                        {
-                            id:"minecraft:diamond_helmet",
-                            Count:1,
-                            Damage:0
-                        }
-                    ],
-                    HandItems:[
-                        {},
-                        {}
-                    ],
-                    ArmorDropChances:[
-                        0.085f,
-                        0.085f,
-                        0.085f,
-                        0.085f
-                    ],
-                    HandDropChances:[
-                        0.085f,
-                        0.085f
-                    ],
-                    Leashed:0,
-                    LeftHanded:0,
-                    CanBreakDoors:0
-                }
-            };
-            val zombie = <entity:minecraft:zombie>;
-            //zombie.setNBT(customZombieNBT);
-            event.world.spawnEntity(zombie.spawnEntity(event.world, crafttweaker.util.Position3f.create(x, y, z).asBlockPos()));
+/*             var timeToKill = event.world.getWorldTime() +200; */
+            var zombie as IEntityLivingBase = <entity:minecraft:zombie>.createEntity(event.entityLivingBase.world);
+            zombie.setCustomName("tacoZombie");
+            zombie.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.head(),<minecraft:diamond_helmet>);
+            zombie.getAttribute("generic.maxHealth").baseValue = 50.0;
+            zombie.getAttribute("generic.armor").baseValue = 10.0;
+            zombie.health = 50;
+/*             zombie.setNBT({killTime: timeToKill}); */
+            zombie.setPosition(crafttweaker.util.Position3f.create(x, aboveY, z).asBlockPos());
+            event.entityLivingBase.world.spawnEntity(zombie);
+            event.player.sendMessage(zombie.health as string);
+            event.player.sendMessage("The " + mhItem.displayName + " wrenches from your hand.");
+            server.commandManager.executeCommand(server,"execute @a[x=" + x as int + ",y=" + y as int + ",z=" + z as int + ",r=15] ~ ~ ~ tellraw @a[x=~1,y=~1,z=~1,rm=0,r=15] [\"" + localSummonMessage + "\"]");
 			//server.commandManager.executeCommand(server, "summon minecraft:zombie "~x~" "~y~" "~z);
 			event.cancel();
 		} else {
 			if (!isNull(ohItem) && <minecraft:diamond>.matches(ohItem)) {
 				event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
-                y = y + 1;
-				server.commandManager.executeCommand(server, "summon minecraft:zombie "~x~" "~y~" "~z);
+				//Attempt action
+                /* server.commandManager.executeCommand(server, "summon minecraft:zombie "~x~" "~aboveY~" "~z); */
 				event.cancel();
 			}
 		}
