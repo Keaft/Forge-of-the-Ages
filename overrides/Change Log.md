@@ -5,3 +5,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 ### **__Configuration changes:__**
 * Fixed spawners in the Mining Site Dungeon.
 * Adjusted separated boss summoning script from the events script.
+
+### **__Updated the following mod(s):__**
+* Simple Voice Chat to 2.5.12.
+* Roughly Enough IDs to 2.1.0.
