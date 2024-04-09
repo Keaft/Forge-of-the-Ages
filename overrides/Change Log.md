@@ -2,3 +2,6 @@
 
 The 0.10r holds huge changes and you should read that changelog. :D
 
+### **__Configuration changes:__**
+* Fixed spawners in the Mining Site Dungeon.
+* Adjusted separated boss summoning script from the events script.
