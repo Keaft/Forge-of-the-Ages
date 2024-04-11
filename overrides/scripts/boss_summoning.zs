@@ -28,47 +28,53 @@ $expand IEntity$convertToIEntityLivingBase() as IEntityLivingBase {
 }
 
 zenClass BasicBoss {
-    // statics can't change
-    
-    // variables can be changed, DO declare variables for everything that I want to be able to change, likely establish defaults, but definitely vars for changing.
     var baseArmor as int;
     var bossEntityType as IEntityDefinition;
     var chestSlotItem as IItemStack;
+    var drops as IItemStack;
     var feetSlotItem as IItemStack;
     var headSlotItem as IItemStack;
     var legsSlotItem as IItemStack;
     var localSummonMessage as string;
     var mainHandSlotItem as IItemStack;
     var name as string; 
+    var namesList as string[];
+    var namesListSuffix as string[];
     var offHandSlotItem as IItemStack;
     var totalHealth as int;
 
     var bossEvent as PlayerInteractBlockEvent;
     var bossIEntity as IEntity;
     var bossClass as IEntityLivingBase;
-    // methods (functions), bits of functionality. 
+
 
     zenConstructor(baseArmorParam as int,
                    bossEntityTypeParam as IEntityDefinition,
                    chestSlotItemParam as IItemStack,
+                   dropsParam as IItemStack,
                    feetSlotItemParam as IItemStack,
                    headSlotItemParam as IItemStack,
                    legsSlotItemParam as IItemStack,
                    localSummonMessageParam as string,
                    mainHandSlotItemParam as IItemStack,
-                   nameParam as string, 
+                   nameParam as string,
+                   namesListParam as string[],
+                   namesListSuffixParam as string[],
                    offHandSlotItemParam as IItemStack,
                    totalHealthParam as int
-    ){ // called whenever the class is initialized. Every call does the following instructions. Makes sure that I don't have to call every instruction every time.
+    ){ 
         baseArmor = baseArmorParam;
         bossEntityType = bossEntityTypeParam;
         chestSlotItem = chestSlotItemParam;
+        drops = dropsParam;
         feetSlotItem = feetSlotItemParam;
         headSlotItem = headSlotItemParam;
         legsSlotItem = legsSlotItemParam;
         localSummonMessage = localSummonMessageParam;
         mainHandSlotItem = mainHandSlotItemParam;
         name = nameParam;
+        namesList = namesListParam;
+        namesListSuffix = namesListSuffixParam;
         offHandSlotItem = offHandSlotItemParam;
         totalHealth = totalHealthParam;
     }
@@ -77,7 +83,7 @@ zenClass BasicBoss {
         bossEvent = eventParam;
         bossIEntity = bossEntityType.createEntity(bossEvent.entityLivingBase.world);
         bossClass = bossIEntity.convertToIEntityLivingBase();
-        bossClass.setCustomName(name);
+        changeName(name, namesList, namesListSuffix);
         bossClass.setPosition(crafttweaker.util.Position3f.create(bossEvent.x, bossEvent.y + 1, bossEvent.z).asBlockPos());
         giveEquipment("mainHand",mainHandSlotItem);
         giveEquipment("offHand",offHandSlotItem);
@@ -91,8 +97,25 @@ zenClass BasicBoss {
     }
 
     function spawnBoss(){
-        server.commandManager.executeCommand(server,"execute @a[x=" + bossEvent.x as int + ",y=" + bossEvent.y as int + ",z=" + bossEvent.z as int + ",r=15] ~ ~ ~ tellraw @a[x=~1,y=~1,z=~1,rm=0,r=15] [\"" + localSummonMessage + "\"]");
+        if (!isNull(localSummonMessage)){
+            server.commandManager.executeCommand(server,"execute @a[x=" + bossEvent.x as int + ",y=" + bossEvent.y as int + ",z=" + bossEvent.z as int + ",r=15] ~ ~ ~ tellraw @a[x=~1,y=~1,z=~1,rm=0,r=15] [\"" + localSummonMessage + "\"]");
+        }
         bossEvent.entityLivingBase.world.spawnEntity(bossClass);
+    }
+
+    function changeName(nameParam as string, nameListParam as string[], nameListSuffixParam as string[]){
+        if (!isNull(nameListParam) && isNull(nameListSuffixParam)) {
+            var randomIntName = this.bossEvent.world.getRandom().nextInt(0,nameListParam.length - 1);
+            bossClass.setCustomName(nameListParam[randomIntName]);
+        }
+        if (!isNull(nameListParam) && !isNull(nameListSuffixParam)) {
+            var randomIntName = this.bossEvent.world.getRandom().nextInt(0,nameListParam.length - 1);
+            var randomIntSuffix = this.bossEvent.world.getRandom().nextInt(0,nameListSuffixParam.length - 1);
+            bossClass.setCustomName(nameListParam[randomIntName] + " " + nameListSuffixParam[randomIntSuffix]);
+        }
+        if (!isNull(nameParam)){
+            bossClass.setCustomName(nameParam);
+        } 
     }
 
     function setHealth(healthParam as int){
@@ -124,42 +147,98 @@ zenClass BasicBoss {
 
 print("Initializing 'boss_summoning'...");
 
-var diamondZombie = BasicBoss(1,
-                            <entity:minecraft:zombie>,
-                            null, 
-                            null, 
-                            <minecraft:diamond_helmet>, 
-                            null, 
-                            "You feel the ground beneath you rumble.", 
-                            null,
-                            "tacoZombie",
-                            null,
-                            50
-); // this is a function call to the constructor
+var bossNames as string[] = [
+    "Malakar",
+    "Zephyrion",
+    "Xalvador",
+    "Seraphina",
+    "Drak'thar",
+    "Thalador",
+    "Vorgrath",
+    "Lyrastra",
+    "Grimmjaw",
+    "Aurelius",
+    "Korvath",
+    "Valyria",
+    "Mordred",
+    "Enderfiend",
+    "Blazefury",
+    "Ghastbane",
+    "Enderus",
+    "Arkanos",
+    "Ironforge",
+    "Sylphira",
+    "Necronyx",
+    "Emberlyn",
+    "Endarion",
+    "Duskfang",
+    "Stoneheart"
+];
 
-var goldenZombie = BasicBoss(1,
-                            <entity:minecraft:zombie>,
-                            null, 
-                            null, 
-                            <minecraft:golden_helmet>, 
-                            null, 
-                            "You feel the ground beneath you rumble.", 
-                            null,
-                            "tacoZombie",
-                            null,
-                            50
-); // this is a function call to the constructor
+var bossSuffixes as string[] = [
+    "of the Nether",
+    "the Dragon Slayer",
+    "the Ender Conqueror",
+    "the Shadow Master",
+    "the Block Breaker",
+    "the Redstone Sorcerer",
+    "the Creeper Lord",
+    "of the Overworld",
+    "the Dark Wizard",
+    "the Diamond Defender",
+    "the Necromancer",
+    "the Ender Dragon",
+    "the Minecart Maestro",
+    "the Sorcerer Supreme",
+    "the Ghast Hunter",
+    "the Voidwalker",
+    "the Undying",
+    "the Earthshaker"
+];
 
 
-var zombieSpawnItems = {
-    <minecraft:diamond> : diamondZombie,
-    <minecraft:gold_ingot> : goldenZombie
-} as BasicBoss[IItemStack];
+var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
+                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+                            null, // Chest armor
+                            null, // Item drops
+                            null, // Feet armor
+                            null, // Head Armor
+                            null, // Legs armor
+                            "You feel the ground shake beneath your feet", // Local distance message on summon
+                            null, // Main hand item
+                            null, // Custom name
+                            bossNames, // Name List
+                            bossSuffixes, // Name Suffix List
+                            null, // Off hand item
+                            150 // Total Health
+);
 
-var altarBlocks = {
-    <minecraft:stone> : zombieSpawnItems/* ,
+var mutantSkeleton2 = BasicBoss(20, // Base armor 1 is half a shield in game
+                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+                            null, // Chest armor
+                            null, // Item drops
+                            null, // Feet armor
+                            null, // Head Armor
+                            null, // Legs armor
+                            "You feel the ground shake beneath your feet", // Local distance message on summon
+                            null, // Main hand item
+                            null, // Custom name
+                            bossNames, // Name List
+                            bossSuffixes, // Name Suffix List
+                            null, // Off hand item
+                            300 // Total Health
+);
+
+
+var mutantSkeletonSpawnItems as BasicBoss[IItemStack]$orderly = {
+    <minecraft:diamond> : mutantSkeleton1,
+    <minecraft:gold_ingot> : mutantSkeleton2
+};
+
+var altarBlocks as BasicBoss[IItemStack][IBlock]$orderly = {
+    <minecraft:stone> : mutantSkeletonSpawnItems/* ,
     <minecraft:grass> */
- } as BasicBoss[IItemStack][IBlock];
+ };
 
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
@@ -172,7 +251,6 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
     }
     for block in altarBlocks {
         if (block has event.block) {
-            event.player.sendMessage("found block");
             for catalyst in altarBlocks[block] { // altarBlocks[block] uses the [block] key minecraft:stone to call it's value zombieSpawnItems thereby declaring altarBlocks[block] as zombieSpawnItems. Catalyst is then just the keys.
                 var mhItem = event.player.mainHandHeldItem;
         		var ohItem = event.player.offHandHeldItem;
@@ -180,20 +258,22 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
                     return;
                 }
                 if (catalyst has mhItem) {
+                    currentHand = mhItem;
                     event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount == 1 ? null : mhItem.withAmount(mhItem.amount - 1));
                     event.player.sendMessage("The " + mhItem.displayName + " wrenches from your hand.");
                     altarBlocks[block][catalyst].commitBoss(event);
                     break;
-                } else {
-                    if (catalyst has ohItem) {
-                        event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
-                        event.player.sendMessage("The " + ohItem.displayName + " wrenches from your hand.");
-                        altarBlocks[block][catalyst].commitBoss(event);
-                        break;
-                    } else {
-                        event.player.sendMessage("The altar rejects your offering.");
-                    }
                 }
+                if (catalyst has ohItem) {
+                    currentHand = ohItem;
+                    event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
+                    event.player.sendMessage("The " + ohItem.displayName + " wrenches from your hand.");
+                    altarBlocks[block][catalyst].commitBoss(event);
+                    break;
+                }
+            }
+            if (isNull(currentHand)){
+                event.player.sendMessage("The altar rejects your offering.");
             }
             break;
         }
