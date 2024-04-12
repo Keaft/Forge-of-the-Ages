@@ -2,25 +2,30 @@
 // Author: Keaft
 // Name: boss_summoning.zs
 
-import crafttweaker.data.IData;
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 import crafttweaker.command.ICommandManager;
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.data.IData;
 import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.event.EntityJoinWorldEvent;
+import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.event.IEventCancelable;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.PlayerInteractEvent;
 import crafttweaker.events.IEventManager;
 import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemTransformer;
+import crafttweaker.item.WeightedItemStack;
+import crafttweaker.player.IPlayer;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IWorld;
-import crafttweaker.player.IPlayer;
 
 $expand IEntity$convertToIEntityLivingBase() as IEntityLivingBase {
 	var iEntityConversion as IEntityLivingBase = this;
@@ -31,7 +36,7 @@ zenClass BasicBoss {
     var baseArmor as int;
     var bossEntityType as IEntityDefinition;
     var chestSlotItem as IItemStack;
-    var drops as IItemStack;
+    var drops as IData;
     var feetSlotItem as IItemStack;
     var headSlotItem as IItemStack;
     var legsSlotItem as IItemStack;
@@ -47,11 +52,10 @@ zenClass BasicBoss {
     var bossIEntity as IEntity;
     var bossClass as IEntityLivingBase;
 
-
     zenConstructor(baseArmorParam as int,
                    bossEntityTypeParam as IEntityDefinition,
                    chestSlotItemParam as IItemStack,
-                   dropsParam as IItemStack,
+                   dropsParam as IData,
                    feetSlotItemParam as IItemStack,
                    headSlotItemParam as IItemStack,
                    legsSlotItemParam as IItemStack,
@@ -62,7 +66,7 @@ zenClass BasicBoss {
                    namesListSuffixParam as string[],
                    offHandSlotItemParam as IItemStack,
                    totalHealthParam as int
-    ){ 
+    ) { 
         baseArmor = baseArmorParam;
         bossEntityType = bossEntityTypeParam;
         chestSlotItem = chestSlotItemParam;
@@ -79,11 +83,12 @@ zenClass BasicBoss {
         totalHealth = totalHealthParam;
     }
 
-    function commitBoss(eventParam as PlayerInteractBlockEvent){
+    function commitBoss(eventParam as PlayerInteractBlockEvent) {
         bossEvent = eventParam;
         bossIEntity = bossEntityType.createEntity(bossEvent.entityLivingBase.world);
         bossClass = bossIEntity.convertToIEntityLivingBase();
         changeName(name, namesList, namesListSuffix);
+        bossClass.setNBT(drops);
         bossClass.setPosition(crafttweaker.util.Position3f.create(bossEvent.x, bossEvent.y + 1, bossEvent.z).asBlockPos());
         giveEquipment("mainHand",mainHandSlotItem);
         giveEquipment("offHand",offHandSlotItem);
@@ -96,50 +101,51 @@ zenClass BasicBoss {
         spawnBoss();
     }
 
-    function spawnBoss(){
-        if (!isNull(localSummonMessage)){
+    function spawnBoss() {
+        if (!isNull(localSummonMessage)) {
             server.commandManager.executeCommand(server,"execute @a[x=" + bossEvent.x as int + ",y=" + bossEvent.y as int + ",z=" + bossEvent.z as int + ",r=15] ~ ~ ~ tellraw @a[x=~1,y=~1,z=~1,rm=0,r=15] [\"" + localSummonMessage + "\"]");
         }
         bossEvent.entityLivingBase.world.spawnEntity(bossClass);
     }
 
-    function changeName(nameParam as string, nameListParam as string[], nameListSuffixParam as string[]){
+    function changeName(nameParam as string, nameListParam as string[], nameListSuffixParam as string[]) {
         if (!isNull(nameListParam) && isNull(nameListSuffixParam)) {
             var randomIntName = this.bossEvent.world.getRandom().nextInt(0,nameListParam.length - 1);
             bossClass.setCustomName(nameListParam[randomIntName]);
+        } else {
+            if (!isNull(nameListParam) && !isNull(nameListSuffixParam)) {
+                var randomIntName = this.bossEvent.world.getRandom().nextInt(0,nameListParam.length - 1);
+                var randomIntSuffix = this.bossEvent.world.getRandom().nextInt(0,nameListSuffixParam.length - 1);
+                bossClass.setCustomName(nameListParam[randomIntName] + " " + nameListSuffixParam[randomIntSuffix]);
+            }
         }
-        if (!isNull(nameListParam) && !isNull(nameListSuffixParam)) {
-            var randomIntName = this.bossEvent.world.getRandom().nextInt(0,nameListParam.length - 1);
-            var randomIntSuffix = this.bossEvent.world.getRandom().nextInt(0,nameListSuffixParam.length - 1);
-            bossClass.setCustomName(nameListParam[randomIntName] + " " + nameListSuffixParam[randomIntSuffix]);
-        }
-        if (!isNull(nameParam)){
+        if (!isNull(nameParam)) {
             bossClass.setCustomName(nameParam);
         } 
     }
 
-    function setHealth(healthParam as int){
+    function setHealth(healthParam as int) {
         bossClass.getAttribute("generic.maxHealth").baseValue = healthParam; // Setting a baseValue needs a double even though the int works?
         bossClass.health = healthParam; // Health is a float???
     }
     
-    function giveEquipment(equipItemSlot as string, item as IItemStack){
-        if(equipItemSlot == "mainHand"){
+    function giveEquipment(equipItemSlot as string, item as IItemStack) {
+        if(equipItemSlot == "mainHand") {
             bossClass.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.mainHand(),item);
         }
-        if(equipItemSlot == "offHand"){
+        if(equipItemSlot == "offHand") {
             bossClass.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.offhand(),item);
         }
-        if(equipItemSlot == "head"){
+        if(equipItemSlot == "head") {
             bossClass.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.head(),item);
         }
-        if(equipItemSlot == "chest"){
+        if(equipItemSlot == "chest") {
             bossClass.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.chest(),item);
         }
-        if(equipItemSlot == "legs"){
+        if(equipItemSlot == "legs") {
             bossClass.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.legs(),item);
         }
-        if(equipItemSlot == "feet"){
+        if(equipItemSlot == "feet") {
             bossClass.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.feet(),item);
         }
     }
@@ -187,7 +193,6 @@ var bossSuffixes as string[] = [
     "the Dark Wizard",
     "the Diamond Defender",
     "the Necromancer",
-    "the Ender Dragon",
     "the Minecart Maestro",
     "the Sorcerer Supreme",
     "the Ghast Hunter",
@@ -196,11 +201,46 @@ var bossSuffixes as string[] = [
     "the Earthshaker"
 ];
 
-
 var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
-                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+                            <entity:minecraft:zombie>, // Entity to summon
                             null, // Chest armor
-                            null, // Item drops
+                            {
+                                "bossVariable": "mutantSkeleton1",
+                                "lootDrops": [
+                                    {
+                                        name :"diamondBlock",
+                                        item: "minecraft:diamond_block",
+                                        weight: 10,
+                                        minDrop: 1,
+                                        maxDrop: 3,
+                                        damaged: false
+                                    },
+                                    { 
+                                        name :"goldIngot",
+                                        item: "minecraft:gold_ingot",
+                                        weight: 100,
+                                        minDrop: 1,
+                                        maxDrop: 4,
+                                        damaged: false
+                                    },
+                                    { 
+                                        name :"diamondSword",
+                                        item: "minecraft:diamond_sword",
+                                        weight: 100,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: true
+                                    },
+                                    { 
+                                        name :"diamond",
+                                        item: "minecraft:diamond",
+                                        weight: 100,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false
+                                    }
+                                ]
+                            },
                             null, // Feet armor
                             null, // Head Armor
                             null, // Legs armor
@@ -210,29 +250,33 @@ var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
                             bossNames, // Name List
                             bossSuffixes, // Name Suffix List
                             null, // Off hand item
-                            150 // Total Health
+                            10 // Total Health
 );
 
-var mutantSkeleton2 = BasicBoss(20, // Base armor 1 is half a shield in game
-                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
-                            null, // Chest armor
-                            null, // Item drops
-                            null, // Feet armor
-                            null, // Head Armor
-                            null, // Legs armor
-                            "You feel the ground shake beneath your feet", // Local distance message on summon
-                            null, // Main hand item
-                            null, // Custom name
-                            bossNames, // Name List
-                            bossSuffixes, // Name Suffix List
-                            null, // Off hand item
-                            300 // Total Health
-);
-
+// var mutantSkeleton2 = BasicBoss(20, // Base armor 1 is half a shield in game
+//                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+//                             "mutantSkeleton2", // The name of this variable
+//                             null, // Chest armor
+//                             [ // Item drops [item, weight, minDrop, maxDrop, damaged(bool)]
+//                                 ["minecraft:diamond_block", 10, 1, 1, null],
+//                                 ["minecraft:diamond", 100, 1, 3, null], 
+//                                 ["minecraft:dirt", 50, 1, 3, null]
+//                             ],  
+//                             null, // Feet armor
+//                             null, // Head Armor
+//                             null, // Legs armor
+//                             "You feel the ground shake beneath your feet", // Local distance message on summon
+//                             null, // Main hand item
+//                             null, // Custom name
+//                             bossNames, // Name List
+//                             bossSuffixes, // Name Suffix List
+//                             null, // Off hand item
+//                             300 // Total Health
+// );
 
 var mutantSkeletonSpawnItems as BasicBoss[IItemStack]$orderly = {
-    <minecraft:diamond> : mutantSkeleton1,
-    <minecraft:gold_ingot> : mutantSkeleton2
+    <minecraft:diamond> : mutantSkeleton1/* ,
+    <minecraft:gold_ingot> : mutantSkeleton2 */
 };
 
 var altarBlocks as BasicBoss[IItemStack][IBlock]$orderly = {
@@ -240,8 +284,7 @@ var altarBlocks as BasicBoss[IItemStack][IBlock]$orderly = {
     <minecraft:grass> */
  };
 
-
-events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var currentAltar as IItemStack = null;
     var currentItem as IItemStack = null;
     var currentHand as string = null;
@@ -254,7 +297,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
             for catalyst in altarBlocks[block] { // altarBlocks[block] uses the [block] key minecraft:stone to call it's value zombieSpawnItems thereby declaring altarBlocks[block] as zombieSpawnItems. Catalyst is then just the keys.
                 var mhItem = event.player.mainHandHeldItem;
         		var ohItem = event.player.offHandHeldItem;
-                if (isNull(mhItem) && isNull(ohItem)){
+                if (isNull(mhItem) && isNull(ohItem)) {
                     return;
                 }
                 if (catalyst has mhItem) {
@@ -272,10 +315,32 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent){
                     break;
                 }
             }
-            if (isNull(currentHand)){
+            if (isNull(currentHand)) {
                 event.player.sendMessage("The altar rejects your offering.");
             }
             break;
+        }
+    }
+});
+
+events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
+    var bossCheck = event.entity.nbt.ForgeData;
+    if (!isNull(bossCheck.bossVariable)) {
+        var lootCheck = bossCheck.lootDrops.asList();
+        for i, nbt in lootCheck {
+            var itemAndProperties as IData = lootCheck[i];
+            var item = itemUtils.getItem(itemAndProperties.item);
+            var itemWeight = itemAndProperties.weight;
+            var itemMinDrop = itemAndProperties.minDrop;
+            var itemMaxDrop = itemAndProperties.maxDrop;
+            var itemDamaged = itemAndProperties.damaged;
+            if (itemWeight >= event.entity.world.getRandom().nextInt(0,100)) {
+                if (itemDamaged) {
+                    event.addItem(item.withDamage(event.entity.world.getRandom().nextInt(0,item.maxDamage)));
+                } else {
+                    event.addItem(item * event.entity.world.getRandom().nextInt(itemMinDrop,itemMaxDrop));
+                }
+            }
         }
     }
 });
