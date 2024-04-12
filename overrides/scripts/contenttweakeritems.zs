@@ -79,10 +79,10 @@ itemConstructor("summon_tier_2", 8, "UNCOMMON", true);
 itemConstructor("summon_tier_3", 8, "RARE", true);
 itemConstructor("summon_tier_4", 8, "EPIC", true);
 
-itemConstructor("summon_tier_1_empty", 8, "COMMON", true);
-itemConstructor("summon_tier_2_empty", 8, "UNCOMMON", true);
-itemConstructor("summon_tier_3_empty", 8, "RARE", true);
-itemConstructor("summon_tier_4_empty", 8, "EPIC", true);
+itemConstructor("summon_tier_1_empty", 8, "COMMON");
+itemConstructor("summon_tier_2_empty", 8, "UNCOMMON");
+itemConstructor("summon_tier_3_empty", 8, "RARE");
+itemConstructor("summon_tier_4_empty", 8, "EPIC");
 
 if (verbose) {
     print("The following can be copy pasted for use in lang files:");
