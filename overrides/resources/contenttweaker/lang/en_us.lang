@@ -49,6 +49,7 @@ tile.contenttweaker.compressed_obsidian_gravel.name=Compressed Obsidian Gravel
 tile.contenttweaker.spore_endstone.name=Spore End Stone
 tile.contenttweaker.ender_corrupter.name=Ender Corrupter
 tile.contenttweaker.basic_durt.name=Basic Durt
+tile.contenttweaker.basic_durt_casing.name=Basic Durt Casing
 
 # Fluids
 fluid.molten_neptunium=Molten Neptunium
