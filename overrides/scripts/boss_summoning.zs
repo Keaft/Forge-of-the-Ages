@@ -202,41 +202,53 @@ var bossSuffixes as string[] = [
 ];
 
 var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
-                            <entity:minecraft:zombie>, // Entity to summon
+                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
                                 "bossVariable": "mutantSkeleton1",
                                 "lootDrops": [
                                     {
-                                        name :"diamondBlock",
-                                        item: "minecraft:diamond_block",
-                                        weight: 10,
-                                        minDrop: 1,
-                                        maxDrop: 3,
-                                        damaged: false
-                                    },
-                                    { 
-                                        name :"goldIngot",
-                                        item: "minecraft:gold_ingot",
+                                        name :"summonTier1Empty",
+                                        item: "contenttweaker:summon_tier_1",
                                         weight: 100,
                                         minDrop: 1,
-                                        maxDrop: 4,
+                                        maxDrop: 1,
                                         damaged: false
                                     },
-                                    { 
+                                    {
                                         name :"diamondSword",
                                         item: "minecraft:diamond_sword",
                                         weight: 100,
                                         minDrop: 1,
                                         maxDrop: 1,
                                         damaged: true
-                                    },
-                                    { 
-                                        name :"diamond",
-                                        item: "minecraft:diamond",
+                                    }
+                                ]
+                            },
+                            null, // Feet armor
+                            null, // Head Armor
+                            null, // Legs armor
+                            "You feel the ground shake beneath your feet", // Local distance message on summon
+                            null, // Main hand item
+                            null, // Custom name
+                            bossNames, // Name List
+                            bossSuffixes, // Name Suffix List
+                            null, // Off hand item
+                            150 // Total Health
+);
+
+var mutantSkeleton2 = BasicBoss(0, // Base armor 1 is half a shield in game
+                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+                            null, // Chest armor
+                            {
+                                "bossVariable": "mutantSkeleton2",
+                                "lootDrops": [
+                                    {
+                                        name :"summonTier2Empty",
+                                        item: "contenttweaker:summon_tier_2",
                                         weight: 100,
                                         minDrop: 1,
-                                        maxDrop: 1,
+                                        maxDrop: 3,
                                         damaged: false
                                     }
                                 ]
@@ -250,37 +262,18 @@ var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
                             bossNames, // Name List
                             bossSuffixes, // Name Suffix List
                             null, // Off hand item
-                            10 // Total Health
+                            200 // Total Health
 );
 
-// var mutantSkeleton2 = BasicBoss(20, // Base armor 1 is half a shield in game
-//                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
-//                             "mutantSkeleton2", // The name of this variable
-//                             null, // Chest armor
-//                             [ // Item drops [item, weight, minDrop, maxDrop, damaged(bool)]
-//                                 ["minecraft:diamond_block", 10, 1, 1, null],
-//                                 ["minecraft:diamond", 100, 1, 3, null], 
-//                                 ["minecraft:dirt", 50, 1, 3, null]
-//                             ],  
-//                             null, // Feet armor
-//                             null, // Head Armor
-//                             null, // Legs armor
-//                             "You feel the ground shake beneath your feet", // Local distance message on summon
-//                             null, // Main hand item
-//                             null, // Custom name
-//                             bossNames, // Name List
-//                             bossSuffixes, // Name Suffix List
-//                             null, // Off hand item
-//                             300 // Total Health
-// );
-
 var mutantSkeletonSpawnItems as BasicBoss[IItemStack]$orderly = {
-    <minecraft:diamond> : mutantSkeleton1/* ,
-    <minecraft:gold_ingot> : mutantSkeleton2 */
+    <contenttweaker:summon_tier_1> : mutantSkeleton1,
+    <contenttweaker:summon_tier_2> : mutantSkeleton2,
+    <contenttweaker:summon_tier_3> : mutantSkeleton1,
+    <contenttweaker:summon_tier_4> : mutantSkeleton1,
 };
 
 var altarBlocks as BasicBoss[IItemStack][IBlock]$orderly = {
-    <minecraft:stone> : mutantSkeletonSpawnItems/* ,
+    <contenttweaker:mutant_skeleton_altar> : mutantSkeletonSpawnItems/* ,
     <minecraft:grass> */
  };
 
@@ -335,10 +328,12 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
             var itemMaxDrop = itemAndProperties.maxDrop;
             var itemDamaged = itemAndProperties.damaged;
             if (itemWeight >= event.entity.world.getRandom().nextInt(0,100)) {
-                if (itemDamaged) {
+                if (itemDamaged == 1) {
                     event.addItem(item.withDamage(event.entity.world.getRandom().nextInt(0,item.maxDamage)));
+                    event.damageSource.trueSource.sendMessage("hiya damaged?");
                 } else {
                     event.addItem(item * event.entity.world.getRandom().nextInt(itemMinDrop,itemMaxDrop));
+                    event.damageSource.trueSource.sendMessage("hiya");
                 }
             }
         }

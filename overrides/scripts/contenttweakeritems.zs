@@ -9,16 +9,18 @@ static localizeItems as string[] = [];
 static verbose as bool = true;
 
 print("Initializing 'contenttweakeritems'...");
-//itemConstructor(name, stackSize, rarity, glowing, durability);
-function itemConstructor(name as string, stackSize as int = 64, rarity as string = "common", glowing as bool = false, durability as int = -1) {
-    var itemToMake = VanillaFactory.createItem(name);
-    itemToMake.maxStackSize = stackSize;
-    if (durability != -1){
-        itemToMake.maxDamage = durability;
+//itemConstructor(nameParam, stackSizeParam, rarityParam, glowingParam, durabilityParam);
+function itemConstructor(nameParam as string, stackSizeParam as int = 64, rarityParam as string = "COMMON", glowingParam as bool = false, durabilityParam as int = -1) {
+    var itemToMake = VanillaFactory.createItem(nameParam);
+    itemToMake.maxStackSize = stackSizeParam;
+    itemToMake.rarity = rarityParam;
+    itemToMake.glowing = glowingParam;
+    if (durabilityParam != -1){
+        itemToMake.maxDamage = durabilityParam;
     }
     itemToMake.register();
     if (verbose) {
-        localizeItems += name;
+        localizeItems += nameParam;
     }
 }
 
@@ -69,6 +71,13 @@ itemConstructor("dirt_claw", 1);
 itemConstructor("dirty_claw", 1);
 itemConstructor("durt_claw_core", 1);
 itemConstructor("durt_claw", 1);
+
+// - Catalyst Items for boss spawning
+
+itemConstructor("summon_tier_1", 8, "COMMON", true);
+itemConstructor("summon_tier_2", 8, "UNCOMMON", true);
+itemConstructor("summon_tier_3", 8, "RARE", true);
+itemConstructor("summon_tier_4", 8, "EPIC", true);
 
 if (verbose) {
     print("The following can be copy pasted for use in lang files:");

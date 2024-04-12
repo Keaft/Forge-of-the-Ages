@@ -38,6 +38,12 @@ item.contenttweaker.clop.name=Clop
 item.contenttweaker.clorp.name=Clorp
 item.contenttweaker.clod.name=Clod
 
+item.contenttweaker.summon_tier_1.name=Summoning Essence Tier 1
+item.contenttweaker.summon_tier_2.name=Summoning Essence Tier 2
+item.contenttweaker.summon_tier_3.name=Summoning Essence Tier 3
+item.contenttweaker.summon_tier_4.name=Summoning Essence Tier 4
+
+
 # Blocks
 tile.contenttweaker.cobalt_ore_stone.name=Cobalt Ore
 tile.contenttweaker.ardite_ore_stone.name=Ardite Ore
@@ -50,6 +56,8 @@ tile.contenttweaker.spore_endstone.name=Spore End Stone
 tile.contenttweaker.ender_corrupter.name=Ender Corrupter
 tile.contenttweaker.basic_durt.name=Basic Durt
 tile.contenttweaker.basic_durt_casing.name=Basic Durt Casing
+
+tile.contenttweaker.mutant_skeleton_altar.name=Mutant Skeleton Altar
 
 # Fluids
 fluid.molten_neptunium=Molten Neptunium

@@ -81,6 +81,9 @@ dirtBlockConstructor("basic_durt");
 // - Basic Durt Casing
 dirtBlockConstructor("basic_durt_casing");
 
+// - Mutant Skeleton Altar
+dirtBlockConstructor("mutant_skeleton_altar", -1, 10);
+
 if (verbose) {
     print("The following can be copy pasted for use in lang files:");
     for i in localizeBlocks {

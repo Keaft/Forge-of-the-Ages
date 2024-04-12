@@ -7,6 +7,9 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Separated boss summoning script from the events script.
 * Boss summoning now works and has item drops!
 
+### **__Structures:__**
+* Mining Site now has a boss summoning altar.
+
 ### **__Updated the following mod(s):__**
 * Simple Voice Chat to 2.5.12.
 * Roughly Enough IDs to 2.1.0.
