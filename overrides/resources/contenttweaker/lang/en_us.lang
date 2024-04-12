@@ -38,10 +38,15 @@ item.contenttweaker.clop.name=Clop
 item.contenttweaker.clorp.name=Clorp
 item.contenttweaker.clod.name=Clod
 
-item.contenttweaker.summon_tier_1.name=Summoning Essence Tier 1
-item.contenttweaker.summon_tier_2.name=Summoning Essence Tier 2
-item.contenttweaker.summon_tier_3.name=Summoning Essence Tier 3
-item.contenttweaker.summon_tier_4.name=Summoning Essence Tier 4
+item.contenttweaker.summon_tier_1_empty.name=Empty Petty Summon Essence
+item.contenttweaker.summon_tier_2_empty.name=Empty Lesser Summon Essence
+item.contenttweaker.summon_tier_3_empty.name=Empty Great Summon Essence
+item.contenttweaker.summon_tier_4_empty.name=Empty Greater Summon Essence
+
+item.contenttweaker.summon_tier_1.name=Petty Summon Essence
+item.contenttweaker.summon_tier_2.name=Lesser Summon Essence
+item.contenttweaker.summon_tier_3.name=Great Summon Essence
+item.contenttweaker.summon_tier_4.name=Greater Summon Essence
 
 
 # Blocks

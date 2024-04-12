@@ -209,7 +209,7 @@ var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
                                 "lootDrops": [
                                     {
                                         name :"summonTier1Empty",
-                                        item: "contenttweaker:summon_tier_1",
+                                        item: "contenttweaker:summon_tier_1_empty",
                                         weight: 100,
                                         minDrop: 1,
                                         maxDrop: 1,
@@ -245,7 +245,7 @@ var mutantSkeleton2 = BasicBoss(0, // Base armor 1 is half a shield in game
                                 "lootDrops": [
                                     {
                                         name :"summonTier2Empty",
-                                        item: "contenttweaker:summon_tier_2",
+                                        item: "contenttweaker:summon_tier_2_empty",
                                         weight: 100,
                                         minDrop: 1,
                                         maxDrop: 3,
