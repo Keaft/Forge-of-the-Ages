@@ -248,7 +248,7 @@ var mutantSkeleton2 = BasicBoss(0, // Base armor 1 is half a shield in game
                                         item: "contenttweaker:summon_tier_2_empty",
                                         weight: 100,
                                         minDrop: 1,
-                                        maxDrop: 3,
+                                        maxDrop: 1,
                                         damaged: false
                                     }
                                 ]
