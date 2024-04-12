@@ -330,10 +330,8 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
             if (itemWeight >= event.entity.world.getRandom().nextInt(0,100)) {
                 if (itemDamaged == 1) {
                     event.addItem(item.withDamage(event.entity.world.getRandom().nextInt(0,item.maxDamage)));
-                    event.damageSource.trueSource.sendMessage("hiya damaged?");
                 } else {
                     event.addItem(item * event.entity.world.getRandom().nextInt(itemMinDrop,itemMaxDrop));
-                    event.damageSource.trueSource.sendMessage("hiya");
                 }
             }
         }
