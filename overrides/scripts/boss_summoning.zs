@@ -208,20 +208,39 @@ var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
                                 "bossVariable": "mutantSkeleton1",
                                 "lootDrops": [
                                     {
-                                        name :"summonTier1Empty",
-                                        item: "contenttweaker:summon_tier_1_empty",
+                                        name :"certusQuartz",
+                                        item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 1,
-                                        maxDrop: 1,
+                                        minDrop: 3,
+                                        maxDrop: 7,
                                         damaged: false
                                     },
                                     {
-                                        name :"diamondSword",
-                                        item: "minecraft:diamond_sword",
+                                        name :"certusQuartzChance1",
+                                        item: "appliedenergistics2:material",
+                                        weight: 20,
+                                        minDrop: 3,
+                                        maxDrop: 7,
+                                        damaged: false
+                                    },
+                                    {
+                                        name :"diamondChance1",
+                                        item: "appliedenergistics2:material",
+                                        weight: 20,
+                                        minDrop: 1,
+                                        maxDrop: 5,
+                                        damaged: false
+                                    },
+                                    {
+                                        name :"bowlimb",
+                                        item: "tconstruct:bow_limb",
                                         weight: 100,
                                         minDrop: 1,
                                         maxDrop: 1,
-                                        damaged: true
+                                        damaged: false,
+                                        extrasTag: {
+                                            Material: "electrical_steel"
+                                        }
                                     }
                                 ]
                             },
@@ -237,18 +256,46 @@ var mutantSkeleton1 = BasicBoss(0, // Base armor 1 is half a shield in game
                             150 // Total Health
 );
 
-var mutantSkeleton2 = BasicBoss(0, // Base armor 1 is half a shield in game
+var mutantSkeleton2 = BasicBoss(6, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
                                 "bossVariable": "mutantSkeleton2",
                                 "lootDrops": [
                                     {
-                                        name :"summonTier2Empty",
-                                        item: "contenttweaker:summon_tier_2_empty",
+                                        name :"certusQuartz",
+                                        item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 1,
-                                        maxDrop: 1,
+                                        minDrop: 6,
+                                        maxDrop: 12,
+                                        damaged: false,
+                                    }
+                                ]
+                            },
+                            null, // Feet armor
+                            null, // Head Armor
+                            null, // Legs armor
+                            "You feel the ground shake beneath your feet", // Local distance message on summon
+                            null, // Main hand item
+                            null, // Custom name
+                            bossNames, // Name List
+                            bossSuffixes, // Name Suffix List
+                            null, // Off hand item
+                            225 // Total Health
+);
+
+var mutantSkeleton3 = BasicBoss(16, // Base armor 1 is half a shield in game
+                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+                            null, // Chest armor
+                            {
+                                "bossVariable": "mutantSkeleton3",
+                                "lootDrops": [
+                                    {
+                                        name :"certusQuartz",
+                                        item: "appliedenergistics2:material",
+                                        weight: 100,
+                                        minDrop: 12,
+                                        maxDrop: 24,
                                         damaged: false
                                     }
                                 ]
@@ -262,14 +309,42 @@ var mutantSkeleton2 = BasicBoss(0, // Base armor 1 is half a shield in game
                             bossNames, // Name List
                             bossSuffixes, // Name Suffix List
                             null, // Off hand item
-                            200 // Total Health
+                            250 // Total Health
+);
+
+var mutantSkeleton4 = BasicBoss(20, // Base armor 1 is half a shield in game
+                            <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
+                            null, // Chest armor
+                            {
+                                "bossVariable": "mutantSkeleton4",
+                                "lootDrops": [
+                                    {
+                                        name :"certusQuartz",
+                                        item: "appliedenergistics2:material",
+                                        weight: 100,
+                                        minDrop: 15,
+                                        maxDrop: 30,
+                                        damaged: false
+                                    }
+                                ]
+                            },
+                            null, // Feet armor
+                            null, // Head Armor
+                            null, // Legs armor
+                            "You feel the ground shake beneath your feet", // Local distance message on summon
+                            null, // Main hand item
+                            null, // Custom name
+                            bossNames, // Name List
+                            bossSuffixes, // Name Suffix List
+                            null, // Off hand item
+                            300 // Total Health
 );
 
 var mutantSkeletonSpawnItems as BasicBoss[IItemStack]$orderly = {
     <contenttweaker:summon_tier_1> : mutantSkeleton1,
     <contenttweaker:summon_tier_2> : mutantSkeleton2,
-    <contenttweaker:summon_tier_3> : mutantSkeleton1,
-    <contenttweaker:summon_tier_4> : mutantSkeleton1,
+    <contenttweaker:summon_tier_3> : mutantSkeleton3,
+    <contenttweaker:summon_tier_4> : mutantSkeleton4,
 };
 
 var altarBlocks as BasicBoss[IItemStack][IBlock]$orderly = {
@@ -296,14 +371,16 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                 if (catalyst has mhItem) {
                     currentHand = mhItem;
                     event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount == 1 ? null : mhItem.withAmount(mhItem.amount - 1));
-                    event.player.sendMessage("The " + mhItem.displayName + " wrenches from your hand.");
+                    event.player.sendMessage("The " + mhItem.displayName + " drains into the altar.");
+                    event.player.give(itemUtils.getItem(mhItem.definition.id + "_empty"));
                     altarBlocks[block][catalyst].commitBoss(event);
                     break;
                 }
                 if (catalyst has ohItem) {
                     currentHand = ohItem;
                     event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
-                    event.player.sendMessage("The " + ohItem.displayName + " wrenches from your hand.");
+                    event.player.sendMessage("The " + ohItem.displayName + " drains into the altar.");
+                    event.player.give(itemUtils.getItem(ohItem.definition.id + "_empty"));
                     altarBlocks[block][catalyst].commitBoss(event);
                     break;
                 }
@@ -318,7 +395,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 
 events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
     var bossCheck = event.entity.nbt.ForgeData;
-    if (!isNull(bossCheck.bossVariable)) {
+    if (!isNull(bossCheck.bossVariable) && !isNull(bossCheck.lootDrops)) {
         var lootCheck = bossCheck.lootDrops.asList();
         for i, nbt in lootCheck {
             var itemAndProperties as IData = lootCheck[i];
@@ -327,6 +404,10 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
             var itemMinDrop = itemAndProperties.minDrop;
             var itemMaxDrop = itemAndProperties.maxDrop;
             var itemDamaged = itemAndProperties.damaged;
+            var itemTag = itemAndProperties.extrasTag;
+            if (!isNull(itemTag) && itemTag != "") {
+                item = item.withTag(itemTag);
+            }
             if (itemWeight >= event.entity.world.getRandom().nextInt(0,100)) {
                 if (itemDamaged == 1) {
                     event.addItem(item.withDamage(event.entity.world.getRandom().nextInt(0,item.maxDamage)));

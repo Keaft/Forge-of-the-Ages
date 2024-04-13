@@ -121,7 +121,13 @@ recipes.addShaped("contenttweaker_dirt_claw", <contenttweaker:dirt_claw>, [[<exn
 recipes.addShaped("contenttweaker_dirty_claw", <contenttweaker:dirty_claw>, [[<contenttweaker:clip>,null,<contenttweaker:clip>], [null,<contenttweaker:clop>,<contenttweaker:clop>], [<contenttweaker:clip>,<contenttweaker:clop>,<contenttweaker:dirt_claw>]]);
 recipes.addShaped("contenttweaker_durt_claw_core", <contenttweaker:durt_claw_core>, [[<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clorp>,<contenttweaker:clorp>]]);
 recipes.addShapeless("contenttweaker_durt_claw", <contenttweaker:durt_claw>, [<contenttweaker:dirty_claw>,<contenttweaker:durt_claw_core>]);
-recipes.addShaped("contenttweaker_durt_casing", <contenttweaker:basic_durt_casing>, [[<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clorp>,null,<contenttweaker:clorp>],[<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>]]);
+recipes.addShaped("contenttweaker_basic_durt_casing", <contenttweaker:basic_durt_casing>, [[<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>],[<contenttweaker:clorp>,null,<contenttweaker:clorp>],[<contenttweaker:clorp>,<contenttweaker:clorp>,<contenttweaker:clorp>]]);
+
+// - Summoning Items
+recipes.addShaped("contenttweaker_summon_tier_1_empty", <contenttweaker:summon_tier_1_empty>, [[null,<botania:managlass>,null],[<botania:managlass>,<minecraft:redstone_block>,<botania:managlass>],[null,<botania:managlass>,null]]);
+recipes.addShaped("contenttweaker_summon_tier_2_empty", <contenttweaker:summon_tier_2_empty>, [[<appliedenergistics2:quartz_block>,<botania:manaresource:2>,<appliedenergistics2:quartz_block>],[<botania:manaresource:2>,<contenttweaker:summon_tier_1_empty> | <contenttweaker:summon_tier_1>,<botania:manaresource:2>],[<appliedenergistics2:quartz_block>,<botania:manaresource:2>,<appliedenergistics2:quartz_block>]]);
+recipes.addShaped("contenttweaker_summon_tier_3_empty", <contenttweaker:summon_tier_3_empty>, [[null,<botania:storage>,null],[<botania:storage>,<contenttweaker:summon_tier_2_empty> | <contenttweaker:summon_tier_2>,<botania:storage>],[null,<botania:storage>,null]]);
+recipes.addShaped("contenttweaker_summon_tier_4_empty", <contenttweaker:summon_tier_4_empty>, [[<botania:manaresource:9>,<botania:elfglass>,<botania:manaresource:9>],[<botania:elfglass>,<contenttweaker:summon_tier_3_empty> | <contenttweaker:summon_tier_3>,<botania:elfglass>],[<botania:manaresource:9>,<botania:elfglass>,<botania:manaresource:9>]]);
 
 //--------------------------------------------------------------------------------------
 

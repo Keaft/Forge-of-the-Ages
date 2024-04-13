@@ -26,9 +26,9 @@ mods.bloodmagic.TartaricForge.removeRecipe([<bloodmagic:soul_gem>,<tconevo:mater
 mods.bloodmagic.TartaricForge.addRecipe(<tconevo:metal:30>, [<contenttweaker:demon_will_crystal_perfected>,<tconevo:metal:25>], 16, 6);
 
 // Charging Summon items
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_1>, <contenttweaker:summon_tier_1_empty>, 1, 1000, 40, 20);
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_2>, <contenttweaker:summon_tier_2_empty>, 2, 2000, 50, 25);
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_3>, <contenttweaker:summon_tier_3_empty>, 3, 3000, 60, 30);
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_4>, <contenttweaker:summon_tier_4_empty>, 4, 5000, 80, 40);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_1>, <contenttweaker:summon_tier_1_empty>, 1, 5000, 10, 5);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_2>, <contenttweaker:summon_tier_2_empty>, 2, 10000, 60, 30);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_3>, <contenttweaker:summon_tier_3_empty>, 3, 15000, 80, 40);
+mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:summon_tier_4>, <contenttweaker:summon_tier_4_empty>, 4, 20000, 100, 50);
 
 print("Initialized 'bloodmagic'");
