@@ -4,8 +4,8 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
 * Fixed spawners in the Mining Site Dungeon.
-* Separated boss summoning script from the events script.
-* Boss summoning now works and has item drops!
+* Separated boss summoning script from the events script broken down and into it's own folder.
+* Boss summoning now works and has item drops! Huge thanks to Pwnsbey!
 * Added summon items with their recipes, to be charged with a Blood Altar.
 * Bosses can now drop items with NBT data.
 
