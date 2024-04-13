@@ -41,7 +41,7 @@ static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                     },
                                     {
                                         name :"diamondChance1",
-                                        item: "appliedenergistics2:material",
+                                        item: "minecraft:diamond",
                                         weight: 20,
                                         minDrop: 1,
                                         maxDrop: 5,
@@ -131,7 +131,7 @@ static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                     },
                                     {
                                         name :"diamondChance1",
-                                        item: "appliedenergistics2:material",
+                                        item: "minecraft:diamond",
                                         weight: 30,
                                         minDrop: 2,
                                         maxDrop: 7,
@@ -221,7 +221,7 @@ static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                     },
                                     {
                                         name :"diamondChance1",
-                                        item: "appliedenergistics2:material",
+                                        item: "minecraft:diamond",
                                         weight: 30,
                                         minDrop: 5,
                                         maxDrop: 13,
@@ -311,7 +311,7 @@ static mutantSkeleton4 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                     },
                                     {
                                         name :"diamondChance1",
-                                        item: "appliedenergistics2:material",
+                                        item: "minecraft:diamond",
                                         weight: 30,
                                         minDrop: 5,
                                         maxDrop: 13,
