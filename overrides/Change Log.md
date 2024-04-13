@@ -10,7 +10,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Bosses can now drop items with NBT data.
 
 ### **__Structures:__**
-* Mining Site now has a boss summoning altar.
+* Mining Site now has a boss summoning altar, with it's associated boss and drops.
 
 ### **__Updated the following mod(s):__**
 * Simple Voice Chat to 2.5.12.

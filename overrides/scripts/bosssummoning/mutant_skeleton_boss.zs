@@ -16,7 +16,7 @@ import crafttweaker.item.IItemStack;
 print("Initializing 'mutant_skeleton_boss'...");
 
 static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            5, // Attack Damage
+                            4, // Attack Damage
                             0, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
@@ -106,7 +106,7 @@ static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 );
 
 static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            5, // Attack Damage
+                            6, // Attack Damage
                             6, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
@@ -196,7 +196,7 @@ static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 );
 
 static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            5, // Attack Damage
+                            8, // Attack Damage
                             16, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
@@ -207,9 +207,69 @@ static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                         name :"certusQuartz",
                                         item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 12,
-                                        maxDrop: 24,
+                                        minDrop: 10,
+                                        maxDrop: 18,
+                                        damaged: false,
+                                    },
+                                    {
+                                        name :"certusQuartzChance1",
+                                        item: "appliedenergistics2:material",
+                                        weight: 30,
+                                        minDrop: 7,
+                                        maxDrop: 16,
                                         damaged: false
+                                    },
+                                    {
+                                        name :"diamondChance1",
+                                        item: "appliedenergistics2:material",
+                                        weight: 30,
+                                        minDrop: 5,
+                                        maxDrop: 13,
+                                        damaged: false
+                                    },
+                                    {
+                                        name :"bowlimb1",
+                                        item: "tconstruct:bow_limb",
+                                        weight: 15,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "platinum"
+                                        }
+                                    },
+                                    {
+                                        name :"bowlimb2",
+                                        item: "tconstruct:bow_limb",
+                                        weight: 15,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "platinum"
+                                        }
+                                    },
+                                    {
+                                        name :"toughToolRod",
+                                        item: "tconstruct:tough_tool_rod",
+                                        weight: 10,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "livingwood"
+                                        }
+                                    },
+                                    {
+                                        name :"toughBinding",
+                                        item: "tconstruct:tough_binding",
+                                        weight: 10,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "shadow_steel"
+                                        }
                                     }
                                 ]
                             },
@@ -226,7 +286,7 @@ static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 );
 
 static mutantSkeleton4 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            5, // Attack Damage
+                            10, // Attack Damage
                             20, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
@@ -237,9 +297,69 @@ static mutantSkeleton4 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                         name :"certusQuartz",
                                         item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 15,
-                                        maxDrop: 30,
+                                        minDrop: 10,
+                                        maxDrop: 18,
+                                        damaged: false,
+                                    },
+                                    {
+                                        name :"certusQuartzChance1",
+                                        item: "appliedenergistics2:material",
+                                        weight: 30,
+                                        minDrop: 7,
+                                        maxDrop: 16,
                                         damaged: false
+                                    },
+                                    {
+                                        name :"diamondChance1",
+                                        item: "appliedenergistics2:material",
+                                        weight: 30,
+                                        minDrop: 5,
+                                        maxDrop: 13,
+                                        damaged: false
+                                    },
+                                    {
+                                        name :"bowlimb1",
+                                        item: "tconstruct:bow_limb",
+                                        weight: 15,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "manasteel"
+                                        }
+                                    },
+                                    {
+                                        name :"bowlimb2",
+                                        item: "tconstruct:bow_limb",
+                                        weight: 15,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "manasteel"
+                                        }
+                                    },
+                                    {
+                                        name :"toughToolRod",
+                                        item: "tconstruct:tough_tool_rod",
+                                        weight: 10,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "silver"
+                                        }
+                                    },
+                                    {
+                                        name :"toughBinding",
+                                        item: "tconstruct:tough_binding",
+                                        weight: 10,
+                                        minDrop: 1,
+                                        maxDrop: 1,
+                                        damaged: false,
+                                        extraItemTags: {
+                                            Material: "electrical_steel"
+                                        }
                                     }
                                 ]
                             },

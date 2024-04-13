@@ -32,16 +32,11 @@ import crafttweaker.world.IWorld;
 
 print("Initializing 'summoning_event_script'...");
 
-static mutantSkeleton1 as BB.BasicBoss = scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton1;
-static mutantSkeleton2 as BB.BasicBoss = scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton2;
-static mutantSkeleton3 as BB.BasicBoss = scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton3;
-static mutantSkeleton4 as BB.BasicBoss = scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton4;
-
 var mutantSkeletonSpawnItems as BB.BasicBoss[IItemStack]$orderly = {
-    <contenttweaker:summon_tier_1> : mutantSkeleton1,
-    <contenttweaker:summon_tier_2> : mutantSkeleton2,
-    <contenttweaker:summon_tier_3> : mutantSkeleton3,
-    <contenttweaker:summon_tier_4> : mutantSkeleton4,
+    <contenttweaker:summon_tier_1> : scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton1,
+    <contenttweaker:summon_tier_2> : scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton2,
+    <contenttweaker:summon_tier_3> : scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton3,
+    <contenttweaker:summon_tier_4> : scripts.bosssummoning.mutant_skeleton_boss.mutantSkeleton4,
 };
 
 var altarBlocks as BB.BasicBoss[IItemStack][IBlock]$orderly = {
