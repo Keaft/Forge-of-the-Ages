@@ -8,6 +8,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Boss summoning now works and has item drops! Huge thanks to Pwnsbey!
 * Added summon items with their recipes, to be charged with a Blood Altar.
 * Bosses can now drop items with NBT data.
+* Remove drop chance from scaling wealth's example drops.
 
 ### **__Structures:__**
 * Mining Site now has a boss summoning altar, with it's associated boss and drops.
