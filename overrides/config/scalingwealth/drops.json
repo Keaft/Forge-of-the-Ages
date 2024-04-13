@@ -3,13 +3,13 @@
     "minecraft:zombie": {
       "[0, 100]": [
         {
-          "chance": 0.5,
+          "chance": 0.0,
           "item": "minecraft:cobblestone"
         }
       ],
       "[50, 150]": [
         {
-          "chance": 0.25,
+          "chance": 0.0,
           "item": "minecraft:stone"
         }
       ]
