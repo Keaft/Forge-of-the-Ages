@@ -3,6 +3,7 @@
 // Name: summoning_event_script.zs
 
 import scripts.bosssummoning.basic_boss as BB;
+import scripts.bosssummoning.generic_boss_names as GenericNames;
 
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
@@ -107,6 +108,18 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
                     event.addItem(item * event.entity.world.getRandom().nextInt(itemMinDrop,itemMaxDrop));
                 }
             }
+        }
+    }
+});
+
+events.onEntityJoinWorld(function(event as EntityJoinWorldEvent) {
+    var currentName as string = event.entity.getCustomName();
+    print(currentName);
+    if (!isNull(event.entity.nbt.ForgeData)){
+        if (!isNull(event.entity.nbt.ForgeData.bossVariable) && currentName == "") {
+            var randomIntName = event.world.getRandom().nextInt(0,GenericNames.bossNames.length - 1);
+            var randomIntSuffix = event.world.getRandom().nextInt(0,GenericNames.bossSuffixes.length - 1);
+            event.entity.setCustomName(GenericNames.bossNames[randomIntName] + " " + GenericNames.bossSuffixes[randomIntSuffix]);
         }
     }
 });
