@@ -11,8 +11,8 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [],
-	"biomeNameSpawns": [],
-	"biomeTagSpawns": ["PLAINS","SAVANNA"],
+	"biomeNameSpawns": ["biomesoplenty:brushland","biomesoplenty:chaparral","biomesoplenty:flower_field","biomesoplenty:flower_island","biomesoplenty:grassland","biomesoplenty:grove","biomesoplenty:lavender_fields","biomesoplenty:lush_desert","biomesoplenty:meadow","biomesoplenty:orchard","biomesoplenty:outback","biomesoplenty:pasture","biomesoplenty:prairie","biomesoplenty:shrubland","biomesoplenty:steppe","biomesoplenty:xeric_shrubland","minecraft:mutated_plains","minecraft:mutated_savanna","minecraft:mutated_savanna_rock","minecraft:plains","minecraft:savanna","minecraft:savanna_rock","nuclearcraft:nuclear_wasteland"],
+	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
 	"isBiomeTagSpawnsBlacklist": false,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "AIR",
 	
-	"rarity": 450
+	"rarity": 600
 }
