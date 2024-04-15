@@ -15,3 +15,5 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Ice and Fire: Dragons.
 
 ### **__Updated the following mod(s):__**
+* Sledgehammer to 2.0.26-thin.
+* HammerLib to 12.2.50.
