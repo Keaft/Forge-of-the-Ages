@@ -17,6 +17,7 @@ This update switches some mods to their more up-to-date 1.12.2 versions as well 
 * Raw Mouse Input - Blessed Edition 1.7.0. Noticed some odd mouse behaviours, hopefully this will fix them.
 * Patchouli ROFL Edition 1.0-26.
 * Fishing Made Better 2.2.6. Reintroduced as it seems to work now!
+* Advanced Fishing 1.3.3. Adds more fish to find in the nether and end.
 
 ### **__Removed the following mod(s):__**
 * Ice and Fire: Dragons.
