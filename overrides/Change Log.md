@@ -1,7 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 The 0.10r holds huge changes and you should read that changelog. :D
-This update switches some mods to their more up-to-date 1.12.2 versions as well as fishing mechanic mod changes. This will include content additions, bug fixes, and new features.
+This update switches some mods to more maintained 1.12.2 versions. It also adjusts fishing mechanic and more prep work for Durt Idle. This will include content additions, bug fixes, and new features.
 
 ### **__Configuration changes:__**
 * Script Localization changes to be more compatible with server environment.
