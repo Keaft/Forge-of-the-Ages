@@ -16,6 +16,7 @@ This update focuses on switching to mods that are more up-to-date specifically f
 * YNet [XNet Fork] 1.8.3. Continuation of XNet.
 * Raw Mouse Input - Blessed Edition 1.7.0. Noticed some odd mouse behaviours, hopefully this will fix them.
 * Patchouli ROFL Edition 1.0-26.
+* Fishing Made Better 2.2.6. Reintroduced as it seems to work now!
 
 ### **__Removed the following mod(s):__**
 * Ice and Fire: Dragons.
