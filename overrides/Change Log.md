@@ -24,6 +24,7 @@ This update switches some mods to their more up-to-date 1.12.2 versions as well 
 * Realistic Terrain Generation Unofficial. In favor of RTG Plus.
 * XNet. In favor of YNet.
 * Patchouli. In favor of Patchouli ROFL Edition.
+* ProjectE. Not going to function the way I would like for Durt Idle.
 
 ### **__Updated the following mod(s):__**
 * Sledgehammer to 2.0.26.
