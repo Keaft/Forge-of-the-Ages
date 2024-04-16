@@ -114,7 +114,6 @@ events.onEntityLivingDeathDrops(function(event as EntityLivingDeathDropsEvent) {
 
 events.onEntityJoinWorld(function(event as EntityJoinWorldEvent) {
     var currentName as string = event.entity.getCustomName();
-    print(currentName);
     if (!isNull(event.entity.nbt.ForgeData)){
         if (!isNull(event.entity.nbt.ForgeData.bossVariable) && currentName == "") {
             var randomIntName = event.world.getRandom().nextInt(0,GenericNames.bossNames.length - 1);
