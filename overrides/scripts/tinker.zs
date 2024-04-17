@@ -68,6 +68,10 @@ mods.tconstruct.Alloy.addRecipe(<liquid:pigiron> * 144,[<liquid:iron> * 576,<liq
 //Unobtanium
 mods.tconstruct.Alloy.addRecipe(<liquid:molten_unobtanium> * 144,[<liquid:diamond> * 666,<liquid:emerald> * 666,<liquid:ender> * 250]);
 
+//Hard Carbon
+mods.tconstruct.Alloy.removeRecipe(<liquid:hard_carbon>);
+mods.tconstruct.Alloy.addRecipe(<liquid:hard_carbon> * 144, [<liquid:coal> * 100, <liquid:diamond> * 333]);
+
 // - Casting
 //mods.tconstruct.Casting.addBasinRecipe(IItemStack output, IIngredient cast, ILiquidStack fluid, int amount, @Optional boolean consumeCast, @Optional int time);
 //mods.tconstruct.Casting.removeBasinRecipe(IItemStack output);

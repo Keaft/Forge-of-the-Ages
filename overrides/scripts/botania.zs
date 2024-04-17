@@ -42,6 +42,11 @@ mods.botania.ManaInfusion.addAlchemy(<metallurgy:tin_ingot>, <metallurgy:copper_
 
 // - Mana Infusion regular
 //mods.botania.ManaInfusion.addInfusion(IItemStack output, IIngredient input, int mana);
-mods.botania.ManaInfusion.addInfusion(<minecraft:clay_ball>, <appliedenergistics2:material:2>, 200);
+mods.botania.ManaInfusion.removeRecipe(<botania:manaresource:23>);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <appliedenergistics2:material:2>, 500);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:glowstone_dust>, 500);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:redstone>, 2000);
+mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:gunpowder>, 2000);
+
 
 print("Initialized 'botania'");
