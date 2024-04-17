@@ -8,9 +8,6 @@ This update switches some mods to more maintained 1.12.2 versions. It also adjus
 * Made Certus Quartz compete for the attention of more than just automation.
 * Removed extra Hard Carbon recipe to mitigate conflicts.
 
-### **__Structures:__**
-
-
 ### **__Added the following mod(s):__**
 * Ice and Fire: RotN Edition 1.9.1-1.3.3. Updated version of Ice and Fire: Dragons for 1.12.2.
 * Quit 1.1.0. No longer will the alt-tab click accidentally quit you out of the game!
