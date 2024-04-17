@@ -561,4 +561,13 @@ replaceRecipeShaped("waystones:warp_stone", <waystones:warp_stone>, [[<ore:dyePu
 
 //--------------------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------------------
+
+// -- XNet --
+replaceRecipeShaped("xnet:netcable_0", <xnet:netcable> * 16, [[<minecraft:string>, <minecraft:redstone>, <minecraft:string>], [<minecraft:redstone>, <appliedenergistics2:material:1>, <minecraft:redstone>], [<minecraft:string>, <minecraft:redstone>, <minecraft:string>]]);
+
+//--------------------------------------------------------------------------------------
+
+
+
 print("Initialized 'replacerecipe'");

@@ -5,6 +5,7 @@ This update switches some mods to more maintained 1.12.2 versions. It also adjus
 
 ### **__Configuration changes:__**
 * Script Localization changes to be more compatible with server environment.
+* Made Certus Quartz compete for the attention of more than just automation.
 
 ### **__Structures:__**
 

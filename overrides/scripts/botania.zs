@@ -37,4 +37,11 @@ mods.botania.ManaInfusion.addAlchemy(<tconstruct:materials:11>, <contenttweaker:
 // Copper
 mods.botania.ManaInfusion.addAlchemy(<metallurgy:copper_ingot>, <metallurgy:tin_ingot>, 2000);
 
+// Tin
+mods.botania.ManaInfusion.addAlchemy(<metallurgy:tin_ingot>, <metallurgy:copper_ingot>, 2000);
+
+// - Mana Infusion regular
+//mods.botania.ManaInfusion.addInfusion(IItemStack output, IIngredient input, int mana);
+mods.botania.ManaInfusion.addInfusion(<minecraft:clay_ball>, <appliedenergistics2:material:2>, 200);
+
 print("Initialized 'botania'");
