@@ -17,7 +17,7 @@ This update switches some mods to more maintained 1.12.2 versions. It also adjus
 * Patchouli ROFL Edition 1.0-26.
 * Fishing Made Better 2.2.6. Reintroduced as it seems to work now!
 * Advanced Fishing 1.3.3. Adds more fish to find in the nether and end.
-* Lootr 0.6.2. 
+* Lootr 0.6.2.
 
 ### **__Removed the following mod(s):__**
 * Ice and Fire: Dragons.
