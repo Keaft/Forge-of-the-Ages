@@ -12,3 +12,5 @@ The 0.10r holds huge changes and you should read that changelog. :D
 - NoDami (No Damage Immunity).
 
 ### **__Updated the following mod(s):__**
+- Roughly Enough IDs to 2.1.1.
+- PackagedAuto to 1.0.12.46.
