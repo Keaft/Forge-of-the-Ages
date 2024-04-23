@@ -3,14 +3,12 @@
 The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
-- Re-established Better Hurt Timer config.
+
 
 ### **__Added the following mod(s):__**
-- Better Hurt Timer 1.5.0.6. Working as expected again.
+
 
 ### **__Removed the following mod(s):__**
-- NoDami (No Damage Immunity).
+
 
 ### **__Updated the following mod(s):__**
-- Roughly Enough IDs to 2.1.1.
-- PackagedAuto to 1.0.12.46.
