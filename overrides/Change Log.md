@@ -3,7 +3,7 @@
 The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
-
+* Re-enable Myrmex to see if the Ice and Fire: RotN Edition fixes an old bug with them.
 
 ### **__Added the following mod(s):__**
 
