@@ -10,4 +10,4 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Tinkers Construct 2.13.0.183. As replacement of Binkers' Bonstruct due to the math of melting not being uniformly editable.
 
 ### **__Removed the following mod(s):__**
-* Binkers' Bonstruct for TFC. 
+* Binkers' Bonstruct for TFC.
