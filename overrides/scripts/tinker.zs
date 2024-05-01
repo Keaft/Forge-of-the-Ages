@@ -16,6 +16,23 @@ mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 2, 300);
 
 // - Melting
 //mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
+// Extra Stones
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:1>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:2>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:3>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:4>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:5>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:6>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stonebrick:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:limestone:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:limestone1:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:limestone2:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marble:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marble1:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marble2:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marblepillar:*>, 611);
+
+
 // Diamond stuff
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 3330, <minecraft:diamond_helmet>, 1500);
 mods.tconstruct.Melting.addRecipe(<liquid:diamond> * 5328, <minecraft:diamond_chestplate>, 1500);

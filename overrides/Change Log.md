@@ -3,6 +3,7 @@
 The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Configuration changes:__**
+* Added more stone types to melt into seared stone.
 
 ### **__Added the following mod(s):__**
 
