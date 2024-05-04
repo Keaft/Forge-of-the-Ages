@@ -9,7 +9,7 @@
   "rotation": null,
   "ignoreEntities": false,
   "dimensionSpawns": [],
-  "biomeNameSpawns": ["biomesoplenty:bamboo_forest","biomesoplenty:coral_reef","biomesoplenty:eucalyptus_forest","biomesoplenty:kelp_forest","biomesoplenty:oasis","biomesoplenty:overgrown_cliffs","biomesoplenty:rainforest","biomesoplenty:sacred_springs","biomesoplenty:tropical_island","biomesoplenty:tropical_rainforest","minecraft:deep_ocean","minecraft:frozen_ocean","minecraft:jungle","minecraft:jungle_edge","minecraft:jungle_hills","minecraft:mutated_jungle","minecraft:mutated_jungle_edge","minecraft:ocean"],
+  "biomeNameSpawns": ["biomesoplenty:bamboo_forest","biomesoplenty:eucalyptus_forest","biomesoplenty:oasis","biomesoplenty:overgrown_cliffs","biomesoplenty:rainforest","biomesoplenty:sacred_springs","biomesoplenty:tropical_island","biomesoplenty:tropical_rainforest","minecraft:jungle","minecraft:jungle_edge","minecraft:jungle_hills","minecraft:mutated_jungle","minecraft:mutated_jungle_edge"],
   "biomeTagSpawns": [],
   "isDimensionSpawnsBlacklist": false,
   "isBiomeNameSpawnsBlacklist": false,
