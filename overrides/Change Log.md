@@ -12,6 +12,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Astralsorcery marble added to seared stone
 * Reverted weather back to vanilla.
 * Made podzol easier to craft or create.
+* Removed excess art from resources.
 
 ### **__Added the following mod(s):__**
 
