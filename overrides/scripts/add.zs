@@ -273,7 +273,6 @@ recipes.addShapeless("leather_helmet_to_leather", <minecraft:leather> * 5, [<min
 recipes.addShapeless("leather_chestplate_to_leather", <minecraft:leather> * 8, [<minecraft:leather_chestplate>, <ore:toolShears>.transformDamage(3)]);
 recipes.addShapeless("leather_pants_to_leather", <minecraft:leather> * 7, [<minecraft:leather_leggings>, <ore:toolShears>.transformDamage(3)]);
 recipes.addShapeless("leather_boots_to_leather", <minecraft:leather> * 4, [<minecraft:leather_boots>, <ore:toolShears>.transformDamage(3)]);
-recipes.addShapeless("podzol_from_coarse_dirt", <minecraft:dirt:2>, [<minecraft:dirt:1>,<ore:treeLeaves>]);
 
 
 //--------------------------------------------------------------------------------------

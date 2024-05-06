@@ -521,6 +521,13 @@ replaceRecipeShaped("tesseract:tesseract", <tesseract:tesseract>, [[<ore:obsidia
 
 //--------------------------------------------------------------------------------------
 
+// -- Thermal Foundation
+replaceRecipeShapeless("thermalfoundation:block_podzol", <minecraft:dirt:2>, [<ore:treeLeaves>, <ore:treeLeaves>, <minecraft:dirt:1>]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // -- Tinkers Construct
 //Green Slime Sling
 replaceRecipeShaped("tconstruct:gadgets/slimesling/green", <tconstruct:slimesling>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_green>, null], [null, <ore:slimeballGreen>, null]]);
