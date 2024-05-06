@@ -31,6 +31,7 @@ mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marble:*>, 611);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marble1:*>, 611);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marble2:*>, 611);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <chisel:marblepillar:*>, 611);
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <astralsorcery:blockmarble:*>, 611);
 
 
 // Diamond stuff

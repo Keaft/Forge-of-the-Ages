@@ -87,6 +87,9 @@ recipes.addShaped("contenttweaker_purple_slime_handle", <contenttweaker:slime_ha
 // - Orange Slime Handle
 recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_handle_orange>, [[<ore:slimeballMagma>, null, <ore:slimeballMagma>],[null, <tconstruct:slime_congealed:4>, null],[null, <minecraft:ender_eye>, null]]);
 
+// - Orange Slime Handle
+recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_handle_red>, [[<ore:slimeballBlood>, null, <ore:slimeballBlood>],[null, <tconstruct:slime_congealed:3>, null],[null, <minecraft:ender_eye>, null]]);
+
 // - Compressed Obsidian Gravel
 recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
 
@@ -270,6 +273,7 @@ recipes.addShapeless("leather_helmet_to_leather", <minecraft:leather> * 5, [<min
 recipes.addShapeless("leather_chestplate_to_leather", <minecraft:leather> * 8, [<minecraft:leather_chestplate>, <ore:toolShears>.transformDamage(3)]);
 recipes.addShapeless("leather_pants_to_leather", <minecraft:leather> * 7, [<minecraft:leather_leggings>, <ore:toolShears>.transformDamage(3)]);
 recipes.addShapeless("leather_boots_to_leather", <minecraft:leather> * 4, [<minecraft:leather_boots>, <ore:toolShears>.transformDamage(3)]);
+recipes.addShapeless("podzol_from_coarse_dirt", <minecraft:dirt:2>, [<minecraft:dirt:1>,<ore:treeLeaves>]);
 
 
 //--------------------------------------------------------------------------------------

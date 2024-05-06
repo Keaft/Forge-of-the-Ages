@@ -534,6 +534,9 @@ replaceRecipeShaped("tconstruct:gadgets/slimesling/purple", <tconstruct:slimesli
 //Orange Slime Sling
 replaceRecipeShaped("tconstruct:gadgets/slimesling/magma", <tconstruct:slimesling:4>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_orange>, null], [null, <ore:slimeballMagma>, null]]);
 
+//Congealed Blood Sling
+replaceRecipeShaped("tconstruct:gadgets/slimesling/blood", <tconstruct:slimesling:3>, [[<ore:string>, null, <ore:string>], [null, <contenttweaker:slime_handle_red>, null], [null, <ore:slimeballBlood>, null]]);
+
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------

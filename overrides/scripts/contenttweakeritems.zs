@@ -34,6 +34,7 @@ itemConstructor("slime_handle_green", "Green Slime Handle", 1);
 itemConstructor("slime_handle_blue", "Blue Slime Handle", 1);
 itemConstructor("slime_handle_purple", "Purple Slime Handle", 1);
 itemConstructor("slime_handle_orange", "Orange Slime Handle", 1);
+itemConstructor("slime_handle_orange", "Congealed Blood Handle", 1);
 // -------------------------------------
 
 // - Fake Applied Energistics Cells
