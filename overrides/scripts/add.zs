@@ -289,6 +289,19 @@ recipes.addShapeless("xnet_router_reset", <xnet:router>, [<xnet:router>]);
 // Wireless Router
 recipes.addShapeless("xnet_wireless_router_reset", <xnet:wireless_router>, [<xnet:wireless_router>]);
 
+// Connector
+recipes.addShapeless("xnet_connector_reset", <xnet:connector:0>, [<xnet:connector:0>]);
+recipes.addShapeless("xnet_connector_reset", <xnet:connector:1>, [<xnet:connector:1>]);
+recipes.addShapeless("xnet_connector_reset", <xnet:connector:2>, [<xnet:connector:2>]);
+recipes.addShapeless("xnet_connector_reset", <xnet:connector:3>, [<xnet:connector:3>]);
+recipes.addShapeless("xnet_connector_reset", <xnet:connector:4>, [<xnet:connector:4>]);
+
+// Advanced Connector
+recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:0>, [<xnet:advanced_connector:0>]);
+recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:1>, [<xnet:advanced_connector:1>]);
+recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:2>, [<xnet:advanced_connector:2>]);
+recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:3>, [<xnet:advanced_connector:3>]);
+
 //--------------------------------------------------------------------------------------
 
 print("Initialized 'add'");
