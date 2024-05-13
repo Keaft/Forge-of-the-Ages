@@ -11,7 +11,7 @@
     "fluid": "lava",
     "amount": 1000
   },
-  "ore:stone": {
+  "ore:cobblestone": {
     "fluid": "lava",
     "amount": 50
   }
