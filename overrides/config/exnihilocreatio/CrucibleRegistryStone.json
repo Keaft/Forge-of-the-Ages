@@ -1,7 +1,7 @@
 {
   "exnihilocreatio:block_dust:0": {
     "fluid": "lava",
-    "amount": 50
+    "amount": 100
   },
   "ore:netherrack": {
     "fluid": "lava",
@@ -10,5 +10,9 @@
   "ore:obsidian": {
     "fluid": "lava",
     "amount": 1000
+  },
+  "ore:stone": {
+    "fluid": "lava",
+    "amount": 50
   }
 }
