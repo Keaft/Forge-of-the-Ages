@@ -52,6 +52,7 @@ mods.jei.JEI.addDescription(<sereneseasons:season_sensor_spring>,["This sensor o
 mods.jei.JEI.addDescription(<sereneseasons:season_sensor_summer>,["This sensor outputs a redstone signal for the configured season.", "Right click the sensor to cycle through which season it detects!", "Use a redstone lamp or other redstone contraptions to visualize the output."]);
 mods.jei.JEI.addDescription(<sereneseasons:season_sensor_autumn>,["This sensor outputs a redstone signal for the configured season.", "Right click the sensor to cycle through which season it detects!", "Use a redstone lamp or other redstone contraptions to visualize the output."]);
 mods.jei.JEI.addDescription(<sereneseasons:season_sensor_winter>,["This sensor outputs a redstone signal for the configured season.", "Right click the sensor to cycle through which season it detects!", "Use a redstone lamp or other redstone contraptions to visualize the output."]);
+mods.jei.JEI.addDescription(<minecraft:dirt:2>,["You can grow an area of podzol with a single botania Boreal seeds!"]);
 
 //--------------------------------------------------------------------------------------
 
