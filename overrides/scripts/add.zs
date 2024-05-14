@@ -87,8 +87,8 @@ recipes.addShaped("contenttweaker_purple_slime_handle", <contenttweaker:slime_ha
 // - Orange Slime Handle
 recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_handle_orange>, [[<ore:slimeballMagma>, null, <ore:slimeballMagma>],[null, <tconstruct:slime_congealed:4>, null],[null, <minecraft:ender_eye>, null]]);
 
-// - Orange Slime Handle
-recipes.addShaped("contenttweaker_orange_slime_handle", <contenttweaker:slime_handle_red>, [[<ore:slimeballBlood>, null, <ore:slimeballBlood>],[null, <tconstruct:slime_congealed:3>, null],[null, <minecraft:ender_eye>, null]]);
+// - Red Slime Handle
+recipes.addShaped("contenttweaker_red_slime_handle", <contenttweaker:slime_handle_red>, [[<ore:slimeballBlood>, null, <ore:slimeballBlood>],[null, <tconstruct:slime_congealed:3>, null],[null, <minecraft:ender_eye>, null]]);
 
 // - Compressed Obsidian Gravel
 recipes.addShapeless("contenttweaker_compressed_obsidian_gravel", <contenttweaker:compressed_obsidian_gravel>, [<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>,<contenttweaker:obsidian_gravel>]);
@@ -290,17 +290,17 @@ recipes.addShapeless("xnet_router_reset", <xnet:router>, [<xnet:router>]);
 recipes.addShapeless("xnet_wireless_router_reset", <xnet:wireless_router>, [<xnet:wireless_router>]);
 
 // Connector
-recipes.addShapeless("xnet_connector_reset", <xnet:connector:0>, [<xnet:connector:0>]);
-recipes.addShapeless("xnet_connector_reset", <xnet:connector:1>, [<xnet:connector:1>]);
-recipes.addShapeless("xnet_connector_reset", <xnet:connector:2>, [<xnet:connector:2>]);
-recipes.addShapeless("xnet_connector_reset", <xnet:connector:3>, [<xnet:connector:3>]);
-recipes.addShapeless("xnet_connector_reset", <xnet:connector:4>, [<xnet:connector:4>]);
+recipes.addShapeless("xnet_connector_reset0", <xnet:connector:0>, [<xnet:connector:0>]);
+recipes.addShapeless("xnet_connector_reset2", <xnet:connector:1>, [<xnet:connector:1>]);
+recipes.addShapeless("xnet_connector_reset3", <xnet:connector:2>, [<xnet:connector:2>]);
+recipes.addShapeless("xnet_connector_reset4", <xnet:connector:3>, [<xnet:connector:3>]);
+recipes.addShapeless("xnet_connector_reset5", <xnet:connector:4>, [<xnet:connector:4>]);
 
 // Advanced Connector
-recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:0>, [<xnet:advanced_connector:0>]);
-recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:1>, [<xnet:advanced_connector:1>]);
-recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:2>, [<xnet:advanced_connector:2>]);
-recipes.addShapeless("xnet_advanced_connector_reset", <xnet:advanced_connector:3>, [<xnet:advanced_connector:3>]);
+recipes.addShapeless("xnet_advanced_connector_reset0", <xnet:advanced_connector:0>, [<xnet:advanced_connector:0>]);
+recipes.addShapeless("xnet_advanced_connector_reset1", <xnet:advanced_connector:1>, [<xnet:advanced_connector:1>]);
+recipes.addShapeless("xnet_advanced_connector_reset2", <xnet:advanced_connector:2>, [<xnet:advanced_connector:2>]);
+recipes.addShapeless("xnet_advanced_connector_reset3", <xnet:advanced_connector:3>, [<xnet:advanced_connector:3>]);
 
 //--------------------------------------------------------------------------------------
 
