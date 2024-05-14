@@ -17,7 +17,7 @@ print("Initializing 'mutant_skeleton_boss'...");
 
 static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                             4, // Attack Damage
-                            0, // Base armor 1 is half a shield in game
+                            5, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
@@ -107,7 +107,7 @@ static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 
 static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                             6, // Attack Damage
-                            6, // Base armor 1 is half a shield in game
+                            8, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
@@ -197,7 +197,7 @@ static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 
 static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                             8, // Attack Damage
-                            16, // Base armor 1 is half a shield in game
+                            12, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
