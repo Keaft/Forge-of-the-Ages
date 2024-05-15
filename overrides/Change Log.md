@@ -1,7 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 The 0.10r holds huge changes and you should read that changelog. :D
-
+Reverting BetterNether and adding more quality of life changes.
 
 ### **__Configuration changes:__**
 * Added gravel, sand, and changed dust for cooking lava in the crucible. It will require a little bit of ingenuity to get the lava cooking setup!
