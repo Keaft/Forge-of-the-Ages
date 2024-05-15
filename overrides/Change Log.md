@@ -15,8 +15,14 @@ The 0.10r holds huge changes and you should read that changelog. :D
 ### **__Added the following mod(s):__**
 * Village Names 4.4.10.
 * Cave Chimes beta-1.1.
+* A Man With Plushies (AMWPlushies) 2.1.02b.
 
 ### **__Updated the following mod(s):__**
+* Bountiful to 2.2.3.
+* NuclearCraft to 2.19.
+* Particle Culling to 1.4.3.
+* Simple Voice Chat to 2.5.14.
+* Spark Unforged to 1.11.2.
 
 ### **__Removed the following mod(s):__**
 * BetterNether: RotN Edition. The combination of mods in the pack makes the Nether laggy and a bit buggy.
