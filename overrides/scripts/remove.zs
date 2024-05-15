@@ -240,6 +240,10 @@ val recipesItems as IIngredient[] = [
 ];
 
 val recipeNames as string [] = [
+    // --- A Man With Plushies ---
+    "a_man_with_plushies:plush_box_recipe",
+    "a_man_with_plushies:plush_box_recipe_2",
+    "a_man_with_plushies:golden_plush_box_recipe",
     // --- Aquaculture ---
     // - Saddle
     "aquaculture:leather_from_boots",
