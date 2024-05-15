@@ -19,6 +19,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Updated the following mod(s):__**
 * Bountiful to 2.2.3.
+* Dynamic Surroundings to 3.6.2.0.
 * NuclearCraft to 2.19.
 * Particle Culling to 1.4.3.
 * Simple Voice Chat to 2.5.14.
