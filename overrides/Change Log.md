@@ -14,6 +14,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Added the following mod(s):__**
 * Village Names 4.4.10.
+* Cave Chimes beta-1.1.
 
 ### **__Updated the following mod(s):__**
 
