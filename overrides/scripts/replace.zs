@@ -574,8 +574,11 @@ replaceRecipeShaped("waystones:warp_stone", <waystones:warp_stone>, [[<ore:dyePu
 //--------------------------------------------------------------------------------------
 
 // -- XNet --
+//Net Cable
 replaceRecipeShaped("xnet:netcable_0", <xnet:netcable> * 16, [[<minecraft:string>, <minecraft:redstone>, <minecraft:string>], [<minecraft:redstone>, <appliedenergistics2:material:1>, <minecraft:redstone>], [<minecraft:string>, <minecraft:redstone>, <minecraft:string>]]);
 
+//Facade
+replaceRecipeShaped("xnet:facade", <xnet:facade> * 16, [[<minecraft:paper>, <minecraft:wool>, <minecraft:paper>], [<minecraft:wool>, <ore:blockGlass>, <minecraft:wool>], [<minecraft:paper>, <minecraft:wool>, <minecraft:paper>]]);
 //--------------------------------------------------------------------------------------
 
 

@@ -68,6 +68,10 @@
         "remove": "minecraft:totem_of_undying"
     },
     {
+        "mob": "minecraft:wither_skeleton",
+        "remove": "netherex:wither_bone"
+    },
+    {
         "mob": "minecraft:evocation_illager",
         "player": true,
         "item": "minecraft:totem_of_undying",
