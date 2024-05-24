@@ -325,8 +325,11 @@ replaceRecipeShaped("enderio:alloy_smelter", <enderio:block_alloy_smelter>, [[<o
 recipes.removeByRecipeName("enderio:s_a_g_mill_upgrade");
 replaceRecipeShaped("enderio:s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft:flint>,<minecraft:flint>,<minecraft:flint>], [<enderio:item_alloy_ingot:6>,<enderio:item_material:1>,<enderio:item_alloy_ingot:6>], [<enderio:item_material:73>,<enderio:block_simple_sag_mill>,<enderio:item_material:73>]]);
 
-// - Basic Capacitor
+// - Basic Capacitor Bank
 replaceRecipeShaped("enderio:capacitor_bank_simple", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
+
+// - Basic Capacitor
+recipes.addShaped("enderio_capacitor_1_modified", <enderio:item_basic_capacitor>, [[null, <ore:nuggetAngmallen>, <ore:dustBedrock>], [<ore:nuggetAngmallen>, <metallurgy:copper_ingot>, <ore:nuggetAngmallen>], [<ore:dustBedrock>, <ore:nuggetAngmallen>, null]]);
 
 // - Fluid Conduit
 replaceRecipeShaped("enderio:conduit_liquid_basic", <enderio:item_liquid_conduit> * 8, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
@@ -354,7 +357,7 @@ replaceRecipeShaped("bigreactors:reactorcasing", <bigreactors:reactorcasing> * 4
 replaceRecipeShaped("bigreactors:reactorfuelrod_vanillaglass", <bigreactors:reactorfuelrod>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:blockGlass>, <nuclearcraft:ingot:4>, <ore:blockGlass>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 // - Reactor Casing Core
-replaceRecipeShaped("bigreactors:reactorcasingcores", <bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:ingotGold>, <ore:dustRedstone>, <ore:ingotGold>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
+replaceRecipeShaped("bigreactors:reactorcasingcores", <bigreactors:reactorcasingcores>, [[<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>], [<ore:ingotAngmallen>, <ore:dustRedstone>, <ore:ingotAngmallen>], [<ore:ingotSteel>, <nuclearcraft:ingot:8>, <ore:ingotSteel>]]);
 
 //--------------------------------------------------------------------------------------
 
