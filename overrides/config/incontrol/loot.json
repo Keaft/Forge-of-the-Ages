@@ -95,5 +95,8 @@
         "item": "minecraft:prismarine_crystals",
         "random": 0.33,
         "itemcount": "1-2/2-3/4"
+    },
+    {
+        "remove": "a_man_with_plushies:plush_box"
     }
 ]

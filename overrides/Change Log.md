@@ -7,3 +7,4 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * EnderIO's Basic Capacitor now uses Angmallen nuggets instead of gold.
 * Extreme Reactors' Reactor Casing Core now uses Angmallen ingots instead of gold.
 * Scarecrow and Enderman should spawn more frequently in the Ominous Forest.
+* Removed Plushies boxes from mob drops.
