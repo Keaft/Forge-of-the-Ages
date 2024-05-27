@@ -8,4 +8,5 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Extreme Reactors' Reactor Casing Core now uses Angmallen ingots instead of gold.
 * Scarecrow and Enderman should spawn more frequently in the Ominous Forest.
 * Adjust all InControl mob spawning.
+* Disable Fast Leaf Decay to work better with Botania's Munchdew.
 * Removed Plushies boxes from mob drops.
