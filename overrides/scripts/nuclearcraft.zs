@@ -5,7 +5,16 @@ import mods.nuclearcraft.pressurizer;
 
 print("Initializing 'nuclearcraft'...");
 
-// Pressurizer
+// --- Alloy Furnace ---
+//mods.nuclearcraft.alloy_furnace.addRecipe([itemInput1, itemInput2, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
+//mods.nuclearcraft.alloy_furnace.removeRecipeWithInput([itemInput1, itemInput2]);
+//mods.nuclearcraft.alloy_furnace.removeRecipeWithOutput([itemOutput1]);
+//mods.nuclearcraft.alloy_furnace.removeAllRecipes();
+
+mods.nuclearcraft.alloy_furnace.removeRecipeWithInput([<enderio:item_alloy_endergy_ingot:2>, <minecraft:nether_star>]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<enderio:item_alloy_ingot:8> * 2, <minecraft:nether_star>, <enderio:item_alloy_endergy_ingot:3> * 4]);
+
+// --- Pressurizer ---
 //mods.nuclearcraft.pressurizer.addRecipe([itemInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
 //mods.nuclearcraft.pressurizer.removeRecipeWithOutput([itemOutput]);
 
@@ -74,7 +83,7 @@ mods.nuclearcraft.pressurizer.addRecipe([<appliedenergistics2:material:7> * 2, <
 //Diamond
 mods.nuclearcraft.pressurizer.addRecipe([<minecraft:diamond> * 2, <contenttweaker:diamond_plate>]);
 
-// Infuser
+// --- Infuser ---
 // mods.nuclearcraft.infuser.removeRecipeWithOutput([itemOutput]);
 // mods.nuclearcraft.infuser.addRecipe([itemInput, fluidInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);
 
@@ -93,7 +102,7 @@ mods.nuclearcraft.infuser.addRecipe(<minecraft:mycelium>, <liquid:etheric_dew> *
 // Stagnant Magma Slime Crystal
 mods.nuclearcraft.infuser.addRecipe(<contenttweaker:stagnant_blue_slime_crystal>, <liquid:lava> * 1000, <contenttweaker:stagnant_magma_slime_crystal>);
 
-// Manufactory
+// --- Manufactory ---
 // mods.nuclearcraft.manufactory.removeRecipeWithInput([itemInput]);
 // mods.nuclearcraft.manufactory.removeRecipeWithOutput([itemOutput]);
 // mods.nuclearcraft.manufactory.addRecipe([itemInput, itemOutput, @Optional double timeMultiplier, @Optional double powerMultiplier, @Optional double processRadiation]);

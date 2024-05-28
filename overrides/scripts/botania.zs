@@ -17,7 +17,7 @@ print("Initializing 'botania'...");
 mods.botania.ElvenTrade.addRecipe([<draconicevolution:draconium_dust>], [<nuclearcraft:compound:8>,<nuclearcraft:compound:8>]);
 
 // Ender Corrupter
-mods.botania.ElvenTrade.addRecipe([<contenttweaker:ender_corrupter>], [<bountifulbaubles:enderdragonscale>]);
+mods.botania.ElvenTrade.addRecipe([<contenttweaker:ender_corrupter>], [<minecraft:dragon_egg>]);
 
 // Certus Quartz
 mods.botania.ElvenTrade.addRecipe([<appliedenergistics2:crystal_seed>.withTag({progress: 0})], [<appliedenergistics2:crystal_seed:600>.withTag({progress: 600})]);

@@ -56,4 +56,11 @@ mods.jei.JEI.addDescription(<minecraft:dirt:2>,["You can grow an area of podzol 
 
 //--------------------------------------------------------------------------------------
 
+//--------------------------------------------------------------------------------------
+// --- JEI Add Item ---
+mods.jei.JEI.addItem(<enderio:item_alloy_endergy_ingot:2>);
+mods.jei.JEI.addItem(<enderio:item_alloy_endergy_ingot:3>);
+
+//--------------------------------------------------------------------------------------
+
 print("Initialized 'information'");

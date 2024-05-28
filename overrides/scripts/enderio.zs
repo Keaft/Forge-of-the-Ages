@@ -14,6 +14,12 @@ print("Initializing 'enderio.zs'...");
 mods.enderio.Enchanter.removeRecipe(<enchantment:endercore:autosmelt>);
 mods.enderio.Enchanter.addRecipe(<enchantment:endercore:autosmelt>, <thermalfoundation:material:1024>, 1, 15);
 
+// -- Alloy --
+//mods.enderio.AlloySmelter.addRecipe(IItemStack output, IIngredient[] input, @Optional int energyCost, @Optional float xp);
+
+// - Stellar Alloy
+mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:3> * 4, [<enderio:item_alloy_ingot:8> * 2, <minecraft:nether_star>]);
+
 // --- Sag Mill ---
 //mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
 //mods.enderio.SagMill.removeRecipe(IItemStack input);

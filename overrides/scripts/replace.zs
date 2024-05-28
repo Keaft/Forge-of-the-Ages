@@ -35,11 +35,14 @@ function replaceRecipeShapeless(name as string, output as IItemStack, recipe as 
 //--------------------------------------------------------------------------------------
 
 // --- Applied Energistics ---
-// - Crystal Growth Accellerator
-replaceRecipeShaped("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, [[<contenttweaker:steel_crystal_shell>, <appliedenergistics2:part:16>, <contenttweaker:steel_crystal_shell>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>]]);
-
 // - Advanced Inscriber
 replaceRecipeShaped("ae2stuff:recipe3", <ae2stuff:inscriber>, [[<ore:ingotSteel>, <minecraft:hopper:*>, <ore:ingotSteel>], [<appliedenergistics2:material:24>, <appliedenergistics2:inscriber:*>, <appliedenergistics2:material:24>], [<ore:ingotSteel>, <minecraft:hopper:*>, <ore:ingotSteel>]]);
+
+// - Crafting Unit
+recipes.addShaped("appliedenergistics2:network/crafting/cpu_crafting_unit", <appliedenergistics2:crafting_unit>, [[<appliedenergistics2:part:16>,<enderio:item_alloy_endergy_ingot:3>,<appliedenergistics2:part:16>],[<appliedenergistics2:material:23>,<appliedenergistics2:material:22>,<appliedenergistics2:material:23>],[<ore:blockSteel>,<enderio:item_alloy_endergy_ingot:3>,<ore:blockSteel>]]);
+
+// - Crystal Growth Accellerator
+replaceRecipeShaped("appliedenergistics2:network/blocks/crystal_processing_quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>, [[<contenttweaker:steel_crystal_shell>, <appliedenergistics2:part:16>, <contenttweaker:steel_crystal_shell>], [<appliedenergistics2:quartz_glass>, <appliedenergistics2:fluix_block>, <appliedenergistics2:quartz_glass>], [<ore:ingotSteel>, <appliedenergistics2:part:16>, <ore:ingotSteel>]]);
 
 // - Energy Acceptor
 replaceRecipeShaped("appliedenergistics2:network/blocks/energy_energy_acceptor", <appliedenergistics2:energy_acceptor>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:redstone>, <appliedenergistics2:fluix_block>, <minecraft:redstone>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);

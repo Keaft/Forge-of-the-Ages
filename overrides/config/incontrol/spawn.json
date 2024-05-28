@@ -6,6 +6,19 @@
         "result": "allow"
     },
     {
+        "mob": ["minecraft:ender_dragon"],
+        "onjoin": true,
+        "healthmultiply": 1.5,
+        "armorchest": "minecraft:diamond_chestplate",
+        "speedmultiply": 1.1
+    },
+    {
+        "dimension": 0,
+        "biome": ["Ominous Woods"],
+        "mob": ["minecraft:zombie","minecraft:skeleton","minecraft:creeper","minecraft:zombie_villager"],
+        "result": "deny"
+    },
+    {
         "dimension": 0,
         "mob": "iceandfire:seaserpent",
         "onjoin": true,
@@ -51,6 +64,13 @@
         "mob": "mod_lavacow:scarecrow",
         "mintime": 13800,
         "maxtime": 22000,
+        "result": "allow"
+    },
+        {
+        "dimension": 0,
+        "mob": "minecraft:enderman",
+        "biome": ["Ominous Woods"],
+        "seesky": true,
         "result": "allow"
     },
     {

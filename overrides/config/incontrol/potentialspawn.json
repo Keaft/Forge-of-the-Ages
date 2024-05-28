@@ -83,7 +83,7 @@
         "random": 0.25,
         "biome": ["Ominous Woods"],
         "maxcount": {
-            "amount": 10,
+            "amount": 6,
             "mob": "mod_lavacow:banshee",
             "perchunk": true
         },
@@ -98,10 +98,10 @@
     },
     {
         "dimension": 0,
-        "random": 0.1,
+        "random": 0.25,
         "biome": ["Ominous Woods"],
         "maxcount": {
-            "amount": 10,
+            "amount": 2,
             "mob": "mod_lavacow:scarecrow",
             "perchunk": true
         },
@@ -116,17 +116,17 @@
     },
     {
         "dimension": 0,
-        "random": 0.15,
+        "random": 0.5,
         "biome": ["Ominous Woods"],
         "maxcount": {
-            "amount": 15,
+            "amount": 9,
             "mob": "minecraft:enderman",
             "perchunk": true
         },
         "mobs": [
             {
                 "mob": "minecraft:enderman",
-                "weight": 10000,
+                "weight": 5000,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             }

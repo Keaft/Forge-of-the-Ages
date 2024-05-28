@@ -122,11 +122,6 @@
   },
   {
     "fluidName": "etheric_dew",
-    "input": "minecraft:end_stone",
-    "output": "contenttweaker:ender_corrupter"
-  },
-  {
-    "fluidName": "etheric_dew",
     "input": "minecraft:mycelium",
     "output": "contenttweaker:spore_endstone"
   }
