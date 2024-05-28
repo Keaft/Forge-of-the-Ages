@@ -25,6 +25,13 @@
         "itemcount": "1/2/3"
     },
     {
+        "mob": "minecraft:enderman",
+        "player": true,
+        "item": "minecraft:end_stone",
+        "random": 0.25,
+        "itemcount": "1/1-2/2-3"
+    },
+    {
         "mob": "futuremc:bee",
         "random": 0.25,
         "item": "harvestcraft:beeswaxitem",

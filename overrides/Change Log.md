@@ -11,6 +11,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Disable Fast Leaf Decay to work better with Botania's Munchdew.
 * Removed InvMove from Cliboard.
 * Ender corrupter changed to only be obtainable by trading a dragon egg with the Alfheim portal.
+* Enderman have a 25% chance of dropping End Stone.
 * Enabled Stellar Alloy from EnderIO to be used in crafting.
 * Changed recipes for AE2 Crafting Units.
 * Ender Dragon made harder. 
