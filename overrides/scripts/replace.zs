@@ -75,7 +75,7 @@ replaceRecipeShaped("appliedenergistics2:network/blocks/quantum_ring", <appliede
 replaceRecipeShaped("appliedenergistics2:network/crafting/patterns_blank", <appliedenergistics2:material:52>, [[null,<appliedenergistics2:quartz_glass>,null], [<minecraft:glowstone_dust>,<appliedenergistics2:material:23>,<minecraft:glowstone_dust>], [<contenttweaker:certus_quartz_plate>,<contenttweaker:steel_crystal_shell>,<contenttweaker:certus_quartz_plate>]]);
 
 // - Molecular Assembler
-replaceRecipeShaped("appliedenergistics2:network/crafting/molecular_assembler", <appliedenergistics2:molecular_assembler>, [[<contenttweaker:certus_quartz_plate>, <appliedenergistics2:quartz_glass>, <contenttweaker:certus_quartz_plate>], [<appliedenergistics2:material:44>, <ore:workbench>, <appliedenergistics2:material:43>], [<contenttweaker:certus_quartz_plate>, <ore:blockSteel>, <contenttweaker:certus_quartz_plate>]]);
+replaceRecipeShaped("appliedenergistics2:network/crafting/molecular_assembler", <appliedenergistics2:molecular_assembler>, [[<enderio:item_alloy_ingot:8>, <appliedenergistics2:quartz_glass>, <enderio:item_alloy_ingot:8>], [<appliedenergistics2:material:44>, <ore:workbench>, <appliedenergistics2:material:43>], [<contenttweaker:certus_quartz_plate>, <ore:blockSteel>, <contenttweaker:certus_quartz_plate>]]);
 
 
 // - Crafting Storage

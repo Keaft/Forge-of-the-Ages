@@ -16,6 +16,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Changed recipes for AE2 Crafting Units.
 * Ender Dragon made harder. 
 * Clean up events script. (currently unused anyway)
+* AE2 Molecular Assembler recipe tweaked.
 
 ### **__Mod(s) Removed:__**
 * A Man With Plushies (AMWPlushies) due to the inability to adjust drops easily.
