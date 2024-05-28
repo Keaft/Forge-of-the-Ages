@@ -18,5 +18,22 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Clean up events script. (currently unused anyway)
 * AE2 Molecular Assembler recipe tweaked.
 
+### **__Mod(s) Updated:__**
+* /dank/null to 1.7.101.
+* AE2 Unofficial Extended Life to 0.56.5.
+* Alfheim Lighting Engine to 1.4 Dev 1.
+* Camera Mod to 1.0.11.
+* CraftTweaker to 4.1.20.699.
+* Enchanting Plus to 5.0.179.
+* FermiumASM to 5.23.
+* FermiumBooter to 1.1.0.
+* Inventory Tweaks to 1.64+dev.151.
+* Mouse Tweaks to 2.10.1.
+* PackagedAuto to 1.0.13.47.
+* Red Core to 0.6 Dev 4.
+* Simple Voice Chat to 2.5.15.
+* Universal Tweaks to 1.11.0.
+* Zen Utils to 1.18.9.
+
 ### **__Mod(s) Removed:__**
 * A Man With Plushies (AMWPlushies) due to the inability to adjust drops easily.

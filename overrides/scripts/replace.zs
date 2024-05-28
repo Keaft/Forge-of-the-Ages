@@ -332,7 +332,7 @@ replaceRecipeShaped("enderio:s_a_g_mill", <enderio:block_sag_mill>, [[<minecraft
 replaceRecipeShaped("enderio:capacitor_bank_simple", <enderio:block_cap_bank:1>, [[<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>], [<enderio:item_basic_capacitor>, <minecraft:redstone_block>, <enderio:item_basic_capacitor>], [<ore:ingotConstructionAlloy> | <ore:ingotSteel>, <enderio:item_basic_capacitor>, <ore:ingotConstructionAlloy> | <ore:ingotSteel>]]);
 
 // - Basic Capacitor
-replaceRecipeShaped("enderio_capacitor_1_modified", <enderio:item_basic_capacitor>, [[null, <ore:nuggetAngmallen>, <ore:dustBedrock>], [<ore:nuggetAngmallen>, <metallurgy:copper_ingot>, <ore:nuggetAngmallen>], [<ore:dustBedrock>, <ore:nuggetAngmallen>, null]]);
+replaceRecipeShaped("enderio:capacitor_1", <enderio:item_basic_capacitor>, [[null, <ore:nuggetAngmallen>, <ore:dustBedrock>], [<ore:nuggetAngmallen>, <metallurgy:copper_ingot>, <ore:nuggetAngmallen>], [<ore:dustBedrock>, <ore:nuggetAngmallen>, null]]);
 
 // - Fluid Conduit
 replaceRecipeShaped("enderio:conduit_liquid_basic", <enderio:item_liquid_conduit> * 8, [[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]]);
