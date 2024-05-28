@@ -24,6 +24,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Alfheim Lighting Engine to 1.4 Dev 1.
 * Camera Mod to 1.0.11.
 * CraftTweaker to 4.1.20.699.
+* Dynamic Surroundings to 3.6.3.
 * Enchanting Plus to 5.0.179.
 * FermiumASM to 5.23.
 * FermiumBooter to 1.1.0.
@@ -34,6 +35,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Simple Voice Chat to 2.5.15.
 * Universal Tweaks to 1.11.0.
 * Zen Utils to 1.18.9.
+
 
 ### **__Mod(s) Removed:__**
 * A Man With Plushies (AMWPlushies) due to the inability to adjust drops easily.
