@@ -15,4 +15,5 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Enabled Stellar Alloy from EnderIO to be used in crafting.
 * Changed recipes for AE2 Crafting Units.
 * Ender Dragon made harder. 
+* Clean up events script. (currently unused anyway)
 * Removed Plushies boxes from mob drops.

@@ -66,47 +66,52 @@ var beneathminers as string[] = [
     "environmentaltech:void_ore_miner_cont_6"
 ];
 
-events.onBlockPlace(function(blockPlaced as crafttweaker.event.BlockPlaceEvent){
-    print(blockPlaced.block.definition.id); Comment out when not in use
-    if (blockPlaced.player.dimension == 66){
-        for itemCheck in alltorches {
-            if(blockPlaced.block.definition.id == itemCheck){
-                blockPlaced.player.sendStatusMessage("The atmosphere extinguishes the flame.");
-                blockPlaced.cancel();
-                for dropCheck in droptorches { //This for loop should remain inactive
-                    if(blockPlaced.block.definition.id == dropCheck){
-                        blockPlaced.player.dropItem(true);
-                        break;
-                    } 
+events.onBlockPlace(
+    function(blockPlaced as crafttweaker.event.BlockPlaceEvent){
+        print(blockPlaced.block.definition.id); Comment out when not in use
+        if (blockPlaced.player.dimension == 66){
+            for itemCheck in alltorches {
+                if(blockPlaced.block.definition.id == itemCheck){
+                    blockPlaced.player.sendStatusMessage("The atmosphere extinguishes the flame.");
+                    blockPlaced.cancel();
+                    for dropCheck in droptorches { //This for loop should remain inactive
+                        if(blockPlaced.block.definition.id == dropCheck){
+                            blockPlaced.player.dropItem(true);
+                            break;
+                        } 
+                    }
+                    break;
                 }
-                break;
             }
-        }
-    } 
-    if (blockPlaced.player.dimension != 66){
-        for minerCheck in beneathminers {
-            if(blockPlaced.block.definition.id == minerCheck){
-                blockPlaced.player.sendChat("The void miner comes alive: Must go deeper. Must go to the beneath where a greater source of matter exists.");
-                blockPlaced.cancel();
-                blockPlaced.player.dropItem(true);
-                break;
+        } 
+        if (blockPlaced.player.dimension != 66){
+            for minerCheck in beneathminers {
+                if(blockPlaced.block.definition.id == minerCheck){
+                    blockPlaced.player.sendChat("The void miner comes alive: Must go deeper. Must go to the beneath where a greater source of matter exists.");
+                    blockPlaced.cancel();
+                    blockPlaced.player.dropItem(true);
+                    break;
+                }
             }
         }
     }
-}); */
+); */
 
 // Checks the block underneath and displays it to the player.
 /* events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent){
-    var pworldobj = event.player.world;
-    var ppos as IBlockPos = event.player.position;
-    var lpos = crafttweaker.util.Position3f.create(ppos.x, ppos.y - 1, ppos.z);
-    var plight = pworldobj.getBlockState(ppos).getLightValue(pworldobj, lpos);
-    event.player.sendStatusMessage("X:" + ppos.x as string + " Y:" + ppos.y as string + " Z:" + ppos.z as string + " Light Value:" + plight as string + " of block X:" + lpos.x as string + " Y:" + lpos.y as string + " Z:" + lpos.z as string);
-});
+        var pworldobj = event.player.world;
+        var ppos as IBlockPos = event.player.position;
+        var lpos = crafttweaker.util.Position3f.create(ppos.x, ppos.y - 1, ppos.z);
+        var plight = pworldobj.getBlockState(ppos).getLightValue(pworldobj, lpos);
+        event.player.sendStatusMessage("X:" + ppos.x as string + " Y:" + ppos.y as string + " Z:" + ppos.z as string + " Light Value:" + plight as string + " of block X:" + lpos.x as string + " Y:" + lpos.y as string + " Z:" + lpos.z as string);
+    }
+); */
 
-events.onEntityJoinWorld(function(entityJoin as crafttweaker.event.EntityJoinWorldEvent){
-    print(entityJoin.entity.definition.name);
-}); */
+/* events.onEntityJoinWorld(
+    function(entityJoin as crafttweaker.event.EntityJoinWorldEvent){
+        print(entityJoin.entity.definition.name);
+    }
+); */
 
 /* events.onPlayerRightClickItem(
     function(event as crafttweaker.event.PlayerRightClickItemEvent){
