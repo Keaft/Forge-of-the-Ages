@@ -19,6 +19,13 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * AE2 Molecular Assembler recipe tweaked.
 * Regenerated Universal Tweaks configs.
 
+### **__Mod(s) Added:__**
+* XNet 1.8.2.
+
+### **__Mod(s) Removed:__**
+* A Man With Plushies (AMWPlushies) due to the inability to adjust drops easily.
+* YNet as you cannot place levers on Facades.
+
 ### **__Mod(s) Updated:__**
 * /dank/null to 1.7.101.
 * AE2 Unofficial Extended Life to 0.56.5.
@@ -36,7 +43,3 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Simple Voice Chat to 2.5.15.
 * Universal Tweaks to 1.11.0.
 * Zen Utils to 1.18.9.
-
-
-### **__Mod(s) Removed:__**
-* A Man With Plushies (AMWPlushies) due to the inability to adjust drops easily.
