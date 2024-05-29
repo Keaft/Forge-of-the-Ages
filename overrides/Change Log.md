@@ -17,6 +17,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Ender Dragon made harder. 
 * Clean up events script. (currently unused anyway)
 * AE2 Molecular Assembler recipe tweaked.
+* Regenerated Universal Tweaks configs.
 
 ### **__Mod(s) Updated:__**
 * /dank/null to 1.7.101.
