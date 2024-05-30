@@ -30,7 +30,7 @@
   {
     "name": "copper",
     "color": "ff9933",
-    "ingot": "thermalfoundation:material:128",
+    "ingot": "metallurgy:copper_ingot:-1",
     "dust": "thermalfoundation:material:64"
   },
   {
@@ -48,13 +48,13 @@
   {
     "name": "silver",
     "color": "f2f2f2",
-    "ingot": "thermalfoundation:material:130",
+    "ingot": "metallurgy:silver_ingot:-1",
     "dust": "thermalfoundation:material:66"
   },
   {
     "name": "tin",
     "color": "e6fff2",
-    "ingot": "thermalfoundation:material:129",
+    "ingot": "metallurgy:tin_ingot:-1",
     "dust": "thermalfoundation:material:65"
   },
   {
@@ -102,6 +102,6 @@
   {
     "name": "platinum",
     "color": "d7dfe7",
-    "ingot": "thermalfoundation:material:134"
+    "ingot": "metallurgy:platinum_ingot:-1"
   }
 ]

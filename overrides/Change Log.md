@@ -19,6 +19,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * AE2 Molecular Assembler recipe tweaked.
 * Regenerated Universal Tweaks configs.
 * On fire in first person moved down the screen so it takes less real estate.
+* Changed the Ore Registry of Ex Nihilo: Creatio to favor Metallurgy 4's ingots.
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.
