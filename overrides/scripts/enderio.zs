@@ -20,6 +20,10 @@ mods.enderio.Enchanter.addRecipe(<enchantment:endercore:autosmelt>, <thermalfoun
 // - Stellar Alloy
 mods.enderio.AlloySmelter.addRecipe(<enderio:item_alloy_endergy_ingot:3> * 4, [<enderio:item_alloy_ingot:8> * 2, <minecraft:nether_star>]);
 
+// - Steel Ingot
+mods.enderio.AlloySmelter.addRecipe(<metallurgy:steel_ingot>, [<minecraft:coal> * 4, <minecraft:iron_ingot>]);
+mods.enderio.AlloySmelter.addRecipe(<metallurgy:steel_ingot>, [<nuclearcraft:ingot:8> * 4, <minecraft:iron_ingot>]);
+
 // --- Sag Mill ---
 //mods.enderio.SagMill.addRecipe(IItemStack[] output, float[] chances, IIngredient input, @Optional String bonusType, @Optional int energyCost, @Optional float[] xp);
 //mods.enderio.SagMill.removeRecipe(IItemStack input);
