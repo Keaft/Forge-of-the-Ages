@@ -23,6 +23,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.
+* BetterNether: RotN Edition. Re-implemented as it might not have been the cause of spawners not spawning in the nether.
 
 ### **__Mod(s) Removed:__**
 * A Man With Plushies (AMWPlushies) due to the inability to adjust drops easily.
