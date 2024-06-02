@@ -23,6 +23,8 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Added missing Steel Ingot recipes to the EnderIO alloy smelter.
 * Removed Soggy Garden Farm house from Frozen Rivers.
 * Weak Blood Orb recipe changed to actually be possible and easier than vanilla.
+* Disabled TConEvo materials that conflict with Metallurgy 4's.
+* Removed Ruins extraneous change from Sledgehammer config as it had been removed a while ago.
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.
