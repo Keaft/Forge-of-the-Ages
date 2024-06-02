@@ -21,6 +21,8 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * On fire in first person moved down the screen so it takes less real estate.
 * Changed the Ore Registry of Ex Nihilo: Creatio to favor Metallurgy 4's ingots.
 * Added missing Steel Ingot recipes to the EnderIO alloy smelter.
+* Removed Soggy Garden Farm house from Frozen Rivers.
+* Weak Blood Orb recipe changed to actually be possible and easier than vanilla.
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.

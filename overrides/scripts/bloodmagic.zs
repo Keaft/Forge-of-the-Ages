@@ -19,7 +19,11 @@ mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:demon_will_crystal_perfecte
 
 // Weak Blood Orb
 mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:diamond>);
-mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <appliedenergistics2:quartz_block>, 1, 2000, 2, 1);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), <appliedenergistics2:quartz_block>, 0, 2000, 2, 1);
+
+// Apprentice Blood Orb
+mods.bloodmagic.BloodAltar.removeRecipe(<minecraft:diamond>);
+mods.bloodmagic.BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), <appliedenergistics2:quartz_block>, 1, 2000, 2, 1);
 
 // Tartaric or HellFire Forge
 //mods.bloodmagic.TartaricForge.addRecipe(IItemStack output, IItemStack[] inputs, double minSouls, double soulDrain);
