@@ -25,6 +25,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Weak Blood Orb recipe changed to actually be possible and easier than vanilla.
 * Disabled TConEvo materials that conflict with Metallurgy 4's.
 * Removed Ruins extraneous change from Sledgehammer config as it had been removed a while ago.
+* Pyramid Plunder removed from Lootr.
 * Mining Dungeon boss made harder.
 
 ### **__Mod(s) Added:__**
