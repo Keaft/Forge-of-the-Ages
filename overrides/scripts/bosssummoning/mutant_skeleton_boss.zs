@@ -16,8 +16,8 @@ import crafttweaker.item.IItemStack;
 print("Initializing 'mutant_skeleton_boss'...");
 
 static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            4, // Attack Damage
-                            5, // Base armor 1 is half a shield in game
+                            10, // Attack Damage
+                            10, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
@@ -27,22 +27,22 @@ static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                         name :"certusQuartz",
                                         item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 3,
-                                        maxDrop: 7,
+                                        minDrop: 10,
+                                        maxDrop: 15,
                                         damaged: false
                                     },
                                     {
                                         name :"certusQuartzChance1",
                                         item: "appliedenergistics2:material",
                                         weight: 20,
-                                        minDrop: 3,
-                                        maxDrop: 7,
+                                        minDrop: 6,
+                                        maxDrop: 12,
                                         damaged: false
                                     },
                                     {
                                         name :"diamondChance1",
                                         item: "minecraft:diamond",
-                                        weight: 20,
+                                        weight: 50,
                                         minDrop: 1,
                                         maxDrop: 5,
                                         damaged: false
@@ -106,8 +106,8 @@ static mutantSkeleton1 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 );
 
 static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            6, // Attack Damage
-                            8, // Base armor 1 is half a shield in game
+                            15, // Attack Damage
+                            15, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
@@ -117,24 +117,24 @@ static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                         name :"certusQuartz",
                                         item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 6,
-                                        maxDrop: 12,
-                                        damaged: false,
+                                        minDrop: 20,
+                                        maxDrop: 30,
+                                        damaged: false
                                     },
                                     {
                                         name :"certusQuartzChance1",
                                         item: "appliedenergistics2:material",
                                         weight: 30,
-                                        minDrop: 4,
-                                        maxDrop: 10,
+                                        minDrop: 10,
+                                        maxDrop: 15,
                                         damaged: false
                                     },
                                     {
                                         name :"diamondChance1",
                                         item: "minecraft:diamond",
-                                        weight: 30,
-                                        minDrop: 2,
-                                        maxDrop: 7,
+                                        weight: 60,
+                                        minDrop: 4,
+                                        maxDrop: 8,
                                         damaged: false
                                     },
                                     {
@@ -196,8 +196,8 @@ static mutantSkeleton2 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 );
 
 static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            8, // Attack Damage
-                            12, // Base armor 1 is half a shield in game
+                            16, // Attack Damage
+                            20, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
@@ -207,22 +207,22 @@ static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                         name :"certusQuartz",
                                         item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 10,
-                                        maxDrop: 18,
+                                        minDrop: 25,
+                                        maxDrop: 35,
                                         damaged: false,
                                     },
                                     {
                                         name :"certusQuartzChance1",
                                         item: "appliedenergistics2:material",
-                                        weight: 30,
-                                        minDrop: 7,
-                                        maxDrop: 16,
+                                        weight: 35,
+                                        minDrop: 10,
+                                        maxDrop: 25,
                                         damaged: false
                                     },
                                     {
                                         name :"diamondChance1",
                                         item: "minecraft:diamond",
-                                        weight: 30,
+                                        weight: 65,
                                         minDrop: 5,
                                         maxDrop: 13,
                                         damaged: false
@@ -286,8 +286,8 @@ static mutantSkeleton3 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
 );
 
 static mutantSkeleton4 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
-                            10, // Attack Damage
-                            20, // Base armor 1 is half a shield in game
+                            18, // Attack Damage
+                            30, // Base armor 1 is half a shield in game
                             <entity:mutantbeasts:mutant_skeleton>, // Entity to summon
                             null, // Chest armor
                             {
@@ -297,24 +297,24 @@ static mutantSkeleton4 as BB.BasicBoss = BB.BasicBoss(0, // Armor Toughness
                                         name :"certusQuartz",
                                         item: "appliedenergistics2:material",
                                         weight: 100,
-                                        minDrop: 10,
-                                        maxDrop: 18,
+                                        minDrop: 30,
+                                        maxDrop: 45,
                                         damaged: false,
                                     },
                                     {
                                         name :"certusQuartzChance1",
                                         item: "appliedenergistics2:material",
-                                        weight: 30,
-                                        minDrop: 7,
-                                        maxDrop: 16,
+                                        weight: 40,
+                                        minDrop: 15,
+                                        maxDrop: 28,
                                         damaged: false
                                     },
                                     {
                                         name :"diamondChance1",
                                         item: "minecraft:diamond",
-                                        weight: 30,
-                                        minDrop: 5,
-                                        maxDrop: 13,
+                                        weight: 70,
+                                        minDrop: 8,
+                                        maxDrop: 16,
                                         damaged: false
                                     },
                                     {
