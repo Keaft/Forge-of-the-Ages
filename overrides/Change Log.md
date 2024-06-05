@@ -30,6 +30,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Fully restrict SRParasites from spawning in the overworld, nether, and the end.
 * Current Structures now only spawn in the overworld like they should have to begin with.
 * Fear disabled from SRParasites.
+* Remove srparasites nadeballs for their instakill mechanic.
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.

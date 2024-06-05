@@ -107,11 +107,13 @@ events.onBlockPlace(
     }
 ); */
 
-/* events.onEntityJoinWorld(
-    function(entityJoin as crafttweaker.event.EntityJoinWorldEvent){
-        print(entityJoin.entity.definition.name);
+events.onEntityJoinWorld(
+    function(event as crafttweaker.event.EntityJoinWorldEvent){
+        if(event.entity.definition.id == <entity:srparasites:nadeball>.id){
+            event.cancel();
+        }
     }
-); */
+);
 
 /* events.onPlayerRightClickItem(
     function(event as crafttweaker.event.PlayerRightClickItemEvent){
