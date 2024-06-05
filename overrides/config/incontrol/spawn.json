@@ -6,6 +6,12 @@
         "result": "allow"
     },
     {
+        "dimension": [0, -1, 1],
+        "mod": ["srparasites"],
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
         "mob": ["minecraft:ender_dragon"],
         "onjoin": true,
         "healthmultiply": 1.5,

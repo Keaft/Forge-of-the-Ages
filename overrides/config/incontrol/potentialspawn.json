@@ -65,7 +65,7 @@
         "biome": ["Flower Field","Flower Island","Flower Forest","Forest","Sunflower Plains","Lavender Fields","Plains"],
         "random": 0.25,
         "maxcount": {
-            "amount": 10,
+            "amount": 3,
             "mob": "futuremc:bee",
             "perchunk": true
         },
@@ -137,7 +137,7 @@
         "random": 0.5,
         "biome": ["Ominous Woods"],
         "maxcount": {
-            "amount": 20,
+            "amount": 15,
             "mob": "mod_lavacow:unburied",
             "perchunk": true
         },
@@ -267,7 +267,7 @@
         "random": 0.25,
         "seesky": true,
         "maxcount": {
-            "amount": 5,
+            "amount": 1,
             "mob": "mod_lavacow:ghostray",
             "perplayer": true
         },
