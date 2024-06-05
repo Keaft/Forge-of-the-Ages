@@ -10,7 +10,7 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [],
+	"dimensionSpawns": [0],
 	"biomeNameSpawns": ["biomesoplenty:gravel_beach","minecraft:stone_beach"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,

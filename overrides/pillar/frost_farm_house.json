@@ -8,7 +8,7 @@
   "mirrorType": "NONE",
   "rotation": null,
   "ignoreEntities": false,
-  "dimensionSpawns": [],
+  "dimensionSpawns": [0],
   "biomeNameSpawns": ["biomesoplenty:alps","biomesoplenty:alps_foothills","biomesoplenty:cold_desert","biomesoplenty:crag","biomesoplenty:glacier","biomesoplenty:highland","biomesoplenty:mountain","biomesoplenty:mountain_foothills","biomesoplenty:overgrown_cliffs","biomesoplenty:snowy_coniferous_forest","biomesoplenty:snowy_forest","biomesoplenty:snowy_tundra","biomesoplenty:volcanic_island","iceandfire:glacier","minecraft:cold_beach","minecraft:extreme_hills","minecraft:extreme_hills_with_trees","minecraft:frozen_ocean","minecraft:frozen_river","minecraft:ice_flats","minecraft:ice_mountains","minecraft:mutated_birch_forest_hills","minecraft:mutated_extreme_hills","minecraft:mutated_extreme_hills_with_trees","minecraft:mutated_ice_flats","minecraft:mutated_jungle","minecraft:mutated_mesa","minecraft:mutated_mesa_clear_rock","minecraft:mutated_roofed_forest","minecraft:mutated_savanna","minecraft:mutated_taiga","minecraft:mutated_taiga_cold","minecraft:smaller_extreme_hills","minecraft:taiga_cold","minecraft:taiga_cold_hills","twilightforest:snowy_forest","twilightforest:twilight_glacier","twilightforest:twilight_highlands"],
   "biomeTagSpawns": [],
   "isDimensionSpawnsBlacklist": false,

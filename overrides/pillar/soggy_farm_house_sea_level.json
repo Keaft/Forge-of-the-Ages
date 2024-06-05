@@ -10,7 +10,7 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [],
+	"dimensionSpawns": [0],
 	"biomeNameSpawns": ["biomesoplenty:bayou","biomesoplenty:fen","biomesoplenty:land_of_lakes","biomesoplenty:lush_swamp","biomesoplenty:mangrove","biomesoplenty:quagmire","biomesoplenty:wetland","minecraft:river","minecraft:swampland","thebetweenlands:coarse_islands","thebetweenlands:deep_waters","thebetweenlands:marsh_0","thebetweenlands:marsh_1","thebetweenlands:patchy_islands","thebetweenlands:raised_isles","thebetweenlands:sludge_plains","thebetweenlands:sludge_plains_clearing","thebetweenlands:swamplands","thebetweenlands:swamplands_clearing","twilightforest:fire_swamp","twilightforest:twilight_stream","twilightforest:twilight_swamp"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,

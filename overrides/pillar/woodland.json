@@ -10,7 +10,7 @@
 	"rotation": null,
 	"ignoreEntities": false,
 
-	"dimensionSpawns": [],
+	"dimensionSpawns": [0],
 	"biomeNameSpawns": ["biomesoplenty:temperate_rainforest","minecraft:forest","minecraft:roofed_forest"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,

@@ -8,7 +8,7 @@
   "mirrorType": "NONE",
   "rotation": null,
   "ignoreEntities": false,
-  "dimensionSpawns": [],
+  "dimensionSpawns": [0],
   "biomeNameSpawns": ["biomesoplenty:bamboo_forest","biomesoplenty:eucalyptus_forest","biomesoplenty:oasis","biomesoplenty:overgrown_cliffs","biomesoplenty:rainforest","biomesoplenty:sacred_springs","biomesoplenty:tropical_island","biomesoplenty:tropical_rainforest","minecraft:jungle","minecraft:jungle_edge","minecraft:jungle_hills","minecraft:mutated_jungle","minecraft:mutated_jungle_edge"],
   "biomeTagSpawns": [],
   "isDimensionSpawnsBlacklist": false,
