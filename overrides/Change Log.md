@@ -29,6 +29,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Mining Dungeon boss made harder.
 * Fully restrict SRParasites from spawning in the overworld, nether, and the end.
 * Current Structures now only spawn in the overworld like they should have to begin with.
+* Fear disabled from SRParasites.
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.
