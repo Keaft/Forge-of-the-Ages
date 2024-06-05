@@ -31,6 +31,7 @@ The 0.10r holds huge changes and you should read that changelog. :D
 * Current Structures now only spawn in the overworld like they should have to begin with.
 * Fear disabled from SRParasites.
 * Remove srparasites nadeballs for their instakill mechanic.
+* SRParasites should be fully friendly with Betweenlands mobs hopefully preventing a client freeze? No clue what causes this particular freeze.
 
 ### **__Mod(s) Added:__**
 * XNet 1.8.2.
