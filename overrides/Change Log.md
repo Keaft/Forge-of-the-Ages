@@ -1,6 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 The 0.10r holds huge changes and you should read that changelog. :D
+This update holds the remaining changes that I've mode since the bit of hiatus I've taken since May. The hiatus continues until the next burst of enthusiasm I gain towards working on the pack again. :D
 
 ### **__Configuration changes:__**
 * Added diamond plate recipe to Pressurizer.
