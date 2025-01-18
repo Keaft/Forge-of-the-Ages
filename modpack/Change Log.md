@@ -1,7 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
-* Modified scripts\bosssummoning\basic_boss.zs to hopefully fix the extra boss message bug when there are more than 1 player near the boss.
+* Modified scripts\bosssummoning\basic_boss.zs in an attempt at making the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
 
 ### **__Mod(s) Added:__**
 
