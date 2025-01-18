@@ -1,13 +1,13 @@
 name = "Ice and Fire: RotN Edition"
-filename = "IceAndFireRotN-1.9.1-1.3.3.jar"
+filename = "IceAndFireRotN-1.9.1-1.3.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7e4328206ca04580ff7cf5772e63e8cdbb90ee80"
+hash = "c082534104611c94708e78419a5d5523e6c6e3af"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5262046
+file-id = 5738729
 project-id = 457668
