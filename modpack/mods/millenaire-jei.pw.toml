@@ -1,0 +1,13 @@
+name = "Millenaire-JEI"
+filename = "millenairejei-1.12.2-1.0.0-beta001.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3c191598baf7a3e97c863a133fa3edb7177dd420"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3088162
+project-id = 414410

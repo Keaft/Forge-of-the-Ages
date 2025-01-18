@@ -1,0 +1,13 @@
+name = "Trumpet Skeleton"
+filename = "trumpetskeleton-1.12-1.0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "98d55c7b43a2996057e3052337c7d103c74f426c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2549462
+project-id = 279311

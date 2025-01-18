@@ -1,0 +1,13 @@
+name = "Realistic Terrain Generation Plus"
+filename = "RTG-1.12.2-7.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e334b99acbaea17452c46b6c70e0f92269a533c6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5235394
+project-id = 981628

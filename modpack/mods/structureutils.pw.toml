@@ -1,0 +1,13 @@
+name = "StructureUtils"
+filename = "StructureUtils-1.1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ce6649daccac4168dd2363bcca9167c2fbe4a9f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2645330
+project-id = 302590

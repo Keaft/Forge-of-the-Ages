@@ -1,0 +1,13 @@
+name = "Cave Chimes"
+filename = "cavechimes-1.12_beta-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5c22a72080890d4db55b48a63cbf830ca21bb5b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5283570
+project-id = 1006971
