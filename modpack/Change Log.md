@@ -1,7 +1,8 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
-* Modified scripts\bosssummoning\basic_boss.zs in an attempt at making the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
+* Modified config\Universal Tweaks - Tweaks.cfg in an attempt at making the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
+* Modified scripts\bosssummoning\summoning_event_script.zs restore hand checking for boss summoning item.
 
 ### **__Mod(s) Added:__**
 
@@ -18,6 +19,7 @@
 * CraftTweaker to CraftTweaker2-1.12-4.1.20.702
 * FermiumASM to fermiumasm-5.24
 * FermiumBooter to `FermiumBooter-1.1.1
+* Fish's Undead Rising to Fish's Undead Rising-1.5.0
 * Future MC to Future-MC-0.2.20
 * HammerLib to HammerLib-1.12.2-12.2.56
 * Ice and Fire to IceAndFireRotN-1.9.1-1.3.4
@@ -25,7 +27,6 @@
 * Just Enough Items (JEI) to jei_1.12.2-4.16.1.1013
 * Legendary Tooltips [Neo/Forge] to LegendaryTooltips-1.12.2-1.1.11
 * LootTweaker to LootTweaker-0.4.1+MC1.12.2
-* Metallurgy 4 to Metallurgy-4-Reforged-1.4.1
 * MixinBooter to !mixinbooter-10.3
 * MmmMmmMmmMmm (Target Dummy) to MmmMmmMmmMmm-1.12-2.0.1
 * PackagedAstral to PackagedAstral-1.12.2-1.0.2.16

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "70f6de521dc846cc079f7bcd9bfda45d3b06f35d6b75b40b4237c33c3307dd29"
+hash = "dc6a48d0963856e6fcb67023e3d6beee8fe071f4cd55e140837ef23c0b5f6699"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -74,7 +74,7 @@ hash = "4a5cf76059bf253d3bb0f561fdd8ed52c071992ec0799477133d577f0ff747eb"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "a1c5bb2c94423209585b7325df4fd00d41e2da58aabf82df01e491b8a0139ecc"
+hash = "ae08d463d67335ea272e59d30e06c1106f7be652567a6611a15157df1c277fdc"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
@@ -2122,7 +2122,7 @@ metafile = true
 
 [[files]]
 file = "mods/fishs-undead-rising.pw.toml"
-hash = "61e034949471bbcc0161cfb955c80adebacd9a00f8bf326b003dc68bc833a4be"
+hash = "ae1a6fb3dd46b012b5cc61335eadd87e14c7326da8b43eaf7854b7f8f2d248c8"
 metafile = true
 
 [[files]]
@@ -2441,7 +2441,7 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "69fb77092d4b3cac87753a1efe921a3094bc3bc6e2a37b35e81dacf34efff346"
+hash = "6812fa6ad012445f82363a587ce59ff941c077f623e15a80245381b1efe41634"
 metafile = true
 
 [[files]]
@@ -4949,7 +4949,7 @@ hash = "0fb65990225ae44c743d3daf54f5c8061e0d469b5294de3d1b598b25aea2fd40"
 
 [[files]]
 file = "scripts/bosssummoning/basic_boss.zs"
-hash = "a63855cbeb4b98237954c81814821de54182b66c4ac16131b343834b69d0f098"
+hash = "fdf3be3de735298ab2f1e0137564d50f3539dbd95d25bb17c3e5c01785248113"
 
 [[files]]
 file = "scripts/bosssummoning/generic_boss_names.zs"

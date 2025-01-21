@@ -48,37 +48,37 @@ var altarBlocks as BB.BasicBoss[IItemStack][IBlock]$orderly = {
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var currentAltar as IItemStack = null;
     var currentItem as IItemStack = null;
-    var currentHand as string = null;
     // If it is on the client or the OFF_HAND, do not continue. 1.12.2 forge doesn't seem to be able to differentiate which hand is being fired here while crafttweaker does, but limiting it to 1 makes sure it doesn't fire multiple times.
     if(event.world.remote || event.hand == "OFF_HAND") {
         return; 
     }
     for block in altarBlocks {
         if (block has event.block) {
-            for catalyst in altarBlocks[block] { // altarBlocks[block] uses the [block] key minecraft:stone to call it's value zombieSpawnItems thereby declaring altarBlocks[block] as zombieSpawnItems. Catalyst is then just the keys.
+            var hasValidOffering = false;
+            for catalyst in altarBlocks[block] {
                 var mhItem = event.player.mainHandHeldItem;
-        		var ohItem = event.player.offHandHeldItem;
+                var ohItem = event.player.offHandHeldItem;
                 if (isNull(mhItem) && isNull(ohItem)) {
                     return;
                 }
-                if (catalyst has mhItem) {
-                    currentHand = mhItem;
+                if (!isNull(mhItem) && catalyst has mhItem) {
                     event.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), mhItem.amount == 1 ? null : mhItem.withAmount(mhItem.amount - 1));
                     event.player.sendMessage("The " + mhItem.displayName + " drains into the altar.");
                     event.player.give(itemUtils.getItem(mhItem.definition.id + "_empty"));
                     altarBlocks[block][catalyst].commitBoss(event);
+                    hasValidOffering = true;
                     break;
                 }
-                if (catalyst has ohItem) {
-                    currentHand = ohItem;
+                if (!isNull(ohItem) && catalyst has ohItem) {
                     event.player.setItemToSlot(IEntityEquipmentSlot.offhand(), ohItem.amount == 1 ? null : ohItem.withAmount(ohItem.amount - 1));
                     event.player.sendMessage("The " + ohItem.displayName + " drains into the altar.");
                     event.player.give(itemUtils.getItem(ohItem.definition.id + "_empty"));
                     altarBlocks[block][catalyst].commitBoss(event);
+                    hasValidOffering = true;
                     break;
                 }
             }
-            if (isNull(currentHand)) {
+            if (!hasValidOffering) {
                 event.player.sendMessage("The altar rejects your offering.");
             }
             break;
