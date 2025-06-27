@@ -2770,6 +2770,11 @@ hash = "1a150a9dcc2f012160f25e2fba14fdee2704a70a4b9d97dbcecaedfae68b8658"
 metafile = true
 
 [[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "b6750186e586d93a4837e2cd8a3fb5e6d166949875e21ec26dd16887483b7418"
+metafile = true
+
+[[files]]
 file = "mods/spark-unforged.pw.toml"
 hash = "c7a2d0108ecf79d5c06b8d7c8862388563efa8cc2d048b3d7b1793c4376328fe"
 metafile = true

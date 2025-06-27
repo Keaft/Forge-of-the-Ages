@@ -3,7 +3,8 @@
 ### **__Configuration changes:__**
 - Millenaire configs removed.
 - config\Universal Tweaks - Tweaks.cfg
-- config\sereneseasons\seasons.cfg, snow accumulation renabled with serene tweaks for auto melting when returning to an area.
+- config\sereneseasons\seasons.cfg, snow accumulation renabled with serene tweaks for auto accumulation/melting when returning to an area.
+- config\sereneseasons\seasons.cfg, allows serene seasons to change the weather frequency again.
 - pillar\gorgon_temple_gravel.json, Now spawns on the water
 - pillar\gorgon_temple_sand.json, Now spawns on the water
 - pillar\soggy_farm_house_sea_level.json, Now spawns on the water
@@ -21,6 +22,7 @@
 - Nothirium (othirium-1.12.2-0.4.7-beta.jar)
 - Boat Delete Begone (BoatDeleteBegone-1.1.2)
 - Noise Threader (NoiseThreader-1.0.0.jar)
+- Snow! Real Magic (SnowRealMagic-1.12.2-0.7.4)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2)
