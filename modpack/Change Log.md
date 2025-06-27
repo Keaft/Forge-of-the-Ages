@@ -1,19 +1,15 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
+- Millenaire configs removed.
 - config\Universal Tweaks - Tweaks.cfg
-- config\sereneseasons\seasons.cfg
-- mods\millenaire-custom\config-server.txt (deleted)
-- mods\millenaire-custom\config.txt (deleted)
-- mods\millenaire-custom\cultures\norman\lonebuildings\pantheon.txt (deleted)
-- mods\millenaire\config-server.txt (deleted)
-- mods\millenaire\config.txt (deleted)
+- config\sereneseasons\seasons.cfg, snow accumulation renabled with serene tweaks for auto melting when returning to an area.
 - pillar\gorgon_temple_gravel.json, Now spawns on the water
 - pillar\gorgon_temple_sand.json, Now spawns on the water
 - pillar\soggy_farm_house_sea_level.json, Now spawns on the water
 - scripts\bosssummoning\basic_boss.zs, in an attempt at making the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
 - scripts\bosssummoning\summoning_event_script.zs, restore hand checking for boss summoning item.
-- scripts\iceandfire.zs
+- scripts\iceandfire.zs, fixed some recipes with the ice and fire update.
 
 ### **__Mod(s) Added:__**
 - Sim-U-Kraft Reloaded (Sim-U-Kraft Reloaded - MC 1.12.2 - 2.0.3)
@@ -24,6 +20,7 @@
 - Tinkers' Antique (TinkersAntique-1.12.2-2.13.0.201)
 - Nothirium (othirium-1.12.2-0.4.7-beta.jar)
 - Boat Delete Begone (BoatDeleteBegone-1.1.2)
+- Noise Threader (NoiseThreader-1.0.0.jar)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2)
@@ -34,6 +31,7 @@
 - NetherPortalFix (NetherPortalFix_1.12.1-5.3.17)
 - RandomPatches (Forge) (randompatches-1.12.2-1.22.1.10)
 - Tinkers Construct (TConstruct-1.12.2-2.13.0.183)
+- Multithreaded Noise (MultithreadedNoise-1.12.2-0.0.2)
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2
