@@ -1,0 +1,13 @@
+name = "Boat Delete Begone"
+filename = "BoatDeleteBegone-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c014a66ee222a15bdc68e786e70b6b7ced204016"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6439484
+project-id = 978970

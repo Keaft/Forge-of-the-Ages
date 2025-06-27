@@ -1,13 +1,13 @@
 name = "Raw Mouse Input - Blessed Edition"
-filename = "rawinput-1.7.0.jar"
+filename = "rawinput-1.8.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "910a5d9c4bf2a5ddabc694b9a7fe02b8809b1e1e"
+hash = "e3302ff231c881a5d663111028ad3405411fdb75"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5235456
+file-id = 6387433
 project-id = 940930

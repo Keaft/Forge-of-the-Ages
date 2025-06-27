@@ -1,9 +1,9 @@
 {
-	"generatorType": "ANYWHERE",
-	"minY": 53,
-	"maxY": 56,
+	"generatorType": "ABOVE_WATER",
+	"minY": 60,
+	"maxY": 70,
 	"offsetX": -26,
-	"offsetY": 0,
+	"offsetY": -9,
 	"offsetZ": -27,
 
 	"mirrorType": "NONE",
@@ -11,7 +11,7 @@
 	"ignoreEntities": false,
 
 	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["biomesoplenty:gravel_beach","minecraft:stone_beach"],
+	"biomeNameSpawns": ["biomesoplenty:gravel_beach","minecraft:stone_beach","minecraft:ocean"],
 	"biomeTagSpawns": [],
 	"isDimensionSpawnsBlacklist": false,
 	"isBiomeNameSpawnsBlacklist": false,
@@ -25,5 +25,5 @@
 	"fillingMetadata": 0,
 	"fillingType": "WATER",
 	
-	"rarity": 500
+	"rarity": 1200
 }

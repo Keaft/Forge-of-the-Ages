@@ -1,13 +1,13 @@
 name = "Fishing Made Better"
-filename = "FishingMadeBetter-1.12.2-2.2.6.jar"
+filename = "FishingMadeBetter-1.12.2-2.2.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7c12a9e016b1015dd30c1965400a3af2fc8e9194"
+hash = "47e808bf66e447474bf51cb4a842c8e7f5d37a60"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4389339
+file-id = 6614787
 project-id = 306780

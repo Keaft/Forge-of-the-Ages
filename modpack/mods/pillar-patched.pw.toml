@@ -1,13 +1,13 @@
 name = "Pillar Patched"
-filename = "Pillar-1.3.0.jar"
+filename = "Pillar-1.3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ca0a1e530728670a5975818fc946edb85ab35996"
+hash = "8e75b8c53da58c5c3c3006f664040d659b46b997"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4781699
+file-id = 6275950
 project-id = 919371

@@ -1,5 +1,5 @@
 {
-	"generatorType": "ANYWHERE",
+	"generatorType": "ABOVE_WATER",
 	"minY": 63,
 	"maxY": 64,
 	"offsetX": -17,
@@ -23,7 +23,7 @@
 
 	"filling": "",
 	"fillingMetadata": 0,
-	"fillingType": "AIR",
+	"fillingType": "WATER",
 	
 	"rarity": 600
 }

@@ -1,13 +1,13 @@
 name = "Fish's Undead Rising"
-filename = "Fish's Undead Rising-1.5.0.jar"
+filename = "Fish's Undead Rising-1.5.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e0438b65e94ee4b5b1517010515a987ca82bfc5b"
+hash = "c30c9ef88276ff22c9d891a5b06bc8249e1788c6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6103431
+file-id = 6209510
 project-id = 321139
