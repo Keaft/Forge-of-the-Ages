@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "aee693c7a062dec745270d48d00078d1259c00727984cc7e9876315c59e96e08"
+hash = "4e8fd41d103c8032206927922799a7f4a710f97b4637ffa44deffeb1e72fe299"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -74,7 +74,7 @@ hash = "4a5cf76059bf253d3bb0f561fdd8ed52c071992ec0799477133d577f0ff747eb"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "ae08d463d67335ea272e59d30e06c1106f7be652567a6611a15157df1c277fdc"
+hash = "a1c5bb2c94423209585b7325df4fd00d41e2da58aabf82df01e491b8a0139ecc"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
@@ -1078,7 +1078,7 @@ hash = "228d336d95766be91907e5035de4697a6108115266df61116aab7f43d7ce6dd9"
 
 [[files]]
 file = "config/sereneseasons/seasons.cfg"
-hash = "90e7f3990e3268c70a8b8bdac0e915ceda03d2934501ff551da3f4730172dc5c"
+hash = "2772ea142b62eaab88b32ea914377f599368c2500f01e38e3df21c3d1bdcde8b"
 
 [[files]]
 file = "config/sledgehammer.conf"
@@ -2776,7 +2776,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "f20c7e3da3041b583dd101fd26b2267530032bea54b821379086dfd1930c68c3"
+hash = "89153b378fb14d6feda6e201d549f0ecc491de42dd18b151accbf1c5a4e91b72"
 metafile = true
 
 [[files]]
@@ -4954,7 +4954,7 @@ hash = "0fb65990225ae44c743d3daf54f5c8061e0d469b5294de3d1b598b25aea2fd40"
 
 [[files]]
 file = "scripts/bosssummoning/basic_boss.zs"
-hash = "fdf3be3de735298ab2f1e0137564d50f3539dbd95d25bb17c3e5c01785248113"
+hash = "a63855cbeb4b98237954c81814821de54182b66c4ac16131b343834b69d0f098"
 
 [[files]]
 file = "scripts/bosssummoning/generic_boss_names.zs"
@@ -4966,7 +4966,7 @@ hash = "d62446b5b768d4db1ed1cf09fd7ce283eb016dc8dea6585d6a97b6e436f324e2"
 
 [[files]]
 file = "scripts/bosssummoning/summoning_event_script.zs"
-hash = "948cdc4fef7f926f702b94c6e4fb0e5c5361e1b1260cef8934764fa60632d608"
+hash = "938cbfc3a3dd1cbd915e488a7fad2169e8335a808fe2cab3734e999f0ccfb01e"
 
 [[files]]
 file = "scripts/botania.zs"
