@@ -23,6 +23,11 @@
 - Boat Delete Begone (BoatDeleteBegone-1.1.2)
 - Noise Threader (NoiseThreader-1.0.0.jar)
 - Snow! Real Magic (SnowRealMagic-1.12.2-0.7.4)
+- Just Enough Botania (Just-Enough-Botania-1.12.2-v0.1.1)
+- File Director (!mod-director-launchwrapper-1.9.1)
+- Nether API from Modrinth (Nether-API-v1.3.0-mc1.12.2)
+- Unseen's Nether Backport (Unseens Nether Backport - 0.6)
+- (Unofficial) Bosses of Mass Destruction + Dungeon Additions (Into The Dungeons - 1.6)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2)

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "a2eadddbeb55f036c02927aab12107f8d4dad8d4db37f1d0290a7a739ea9f553"
+hash = "472ac789ddabb91e9ab1aa8005c636bf1b86e85624e6ddc397fd7e791240ae43"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -989,6 +989,10 @@ file = "config/moartinkers.cfg"
 hash = "15a1a3344c4027f6aac6a3df5b6e9df13aee38de9f738e1d8a3c8a61a8632bf4"
 
 [[files]]
+file = "config/mod-director/nether-api.modrinth.json"
+hash = "cf91cbd3668eb5a487ab19b534609f9a42210aa4dc89df3727521c9bb9f34ba3"
+
+[[files]]
 file = "config/modularmachinery/machinery/dirt_harvester_lvl_1.json"
 hash = "5e0c8c3bd1d5abecb6805f44ad91481e83831447a2dd3ec95f267b93fac60c77"
 
@@ -1078,11 +1082,15 @@ hash = "228d336d95766be91907e5035de4697a6108115266df61116aab7f43d7ce6dd9"
 
 [[files]]
 file = "config/sereneseasons/seasons.cfg"
-hash = "90e7f3990e3268c70a8b8bdac0e915ceda03d2934501ff551da3f4730172dc5c"
+hash = "d1b13176ab0268d1fc0ba133914fa438d66169f6c8d324b0a786a0aeee81249f"
 
 [[files]]
 file = "config/sledgehammer.conf"
 hash = "2ac2f0bd313f51238e527372b210a3c9405889c2bfe71aec0b51934588e24831"
+
+[[files]]
+file = "config/snowrealmagic.cfg"
+hash = "d9a450d5bd4e5f81a7466aa10419f8ce8d29508baebd0c1d0738b1f6169e0a3b"
 
 [[files]]
 file = "config/solcarrot.cfg"
@@ -2121,6 +2129,11 @@ hash = "59876ef658d18c4d68d3dc8e0f60be6e8c8c52188e29d4063518eb0300bff079"
 metafile = true
 
 [[files]]
+file = "mods/filedirector.pw.toml"
+hash = "0ddcec2015472db25761070735e16ad8624896edc9cafd3709f83d21c28eaeaf"
+metafile = true
+
+[[files]]
 file = "mods/fishing-made-better.pw.toml"
 hash = "f386370c3f4bc57a465bc9717eccc4f4ace5279b0e6e116105312a62f803fb05"
 metafile = true
@@ -2258,6 +2271,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "34bcd62bca78729d9c295bb8d7cbfde2239af84c86719744a4e8c0af7e69f150"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-botania.pw.toml"
+hash = "5f76f1781f079567c988e6b2d92c079597b2b391c723a0c847d4660177c90af1"
 metafile = true
 
 [[files]]
@@ -2907,6 +2925,16 @@ metafile = true
 [[files]]
 file = "mods/universal-tweaks.pw.toml"
 hash = "b5f39d01a85a2d61db11ea5fbe74e7e5627c40740dd4648f8bed9f240e6178f9"
+metafile = true
+
+[[files]]
+file = "mods/unofficial-bosses-of-mass-destruction-dungeon.pw.toml"
+hash = "9041a30f7f4e528a0844189168153d896a440f8722a8d05c68b8b02a6782de82"
+metafile = true
+
+[[files]]
+file = "mods/unseens-nether-backport.pw.toml"
+hash = "b92fdf255a382d89c31a04df028db38259fa66b885d4894a91e550a2b122c2e3"
 metafile = true
 
 [[files]]
