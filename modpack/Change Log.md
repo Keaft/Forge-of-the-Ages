@@ -2,6 +2,7 @@
 
 ### **__Configuration changes:__**
 - Millenaire configs removed.
+- Removed various tinkers tweaks from Sledgehammer and Universal Tweaks since it's handled by Tinkers' Antique now.
 - config\Universal Tweaks - Tweaks.cfg
 - config\sereneseasons\seasons.cfg, snow accumulation renabled with serene tweaks for auto accumulation/melting when returning to an area.
 - config\sereneseasons\seasons.cfg, allows serene seasons to change the weather frequency again.
@@ -30,15 +31,16 @@
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions (Into The Dungeons - 1.6)
 
 ### **__Mod(s) Removed:__**
-- FoamFix (foamfix-0.10.15-1.12.2)
-- Just Enough Items (JEI) (jei_1.12.2-4.16.1.1013)
-- Millenaire-JEI (millenairejei-1.12.2-1.0.0-beta001)
-- Millenaire (millenaire-8.1.2)
-- Mouse Tweaks (MouseTweaks-2.10.1-mc1.12.2)
-- NetherPortalFix (NetherPortalFix_1.12.1-5.3.17)
-- RandomPatches (Forge) (randompatches-1.12.2-1.22.1.10)
-- Tinkers Construct (TConstruct-1.12.2-2.13.0.183)
-- Multithreaded Noise (MultithreadedNoise-1.12.2-0.0.2)
+- FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
+- Just Enough Items (JEI) (jei_1.12.2-4.16.1.1013) Replaced by Had Enough Items
+- Millenaire (millenaire-8.1.2) Hopefully replaced by Sim-U-Kraft Reloaded.
+-- Millenaire-JEI (millenairejei-1.12.2-1.0.0-beta001)
+- Mouse Tweaks (MouseTweaks-2.10.1-mc1.12.2) Replaced by Mouse Tweaks Unofficial.
+- NetherPortalFix (NetherPortalFix_1.12.1-5.3.17) Handled by Universal Tweaks.
+- RandomPatches (Forge) (randompatches-1.12.2-1.22.1.10) Handled by Universal Tweaks.
+- Tinkers Construct (TConstruct-1.12.2-2.13.0.183) Replaced by Tinkers' Antique.
+- Multithreaded Noise (MultithreadedNoise-1.12.2-0.0.2) Replaced by Noise Threader.
+- Seared Ladder (Backport) (Seared-Ladder-v1.1.2-mc1.12.2) Replaced by Tinkers' Antique.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2

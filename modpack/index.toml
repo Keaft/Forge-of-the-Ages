@@ -73,12 +73,16 @@ file = "config/TComplementModules.cfg"
 hash = "4a5cf76059bf253d3bb0f561fdd8ed52c071992ec0799477133d577f0ff747eb"
 
 [[files]]
+file = "config/Universal Tweaks - Mod Integration.cfg"
+hash = "2f3eaa1c25655640582fbdf264e92e5a2c447d55f744bed6009caca02250bef4"
+
+[[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
 hash = "ae08d463d67335ea272e59d30e06c1106f7be652567a6611a15157df1c277fdc"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
-hash = "c580ebf90704495907d0f730e3de0e02c53c467f0cc8527f52177ead11ab4dc9"
+hash = "5415d29e809195c6697467737d0ba4caf39796ad016a06b07b48840c232a6002"
 
 [[files]]
 file = "config/acronym/contenttweaker/General.cfg"
@@ -1086,7 +1090,7 @@ hash = "d1b13176ab0268d1fc0ba133914fa438d66169f6c8d324b0a786a0aeee81249f"
 
 [[files]]
 file = "config/sledgehammer.conf"
-hash = "2ac2f0bd313f51238e527372b210a3c9405889c2bfe71aec0b51934588e24831"
+hash = "7b609f284f78e600dda77b36068b0453b48d70b595812aea40525d1556d73337"
 
 [[files]]
 file = "config/snowrealmagic.cfg"
@@ -2725,11 +2729,6 @@ metafile = true
 [[files]]
 file = "mods/scavenge.pw.toml"
 hash = "22f2ac1bb223cb72e3a7af4d72d3987ee2fdeee317fd5073f6234a67a2f5cc84"
-metafile = true
-
-[[files]]
-file = "mods/seared-ladder-backport.pw.toml"
-hash = "f434238a4aa7c39e323c7ccfbfa83be4783faa02eba3dc39a76764de7c979747"
 metafile = true
 
 [[files]]
