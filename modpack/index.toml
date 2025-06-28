@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "472ac789ddabb91e9ab1aa8005c636bf1b86e85624e6ddc397fd7e791240ae43"
+hash = "25e4f69e9269a79294a87f552f1ab5026cdca2a193ece7d7578e700a93e5e6b0"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2847,8 +2847,8 @@ hash = "aae7752ff23773d2dd0a2720d6dc4c97abac4a9560bd2f75b879407d4847231f"
 metafile = true
 
 [[files]]
-file = "mods/the-twilight-forest.pw.toml"
-hash = "7af0b8a8e634eab7ecd9e6401ce3c71d6ec1c2c5dae078dee5a526898f88c72c"
+file = "mods/the-twilight-forest-deforestation-edition.pw.toml"
+hash = "5167bacbea414440e7190390637bd39b975a1b5fded8a7b87b920edc9f5750f0"
 metafile = true
 
 [[files]]
@@ -5066,7 +5066,7 @@ hash = "f77c9dac9ca27d52b6f1e1fdac1f095306db7b68949fb1bc6ae0a187579b888e"
 
 [[files]]
 file = "scripts/tinker.zs"
-hash = "4289a42ee09591f68c4f739918ca1ab306e4075117accf4f5bcf7230c67efa99"
+hash = "cbf8ecb252ae274c96ab94d785167880ecc5c912579b9804ba4715e90d0e8fcb"
 
 [[files]]
 file = "scripts/unification.zs"

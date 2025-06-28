@@ -29,6 +29,7 @@
 - Nether API from Modrinth (Nether-API-v1.3.0-mc1.12.2)
 - Unseen's Nether Backport (Unseens Nether Backport - 0.6)
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions (Into The Dungeons - 1.6)
+- The Twilight Forest - Deforestation Edition (twilightforest-1.12.2-3.13b)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
@@ -41,6 +42,7 @@
 - Tinkers Construct (TConstruct-1.12.2-2.13.0.183) Replaced by Tinkers' Antique.
 - Multithreaded Noise (MultithreadedNoise-1.12.2-0.0.2) Replaced by Noise Threader.
 - Seared Ladder (Backport) (Seared-Ladder-v1.1.2-mc1.12.2) Replaced by Tinkers' Antique.
+- Twilight Forest (twilightforest-1.12.2-3.11.1021-universal), Replaced by The Twilight Forest - Deforestation Edition
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2

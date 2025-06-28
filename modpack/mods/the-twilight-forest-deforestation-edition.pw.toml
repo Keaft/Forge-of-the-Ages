@@ -1,0 +1,13 @@
+name = "The Twilight Forest - Deforestation Edition"
+filename = "twilightforest-1.12.2-3.13b.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8aa67e13b20719b01fd6564972745f508858ac6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6218560
+project-id = 1063334
