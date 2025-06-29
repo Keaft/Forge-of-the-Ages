@@ -1,0 +1,13 @@
+name = "Worse Hurt Timer"
+filename = "WorseHurtTimer-1.12.2-1.5.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68c2fcf28ac55eaa40ee065450d4f2c4a38aa8ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6496071
+project-id = 1079060

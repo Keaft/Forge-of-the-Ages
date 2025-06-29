@@ -31,6 +31,7 @@
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions (Into The Dungeons - 1.6)
 - The Twilight Forest - Deforestation Edition (twilightforest-1.12.2-3.13b)
 - BetterBuildersWandsFix (BetterBuildersWandsFix-1.2.3)
+- Worse Hurt Timer (WorseHurtTimer-1.12.2-1.5.0.3)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
@@ -44,6 +45,7 @@
 - Multithreaded Noise (MultithreadedNoise-1.12.2-0.0.2) Replaced by Noise Threader.
 - Seared Ladder (Backport) (Seared-Ladder-v1.1.2-mc1.12.2) Replaced by Tinkers' Antique.
 - Twilight Forest (twilightforest-1.12.2-3.11.1021-universal), Replaced by The Twilight Forest - Deforestation Edition
+- Better Hurt Timer (BetterHurtTimer-1.12.2-1.5.0.6), Replaced by Worse Hurt Timer.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2

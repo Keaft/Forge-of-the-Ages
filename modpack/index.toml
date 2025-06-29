@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "25e4f69e9269a79294a87f552f1ab5026cdca2a193ece7d7578e700a93e5e6b0"
+hash = "bf77cba3bab5758f22ebd1aa85e9fdd9a1834eea5b7a21e6797209e2aa9f1ce6"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1793,11 +1793,6 @@ hash = "f7c821287bcb460b7cd51438d4f08c818beb1070d687a0460ce5c5279941bad2"
 metafile = true
 
 [[files]]
-file = "mods/better-hurt-timer.pw.toml"
-hash = "bce64895fec828679cca109d84304bc7fdbc2a203a6c73019f7e0d7a2a8d15de"
-metafile = true
-
-[[files]]
 file = "mods/better-than-mending.pw.toml"
 hash = "fd0e85e6f18b61a9656d9236ed6060a95ff427eaa8910b56882c3eac47196b1e"
 metafile = true
@@ -2979,6 +2974,11 @@ metafile = true
 [[files]]
 file = "mods/worleys-caves.pw.toml"
 hash = "a9256cd9ead27830c3eaae401056a728ff684204c304426c22ee130c2c68ce84"
+metafile = true
+
+[[files]]
+file = "mods/worse-hurt-timer.pw.toml"
+hash = "19689aaf53823b59ac23d793b93c83cc42ac3f91357ded41b388a89531bb8ff5"
 metafile = true
 
 [[files]]
