@@ -30,6 +30,7 @@
 - Unseen's Nether Backport (Unseens Nether Backport - 0.6)
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions (Into The Dungeons - 1.6)
 - The Twilight Forest - Deforestation Edition (twilightforest-1.12.2-3.13b)
+- BetterBuildersWandsFix (BetterBuildersWandsFix-1.2.3)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
