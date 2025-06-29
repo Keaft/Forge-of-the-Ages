@@ -33,6 +33,8 @@
 - BetterBuildersWandsFix (BetterBuildersWandsFix-1.2.3)
 - Worse Hurt Timer (WorseHurtTimer-1.12.2-1.5.0.3)
 - PackagedDraconic (PackagedDraconic-1.12.2-1.0.3.20)
+- Waystone Extras (waystone_extras-1.0)
+- Waystone Folders (Folders for Waystones) (WaystoneFolders-0.3)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix

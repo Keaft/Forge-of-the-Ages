@@ -2962,6 +2962,16 @@ hash = "dc1ee5d5a602f9cc633d511a4d00e2e0e7189d6135fd11343bf76e9f47aa2d07"
 metafile = true
 
 [[files]]
+file = "mods/waystone-extras.pw.toml"
+hash = "2aef5967cab904c3086903024f0f4efe59724f6f231adddee4ca0c6a6d9f50f0"
+metafile = true
+
+[[files]]
+file = "mods/waystone-folders-folders-for-waystones.pw.toml"
+hash = "b23cd42a6c6c44b5fa5ce2ced814c7c5b18bdd37e6dba4b50eb066ea9c9f0aa8"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "0af91e64926856848449b73fcd31a7fe37c1756fdb905ccbb97cd603218275f9"
 metafile = true
