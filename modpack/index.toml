@@ -2612,6 +2612,11 @@ hash = "71fbe0aca0a3d357da0eb3c1b245b01dc81c2fdadc8455bc4f14d042a07a7416"
 metafile = true
 
 [[files]]
+file = "mods/packageddraconic.pw.toml"
+hash = "cca8190ead2bb98405664c96eee3781113004e10979d03945f219a7327fb4f6b"
+metafile = true
+
+[[files]]
 file = "mods/pams-harvestcraft.pw.toml"
 hash = "58e364c18441b784d48f1bda8e4717dd93efd03eba136e454a90504690dfad93"
 metafile = true

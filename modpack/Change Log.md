@@ -32,6 +32,7 @@
 - The Twilight Forest - Deforestation Edition (twilightforest-1.12.2-3.13b)
 - BetterBuildersWandsFix (BetterBuildersWandsFix-1.2.3)
 - Worse Hurt Timer (WorseHurtTimer-1.12.2-1.5.0.3)
+- PackagedDraconic (PackagedDraconic-1.12.2-1.0.3.20)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
