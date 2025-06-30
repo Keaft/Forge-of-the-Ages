@@ -47,6 +47,12 @@
         "result": "allow"
     },
     {
+        "dimension": -12,
+        "mob": "mod_lavacow:raven",
+        "onjoin": true,
+        "result": "deny"
+    },
+    {
         "dimension": 0,
         "mob": ["futuremc:panda","futuremc:bee"],
         "mintime": 12500,
