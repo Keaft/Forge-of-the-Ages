@@ -2781,11 +2781,6 @@ hash = "ba20eb5e1ea5e39e226a71f82801000b03271e5a7f0aff6d7747456b80c93b2d"
 metafile = true
 
 [[files]]
-file = "mods/sim-u-kraft-reloaded.pw.toml"
-hash = "322d050481d802e35a6a173c5e0a55657bd11bd85ad39953ce2f3d81da2ddd95"
-metafile = true
-
-[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "89153b378fb14d6feda6e201d549f0ecc491de42dd18b151accbf1c5a4e91b72"
 metafile = true
