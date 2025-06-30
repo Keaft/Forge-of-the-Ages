@@ -1803,6 +1803,11 @@ hash = "0a53e46092820fa6ab66465dc76ae89b27e79e1734dd918f7475dbfeb85e63b2"
 metafile = true
 
 [[files]]
+file = "mods/betterendforge-backport.pw.toml"
+hash = "5f5bf714602b940ffb0d54814928c665b432df4a9a78745225fbb758184994b8"
+metafile = true
+
+[[files]]
 file = "mods/betterfps.pw.toml"
 hash = "3be157f6924a51edca3ade05d9a2c9e16e13e376c874fa6eecb11d0bf6c0a2db"
 metafile = true
