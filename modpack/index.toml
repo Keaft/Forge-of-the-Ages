@@ -2476,6 +2476,36 @@ hash = "37fe61ea4cd64586c17ce2ffc8754c4a743ca2f428c579fb956757325af1e9bc"
 metafile = true
 
 [[files]]
+file = "mods/millenaire-custom/config-server.txt"
+hash = "9fae2b9deeebb892f1a97602d6528ea23fcbf6ec62cb5059394ca5a1d6c91c96"
+
+[[files]]
+file = "mods/millenaire-custom/config.txt"
+hash = "3410c2b7bed29aed82b16fc456207f7d84349e293782ba11b2d34820e81ffc7d"
+
+[[files]]
+file = "mods/millenaire-custom/cultures/norman/lonebuildings/pantheon.txt"
+hash = "c3a5fa903c7bf321c05144c7ddce43d9572dc3e8815a0a87122a483d054e540c"
+
+[[files]]
+file = "mods/millenaire-jei.pw.toml"
+hash = "bcee832a7260dd16bebe8389a61efe57a6c7436af73fcb27223859e1895212a7"
+metafile = true
+
+[[files]]
+file = "mods/millenaire.pw.toml"
+hash = "12a37e7214852b669f5a98a6d4403121acc7dcc01df322cc53cdd9ac5240f367"
+metafile = true
+
+[[files]]
+file = "mods/millenaire/config-server.txt"
+hash = "9fae2b9deeebb892f1a97602d6528ea23fcbf6ec62cb5059394ca5a1d6c91c96"
+
+[[files]]
+file = "mods/millenaire/config.txt"
+hash = "3410c2b7bed29aed82b16fc456207f7d84349e293782ba11b2d34820e81ffc7d"
+
+[[files]]
 file = "mods/mixin-0-7-0-8-compatibility.pw.toml"
 hash = "b7b72af4408c20305260c7ab2bffbbdb8eded42cf2602bee65c9b90595f96a82"
 metafile = true
