@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "bf77cba3bab5758f22ebd1aa85e9fdd9a1834eea5b7a21e6797209e2aa9f1ce6"
+hash = "038dd53071f7c3fd1dbcb5e318d0dbce20bd4c600b4b15938c4079c1ffb7de5e"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -113,8 +113,12 @@ file = "config/betteradvancements/betteradvancements.cfg"
 hash = "d70335be2f9035cac57796641caa9ef305c2c7700e691ce383c259a9b65337f3"
 
 [[files]]
+file = "config/betterendforge/client.json"
+hash = "3f3f0ded6fadad62d4b01c1e8f59bd5f659cc712ec40639f384ece875e5c7c6e"
+
+[[files]]
 file = "config/betterhurttimer.cfg"
-hash = "6f3cb6773c19e5233e57763f9a2552a59798f868809534fca582cbb6236362fd"
+hash = "eaa845edccba6feef96c1f8e9af2d8fc528bddcd02f27639236953e9fc146b25"
 
 [[files]]
 file = "config/betternether.cfg"
@@ -214,7 +218,7 @@ hash = "93f1726e7495d7a294f90ca976bee547d554f5bc88ac6ac1ad041f83c83497ad"
 
 [[files]]
 file = "config/dsurround/dsurround.cfg"
-hash = "0e8ee66f5d55bdcc60f17619143ac7494a65737930227bd57908d7e7ca940b4a"
+hash = "46b0e2309dac40b69e371921e1336102f2400c1f4ab41d1b84259e163439459e"
 
 [[files]]
 file = "config/endercore/endercore.cfg"
@@ -1142,11 +1146,11 @@ hash = "8bf4c90516568b7dd0ca153c09954181eaafe2bd117b5fd5cc8e837e58c89f8e"
 
 [[files]]
 file = "config/tconmodmod.json"
-hash = "a3663e15932fe2fd1069cd82a4cabf6105905e5ef07716f82ea978737aab9c93"
+hash = "63ad96e17a5fb892750cdf3f38cfca2e102b78fdf5bed24236cb9c7d8124a583"
 
 [[files]]
 file = "config/tconmodmod_conarm.json"
-hash = "9eeaef601bcfb0449d3b1ef02a8e4ef4d2cd99c732b42f82164283c626e16045"
+hash = "d25492e86d543efc37bd1ca20b4836b58b9a766ace1d544f144593567c497290"
 
 [[files]]
 file = "config/tconstruct.cfg"
@@ -2103,8 +2107,8 @@ hash = "af1323f089720688803bc7c3ab6b9fa5c190684fc04592d33655a21a0c12b142"
 metafile = true
 
 [[files]]
-file = "mods/entity-culling.pw.toml"
-hash = "05ee73a46aff36c2b6161afe66037c36b910f025ac8f22c17b852e2cbbc83ea9"
+file = "mods/entityculling.pw.toml"
+hash = "8409a406724c8f347d9662863b418cdd88604303ff12a813f3779e93bffbbacf"
 metafile = true
 
 [[files]]
@@ -2473,7 +2477,7 @@ metafile = true
 
 [[files]]
 file = "mods/mixin-0-7-0-8-compatibility.pw.toml"
-hash = "f39c64e5bbdc2ec6a12936cbdd4a2821d891d591402de376acb21fcde158a548"
+hash = "b7b72af4408c20305260c7ab2bffbbdb8eded42cf2602bee65c9b90595f96a82"
 metafile = true
 
 [[files]]
