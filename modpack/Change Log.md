@@ -3,6 +3,11 @@
 ### **__Configuration changes:__**
 - Millenaire configs removed.
 - Removed various tinkers tweaks from Sledgehammer and Universal Tweaks since it's handled by Tinkers' Antique now.
+- scripts\tinker.zs, Removed extra diamond melting recipes, since it's now handled by Tinkers' Antique.
+- Redjusted Tinkers' Modifier Modifier configs to ensure weapons/armor can only get a maximum of 40% reinforced durability resistance.
+- The amount of damage SRParasites can recieve is no longer limited.
+- config\dsurround\dsurround.cfg, Disabled Auroras due to graphical glitches.
+- config\betterhurttimer.cfg, switched from regex to what worse hurt timer expects for damage types. 
 - config\Universal Tweaks - Tweaks.cfg
 - config\sereneseasons\seasons.cfg, snow accumulation renabled with serene tweaks for auto accumulation/melting when returning to an area.
 - config\sereneseasons\seasons.cfg, allows serene seasons to change the weather frequency again.
@@ -14,7 +19,6 @@
 - scripts\iceandfire.zs, fixed some recipes with the ice and fire update.
 
 ### **__Mod(s) Added:__**
-- Sim-U-Kraft Reloaded (Sim-U-Kraft Reloaded - MC 1.12.2 - 2.0.3)
 - Serene Tweaks (SereneTweaks-1.0)
 - VintageFix (vintagefix-0.6.2)
 - Mouse Tweaks Unofficial (mousetweaks-1.12.2-3.1.5)
