@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "038dd53071f7c3fd1dbcb5e318d0dbce20bd4c600b4b15938c4079c1ffb7de5e"
+hash = "7433a3c9c3679fd7e9c9ead347a2013f14b1b417359cf5c489bb387f1a27d746"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -938,7 +938,7 @@ hash = "0c91254f0a8bb256b78c614f42be2839580373440a9ea10d10cd2c5bf47ffbb4"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "cbd306120225f4ac9101fd5640ca8d7ae7ef21d01edfd7232190dcc94fa2c047"
+hash = "9d9f8874445a373ec91b6a0fd874f7ad72aa15d5a64aeadaba2b5c54f190ac3a"
 
 [[files]]
 file = "config/inspirations.cfg"
@@ -1110,19 +1110,19 @@ hash = "fbb8a683498fae7b4371e2210b1cc353021d27288f5a254516d71acc1f3f399c"
 
 [[files]]
 file = "config/srparasites/SRParasites.cfg"
-hash = "07c72ea96592648ea6bb4aa1e127a9e2a400152331c101ae977a49da647c9f4f"
+hash = "5d23920697e7d683e45d51d269ef5576032c2828fe0d13d2780fef34f625752a"
 
 [[files]]
 file = "config/srparasites/SRParasitesMobs.cfg"
-hash = "5de634df744f0233c4e8d0781f454d9377dc0613d857560a1388734429e230df"
+hash = "df0ccaa5433a3c29bff8aea6f0e0affce9f59e0b92d0b42463546de1a4963916"
 
 [[files]]
 file = "config/srparasites/SRParasitesSystems.cfg"
-hash = "03bd20b331bc30ee1cf63b7e5e4f685c92f5c5ad9eb3b3858fc09be8aa45bd28"
+hash = "fe921a454eddae7b21a2608a76eafcc2c246bd23bab39b6d4a0fb1c38fe00e3a"
 
 [[files]]
 file = "config/srparasites/SRParasitesWorld.cfg"
-hash = "db3dc84591940e6609fa975124ddd1248dc0c6c9be120a077a2e8f39ea7ab028"
+hash = "37ed6cb7da02f305ace24c0df920feede319d62452e719040e5a2234feee5c3f"
 
 [[files]]
 file = "config/stackie.cfg"
@@ -1812,11 +1812,6 @@ hash = "5f5bf714602b940ffb0d54814928c665b432df4a9a78745225fbb758184994b8"
 metafile = true
 
 [[files]]
-file = "mods/betterfps.pw.toml"
-hash = "3be157f6924a51edca3ade05d9a2c9e16e13e376c874fa6eecb11d0bf6c0a2db"
-metafile = true
-
-[[files]]
 file = "mods/betternether-rotn-edition.pw.toml"
 hash = "97cc1057068534be01a143151a6825e87d6b53317e1dc7215f044ee496d6610a"
 metafile = true
@@ -1917,6 +1912,11 @@ hash = "f9b6b196338ecd8ddc79aaf0ea3fdfb0d7693ede74b0840dc5968584473d2bc3"
 metafile = true
 
 [[files]]
+file = "mods/cleanroom-relauncher-unofficial.pw.toml"
+hash = "b759f492c6f5c4d77cb3c4605c664fc37484406f4c6cb5d555831fb5cd54cd60"
+metafile = true
+
+[[files]]
 file = "mods/clear-water.pw.toml"
 hash = "000d2f933d2bb2e89b9cedae9b81b538983f42bc69211bf83f318c2dba320d01"
 metafile = true
@@ -1954,11 +1954,6 @@ metafile = true
 [[files]]
 file = "mods/compact-machines.pw.toml"
 hash = "62fd06e68ef5a771bfbb490da497b19b5c8240a7ff94a2b2ec713a50e38bb58c"
-metafile = true
-
-[[files]]
-file = "mods/configanytime.pw.toml"
-hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
 metafile = true
 
 [[files]]
@@ -2157,8 +2152,18 @@ hash = "b6836ec2218927d0bd6e476818b2b3ad7e8644b9acb54de483f3603d20db9978"
 metafile = true
 
 [[files]]
+file = "mods/flare.pw.toml"
+hash = "de273d83365a71eadb97eb0feb2f690e9678436601dfd0c85e7acc591829923f"
+metafile = true
+
+[[files]]
 file = "mods/fluidlogged-api.pw.toml"
 hash = "dd1a7e9b2e6da52376ef64a54d346bca37f594fee902218f8d835a8c47d2e175"
+metafile = true
+
+[[files]]
+file = "mods/forgelin-continuous.pw.toml"
+hash = "02ff2c5bcdfe0ed7d7e7c3f88da0a35f855491901bedb9b0ad6f897df4ad0fba"
 metafile = true
 
 [[files]]
@@ -2184,6 +2189,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-utilities-forge.pw.toml"
 hash = "b3bf53323fcae0f8647ce23c60fffc003abcd315ece3772822f3130d7d5cd52f"
+metafile = true
+
+[[files]]
+file = "mods/fugue.pw.toml"
+hash = "f628a30d9acad256c5a5312efb79e0edbbe699ea73c32acc024878f2b5c9a8d3"
 metafile = true
 
 [[files]]
@@ -2506,21 +2516,6 @@ file = "mods/millenaire/config.txt"
 hash = "3410c2b7bed29aed82b16fc456207f7d84349e293782ba11b2d34820e81ffc7d"
 
 [[files]]
-file = "mods/mixin-0-7-0-8-compatibility.pw.toml"
-hash = "b7b72af4408c20305260c7ab2bffbbdb8eded42cf2602bee65c9b90595f96a82"
-metafile = true
-
-[[files]]
-file = "mods/mixin-booter.pw.toml"
-hash = "df027ff53db0184b3a0e3d169fbf653ae1da77513baff72d854532ec71bce06c"
-metafile = true
-
-[[files]]
-file = "mods/mixinbootstrap.pw.toml"
-hash = "042225fa484051292c770a8b22003e8b02cb70bb5ece75277fc6db2e7c9f4a83"
-metafile = true
-
-[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "c1935baf4556652d07ce9dd18720d555137d218bf2dc429f4d297e5476a6cd7b"
 metafile = true
@@ -2696,11 +2691,6 @@ hash = "8b774a5d263cc692ca0fdc07fa23d182765c9e7d4350b81879718e2e8f6b58e5"
 metafile = true
 
 [[files]]
-file = "mods/raw-mouse-input-blessed-edition.pw.toml"
-hash = "59c1b541c114e21ca6ace7782385e57fa1b93a5ca8d6ff0a412ed72fa64c9b1f"
-metafile = true
-
-[[files]]
 file = "mods/reach-fix.pw.toml"
 hash = "262ff88b12b5752b5577ebdeaf94862ccd4a2fc354c2c89937e7241abb0875bb"
 metafile = true
@@ -2743,6 +2733,11 @@ metafile = true
 [[files]]
 file = "mods/resource-loader.pw.toml"
 hash = "5b23fff02027846cadc887ffe26fce12a4e20bdee2cc0c06732897a44f364357"
+metafile = true
+
+[[files]]
+file = "mods/scalar-legacy.pw.toml"
+hash = "3e801d0211a839d795ed52dd40fb1675c070da9bba5bbe9093faf268c6c76ad8"
 metafile = true
 
 [[files]]
@@ -2812,7 +2807,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "89153b378fb14d6feda6e201d549f0ecc491de42dd18b151accbf1c5a4e91b72"
+hash = "baba6fb050f39f68a064a332fd83637921151f513bde96b20e8571e12509bf48"
 metafile = true
 
 [[files]]
@@ -2828,11 +2823,6 @@ metafile = true
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "b6750186e586d93a4837e2cd8a3fb5e6d166949875e21ec26dd16887483b7418"
-metafile = true
-
-[[files]]
-file = "mods/spark-unforged.pw.toml"
-hash = "c7a2d0108ecf79d5c06b8d7c8862388563efa8cc2d048b3d7b1793c4376328fe"
 metafile = true
 
 [[files]]
@@ -3042,7 +3032,7 @@ metafile = true
 
 [[files]]
 file = "mods/zenutil.pw.toml"
-hash = "71100d108606998517c953fd72fd76eb1a9eadd48e837692dcad44cd887e67db"
+hash = "06a5b15c0394adc883281f0c0047b46076812c7fa29dbfb7583b635deb3a6d64"
 metafile = true
 
 [[files]]

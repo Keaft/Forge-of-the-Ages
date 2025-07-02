@@ -6,6 +6,7 @@
 - scripts\tinker.zs, Removed extra diamond melting recipes, since it's now handled by Tinkers' Antique.
 - Redjusted Tinkers' Modifier Modifier configs to ensure weapons/armor can only get a maximum of 40% reinforced durability resistance.
 - The amount of damage SRParasites can recieve is no longer limited.
+- Keep Ravens from spawning in the Dreadlands.
 - config\dsurround\dsurround.cfg, Disabled Auroras due to graphical glitches.
 - config\betterhurttimer.cfg, switched from regex to what worse hurt timer expects for damage types. 
 - config\Universal Tweaks - Tweaks.cfg
@@ -39,6 +40,12 @@
 - PackagedDraconic (PackagedDraconic-1.12.2-1.0.3.20)
 - Waystone Extras (waystone_extras-1.0)
 - Waystone Folders (Folders for Waystones) (WaystoneFolders-0.3)
+- Entity Culling Fabric/Forge (entityculling-1.12.2-1.6.3)
+- BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.2.3)
+- Scalar Legacy (scalar-1.0.0), In preparation for switch to Cleanroom.
+- Fugue (+Fugue-0.19.5), In preparation for switch to Cleanroom.
+- Forgelin-Continuous (Forgelin-Continuous-2.1.21.0), In preparation for switch to Cleanroom.
+- Cleanroom relauncher unofficial (++relauncher-0.3.11-beta), In preparation for switch to Cleanroom.
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
@@ -53,6 +60,13 @@
 - Seared Ladder (Backport) (Seared-Ladder-v1.1.2-mc1.12.2) Replaced by Tinkers' Antique.
 - Twilight Forest (twilightforest-1.12.2-3.11.1021-universal), Replaced by The Twilight Forest - Deforestation Edition
 - Better Hurt Timer (BetterHurtTimer-1.12.2-1.5.0.6), Replaced by Worse Hurt Timer.
+- Entity Culling (EntityCulling-1.12.2-6.5.0), Replaced by Entity Culling Fabric/Forge.
+- ConfigAnytime (!configanytime-3.0), In preparation for switch to Cleanroom.
+- MixinBooter (!mixinbooter-10.6), In preparation for switch to Cleanroom.
+- MixinBootstrap (_MixinBootstrap-1.1.0), In preparation for switch to Cleanroom.
+- BetterFps (BetterFps-1.4.8), In preparation for switch to Cleanroom.
+- Raw Mouse Input - Blessed Edition (rawinput-1.8.0), In preparation for switch to Cleanroom.
+- Spark Unforged (spark-unforged-1.11.2-forge), In preparation for switch to Cleanroom.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2
@@ -61,7 +75,7 @@
 - Roughly Enough IDs: RoughlyEnoughIDs-2.1.1 -> RoughlyEnoughIDs-2.2.2
 - Raw Mouse Input - Blessed Edition: rawinput-1.7.0 -> rawinput-1.8.0
 - LootTweaker: LootTweaker-0.3.3+MC1.12.2 -> LootTweaker-0.4.1+MC1.12.2
-- Zen Utils: zenutils-1.18.9 -> zenutils-1.23.1
+- Zen Utils: zenutils-1.18.9 -> zenutils-1.23.2
 - FermiumASM: fermiumasm-5.23 -> fermiumasm-5.28
 - Armory Expansion: armoryexpansion-1.4.2 -> armoryexpansion-2.0.0-alpha
 - Entity Culling: EntityCulling-1.12.2-6.4.3 -> EntityCulling-1.12.2-6.5.0
@@ -84,7 +98,7 @@
 - Legendary Tooltips [Neo/Forge]: LegendaryTooltips-1.12.2-1.1.10 -> LegendaryTooltips-1.12.2-1.1.11
 - PackagedAstral: PackagedAstral-1.12.2-1.0.2.13 -> PackagedAstral-1.12.2-1.0.3.19
 - HammerLib: HammerLib-1.12.2-12.2.50 -> HammerLib-1.12.2-12.2.58
-- Simple Voice Chat: voicechat-forge-1.12.2-2.5.15 -> voicechat-forge-1.12.2-2.5.32
+- Simple Voice Chat: voicechat-forge-1.12.2-2.5.15 -> voicechat-forge-1.12.2-2.5.33
 - Reach Fix: ReachFix-1.12.2-1.0.9 -> ReachFix-1.12.2-1.1.3
 - AE2 Unofficial Extended Life: ae2-uel-v0.56.5 -> ae2-uel-v0.56.7
 - NuclearCraft: nuclearcraft-1.12.2-2.19 -> nuclearcraft-1.12.2-2.19a
