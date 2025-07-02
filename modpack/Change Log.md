@@ -38,7 +38,6 @@
 - BetterBuildersWandsFix (BetterBuildersWandsFix-1.2.3)
 - Worse Hurt Timer (WorseHurtTimer-1.12.2-1.5.0.3)
 - PackagedDraconic (PackagedDraconic-1.12.2-1.0.3.20)
-- Waystone Extras (waystone_extras-1.0)
 - Waystone Folders (Folders for Waystones) (WaystoneFolders-0.3)
 - Entity Culling Fabric/Forge (entityculling-1.12.2-1.6.3)
 - BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.2.3)
@@ -67,6 +66,7 @@
 - BetterFps (BetterFps-1.4.8), In preparation for switch to Cleanroom.
 - Raw Mouse Input - Blessed Edition (rawinput-1.8.0), In preparation for switch to Cleanroom.
 - Spark Unforged (spark-unforged-1.11.2-forge), In preparation for switch to Cleanroom.
+- Shadowfacts' Forgelin (Forgelin-1.8.4), Replaced by Forgelin-Continuous.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2

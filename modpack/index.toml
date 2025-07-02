@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "7433a3c9c3679fd7e9c9ead347a2013f14b1b417359cf5c489bb387f1a27d746"
+hash = "c2f420fad6a03948c15d02325064e9f105a2f87d1b5afe20218078997a01a1b9"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2788,11 +2788,6 @@ metafile = true
 [[files]]
 file = "mods/server-tab-info.pw.toml"
 hash = "b2da9538d6bdeae3a067fa26c9c05cab400e4f94495ebd7f201961cef6bdeb8a"
-metafile = true
-
-[[files]]
-file = "mods/shadowfacts-forgelin.pw.toml"
-hash = "3fc16d41893803e4afd4ddb2b981ed360081cea152a21f9783aac3bae182f6fc"
 metafile = true
 
 [[files]]
