@@ -1,24 +1,24 @@
 ***Before Updating ensure that you take a backup of your world!***
-This update is centered around updating mods, replacing with more maintained versions, and optimizing with a switch from Forge Mod Loader to Cleanroom.
+This update is centered around optimization! I've updating mods, replacing some with more maintained versions, and made the massive switch from Forge Mod Loader to Cleanroom.
 
 ### **__Configuration changes:__**
 - Removed various tinkers tweaks from Sledgehammer and Universal Tweaks since it's handled by Tinkers' Antique now.
-- scripts\tinker.zs, Removed extra diamond melting recipes, since it's now handled by Tinkers' Antique.
+- Removed extra diamond melting recipes, since it's now handled by Tinkers' Antique.
 - Redjusted Tinkers' Modifier Modifier configs to ensure weapons/armor can only get a maximum of 40% reinforced durability resistance.
 - Mutant Creatures Skeleton boss bones no longer stick around.
 - The amount of damage SRParasites can recieve is no longer limited.
 - Keep Ravens from spawning in the Dreadlands.
-- config\dsurround\dsurround.cfg, Disabled Auroras due to graphical glitches.
-- config\betterhurttimer.cfg, switched from regex to what worse hurt timer expects for damage types. 
-- config\Universal Tweaks - Tweaks.cfg
-- config\sereneseasons\seasons.cfg, snow accumulation renabled with serene tweaks for auto accumulation/melting when returning to an area.
-- config\sereneseasons\seasons.cfg, allows serene seasons to change the weather frequency again.
-- pillar\gorgon_temple_gravel.json, Now spawns on the water
-- pillar\gorgon_temple_sand.json, Now spawns on the water
-- pillar\soggy_farm_house_sea_level.json, Now spawns on the water
-- scripts\bosssummoning\basic_boss.zs, in an attempt at making the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
-- scripts\bosssummoning\summoning_event_script.zs, restore hand checking for boss summoning item.
-- scripts\iceandfire.zs, fixed some recipes with the ice and fire update.
+- Disabled Auroras due to graphical glitches.
+- Switched from regex to what worse hurt timer expects for damage types. 
+- Removed Recipe Book from inventory for compatibility reasons, but also... I mean... We all know what we are doing here... and JEI/HEI.
+- Allows serene seasons to change the weather frequency again.
+-- Snow accumulation renabled with serene tweaks for auto accumulation/melting when returning to an area.
+-- Snow as a visual indicator for the winter season is more than just visual, it's function for allowing farmers to know what's going on.
+- The Gorgon Temples now spawns on the water.
+- The Soggy Farm house can now spawn more beautifully in swamps.
+- Attempted to make the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
+- Restored hand checking for boss summoning item.
+- Fixed some recipes with the ice and fire update.
 
 ### **__Mod(s) Added:__**
 - Serene Tweaks (SereneTweaks-1.0)
