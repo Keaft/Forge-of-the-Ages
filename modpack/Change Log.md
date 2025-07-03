@@ -1,7 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
+This update is centered around updating mods, replacing with more maintained versions, and optimizing with a switch from Forge Mod Loader to Cleanroom.
 
 ### **__Configuration changes:__**
-- Millenaire configs removed.
 - Removed various tinkers tweaks from Sledgehammer and Universal Tweaks since it's handled by Tinkers' Antique now.
 - scripts\tinker.zs, Removed extra diamond melting recipes, since it's now handled by Tinkers' Antique.
 - Redjusted Tinkers' Modifier Modifier configs to ensure weapons/armor can only get a maximum of 40% reinforced durability resistance.
@@ -45,7 +45,7 @@
 - Fugue (+Fugue-0.19.5), In preparation for switch to Cleanroom.
 - Forgelin-Continuous (Forgelin-Continuous-2.1.21.0), In preparation for switch to Cleanroom.
 - Cleanroom relauncher unofficial (++relauncher-0.3.11-beta), In preparation for switch to Cleanroom.
-- Spiders 1.999 (spiderstpo-1.0.4)
+- Spiders 1.999 (spiderstpo-1.0.4), Now creepier and crawlier.
 - Mutant Creatures Legacy (MutantCreaturesLegacy-1.12.2-1.0.0)
 
 ### **__Mod(s) Removed:__**
