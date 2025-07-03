@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "208c607ecddba93027e8fb2a37d3c9ca6fced0613761516eeedbcb076f787dd5"
+hash = "dab04f09dc2c3ea87e33dd5c093c6a8ad0068f512f329c67b7647a870bb91ce7"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2658,6 +2658,11 @@ metafile = true
 [[files]]
 file = "mods/particle-culling.pw.toml"
 hash = "07d424d548178e08ebfa96074d8d3483fa4214050bcdecc4f7ab43d5570acb67"
+metafile = true
+
+[[files]]
+file = "mods/patchouli-books.pw.toml"
+hash = "5b18582de3b580b9b10e1f49520882d59fe366a03be71ec3bf11c7f93b470cdd"
 metafile = true
 
 [[files]]
