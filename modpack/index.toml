@@ -2337,11 +2337,6 @@ hash = "3b801e140a30d59835776b7382e90fe95068e1dbb1204289f68ad8ee49d9d27f"
 metafile = true
 
 [[files]]
-file = "mods/lightaura.pw.toml"
-hash = "c285f048a0794fb0508cd1303779a8e0945474ba8053bb03f111c6bd5405e51f"
-metafile = true
-
-[[files]]
 file = "mods/llibrary.pw.toml"
 hash = "780f849666ae2b08a782a5d9571a3fe17d0ede5b65ffb3d2622419e8dd6b35ab"
 metafile = true

@@ -50,7 +50,6 @@ This update is centered around updating mods, replacing with more maintained ver
 - Mutant Creatures Legacy (MutantCreaturesLegacy-1.12.2-1.0.1)
 - Botania CEu (Botania r1.10-368)
 - Patchouli Books (!mixinbooter-10.6)
-- LightAura (LightAura-4.6.0)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
