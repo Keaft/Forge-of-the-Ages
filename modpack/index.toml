@@ -2567,7 +2567,7 @@ metafile = true
 
 [[files]]
 file = "mods/mutant-creatures-legacy.pw.toml"
-hash = "ec4f9ff3b1675cf45577f671f53b78558ee7ca03176374ec37ca3e7ab010b6e4"
+hash = "e74d5b26ce8b84f266cdc2680be80e5eeb2cec3e909cbf9223f3a7ffa6d901d3"
 metafile = true
 
 [[files]]
