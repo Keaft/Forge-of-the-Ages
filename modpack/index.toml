@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "c2f420fad6a03948c15d02325064e9f105a2f87d1b5afe20218078997a01a1b9"
+hash = "ed5b14c5cfc8ae9fb4b1d38adb5e28dd93c3ce8a4ca53b0cd5c9603b46edb32f"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2566,8 +2566,8 @@ hash = "89814f8f8f56b7cb826bb9606298f0985bbfb6ae4059964b801ccecfc3ede1ef"
 metafile = true
 
 [[files]]
-file = "mods/mutant-beasts.pw.toml"
-hash = "0f06c2a99fc54d8f2c9d46c1dd91b0f004046158ebef4e21eec6fce0fa21e208"
+file = "mods/mutant-creatures-legacy.pw.toml"
+hash = "ec4f9ff3b1675cf45577f671f53b78558ee7ca03176374ec37ca3e7ab010b6e4"
 metafile = true
 
 [[files]]
@@ -2823,6 +2823,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "3c488bc1200c41f69e61d86b87389afcd936fac6e9378df07961458cb1f459de"
+metafile = true
+
+[[files]]
+file = "mods/spiders-1-999.pw.toml"
+hash = "614377ae67b6fdf08d8b12a5a7f67a2329486437e66d04bb3180ff38485a5c01"
 metafile = true
 
 [[files]]

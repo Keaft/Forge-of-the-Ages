@@ -1,0 +1,13 @@
+name = "Spiders 1.999"
+filename = "spiderstpo-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db20e22828e6351c59de9ca993ec0403e5e86034"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6411242
+project-id = 1190654

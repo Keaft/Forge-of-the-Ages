@@ -45,6 +45,8 @@
 - Fugue (+Fugue-0.19.5), In preparation for switch to Cleanroom.
 - Forgelin-Continuous (Forgelin-Continuous-2.1.21.0), In preparation for switch to Cleanroom.
 - Cleanroom relauncher unofficial (++relauncher-0.3.11-beta), In preparation for switch to Cleanroom.
+- Spiders 1.999 (spiderstpo-1.0.4)
+- Mutant Creatures Legacy (MutantCreaturesLegacy-1.12.2-1.0.0)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
@@ -67,6 +69,7 @@
 - Raw Mouse Input - Blessed Edition (rawinput-1.8.0), In preparation for switch to Cleanroom.
 - Spark Unforged (spark-unforged-1.11.2-forge), In preparation for switch to Cleanroom.
 - Shadowfacts' Forgelin (Forgelin-1.8.4), Replaced by Forgelin-Continuous.
+- Mutant Beasts (MutantBeasts-1.12.2-1.0.2), Replaced by Mutant Creatures Legacy.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2
