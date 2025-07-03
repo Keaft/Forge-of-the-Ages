@@ -31,6 +31,8 @@ recipes.addShapeless(<biomesoplenty:mudball> * 4,
 // - Flesh Chunk
 recipes.addShapeless(<biomesoplenty:fleshchunk> * 4,
 [<biomesoplenty:flesh>]);
+recipes.addShapeless(<biomesoplenty:grass:1> * 4,
+[<minecraft:stone:0>,<minecraft:stone:0>,<minecraft:stone:0>,<minecraft:stone:0>,<minecraft:wheat_seeds>]);
 
 //--------------------------------------------------------------------------------------
 
