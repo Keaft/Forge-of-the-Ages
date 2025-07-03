@@ -48,5 +48,20 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:glow
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:redstone>, 2000);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource:23>, <minecraft:gunpowder>, 2000);
 
-
+//Quark rune color stripping
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:1>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:2>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:3>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:4>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:5>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:6>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:7>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:8>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:9>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:10>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:11>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:12>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:13>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:14>, 500);
+mods.botania.ManaInfusion.addInfusion(<quark:rune:0>, <quark:rune:15>, 500);
 print("Initialized 'botania'");
