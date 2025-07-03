@@ -5,6 +5,7 @@ This update is centered around updating mods, replacing with more maintained ver
 - Removed various tinkers tweaks from Sledgehammer and Universal Tweaks since it's handled by Tinkers' Antique now.
 - scripts\tinker.zs, Removed extra diamond melting recipes, since it's now handled by Tinkers' Antique.
 - Redjusted Tinkers' Modifier Modifier configs to ensure weapons/armor can only get a maximum of 40% reinforced durability resistance.
+- Mutant Creatures Skeleton boss bones no longer stick around.
 - The amount of damage SRParasites can recieve is no longer limited.
 - Keep Ravens from spawning in the Dreadlands.
 - config\dsurround\dsurround.cfg, Disabled Auroras due to graphical glitches.
@@ -46,7 +47,8 @@ This update is centered around updating mods, replacing with more maintained ver
 - Forgelin-Continuous (Forgelin-Continuous-2.1.21.0), In preparation for switch to Cleanroom.
 - Cleanroom relauncher unofficial (++relauncher-0.3.11-beta), In preparation for switch to Cleanroom.
 - Spiders 1.999 (spiderstpo-1.0.4), Now creepier and crawlier.
-- Mutant Creatures Legacy (MutantCreaturesLegacy-1.12.2-1.0.0)
+- Mutant Creatures Legacy (MutantCreaturesLegacy-1.12.2-1.0.1)
+- Botania CEu (Botania r1.10-368)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
@@ -70,6 +72,7 @@ This update is centered around updating mods, replacing with more maintained ver
 - Spark Unforged (spark-unforged-1.11.2-forge), In preparation for switch to Cleanroom.
 - Shadowfacts' Forgelin (Forgelin-1.8.4), Replaced by Forgelin-Continuous.
 - Mutant Beasts (MutantBeasts-1.12.2-1.0.2), Replaced by Mutant Creatures Legacy.
+- Botania (Botania r1.10-364.4), Replaced by Botiania CEu.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2
