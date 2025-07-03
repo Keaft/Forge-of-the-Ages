@@ -19,6 +19,7 @@ This update is centered around optimization! I've updating mods, replacing some 
 - Attempted to make the boss summon message only appear once for each player, instead of unintentionally multiplied by every player in radius.
 - Restored hand checking for boss summoning item.
 - Fixed some recipes with the ice and fire update.
+- Lower the FutureMC bee spawn weight.
 
 ### **__Mod(s) Added:__**
 - Serene Tweaks (SereneTweaks-1.0)

@@ -72,7 +72,7 @@
         "mobs": [
             {
                 "mob": "futuremc:bee",
-                "weight": 200,
+                "weight": 100,
                 "groupcountmin": 1,
                 "groupcountmax": 2
             }
