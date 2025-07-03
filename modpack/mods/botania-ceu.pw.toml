@@ -1,0 +1,13 @@
+name = "Botania CEu"
+filename = "Botania r1.10-368.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab0ca367e117e313abdf17e2a8706f2dbdd8799b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6117035
+project-id = 1179448

@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "ed5b14c5cfc8ae9fb4b1d38adb5e28dd93c3ce8a4ca53b0cd5c9603b46edb32f"
+hash = "208c607ecddba93027e8fb2a37d3c9ca6fced0613761516eeedbcb076f787dd5"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1022,7 +1022,7 @@ hash = "3fde62359ba92e552210b449943bf7450fc6d58b762adc1f281c6c98679d6633"
 
 [[files]]
 file = "config/mutantbeasts.cfg"
-hash = "4c774806869d8c181556393655e2b0a762c956c4ca05739297ca392b5b801aa0"
+hash = "b84f059ab860137bdd3b72aab972c1e3e262212bc440e73926418b00bb6a39b9"
 
 [[files]]
 file = "config/natura.cfg"
@@ -1837,8 +1837,8 @@ hash = "9b29f8c649940c076771dae2b5de364eaa3b44d65a5f993bdc3482623c82e9b8"
 metafile = true
 
 [[files]]
-file = "mods/botania.pw.toml"
-hash = "96de7b241688c8771621d9ef3dcc4eb565389739196334bea745043375dbc03a"
+file = "mods/botania-ceu.pw.toml"
+hash = "237f8df02d4985719f4b7d7a7957be67ef8828163366217bb95fdaf0d4c5ad45"
 metafile = true
 
 [[files]]
