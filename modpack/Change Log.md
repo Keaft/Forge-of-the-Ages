@@ -20,6 +20,7 @@ This update is centered around optimization! I've updating mods, replacing some 
 - Restored hand checking for boss summoning item.
 - Fixed some recipes with the ice and fire update.
 - Lower the FutureMC bee spawn weight.
+- Added recipe for Overgrown Stone.
 
 ### **__Mod(s) Added:__**
 - Serene Tweaks (SereneTweaks-1.0)
