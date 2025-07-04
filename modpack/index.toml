@@ -2647,17 +2647,17 @@ metafile = true
 
 [[files]]
 file = "mods/packagedastral.pw.toml"
-hash = "e43506f207a03ffb1215f0a385d7b95a9076d0c854f4e620ac2c07d65caf5730"
+hash = "d4703dded2f7d9885ef3a8f6add0588cf04a877875872b251e0cae63c27b3e80"
 metafile = true
 
 [[files]]
 file = "mods/packagedauto.pw.toml"
-hash = "71fbe0aca0a3d357da0eb3c1b245b01dc81c2fdadc8455bc4f14d042a07a7416"
+hash = "5cb9d2a6cf8e0e7797ec708b9aaf3b0df776a9d865cf4710eaebb782fc21ad3b"
 metafile = true
 
 [[files]]
 file = "mods/packageddraconic.pw.toml"
-hash = "cca8190ead2bb98405664c96eee3781113004e10979d03945f219a7327fb4f6b"
+hash = "cd2320caa3cabbbd6679f9c85608edb2879080a145b6f14b8dfb7b2b276e8fbd"
 metafile = true
 
 [[files]]
@@ -2682,7 +2682,7 @@ metafile = true
 
 [[files]]
 file = "mods/pillar-patched.pw.toml"
-hash = "799c692ba048ca5f5163dd74e1290640d92cd7218c5d3c01e6751ef2e1c92c04"
+hash = "fe2f2cd621be9dbec597ec3789d28258f05824cc3881e2a0774e2e972064c595"
 metafile = true
 
 [[files]]

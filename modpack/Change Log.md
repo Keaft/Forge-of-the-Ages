@@ -41,7 +41,7 @@ This update is centered around optimization! I've updating mods, replacing some 
 - The Twilight Forest - Deforestation Edition (twilightforest-1.12.2-3.13b)
 - BetterBuildersWandsFix (BetterBuildersWandsFix-1.2.3)
 - Worse Hurt Timer (WorseHurtTimer-1.12.2-1.5.0.3)
-- PackagedDraconic (PackagedDraconic-1.12.2-1.0.3.20)
+- PackagedDraconic (PackagedDraconic-1.12.2-1.0.3.21)
 - Waystone Folders (Folders for Waystones) (WaystoneFolders-0.3)
 - Entity Culling Fabric/Forge (entityculling-1.12.2-1.6.3)
 - BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.2.3)
@@ -102,15 +102,15 @@ This update is centered around optimization! I've updating mods, replacing some 
 - JourneyMap: journeymap-1.12.2-5.7.1p2 -> journeymap-1.12.2-5.7.1p3
 - Fishing Made Better: FishingMadeBetter-1.12.2-2.2.6 -> FishingMadeBetter-1.12.2-2.2.7
 - Red Core: !Red-Core-MC-1.8-1.12-0.6-Dev-4 -> !Red-Core-MC-1.8-1.12-0.7-Dev-1
-- Pillar Patched: Pillar-1.3.0 -> Pillar-1.3.1
+- Pillar Patched: Pillar-1.3.0 -> Pillar-1.3.2
 - Quark: RotN Edition: QuarkRotN-r1.6-188 -> QuarkRotN-r1.6-190
 - Alfheim Lighting Engine: Alfheim-1.4-Dev-1 -> Alfheim-1.6
 - Scape and Run: Parasites: SRParasites-1.12.2v1.9.18 -> SRParasites-1.12.2v1.9.21
-- PackagedAuto: PackagedAuto-1.12.2-1.0.13.47 -> PackagedAuto-1.12.2-1.0.18.63
+- PackagedAuto: PackagedAuto-1.12.2-1.0.13.47 -> PackagedAuto-1.12.2-1.0.18.64
 - MmmMmmMmmMmm (Target Dummy): MmmMmmMmmMmm-1.12-1.14 -> TestDummy2-2.0.4
 - Fish's Undead Rising: Fish's Undead Rising-1.4.2 -> Fish's Undead Rising-1.5.2
 - Legendary Tooltips [Neo/Forge]: LegendaryTooltips-1.12.2-1.1.10 -> LegendaryTooltips-1.12.2-1.1.11
-- PackagedAstral: PackagedAstral-1.12.2-1.0.2.13 -> PackagedAstral-1.12.2-1.0.3.19
+- PackagedAstral: PackagedAstral-1.12.2-1.0.2.13 -> PackagedAstral-1.12.2-1.0.3.20
 - HammerLib: HammerLib-1.12.2-12.2.50 -> HammerLib-1.12.2-12.2.58
 - Simple Voice Chat: voicechat-forge-1.12.2-2.5.15 -> voicechat-forge-1.12.2-2.5.33
 - Reach Fix: ReachFix-1.12.2-1.0.9 -> ReachFix-1.12.2-1.1.3
