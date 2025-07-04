@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "980fec221a0b3ee87ad515d1f5fc2658858a3d4e5c30b522c12961fdba309b7b"
+hash = "a9c3a82d1342ea9c640781e8d43679e89da1f89b079371a6a9ed9cf63a260c21"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -231,6 +231,22 @@ hash = "401c00f96d271f94cc952aaee2009e1ea1a417fabb50b14c12bd245134b95683"
 [[files]]
 file = "config/enderio/recipes/user/soul_vial_blacklist.xml"
 hash = "521c0379b7e48971b7c16aad4f4199f11c7cb6bc8a600ebe50a5ba7854c98f80"
+
+[[files]]
+file = "config/endermodpacktweaks/features.cfg"
+hash = "e7b38d8b658e978121aa6c87f6b88599195d12db4bdb8e0de899bfe4f7d0e958"
+
+[[files]]
+file = "config/endermodpacktweaks/minecraft.cfg"
+hash = "04594813cd5bc35155621b1eb7279f0280d81ea482e7fbb80e9638aea284c162"
+
+[[files]]
+file = "config/endermodpacktweaks/modpack.cfg"
+hash = "480ac86749a3707a21f7cbddfbb30db4d53873b51143fd7b14bdae481f15d31a"
+
+[[files]]
+file = "config/endermodpacktweaks/tweaks.cfg"
+hash = "4d07b2e04152a5923c14e2d93e147e2e12e51f9987f4ed3af259950fac8e62d0"
 
 [[files]]
 file = "config/entityculling.cfg"
