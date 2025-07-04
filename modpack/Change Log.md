@@ -1,5 +1,5 @@
 ***Before Updating ensure that you take a backup of your world!***
-This update is centered around optimization! I've updating mods, replacing some with more maintained versions, and made the massive switch from Forge Mod Loader to Cleanroom.
+This update is centered around optimization! I've updating mods, replacing some with more maintained versions, and made the massive switch from Forge Mod Loader to Cleanroom. There are also some content additions and various minor tweaks to polish up the pack.
 
 ### **__Configuration changes:__**
 - Removed various tinkers tweaks from Sledgehammer and Universal Tweaks since it's handled by Tinkers' Antique now.
@@ -61,8 +61,6 @@ This update is centered around optimization! I've updating mods, replacing some 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
 - Just Enough Items (JEI) (jei_1.12.2-4.16.1.1013) Replaced by Had Enough Items
-- Millenaire (millenaire-8.1.2) Hopefully replaced by Sim-U-Kraft Reloaded.
--- Millenaire-JEI (millenairejei-1.12.2-1.0.0-beta001)
 - Mouse Tweaks (MouseTweaks-2.10.1-mc1.12.2) Replaced by Mouse Tweaks Unofficial.
 - NetherPortalFix (NetherPortalFix_1.12.1-5.3.17) Handled by Universal Tweaks.
 - RandomPatches (Forge) (randompatches-1.12.2-1.22.1.10) Handled by Universal Tweaks.
