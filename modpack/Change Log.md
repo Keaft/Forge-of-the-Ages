@@ -22,6 +22,7 @@ This update is centered around optimization! I've updating mods, replacing some 
 - Lower the FutureMC bee spawn weight.
 - Added recipe for Overgrown Stone.
 - Recipes to strip and re-add color to Quark Rune stones via botania and astral sorcery.
+- Enabled Oredict search mod on HEI.
 
 ### **__Mod(s) Added:__**
 - Serene Tweaks (SereneTweaks-1.0)
