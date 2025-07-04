@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "dab04f09dc2c3ea87e33dd5c093c6a8ad0068f512f329c67b7647a870bb91ce7"
+hash = "980fec221a0b3ee87ad515d1f5fc2658858a3d4e5c30b522c12961fdba309b7b"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -934,7 +934,7 @@ hash = "ce6da6a87d2a9fee072e476eb6716628d810a3c8ed765558ae54f57552e0365c"
 
 [[files]]
 file = "config/incontrol/potentialspawn.json"
-hash = "0c91254f0a8bb256b78c614f42be2839580373440a9ea10d10cd2c5bf47ffbb4"
+hash = "f154841b3edf41f29a55c6ef4c3f75efba063314e6b978147447586ba47e3f36"
 
 [[files]]
 file = "config/incontrol/spawn.json"
@@ -1747,6 +1747,11 @@ hash = "98ff97a3743b42d3a1237997ce7db804ca772dae2edbb8186d90516701ed7be5"
 metafile = true
 
 [[files]]
+file = "mods/assetmover.pw.toml"
+hash = "524023c2f9e70e261fe357d03c56936e0207b723cda6191ff2e1a7b53e1836fe"
+metafile = true
+
+[[files]]
 file = "mods/astral-sorcery.pw.toml"
 hash = "82fbfe7ad86f3ef8a0085f86e1b23fb3ddd845fd55a2eb495a593306dd1a281f"
 metafile = true
@@ -1967,11 +1972,6 @@ hash = "920813af35febabbbef23879f800feeba4d308c11c0fec3728b2629d6bed8692"
 metafile = true
 
 [[files]]
-file = "mods/controlling.pw.toml"
-hash = "ac423dbdf07ee4c91d05fdebfd3e0849ae9602925a39cac3dac0a35fd742c290"
-metafile = true
-
-[[files]]
 file = "mods/cookiecore.pw.toml"
 hash = "c3e85d692b26777efb638eeb33b2a08d67295f699c83d546af675474dfc45f41"
 metafile = true
@@ -2084,6 +2084,11 @@ metafile = true
 [[files]]
 file = "mods/ender-io-tic.pw.toml"
 hash = "0f762a79cdf06a4ee753a6863f522fa55ed5afe046e69b22c65ac125c152fd7b"
+metafile = true
+
+[[files]]
+file = "mods/ender-modpack-tweaks.pw.toml"
+hash = "acf4a06fbf39c30b33a63623a9354bbed45508f765a6527e40cee83d5fd5b309"
 metafile = true
 
 [[files]]
@@ -5003,11 +5008,15 @@ hash = "17efacfd12264d1a41376fd3a4ba8fe9ccf20e78612f187fc45ce48307063d0d"
 
 [[files]]
 file = "scripts/add.zs"
-hash = "3261f3c39bd43e4c71bc2610be1b9fe3354beb9546addf8a97026c9ab668507a"
+hash = "3a3fad052cbc4c23d4b24bda726b02132af0ca986ddbd7b074e38b03e57d009b"
 
 [[files]]
 file = "scripts/appliedenergistics.zs"
 hash = "1560265380783410aef35669404aaa0c2fa5388848738c87fee25de36762cf39"
+
+[[files]]
+file = "scripts/astral_sorcery.zs"
+hash = "149ae853e4435efc12eb890a8dd5654288ef258d166c91eac91496c27affc7f9"
 
 [[files]]
 file = "scripts/bloodmagic.zs"
@@ -5031,7 +5040,7 @@ hash = "948cdc4fef7f926f702b94c6e4fb0e5c5361e1b1260cef8934764fa60632d608"
 
 [[files]]
 file = "scripts/botania.zs"
-hash = "32edad3e6344bfd36cc79ecc56aa2fcc6ad5f6d3d9d4eb70b9a0fd271fa66609"
+hash = "6a74530a23692efef5f0fd5c06a0e6251f6685603fe586293908828e9115d3af"
 
 [[files]]
 file = "scripts/botania_materials_contenttweaker.zs"

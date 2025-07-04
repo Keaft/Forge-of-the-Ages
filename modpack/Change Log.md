@@ -54,6 +54,8 @@ This update is centered around optimization! I've updating mods, replacing some 
 - Botania CEu (Botania r1.10-368)
 - Patchouli Books (!mixinbooter-10.6)
 - Dynamic Lights (DynamicLights-1.12.2)
+- Ender's Modpack Tweaks (endermodpacktweaks-0.5.9)
+-- AssetMover (assetmover-2.5)
 
 ### **__Mod(s) Removed:__**
 - FoamFix (foamfix-0.10.15-1.12.2) Replaced by VintageFix
@@ -78,6 +80,7 @@ This update is centered around optimization! I've updating mods, replacing some 
 - Shadowfacts' Forgelin (Forgelin-1.8.4), Replaced by Forgelin-Continuous.
 - Mutant Beasts (MutantBeasts-1.12.2-1.0.2), Replaced by Mutant Creatures Legacy.
 - Botania (Botania r1.10-364.4), Replaced by Botiania CEu.
+- Controlling (Controlling-3.0.12.4), Replaced by Ender's Modpack Tweaks.
 
 ### **__Mod(s) Updated:__**
 - Universal Tweaks: UniversalTweaks-1.12.2-1.11.0 -> UniversalTweaks-1.12.2-1.15.2
