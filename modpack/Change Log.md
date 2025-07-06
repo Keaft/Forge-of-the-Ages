@@ -1,7 +1,6 @@
 ***Before Updating ensure that you take a backup of your world!***
+Hotfix, for potential Emojicord crash, as a more cosmetic option I've just removed it.
 
-### **__Configuration changes:__**
-- Disabled cockatrice spawning. I thought I had done this already...
+### **__Mod(s) Removed:__**
+- Emojicord (Emojicord-1.12.2-1.1.1.45-universal)
 
-### **__Mod(s) Added:__**
-- Gnetum (gnetum-1.2.5)

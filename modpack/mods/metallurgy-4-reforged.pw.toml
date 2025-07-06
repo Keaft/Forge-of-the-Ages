@@ -1,11 +1,11 @@
 name = "Metallurgy 4: Reforged"
-filename = "Metallurgy-4-Reforged-1.4.1.jar"
+filename = "Metallurgy-4-Reforged-1.3.9.jar"
 side = "both"
 pin = true
 
 [download]
 hash-format = "sha1"
-hash = "fbdb62a484a0f2274bf6fd10172fd52b5a14e22a"
+hash = "914bdbf8d0b80a8da52c4f84587510a9844f358f"
 mode = "metadata:curseforge"
 
 [update]
