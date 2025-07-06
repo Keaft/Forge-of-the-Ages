@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "a9c3a82d1342ea9c640781e8d43679e89da1f89b079371a6a9ed9cf63a260c21"
+hash = "e2c7c1e43d1e4a6e3c0555f961706349bfa83964e04288ce072811efbaeb5f0f"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -974,7 +974,7 @@ hash = "057fff384a647ae8972255e00411a7c18b1bbefad2ea4f1c3a490a1455cc5be6"
 
 [[files]]
 file = "config/jei/jei.cfg"
-hash = "f57f9071bad8de294d01298c90b08abb0045610fb3c89f60965d3ca8b0334d22"
+hash = "67bb5cb586bdf06a8b160354811192d925b91d95bc9c2c796b5f68a350df297b"
 
 [[files]]
 file = "config/letmesleep.cfg"
@@ -2374,7 +2374,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "9c0844f9c69ec4b5a7852e57c909cd2edbd9f48a86f6d2c35d6cca846b15ffff"
+hash = "14aeab852112de6bbf1c3b73f109965ebbdf8912d99fbaf7419bc144d73bd069"
 metafile = true
 
 [[files]]
@@ -2508,7 +2508,7 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "37fe61ea4cd64586c17ce2ffc8754c4a743ca2f428c579fb956757325af1e9bc"
+hash = "5382c0423081da4033cbe853e9f1ec9cfb0fbf3e2fbcfc6697a4cebf6ab91b79"
 metafile = true
 
 [[files]]
