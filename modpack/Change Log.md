@@ -5,7 +5,3 @@
 
 ### **__Mod(s) Added:__**
 - Gnetum (gnetum-1.2.5)
-
-### **__Mod(s) Removed:__**
-
-### **__Mod(s) Updated:__**

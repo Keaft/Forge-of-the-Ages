@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "e2c7c1e43d1e4a6e3c0555f961706349bfa83964e04288ce072811efbaeb5f0f"
+hash = "0b9fcb8efe9b22f6c3836275adb5d2cf172daafa696617a5e8ea4bff11fe13ea"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -942,7 +942,7 @@ hash = "4538c55abe160b32fde89058f427b7b6dfc8be1135b0e1b665517286c69c5e64"
 
 [[files]]
 file = "config/ice_and_fire.cfg"
-hash = "eeaefc9db3e3410621a0c628d4a375f73da6c5d2afc1b04d8045f659bb8b5eca"
+hash = "537bb21da1f16fd290d153ea4a50d39bd08e6eefe645b6daa6177312642bacff"
 
 [[files]]
 file = "config/incontrol/loot.json"
@@ -2379,7 +2379,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "14aeab852112de6bbf1c3b73f109965ebbdf8912d99fbaf7419bc144d73bd069"
+hash = "326654c863680819dd11cc135d75dd89008653163105bf38e08042b1c13fd8ce"
 metafile = true
 
 [[files]]
@@ -2513,7 +2513,7 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "5382c0423081da4033cbe853e9f1ec9cfb0fbf3e2fbcfc6697a4cebf6ab91b79"
+hash = "9165fd4043c5d3143a5ccbaab0db73df8e2766f92adfb4709cb270a686eeae38"
 metafile = true
 
 [[files]]
