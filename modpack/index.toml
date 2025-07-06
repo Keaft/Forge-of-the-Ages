@@ -2238,6 +2238,11 @@ hash = "4e87ea91ac584b6c91dbac23bd05db9be1a848e47dda3524224bb189f4fe5b10"
 metafile = true
 
 [[files]]
+file = "mods/gnetum.pw.toml"
+hash = "0382cec4155d4fc5c4533ebe2ef96c44c42d68992e4bc44d3f8c438bbaece169"
+metafile = true
+
+[[files]]
 file = "mods/guide-api.pw.toml"
 hash = "84a12cab793e2dd8eeec5971365bc25b4a0ba26a4f6489d908a31f30162c9fdc"
 metafile = true
