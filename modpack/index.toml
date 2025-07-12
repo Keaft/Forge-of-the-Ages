@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "5e80a32f59a761d7d4e4c30ea60c83ffa4266bfbb4c638d64e65da05058585ab"
+hash = "f8cba95a7b43096fe127c97a830651ac6dc9599566625df96a004aa7b571bf22"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -942,7 +942,7 @@ hash = "4538c55abe160b32fde89058f427b7b6dfc8be1135b0e1b665517286c69c5e64"
 
 [[files]]
 file = "config/ice_and_fire.cfg"
-hash = "537bb21da1f16fd290d153ea4a50d39bd08e6eefe645b6daa6177312642bacff"
+hash = "ff67f04d50a673280b02bfb16626a11b8b6824522df3027ea4cf5a6981227f1c"
 
 [[files]]
 file = "config/incontrol/loot.json"
@@ -1114,7 +1114,7 @@ hash = "7b609f284f78e600dda77b36068b0453b48d70b595812aea40525d1556d73337"
 
 [[files]]
 file = "config/snowrealmagic.cfg"
-hash = "d9a450d5bd4e5f81a7466aa10419f8ce8d29508baebd0c1d0738b1f6169e0a3b"
+hash = "22e5328831c9a2e8c2830f4452844af49c7ff9ec2b751600145dbb9819af70fc"
 
 [[files]]
 file = "config/solcarrot.cfg"

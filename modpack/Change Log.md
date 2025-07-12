@@ -5,6 +5,7 @@ This update fixes issues found in play. Namely server and client crashes through
 
 * Lowered the spawn rate of sweet berry bushes by FutureMC.
 * Snow real magic no longer "logs," as in waterlogged, fence blocks as it causes them to be destroyed due to errors.
+* Myrmex disabled again. They still cause significant lag if a nearby player has their chunks loaded.
 
 ### **__Mod(s) Added:__**
 
