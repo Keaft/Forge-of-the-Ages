@@ -1,0 +1,13 @@
+name = "[Backport] 1.13 Bubble Columns for 1.12"
+filename = "1.13WaterMechanicsBackport-1.0.5-1.12.2.jar.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d9179d4419b8bdfb505402036f78ab94ac067f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3593839
+project-id = 327277

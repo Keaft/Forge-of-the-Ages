@@ -934,7 +934,7 @@ hash = "33a32c12e351a96a79463baa6b0f0d556d110e3143947bc83043ede7a7cc233c"
 
 [[files]]
 file = "config/futuremc/futuremc.cfg"
-hash = "53ed657dc4576928ec2a8efbcfdb4013d465e131c8a85928e9fada3b596f9015"
+hash = "827d4a458adb1f806fbcb028d79ef80ff06f0e13eee5605f2f920cb7168e0d90"
 
 [[files]]
 file = "config/harvestcraft.cfg"
@@ -1384,11 +1384,6 @@ hash = "0a53e46092820fa6ab66465dc76ae89b27e79e1734dd918f7475dbfeb85e63b2"
 metafile = true
 
 [[files]]
-file = "mods/betterendforge-backport.pw.toml"
-hash = "5f5bf714602b940ffb0d54814928c665b432df4a9a78745225fbb758184994b8"
-metafile = true
-
-[[files]]
 file = "mods/betternether-rotn-edition.pw.toml"
 hash = "97cc1057068534be01a143151a6825e87d6b53317e1dc7215f044ee496d6610a"
 metafile = true
@@ -1431,6 +1426,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "e6b6f908221c3ff5f821e0f648a05f037ca100a242fb3d0122db9209e2531be2"
+metafile = true
+
+[[files]]
+file = "mods/bubble-column-elevator-backport.pw.toml"
+hash = "90e3980f8de5896057492a99873cf2519a75c0e4cdd446eab33bf9211d64b7ca"
 metafile = true
 
 [[files]]
@@ -1490,7 +1490,7 @@ metafile = true
 
 [[files]]
 file = "mods/cleanroom-relauncher-unofficial.pw.toml"
-hash = "b759f492c6f5c4d77cb3c4605c664fc37484406f4c6cb5d555831fb5cd54cd60"
+hash = "09b5802991844f3ca59cce4f0d5b1fbba8655a64ccbce14a1e1978f27c053df3"
 metafile = true
 
 [[files]]
@@ -1710,7 +1710,7 @@ metafile = true
 
 [[files]]
 file = "mods/fermiumbooter.pw.toml"
-hash = "59876ef658d18c4d68d3dc8e0f60be6e8c8c52188e29d4063518eb0300bff079"
+hash = "04a5001911e62b0a7169b407f09e7a1f0376f010c1490752d6234b71345c870b"
 metafile = true
 
 [[files]]
@@ -1770,7 +1770,7 @@ metafile = true
 
 [[files]]
 file = "mods/fugue.pw.toml"
-hash = "f628a30d9acad256c5a5312efb79e0edbbe699ea73c32acc024878f2b5c9a8d3"
+hash = "88295e9aad606850288bda79fc5353acdcba70eb7050388f5fcc0e8d31a7f875"
 metafile = true
 
 [[files]]
@@ -1820,7 +1820,7 @@ metafile = true
 
 [[files]]
 file = "mods/ice-and-fire-rotn-edition.pw.toml"
-hash = "54785b16f9b829a2b33cc82fa3efb2309b9e948ec2c873c36a2ccabd37625e82"
+hash = "fbd457377169e4aeee3d7397bcdb65cc23af506ee09c98db46073748cb337fbb"
 metafile = true
 
 [[files]]
@@ -2169,7 +2169,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisethreader.pw.toml"
-hash = "86a0f4723fc2db5871a73182875d12e10e5f96d0cfdf0e63a1f5e395d1fea307"
+hash = "17eac7eb305119ebcc7d3fb9ef2f9e5d4763a356f025803db5cbde91e90ca255"
 metafile = true
 
 [[files]]
@@ -2229,7 +2229,7 @@ metafile = true
 
 [[files]]
 file = "mods/packageddraconic.pw.toml"
-hash = "cd2320caa3cabbbd6679f9c85608edb2879080a145b6f14b8dfb7b2b276e8fbd"
+hash = "a465e61292d99e2ba6e00e5c895221efbe6c98a54f3a16af7178690e5dac9920"
 metafile = true
 
 [[files]]
@@ -2389,7 +2389,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "baba6fb050f39f68a064a332fd83637921151f513bde96b20e8571e12509bf48"
+hash = "fd8c459b3b7e87a7a3daa6c04957fde9d635b99a55528a3c419a4ffd93a990a9"
 metafile = true
 
 [[files]]
@@ -2489,7 +2489,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-antique.pw.toml"
-hash = "f487dca506d15e4dc748a56f9750c5ea76c3f87e2a160c8e864788f23d1371c7"
+hash = "aa06c64c9df8507c3e352a8a6288004bfdf069a5a2fcd2797b8fc019ac7ddd01"
 metafile = true
 
 [[files]]
