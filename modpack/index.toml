@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "4e8fd41d103c8032206927922799a7f4a710f97b4637ffa44deffeb1e72fe299"
+hash = "5e80a32f59a761d7d4e4c30ea60c83ffa4266bfbb4c638d64e65da05058585ab"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
