@@ -1,12 +1,12 @@
 name = "Forge of the Ages"
 author = "Keaft"
-version = "0.26r"
+version = "0.28r"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "72fae1a7fab8eaf3a95d559c24785cf93d1e9953bb72bb740d5ba305291b6f5c"
+hash = "a773c6a0101ab7f0e8686cdea5d4c17c584978beec652420c15b57cc6b57cee6"
 
 [versions]
 forge = "14.23.5.2860"
