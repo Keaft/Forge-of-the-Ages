@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "ca185d07bf11b07556136313de2153bfe531d4fcb086cf5d5b1e1de6fc10319c"
+hash = "0789b1cd7963b09a65b9087af589424fa8581363bef105131439d2abd65075e0"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1122,7 +1122,7 @@ hash = "9bae829a847e7dd5152918519a8c1492de07233fa7d5dc646955f734dd2ffa9d"
 
 [[files]]
 file = "config/spiceoflife.cfg"
-hash = "fbb8a683498fae7b4371e2210b1cc353021d27288f5a254516d71acc1f3f399c"
+hash = "90c6c850ed4af60b278c9920a86bc79e655c777219556ed6d7361dd648141f40"
 
 [[files]]
 file = "config/srparasites/SRParasites.cfg"
@@ -1930,7 +1930,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "76f38619fe3e1eaf0ba418fca98082f1fb73a08d6f8758e5f113b8396b2cec42"
+hash = "8f45241b646a68aec43cf85f0abba3b5d842e17018d70bf3beb4bb877ebc93eb"
 metafile = true
 
 [[files]]
@@ -2064,7 +2064,7 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "69fb77092d4b3cac87753a1efe921a3094bc3bc6e2a37b35e81dacf34efff346"
+hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
 metafile = true
 
 [[files]]
