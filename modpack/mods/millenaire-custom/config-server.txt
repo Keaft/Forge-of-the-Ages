@@ -29,7 +29,7 @@ min_village_distance=1500
 
 //Distance min villages/bâtiments; Distance minimale entre villages et bâtiments isolés générés. Défaut: 300.
 //Min Village-Lone Building Distance; Minimum distance between generated villages and lone buildings. Default: 300.
-min_village_lonebuilding_distance=800
+min_village_lonebuilding_distance=1500
 
 //Distance min entre bâtiments; Distance minimale entre deux bâtiments isolés générés. Défaut: 600.
 //Min Lone Building Distance; Minimum distance between lone buildings. Default: 600.
@@ -93,7 +93,7 @@ raiding_rate=20
 
 //Envoie de statistiques; Autoriser l'envoie de statistiques anonymes à Millénaire (version, langue...).
 //Statistics; Whether to authorize the sending of anonymous statistics (version, language...) to the Millénaire.
-send_statistics=true
+send_statistics=false
 
 //Page Progrès; Autoriser l'envoie de votre login Minecraft à Millénaire, pour pouvoir afficher vos progrès sur millenaire.org.
 //Advancements Page; Whether to send your Minecraft login to the Millénaire server, to allow your advancements to be visible on millenaire.org.
