@@ -17,11 +17,11 @@ mods.iceandfire.recipes.removeIceDragonForgeRecipe(<iceandfire:dragonsteel_ice_i
 // mods.iceandfire.recipes.addIceDragonForgeRecipe(<input>, <bloodInput>, <output>);
 
 // - Fire Forge
-mods.iceandfire.recipes.addFireDragonForgeRecipe(<enderio:item_material:20>, <enderio:item_material:20>, <thermalfoundation:material:1024> * 2, true);
-mods.iceandfire.recipes.addFireDragonForgeRecipe(<botania:manaresource:7>, <iceandfire:fire_dragon_blood>, <iceandfire:dragonsteel_fire_ingot>, true);
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<enderio:item_material:20>, <enderio:item_material:20>, <thermalfoundation:material:1024> * 2, false);
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<botania:manaresource:7>, <iceandfire:fire_dragon_blood>, <iceandfire:dragonsteel_fire_ingot>, false);
 
 // - Ice Forge
-mods.iceandfire.recipes.addIceDragonForgeRecipe(<enderio:item_material:20>, <enderio:item_material:20>, <thermalfoundation:material:1025> * 2, true);
-mods.iceandfire.recipes.addIceDragonForgeRecipe(<botania:manaresource:7>, <iceandfire:ice_dragon_blood>, <iceandfire:dragonsteel_ice_ingot>, true);
+mods.iceandfire.recipes.addIceDragonForgeRecipe(<enderio:item_material:20>, <enderio:item_material:20>, <thermalfoundation:material:1025> * 2, false);
+mods.iceandfire.recipes.addIceDragonForgeRecipe(<botania:manaresource:7>, <iceandfire:ice_dragon_blood>, <iceandfire:dragonsteel_ice_ingot>, false);
 
 print("Initialized 'iceandfire'");
