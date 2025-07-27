@@ -427,7 +427,7 @@
               "function": "tombstone:delayed_nbt_loot"
             }
           ],
-          "name": "tombstone:familiar_receptacle"
+          "name": "tombstone:receptacle_of_familiar"
         },
         {
           "entryName": "tombstone:fishing_rod_of_misadventure_loot",

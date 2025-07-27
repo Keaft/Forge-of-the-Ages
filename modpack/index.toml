@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "0789b1cd7963b09a65b9087af589424fa8581363bef105131439d2abd65075e0"
+hash = "47436a983ec7af1b858d8a2f531663f0314294120897a56309692d758351f7d9"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -982,7 +982,7 @@ hash = "8e75031a8618b15a710019b594a84c0c031933c6a75a5a4e5a04fdebb67d4e26"
 
 [[files]]
 file = "config/lootr.cfg"
-hash = "f500bff7040abafba2adf725bf0f9a0473787f3e0c7ec45a5ba2584f6ee941ac"
+hash = "fde6e2c7384bcd3c5100b5f63aed56d92ac692f8e7b6bd7fb6f37deb8a717f26"
 
 [[files]]
 file = "config/metallurgy_reforged/config_pack_version"
@@ -1038,7 +1038,7 @@ hash = "3fde62359ba92e552210b449943bf7450fc6d58b762adc1f281c6c98679d6633"
 
 [[files]]
 file = "config/mutantbeasts.cfg"
-hash = "b84f059ab860137bdd3b72aab972c1e3e262212bc440e73926418b00bb6a39b9"
+hash = "17cb8bd5d45b064543ee77dd3ce17385ae3be6cf38f8cd382299aba9c25be8a4"
 
 [[files]]
 file = "config/natura.cfg"
@@ -1134,11 +1134,11 @@ hash = "df0ccaa5433a3c29bff8aea6f0e0affce9f59e0b92d0b42463546de1a4963916"
 
 [[files]]
 file = "config/srparasites/SRParasitesSystems.cfg"
-hash = "fe921a454eddae7b21a2608a76eafcc2c246bd23bab39b6d4a0fb1c38fe00e3a"
+hash = "bd29576e25b57aa01628597e5f36e27bf50ea1c7dc70982ccb289d20146eb219"
 
 [[files]]
 file = "config/srparasites/SRParasitesWorld.cfg"
-hash = "37ed6cb7da02f305ace24c0df920feede319d62452e719040e5a2234feee5c3f"
+hash = "9562302e47b84f23458a6f7cad30db4194645a93c7e383109a9215003dda271b"
 
 [[files]]
 file = "config/stackie.cfg"
@@ -1170,7 +1170,7 @@ hash = "d25492e86d543efc37bd1ca20b4836b58b9a766ace1d544f144593567c497290"
 
 [[files]]
 file = "config/tconstruct.cfg"
-hash = "2459e6efa7f0d91460ace32cc2dd0f4d9790aab8df76649b6fed68db7257b383"
+hash = "8c1cc0fd13de23a454993f7903dbbc41f1e76428b98c1a3182d1c9a6c16a11d6"
 
 [[files]]
 file = "config/thebetweenlands/config.cfg"
@@ -1930,7 +1930,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "33a655a65cd4b77cbc2178e359d24aa3e3b7db02567c367ba383e3355a862c5b"
+hash = "8f45241b646a68aec43cf85f0abba3b5d842e17018d70bf3beb4bb877ebc93eb"
 metafile = true
 
 [[files]]
@@ -2064,12 +2064,12 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "13342cf2f1afad36941646dfe535bd0b866bcbd95c64f6ffd18c4b1bbc2f9a23"
+hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
 metafile = true
 
 [[files]]
 file = "mods/millenaire-custom/config-server.txt"
-hash = "9fae2b9deeebb892f1a97602d6528ea23fcbf6ec62cb5059394ca5a1d6c91c96"
+hash = "3f95c249795796af34e428460e5881e3f42ccb2c5c7fe52dfd4ca5b504a51aee"
 
 [[files]]
 file = "mods/millenaire-custom/config.txt"
@@ -2856,7 +2856,7 @@ hash = "e66674610e7d73ef266a3e0c9133cb59d4baf1e6dfece7bfe9e6aa924abc27ae"
 
 [[files]]
 file = "pillar/mining_site.json"
-hash = "6e1660c70a28b7355d060436b6579e065ce16d68a76d9ca67526853a24537564"
+hash = "4fcb3d1547c21933cae8b7d16fed6694b19e9e1db268f502edb3cec18a98975d"
 
 [[files]]
 file = "pillar/mining_site_crane_lift_1.json"
@@ -4652,7 +4652,7 @@ hash = "d59e4ed6489dfe8b87c74172dc708a62590d0d92aa3b167c27c31c4013c0a158"
 
 [[files]]
 file = "scripts/iceandfire.zs"
-hash = "04620d6841fdef1d901a5f5ab38ad5986231b5763827507f4bfdce1e16f5e8c1"
+hash = "8678d45cb36b664b3fa28cd3641b9277202279d92297f8ee75ff7c66352156cf"
 
 [[files]]
 file = "scripts/information.zs"

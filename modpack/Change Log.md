@@ -7,7 +7,8 @@
 - Scape and Run parasites should no longer infest the betweenlands portal.
 - Millenaire villages should spawn farther away from eachother.
 - The mining site dungeon should no longer be allowed to spawn too low crashing the game.
-- Ice and fire recipes should be fixed.
+- Ice and fire dragon recipes should be fixed.
+- Fix Pillar Loot tables with adjusted item names.
 
 ### **__Mod(s) Added:__**
 
