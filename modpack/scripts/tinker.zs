@@ -16,6 +16,11 @@ mods.tconstruct.Fuel.registerFuel(<liquid:pyrotheum> * 2, 300);
 
 // - Melting
 //mods.tconstruct.Melting.addRecipe(ILiquidStack output, IIngredient input, @Optional int temp);
+
+// Chocolate Quest
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 144, <cqrepoured:dagger_iron>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron> * 432, <cqrepoured:great_sword_iron>);
+
 // Extra Stones
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:1>, 611);
 mods.tconstruct.Melting.addRecipe(<liquid:stone> * 72, <minecraft:stone:2>, 611);

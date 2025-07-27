@@ -8,7 +8,8 @@
 - Millenaire villages should spawn farther away from eachother.
 - The mining site dungeon should no longer be allowed to spawn too low crashing the game.
 - Ice and fire dragon recipes should be fixed.
-- Fix Pillar Loot tables with adjusted item names. (This fixes the mining site dungeon loot for instance.)
+- Fix Pillar Loot tables with adjusted item names. (This fixes the mining site dungeon loot for instance)
+- Chocolate Quest Iron dagger and greatsword now have tinkers smeltery melting recipe.
 
 ### **__Mod(s) Added:__**
 
