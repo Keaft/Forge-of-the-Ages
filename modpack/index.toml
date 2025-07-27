@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "47436a983ec7af1b858d8a2f531663f0314294120897a56309692d758351f7d9"
+hash = "8571257e7ea8a41543a5d16360fe74141506d63183857bbf200df2d0a1bc359d"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -178,7 +178,7 @@ hash = "cba133ba6ce78679471b1d29260c126f5b3d357d751f3b3ff73d9fc1790f8130"
 
 [[files]]
 file = "config/cofh/world/01_thermalfoundation_ores.json"
-hash = "af1fdd54129a520d70e92ed4a5106a42a3730478ecc633ae445137725b547267"
+hash = "53102572f30cb5f1fc663df13fc91f7887bd5b22db4f6317e22e061a3a4db9ad"
 
 [[files]]
 file = "config/cofh/world/02_thermalfoundation_oil.json"
@@ -190,7 +190,7 @@ hash = "59b06d7a6362e0937c63cb7716cdf043ff84fcd945b3536293efb6e0c1b8fa0d"
 
 [[files]]
 file = "config/cofh/world/04_the_betweenlands_ores.json"
-hash = "204d5a189e9af161d04e1c37d5788dac68d90bfa134c00a555bf22d1c301f7f9"
+hash = "a6aab70fff06a2f288e850f7f4fb52f8502480c66885b0a4bd8bd61724d7646e"
 
 [[files]]
 file = "config/cofh/world/05_the_betweenlands_structures.json"
@@ -2828,7 +2828,7 @@ hash = "b0a82cb00fbb719a27603499ce8e9f8f6f3146a556df87ef8288939bc3e20d26"
 
 [[files]]
 file = "pillar/loot_tables/clutter.json"
-hash = "e85781be5d31c3439d938ad012c6d9022f7cfba8e09151aaa6514db905934180"
+hash = "d3ce45ccc616abde0d9f30185813f81fa81703683f9b806a212e1c34d3a1d881"
 
 [[files]]
 file = "pillar/loot_tables/currency.json"
@@ -2836,7 +2836,7 @@ hash = "7965e13919e5f1cc21e8be1dd1e5360d027d546042fdfcc109e96e577b9d0859"
 
 [[files]]
 file = "pillar/loot_tables/equipment.json"
-hash = "35523b028e12e5f0cdca60639367db5223b611bb2aa0e2d82bbf73ae0f2fb375"
+hash = "63372a50feb8247a36c46ef4624f16c9cd041bee98a9b7c2dfc47cefcf2041ac"
 
 [[files]]
 file = "pillar/loot_tables/farmbooklore.json"
@@ -2848,11 +2848,11 @@ hash = "04454f29a6d173c3c6af95341e1e9b8032dd7ef9d7c867d056061e6ff5e1ae09"
 
 [[files]]
 file = "pillar/loot_tables/material.json"
-hash = "76562d9dd94e177fc7a3e924c9be9ae5451582379547612dd0eb15d2ddcbf8f0"
+hash = "68ae67d497c17849df91a19eabe3456639ef2eaa03432175e0dcc696f7f4e9e9"
 
 [[files]]
 file = "pillar/loot_tables/treasure.json"
-hash = "e66674610e7d73ef266a3e0c9133cb59d4baf1e6dfece7bfe9e6aa924abc27ae"
+hash = "6ccc6d04dfbe00cc7460c06fe6f990de89933efe4bdf22bf748f82b1d0d3be12"
 
 [[files]]
 file = "pillar/mining_site.json"
@@ -4684,7 +4684,7 @@ hash = "97040b6c28723f435e65c139c8679bede2b5bb5ff747b9ad5f27573b6f33b586"
 
 [[files]]
 file = "scripts/replace.zs"
-hash = "4e34295927c4db43bc01074c36fb75b3676cb31a6599f93c6ebd33ff3d6a1a51"
+hash = "3cc91213a64644ab4e53f2dad26281c7ff61818fd128b05afdb599652864184d"
 
 [[files]]
 file = "scripts/stacksize.zs"
@@ -4696,7 +4696,7 @@ hash = "f77c9dac9ca27d52b6f1e1fdac1f095306db7b68949fb1bc6ae0a187579b888e"
 
 [[files]]
 file = "scripts/tinker.zs"
-hash = "cbf8ecb252ae274c96ab94d785167880ecc5c912579b9804ba4715e90d0e8fcb"
+hash = "b387491213747cb601090e1ded64517f0103e1ad308a814e2cb5c8a01d18df98"
 
 [[files]]
 file = "scripts/unification.zs"

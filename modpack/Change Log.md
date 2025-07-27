@@ -13,10 +13,6 @@
 - Phyto-Gro and Rich Phyto-Gro have different recipes now.
 - Re-enabled iridium in the betweenlands.
 
-### **__Mod(s) Added:__**
-
-### **__Mod(s) Removed:__**
-
 ### **__Mod(s) Updated:__**
 - Zen Utils: zenutils-1.24.0 -> zenutils-1.25.3
 - PackagedAstral: PackagedAstral-1.12.2-1.0.3.20 -> PackagedAstral-1.12.2-1.0.3.21
