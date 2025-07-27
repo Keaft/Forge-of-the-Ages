@@ -529,7 +529,11 @@ replaceRecipeShaped("tesseract:tesseract", <tesseract:tesseract>, [[<ore:obsidia
 
 // -- Thermal Foundation
 replaceRecipeShapeless("thermalfoundation:block_podzol", <minecraft:dirt:2>, [<ore:treeLeaves>, <ore:treeLeaves>, <minecraft:dirt:1>]);
+replaceRecipeShapeless("thermalfoundation:block_podzol", <minecraft:dirt:2>, [<ore:treeLeaves>, <ore:treeLeaves>, <minecraft:dirt:1>]);
+replaceRecipeShapeless("thermalfoundation:block_podzol", <minecraft:dirt:2>, [<ore:treeLeaves>, <ore:treeLeaves>, <minecraft:dirt:1>]);
 
+replaceRecipeShapeless("thermalfoundation:fertilizer", <thermalfoundation:fertilizer> * 4, [<ore:dustWood>, <ore:dustWood>, <ore:dustSaltpeter>, <ore:dustCharcoal>]);
+replaceRecipeShapeless("thermalfoundation:fertilizer_1", <thermalfoundation:fertilizer> * 16, [<ore:dustCharcoal>, <ore:dustSaltpeter>, <quark:black_ash>]);
 //--------------------------------------------------------------------------------------
 
 //--------------------------------------------------------------------------------------

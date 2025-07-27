@@ -52,7 +52,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "appliedenergistics2:quartz_ore",
+					"name": "appliedenergistics2:quartz_ore"
 				},
 				"material": "thebetweenlands:pitstone",
 				"cluster-size": 7
@@ -75,7 +75,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "appliedenergistics2:charged_quartz_ore",
+					"name": "appliedenergistics2:charged_quartz_ore"
 				},
 				"material": "thebetweenlands:pitstone",
 				"cluster-size": 7
@@ -189,6 +189,34 @@
 			"cluster-count": 7,
 			"min-height": 4,
 			"max-height": 15,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					20
+				]
+			}
+		},
+		"betweenlands_iridium_ore": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "iridium"
+						},
+						"weight": 40
+					}
+				],
+				"material": "thebetweenlands:pitstone",
+				"cluster-size": 4
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 25,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
