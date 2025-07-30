@@ -20,7 +20,7 @@ mods.botania.ElvenTrade.addRecipe([<draconicevolution:draconium_dust>], [<nuclea
 mods.botania.ElvenTrade.addRecipe([<contenttweaker:ender_corrupter>], [<minecraft:dragon_egg>]);
 
 // Certus Quartz
-mods.botania.ElvenTrade.addRecipe([<appliedenergistics2:crystal_seed>.withTag({progress: 0})], [<appliedenergistics2:crystal_seed:600>.withTag({progress: 600})]);
+mods.botania.ElvenTrade.addRecipe([<appliedenergistics2:material:10>], [<appliedenergistics2:material:11> * 2]);
 
 // - Mana Infusion Alchemy
 //mods.botania.ManaInfusion.addAlchemy(IItemStack output, IIngredient input, int mana);
