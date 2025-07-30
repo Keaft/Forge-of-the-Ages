@@ -206,9 +206,7 @@
 		};
 	traitManaArmour.onUpdate =
 		function (trait, armour, world, player, slot, selected) {
-			if (armourSlotMap.keys has armour.name) {
-				player.manaRepairSlot(armourSlotMap[armour.name], 140, 1);
-			}
+			player.manaRepairSlot(slot, 140, 1);
 		};
 	traitManaArmour.onArmorDamaged =
 		function (trait, armour, damageSource, amount, newAmount, player, index) {

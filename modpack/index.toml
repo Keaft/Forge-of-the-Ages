@@ -1930,7 +1930,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "8f45241b646a68aec43cf85f0abba3b5d842e17018d70bf3beb4bb877ebc93eb"
+hash = "33a655a65cd4b77cbc2178e359d24aa3e3b7db02567c367ba383e3355a862c5b"
 metafile = true
 
 [[files]]
@@ -2064,7 +2064,7 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
+hash = "13342cf2f1afad36941646dfe535bd0b866bcbd95c64f6ffd18c4b1bbc2f9a23"
 metafile = true
 
 [[files]]
