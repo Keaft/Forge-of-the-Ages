@@ -1,6 +1,7 @@
 name = "VintageFix"
 filename = "vintagefix-0.6.2.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

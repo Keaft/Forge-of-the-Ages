@@ -1,6 +1,7 @@
 name = "Cleanroom relauncher unofficial"
 filename = "++relauncher-0.3.12-beta.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

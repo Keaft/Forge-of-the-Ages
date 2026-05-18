@@ -1,6 +1,7 @@
 name = "FermiumASM"
 filename = "fermiumasm-5.28.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

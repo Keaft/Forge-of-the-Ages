@@ -1490,7 +1490,7 @@ metafile = true
 
 [[files]]
 file = "mods/cleanroom-relauncher-unofficial.pw.toml"
-hash = "09b5802991844f3ca59cce4f0d5b1fbba8655a64ccbce14a1e1978f27c053df3"
+hash = "e2c7a5048c7679afb87bc9636e32483241e6dd5a7b46518f0259066d0203cecf"
 metafile = true
 
 [[files]]
@@ -1705,12 +1705,12 @@ metafile = true
 
 [[files]]
 file = "mods/fermiumasm.pw.toml"
-hash = "c27eafc724f6b77054c2cb44e1eab0490de18a623e3c17312b1363bd6af7ccdb"
+hash = "36de26e6400255f2362144a88bb9b64718117d7c9f501c8c23a30b9eaed1120c"
 metafile = true
 
 [[files]]
 file = "mods/fermiumbooter.pw.toml"
-hash = "e2869e18e34c9c8e04e82ddc2fdcb1a9b6b5a8d7993961c87e626606bd7e9a45"
+hash = "7a97e0435b77f43742ce3446a8efe89c0ee0e95f03c7f9b99ec7a089bdb7448b"
 metafile = true
 
 [[files]]
@@ -1740,7 +1740,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgelin-continuous.pw.toml"
-hash = "80afddac6d73ecd4bd2ada3cad1dd187cc5396b4d3538968a3675089c5e0a486"
+hash = "ec127d88d416bbd5378fc6e283a0982b3020a266e96fbdbb0d104b8006930a0c"
 metafile = true
 
 [[files]]
@@ -1770,7 +1770,7 @@ metafile = true
 
 [[files]]
 file = "mods/fugue.pw.toml"
-hash = "7e7204ea996b8301414cf86a5b03bc40aaad11a932e0f463d5b9d17dadc71d22"
+hash = "0f8a78acf3a4e5a7205e6b764907d89e0caae80d94e40ed938698cbc3156f2ec"
 metafile = true
 
 [[files]]
@@ -2324,7 +2324,7 @@ metafile = true
 
 [[files]]
 file = "mods/scalar-legacy.pw.toml"
-hash = "3e801d0211a839d795ed52dd40fb1675c070da9bba5bbe9093faf268c6c76ad8"
+hash = "25c5ca887bfde845ed38942d38a226f9a0f1a43af205d910638d1747d15affdd"
 metafile = true
 
 [[files]]
@@ -2564,7 +2564,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintagefix.pw.toml"
-hash = "21e1e9cb5ed51d3a6905304f1ba12fbecd3a009929a0ee474ceff11c9591b396"
+hash = "29501469b7324ee24369a7fbf4a517bce7618ba336c982965a001e93519b78e9"
 metafile = true
 
 [[files]]
