@@ -1,6 +1,7 @@
 name = "Roughly Enough IDs"
 filename = "RoughlyEnoughIDs-2.2.3.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

@@ -2244,7 +2244,7 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli-books.pw.toml"
-hash = "5b18582de3b580b9b10e1f49520882d59fe366a03be71ec3bf11c7f93b470cdd"
+hash = "80775ba71ade8cc36bccdd048fdc262095ce28e2db94b1f01dadb2245649ed4f"
 metafile = true
 
 [[files]]
@@ -2309,7 +2309,7 @@ metafile = true
 
 [[files]]
 file = "mods/reid.pw.toml"
-hash = "00d7446d2718ebb3f716920ea03b816e0dd3cd5ae6de9b689edbd2005a04c772"
+hash = "4dd55626b71f280a208d9864c0a1e4b2d8344261bda93d4659c43eff669b2573"
 metafile = true
 
 [[files]]
