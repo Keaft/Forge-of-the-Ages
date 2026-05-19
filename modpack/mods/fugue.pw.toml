@@ -1,7 +1,6 @@
 name = "Fugue"
 filename = "+Fugue-0.20.0.jar"
 side = "both"
-pin = true
 
 [download]
 hash-format = "sha1"

@@ -1740,7 +1740,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgelin-continuous.pw.toml"
-hash = "ec127d88d416bbd5378fc6e283a0982b3020a266e96fbdbb0d104b8006930a0c"
+hash = "80afddac6d73ecd4bd2ada3cad1dd187cc5396b4d3538968a3675089c5e0a486"
 metafile = true
 
 [[files]]
@@ -1770,7 +1770,7 @@ metafile = true
 
 [[files]]
 file = "mods/fugue.pw.toml"
-hash = "0f8a78acf3a4e5a7205e6b764907d89e0caae80d94e40ed938698cbc3156f2ec"
+hash = "7e7204ea996b8301414cf86a5b03bc40aaad11a932e0f463d5b9d17dadc71d22"
 metafile = true
 
 [[files]]
@@ -2309,7 +2309,7 @@ metafile = true
 
 [[files]]
 file = "mods/reid.pw.toml"
-hash = "4dd55626b71f280a208d9864c0a1e4b2d8344261bda93d4659c43eff669b2573"
+hash = "00d7446d2718ebb3f716920ea03b816e0dd3cd5ae6de9b689edbd2005a04c772"
 metafile = true
 
 [[files]]
