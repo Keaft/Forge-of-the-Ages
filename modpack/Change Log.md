@@ -5,10 +5,10 @@
 - Adjust/Fix Elven trade for obtaining Certus Quartz. Now 2 Pure Quartz for 1 Pure Certus Quartz.
 - Fix odd mana repair behavior for any hotbar items when using mana armor.
 - Changed Normalasm and VintageFix settings to work more nicely will all mixin/asm mods especially StellarCore.
+- Disable Tinkers related changes from StellarCore. Handled by Tinkers Antique.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
-- MixinBooter (!mixinbooter-10.7)
 - StellarCore (!configanytime-3.0)
 - Bubbles (Bubbles-2.4.10)
 - LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
