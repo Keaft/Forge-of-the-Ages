@@ -1,13 +1,13 @@
 name = "Waystone Folders (Folders for Waystones)"
-filename = "WaystoneFolders-0.3.jar"
+filename = "WaystoneFolders-1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2500747a6a785ce2fbb45ead9ed5ba8748c1ef39"
+hash = "93770db27ac91bda249efb8a746f2b8b283646dc"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6092343
+file-id = 7560780
 project-id = 1117677

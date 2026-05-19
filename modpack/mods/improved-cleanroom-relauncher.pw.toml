@@ -1,0 +1,13 @@
+name = "Improved Cleanroom Relauncher"
+filename = "!improved-relauncher-0.3.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "91876176e33c24c68ce187e376002a2749b3a239"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7769030
+project-id = 1336201

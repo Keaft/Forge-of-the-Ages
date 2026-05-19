@@ -4,9 +4,71 @@
 - Change pray cooldown from 3 to 1 hour.
 - Adjust/Fix Elven trade for obtaining Certus Quartz. Now 2 Pure Quartz for 1 Pure Certus Quartz.
 - Fix odd mana repair behavior for any hotbar items when using mana armor.
+- Changed Normalasm and VintageFix settings to work more nicely will all mixin/asm mods especially StellarCore.
 
 ### **__Mod(s) Added:__**
+- Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
+- MixinBooter (!mixinbooter-10.7)
+- StellarCore (!configanytime-3.0)
+- Bubbles (Bubbles-2.4.10)
+- LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
+- OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.3.1)
 
 ### **__Mod(s) Removed:__**
+- Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
+- File Director (!mod-director-launchwrapper-1.9.1)
+- AppleSkin (AppleSkin-mc1.12-1.0.14)
+- Baubles (Baubles-1.12-1.5.2)
+- OpenBlocks (OpenBlocks-1.12.2-1.8.1)
+- Biomes O' Plenty (BiomesOPlenty-1.12.2-7.0.1.2445-universal)
+- OpenModsLib (OpenModsLib-1.12.2-0.12.2)
+- SerializationIsBad (serializationisbad-1.5.2)
+- Sledgehammer (Sledgehammer-1.12.2-2.0.26)
 
 ### **__Mod(s) Updated:__**
+- NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
+- Patchouli Books: patchoulibooks-0.2.5 -> patchoulibooks-0.3.0
+- Had Enough Items: HadEnoughItems_1.12.2-4.28.0 -> HadEnoughItems_1.12.2-4.31.2
+- Pillar Patched: Pillar-1.3.2 -> Pillar-1.3.3
+- CraftTweaker: CraftTweaker2-1.12-4.1.20.704 -> CraftTweaker2-1.12-4.1.20.715
+- PackagedDraconic: PackagedDraconic-1.12.2-1.0.3.23 -> PackagedDraconic-1.12.2-1.0.4.24
+- Gnetum: gnetum-1.2.6 -> gnetum-1.4.3
+- FermiumBooter: FermiumBooter-1.3.1 -> FermiumBooter-1.4.1
+- Fluidlogged API: Fluidlogged-API-v2.2.4-mc1.12.2 -> Fluidlogged-API-v3.2.0-mc1.12.2
+- Scape and Run: Parasites: SRParasites-1.12.2v1.9.21 -> SRParasites-1.10.5
+- Macaw's Trapdoors: mcw-trapdoors-1.0.3-mc1.12.2 -> mcw-trapdoors-1.0.4-mc1.12.2
+- NoiseThreader: NoiseThreader-1.1.0 -> NoiseThreader-1.1.3
+- Forgelin-Continuous: Forgelin-Continuous-2.2.0.0 -> Forgelin-Continuous-2.3.20.0
+- Zen Utils: zenutils-1.25.3 -> zenutils-1.27.1
+- Botania CEu: Botania r1.10-368 -> botania-r1.10-372
+- Waystone Folders (Folders for Waystones): WaystoneFolders-0.3 -> WaystoneFolders-1.0
+- Roughly Enough IDs: RoughlyEnoughIDs-2.2.3 -> RoughlyEnoughIDs-2.3.1
+- Chocolate Quest Repoured: Chocolate_Quest_Repoured-1.12.2-2.7.1B -> Chocolate_Quest_Repoured-1.12.2-2.8.0B
+- Quark: RotN Edition: QuarkRotN-r1.6-190 -> QuarkRotN-r1.6-191
+- Simple Voice Chat: voicechat-forge-1.12.2-2.5.35 -> voicechat-forge-1.12.2-2.6.17
+- Fish's Undead Rising: Fish's Undead Rising-1.5.2 -> Fish's Undead Rising-1.6.1
+- BetterBuildersWandsFix: BetterBuildersWandsFix-1.2.3 -> BetterBuildersWandsFix-1.2.9
+- Tinkers' Evolution: tconevo-1.12.2-1.1.1 -> tconevo-1.12.2-1.1.6
+- PackagedAuto: PackagedAuto-1.12.2-1.0.19.65 -> PackagedAuto-1.12.2-1.0.24.73
+- Ender's Modpack Tweaks: endermodpacktweaks-0.5.10 -> endermodpacktweaks-0.5.11
+- Flare (Spark for 1.12.2): flare-0.7.0 -> flare-0.8.0
+- Tinkers' Antique: TinkersAntique-1.12.2-2.13.0.202 -> TinkersAntique-1.12.2-2.13.0.207
+- The Twilight Forest - Deforestation Edition: twilightforest-1.12.2-3.14 -> twilightforest-1.12.2-3.15.1
+- Mutant Creatures Legacy: MutantCreaturesLegacy-1.12.2-1.0.1 -> MutantCreaturesLegacy-1.12.2-1.0.3
+- (Unofficial) Bosses of Mass Destruction + Dungeon Additions: Into The Dungeons - 1.6 -> unseens-dungeon-additions-1.7.2
+- PackagedAstral: PackagedAstral-1.12.2-1.0.3.21 -> PackagedAstral-1.12.2-1.0.5.24
+- Red Core: !Red-Core-MC-1.8-1.12-0.7-Dev-1 -> !Red-Core-MC-1.8-1.12-0.7.1
+- Chunk Loaders: chunkloaders-1.2.8b-forge-mc1.12 -> chunkloaders-1.2.9a-forge-mc1.12
+- Unseen's Nether Backport: Unseens Nether Backport - 0.6 -> unseens-nether-backport-0.7
+- Ice and Fire: RotN Edition: Ice and Fire-2.0.0 -> Ice and Fire-2.0.0
+- Tesseract: tesseract-1.0.37-forge-mc1.12 -> tesseract-1.0.38-forge-mc1.12
+- Universal Tweaks: UniversalTweaks-1.12.2-1.15.2 -> UniversalTweaks-1.12.2-1.19.1
+- SuperMartijn642's Core Lib: _supermartijn642corelib-1.1.18-forge-mc1.12 -> _supermartijn642corelib-1.1.21-forge-mc1.12
+- VintageFix: vintagefix-0.6.2 -> vintagefix-0.7.0
+- Fugue: +Fugue-0.20.0 -> +Fugue-0.23.4
+- FermiumASM: fermiumasm-5.28 -> fermiumasm-5.31
+- Nothirium: Nothirium-1.12.2-0.4.7-beta -> Nothirium-1.12.2-0.4.9-beta
+- Scalar Legacy: scalar-1.0.0 -> Scalar Legacy-1.0.1
+
+### **__Mod(s) Downgraded:__**
+- MmmMmmMmmMmm (Target Dummy): TestDummy2-2.0.4 -> MmmMmmMmmMmm-1.12-1.14

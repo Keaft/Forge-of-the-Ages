@@ -1,13 +1,13 @@
 name = "NuclearCraft"
-filename = "nuclearcraft-1.12.2-2.19a.jar"
+filename = "nuclearcraft-1.12.2-2.19b.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "05db28e36a141316f8fa511f226c794110e58d12"
+hash = "5172893baedce7eebfba5dae1b3b15347440c675"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6151363
+file-id = 8087650
 project-id = 226254

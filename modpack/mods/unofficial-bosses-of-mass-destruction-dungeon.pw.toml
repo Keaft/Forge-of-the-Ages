@@ -1,13 +1,13 @@
-name = "(Unofficial) Bosses of Mass Destruction + Dungeon Additions"
-filename = "Into The Dungeons - 1.6.jar"
+name = "Unseen's Dungeon Additions"
+filename = "unseens-dungeon-additions-1.7.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4ed0c6b8daf71af11c0bdcf72f33a2eb54e751e9"
+hash = "48219c7726b302c9d912f9067b64dede8eeb71b9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6504043
+file-id = 7834198
 project-id = 1087823

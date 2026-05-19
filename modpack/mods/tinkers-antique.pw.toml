@@ -1,13 +1,13 @@
 name = "Tinkers' Antique"
-filename = "TinkersAntique-1.12.2-2.13.0.202.jar"
+filename = "TinkersAntique-1.12.2-2.13.0.207.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "23a33a610cfc4b6de523f3e0ba72eac9f8a9f1b3"
+hash = "bd4157c6db11437a0ea7378b513c7469f8efdc3b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6752868
+file-id = 8089154
 project-id = 1242239

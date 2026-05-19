@@ -1,13 +1,13 @@
 name = "Unseen's Nether Backport"
-filename = "Unseens Nether Backport - 0.6.jar"
+filename = "unseens-nether-backport-0.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "45fc47dac3506c477fa2b3cebf922d6e648aa8fa"
+hash = "48f3bab6a916d2323ec7148ff30bdb4dd04b273f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6507374
+file-id = 7694245
 project-id = 1109447
