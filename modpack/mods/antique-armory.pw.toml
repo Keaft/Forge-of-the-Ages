@@ -1,0 +1,13 @@
+name = "Antique Armory"
+filename = "AntiqueArmory-1.12.2-1.2.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f14cd76131bb72d404a451bcb0225a44f79a474e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8087077
+project-id = 1394222

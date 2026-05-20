@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "0eb357109cf6bd8fea768bb5849c552bf79dbf8b825848ab6bcbbb2f97e48b5e"
+hash = "50d1429e11e58b0a62153d92e68cb19c298afca4244d412d5157a7c60ed4c244"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -74,7 +74,7 @@ hash = "4a5cf76059bf253d3bb0f561fdd8ed52c071992ec0799477133d577f0ff747eb"
 
 [[files]]
 file = "config/Universal Tweaks - Mod Integration.cfg"
-hash = "2f3eaa1c25655640582fbdf264e92e5a2c447d55f744bed6009caca02250bef4"
+hash = "f4667b0d77a08aa65baa18e956b642edc73936c0cea25057f2d3d4304eecec27"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
@@ -1145,6 +1145,10 @@ file = "config/stackie.cfg"
 hash = "044613569f7db57e6ff27d3925a3629a6d1fb04665399e42abe23676c5ec75bd"
 
 [[files]]
+file = "config/stellar_core.cfg"
+hash = "a631692274ce48fecb073e0aac6654316a301b387ff5b32a0b8e6343a8afe32f"
+
+[[files]]
 file = "config/storagedrawers.cfg"
 hash = "ebaec015a9a5d2364727b9c281267dea612ed409cbb2f112015fa633200c1f41"
 
@@ -1162,11 +1166,11 @@ hash = "8bf4c90516568b7dd0ca153c09954181eaafe2bd117b5fd5cc8e837e58c89f8e"
 
 [[files]]
 file = "config/tconmodmod.json"
-hash = "63ad96e17a5fb892750cdf3f38cfca2e102b78fdf5bed24236cb9c7d8124a583"
+hash = "a3663e15932fe2fd1069cd82a4cabf6105905e5ef07716f82ea978737aab9c93"
 
 [[files]]
 file = "config/tconmodmod_conarm.json"
-hash = "d25492e86d543efc37bd1ca20b4836b58b9a766ace1d544f144593567c497290"
+hash = "9eeaef601bcfb0449d3b1ef02a8e4ef4d2cd99c732b42f82164283c626e16045"
 
 [[files]]
 file = "config/tconstruct.cfg"
@@ -1290,6 +1294,11 @@ metafile = true
 [[files]]
 file = "mods/angry-pixel-the-betweenlands-mod.pw.toml"
 hash = "4a18c1d32af17b4acb1117107154cb2c60a38e06e24ab33816bf95d247210456"
+metafile = true
+
+[[files]]
+file = "mods/antique-armory.pw.toml"
+hash = "8058122b645b932988e53a9e90e7dc1729492582202ee4004af3b92d0b888998"
 metafile = true
 
 [[files]]
@@ -1530,11 +1539,6 @@ metafile = true
 [[files]]
 file = "mods/configanytime.pw.toml"
 hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
-metafile = true
-
-[[files]]
-file = "mods/constructs-armory.pw.toml"
-hash = "5b05cbf316dd4eb63809aaf04b07e6ce55cd7b4b2c0409a3d01e4def60b7c806"
 metafile = true
 
 [[files]]
@@ -2102,13 +2106,8 @@ file = "mods/millenaire/config.txt"
 hash = "801bc3b16277efd9d9421fb69e926e1d3ee903a567fc025d5ddf518b85f2d518"
 
 [[files]]
-file = "mods/mixin-booter.pw.toml"
-hash = "ad355300f200ceabaa960dcef945cdf94195f8944dbe42ada2db41e153f209dc"
-metafile = true
-
-[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "e781c9b44a6a34cae02f8af3b2cf6add81fb0c5634e6abf0a57a050ca6ac1e94"
+hash = "78509bd6e7891b35ac7214d08e70c4c7896bb311dfdd394d3042fb2d56589fe1"
 metafile = true
 
 [[files]]
