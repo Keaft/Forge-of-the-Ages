@@ -5,7 +5,8 @@
 - Adjust/Fix Elven trade for obtaining Certus Quartz. Now 2 Pure Quartz for 1 Pure Certus Quartz.
 - Fix odd mana repair behavior for any hotbar items when using mana armor.
 - Changed Normalasm and VintageFix settings to work more nicely will all mixin/asm mods especially StellarCore.
-- Disable Tinkers related changes from StellarCore. Handled by Tinkers Antique.
+- Disable Tinkers related changes from StellarCore and Universal Tweaks. Handled by Tinkers Antique.
+- Disabled UniversalTweaks botania Alfheim chunkban fix, as Botania CEu has it built in.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
