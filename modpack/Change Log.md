@@ -15,6 +15,7 @@
 - Bubbles (Bubbles-2.4.10)
 - LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
 - OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.3.1)
+- Antique Armory (AntiqueArmory-1.12.2-1.2.8)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -26,6 +27,7 @@
 - OpenModsLib (OpenModsLib-1.12.2-0.12.2)
 - SerializationIsBad (serializationisbad-1.5.2)
 - Sledgehammer (Sledgehammer-1.12.2-2.0.26)
+- Construct's Armory (conarm-1.12.2-1.2.5.10)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
