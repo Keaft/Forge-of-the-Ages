@@ -2521,6 +2521,11 @@ hash = "aca0b2a78c06fee1c04723cd0e947e78578f8c2d635429091cae2267536a151e"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-planner-antique.pw.toml"
+hash = "282bc5bfd58f615043e8a30c1ed46caa7ae61090466ace96a6f41b732891b6f4"
+metafile = true
+
+[[files]]
 file = "mods/tinkers-tool-leveling.pw.toml"
 hash = "3101cd07b652026c97e580545de53d5b03094ba5b681cebe97ba54170621c64a"
 metafile = true

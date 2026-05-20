@@ -16,6 +16,7 @@
 - LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
 - OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.3.1)
 - Antique Armory (AntiqueArmory-1.12.2-1.2.8)
+- Tinker's Planner Antique (TinkersPlannerAntique-1.12.2-1.0.3)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)

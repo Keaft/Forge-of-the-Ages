@@ -1,0 +1,13 @@
+name = "Tinker's Planner Antique"
+filename = "TinkersPlannerAntique-1.12.2-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be22ccbd8cce141cab631fcad5c61ada0282c70c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8064354
+project-id = 1535236
