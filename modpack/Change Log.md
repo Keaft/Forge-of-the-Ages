@@ -7,6 +7,7 @@
 - Changed Normalasm and VintageFix settings to work more nicely will all mixin/asm mods especially StellarCore.
 - Disable Tinkers related changes from StellarCore and Universal Tweaks. Handled by Tinkers Antique.
 - Disabled UniversalTweaks botania Alfheim chunkban fix, as Botania CEu has it built in.
+- Reinforced trait now 10% per modifier to a maximum of 40%
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
