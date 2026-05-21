@@ -1,0 +1,13 @@
+name = "SauriaLib"
+filename = "SauriaLib 3-3.2.1-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4adff0e679c451af8fb7e2d812e2dded3f6b4ff0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8046370
+project-id = 1406553

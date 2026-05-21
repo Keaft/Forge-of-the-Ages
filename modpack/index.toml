@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "4ce8750422a190cd62857434bc2fe164c9265cb7dd9876ddd9febda1ffad818e"
+hash = "cf9701fd1f9cfcc393a37955d5d340ee711a7f48f3b66791c45882a88eac217b"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1497,8 +1497,8 @@ hash = "89330a12b95df6f0a051ee717a6bac9ec4e458fe7e614bdd410c4c935645e026"
 metafile = true
 
 [[files]]
-file = "mods/codechicken-lib-1-8.pw.toml"
-hash = "09db900f940485fc925d28280350f6476cf65a54dc7cdd54925fb4dc1ea62363"
+file = "mods/codechicken-lib-cre.pw.toml"
+hash = "a02ab72105f8255e1545df93163e256fc4910c4267ee8bc7d0a4a8422d732725"
 metafile = true
 
 [[files]]
@@ -1564,6 +1564,11 @@ metafile = true
 [[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "8268a0441a5da4f2c0df7505f45db738426ab77a1d48024fa9d55d191949ca35"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "9140d88272d7411d09db224efc44c12168d742ff1b05a9bd6f7c4a603cd95496"
 metafile = true
 
 [[files]]
@@ -1767,11 +1772,6 @@ hash = "691021fe141daba91d501bb3dfc03254fdd02778b846b32470a771785a765aaa"
 metafile = true
 
 [[files]]
-file = "mods/geckolib.pw.toml"
-hash = "41d00651b911ae04e31b2430145e01c8e002995e856cb48920c6e7e0635fdc8f"
-metafile = true
-
-[[files]]
 file = "mods/gnetum.pw.toml"
 hash = "39cab30e19751a457253e27b457b44413bad65cbb6c66495fc280453c7bdd2ff"
 metafile = true
@@ -1849,6 +1849,11 @@ metafile = true
 [[files]]
 file = "mods/item-filters.pw.toml"
 hash = "cf39fd1fe63962d035c4379b6f38f7e0330e1975708f558d47c2e76ba2994f3e"
+metafile = true
+
+[[files]]
+file = "mods/jei-area-fixer.pw.toml"
+hash = "3cb55b92ad08c2a551358e84254b3678a940a12742ded4a2fbad605c83a82bce"
 metafile = true
 
 [[files]]
@@ -2156,8 +2161,8 @@ hash = "61afe3f3f5355052c809e5a54ce82f9a7729caf321e15d3ad4285be4e0ee1920"
 metafile = true
 
 [[files]]
-file = "mods/natura.pw.toml"
-hash = "290de3e5c344530838407e1f14161945b3020f1fdf51b5a0f6db767da69de96e"
+file = "mods/natura-legacy.pw.toml"
+hash = "32278bd4f20dd05e0fc906cda8612be47f2e8bbf6011ccf3bfd97d0d9da08ac1"
 metafile = true
 
 [[files]]
@@ -2328,6 +2333,11 @@ metafile = true
 [[files]]
 file = "mods/resource-loader.pw.toml"
 hash = "28bd80f008684447416315097f1035dcc080d64c2f71d341d4909dee7465a5d1"
+metafile = true
+
+[[files]]
+file = "mods/saurialib.pw.toml"
+hash = "d961d8375c685a7f40bbc66390a1df1a3ae934a3599eab341a5cd415f7943703"
 metafile = true
 
 [[files]]

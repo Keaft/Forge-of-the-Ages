@@ -22,6 +22,11 @@
 - Inventory Bogo Sorter (bogosorter-1.6.3)
 -- Key Binding Patch ([MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1)
 -- ModularUI (modularui-3.1.6)
+- JEI Area Fixer (jei_area_fixer-2.3.0)
+- CodeChicken Lib CRE (codechickenlib-3.3.5-universal)
+- SauriaLib" successfully added! (SauriaLib 3-3.2.1-beta)
+- Natura Legacy (natura-legacy-1.12.2-4.6.1)
+- Crash Assistant (!!!CrashAssistant-forge-1.12.2-1.11.9)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -39,6 +44,9 @@
 - Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151)
 - Better Advancements (BetterAdvancements-1.12.2-0.1.0.77)
 - Bad Wither No Cookie - Reloaded (badwithernocookiereloaded-1.12.2-3.4.18)
+- CodeChicken Lib 1.8.+ (CodeChickenLib-1.12.2-3.2.3.358-universal)
+- GeckoLib (geckolib-forge-1.12.2-3.0.31)
+- Natura (natura-1.12.2-4.3.2.69)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
