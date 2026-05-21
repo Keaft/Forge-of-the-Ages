@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "9f5beeacdd2a8479e2146316068b9227c3f2e61fd93bec60781c53130d6aba7e"
+hash = "f92971c3e5c310e10509a336fe9392309481dc9d2211609e4ff291cc557b4ca6"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1842,8 +1842,8 @@ hash = "57476dcec0ca7fa5f5b7152c7e0fbb1cc0b7eae6cdac96436b156d7e9a86529e"
 metafile = true
 
 [[files]]
-file = "mods/inventory-tweaks.pw.toml"
-hash = "ac4a27e88e7a326e5a15ad5535a4202817ed290113c6240bef3a8a61af8e42f8"
+file = "mods/inventory-bogosorter.pw.toml"
+hash = "ac9473c46508024b058e46fe1192a3c86b565680e2518561638568aa8508d77a"
 metafile = true
 
 [[files]]
@@ -1889,6 +1889,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-reactors.pw.toml"
 hash = "39a1f58a5a7586832efa59b804b0f77362b6a75fe4976627a5e132daa53c4d48"
+metafile = true
+
+[[files]]
+file = "mods/key-binding-patch.pw.toml"
+hash = "cea0823d3b224e7bfee140dce362f0321cfb689fa8aaf9d7095ccd244f2051b4"
 metafile = true
 
 [[files]]
@@ -2123,6 +2128,11 @@ metafile = true
 [[files]]
 file = "mods/modular-machinery.pw.toml"
 hash = "8d9ee96562e001fb64aee513cfe56c7f96fac96b85c2f90931f78335a6d0a5f1"
+metafile = true
+
+[[files]]
+file = "mods/modularui.pw.toml"
+hash = "027a9eae197ae58909414605234f08d9131d0d9beb1bbb35a1c6404578f32cff"
 metafile = true
 
 [[files]]
@@ -4687,11 +4697,11 @@ hash = "97040b6c28723f435e65c139c8679bede2b5bb5ff747b9ad5f27573b6f33b586"
 
 [[files]]
 file = "scripts/replace.zs"
-hash = "3cc91213a64644ab4e53f2dad26281c7ff61818fd128b05afdb599652864184d"
+hash = "38624b2706126ed02526e054685fc609dc1b8c8b063ad3b150bfb2f25bc625f4"
 
 [[files]]
 file = "scripts/stacksize.zs"
-hash = "28ee41f9ea6a13acf1235039d44ce47f10dd522a890a93e6bfe4a1fd24a04566"
+hash = "3246369b6a4c95bc60bf64d4500f0e33b710e0b0841aabb63e1d006d817e8315"
 
 [[files]]
 file = "scripts/thermalmods.zs"
