@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "50d1429e11e58b0a62153d92e68cb19c298afca4244d412d5157a7c60ed4c244"
+hash = "9f5beeacdd2a8479e2146316068b9227c3f2e61fd93bec60781c53130d6aba7e"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1367,11 +1367,6 @@ hash = "6505f3570881b1be5fa40a4c6c1a1ee98e9cf3f798f28da18d9bd5859ad7f149"
 metafile = true
 
 [[files]]
-file = "mods/better-biome-blend.pw.toml"
-hash = "d33a99c16dc40c69b653132859431fbd8a269a02f685f20390d1c23b55db5520"
-metafile = true
-
-[[files]]
 file = "mods/better-builders-wands.pw.toml"
 hash = "cd20318e9a5caa253dbeef08a16973e8973896f4d0fc0ad04f49617ee75c79a5"
 metafile = true
@@ -2508,11 +2503,6 @@ metafile = true
 [[files]]
 file = "mods/tinkers-evolution.pw.toml"
 hash = "133181e72e23bf72d89b4058dfe7a17afa92f3fa6d502eabf85f49dd7e14dc4e"
-metafile = true
-
-[[files]]
-file = "mods/tinkers-jei.pw.toml"
-hash = "112c8e7b3a052a5ff89588233457ab3362313263bd51ec48c94ac069e18e094e"
 metafile = true
 
 [[files]]

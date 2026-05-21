@@ -17,8 +17,6 @@ print("Initializing 'stacksize'...");
 <minecraft:snowball>.maxStackSize = 64;
 <minecraft:bucket>.maxStackSize = 64;
 <inspirations:potato_soup>.maxStackSize = 64;
-<futuremc:suspicious_stew>.maxStackSize = 64;
-<natura:soups>.maxStackSize = 64;
 <minecraft:cake>.maxStackSize = 64;
 <minecraft:bed>.maxStackSize = 64;
 <minecraft:enchanted_book>.maxStackSize = 64;

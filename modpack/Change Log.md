@@ -8,6 +8,8 @@
 - Disable Tinkers related changes from StellarCore and Universal Tweaks. Handled by Tinkers Antique.
 - Disabled UniversalTweaks botania Alfheim chunkban fix, as Botania CEu has it built in.
 - Reinforced trait now 10% per modifier to a maximum of 40%
+- Changed stacksize.zs to remove some soups as they broke when consumed.
+- Removed extra podzol recipes.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
@@ -29,6 +31,8 @@
 - SerializationIsBad (serializationisbad-1.5.2)
 - Sledgehammer (Sledgehammer-1.12.2-2.0.26)
 - Construct's Armory (conarm-1.12.2-1.2.5.10)
+- Better Biome Blend (betterbiomeblend-1.12.2-1.1.7-forge)
+- Tinker's JEI (tinkersjei-1.2)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
