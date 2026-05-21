@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "f92971c3e5c310e10509a336fe9392309481dc9d2211609e4ff291cc557b4ca6"
+hash = "4ce8750422a190cd62857434bc2fe164c9265cb7dd9876ddd9febda1ffad818e"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1344,11 +1344,6 @@ metafile = true
 [[files]]
 file = "mods/autoreglib.pw.toml"
 hash = "3ae18761d4ed367abd7fadced9ca34cb3d984e8074e273e8f2c2a77bd896c4cc"
-metafile = true
-
-[[files]]
-file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
-hash = "30175f4272913685842679301732fa89be0b3b69668c1da1ecb84df861e541c7"
 metafile = true
 
 [[files]]

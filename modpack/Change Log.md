@@ -38,6 +38,7 @@
 - Tinker's JEI (tinkersjei-1.2)
 - Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151)
 - Better Advancements (BetterAdvancements-1.12.2-0.1.0.77)
+- Bad Wither No Cookie - Reloaded (badwithernocookiereloaded-1.12.2-3.4.18)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
