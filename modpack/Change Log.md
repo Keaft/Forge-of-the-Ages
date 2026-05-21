@@ -13,12 +13,15 @@
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
-- StellarCore (!configanytime-3.0)
+- StellarCore (StellarCore-1.5.22)
 - Bubbles (Bubbles-2.4.10)
 - LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
 - OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.3.1)
 - Antique Armory (AntiqueArmory-1.12.2-1.2.8)
 - Tinker's Planner Antique (TinkersPlannerAntique-1.12.2-1.0.3)
+- Inventory Bogo Sorter (bogosorter-1.6.3)
+-- Key Binding Patch ([MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1)
+-- ModularUI (modularui-3.1.6)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -33,6 +36,8 @@
 - Construct's Armory (conarm-1.12.2-1.2.5.10)
 - Better Biome Blend (betterbiomeblend-1.12.2-1.1.7-forge)
 - Tinker's JEI (tinkersjei-1.2)
+- Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151)
+- Better Advancements (BetterAdvancements-1.12.2-0.1.0.77)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b

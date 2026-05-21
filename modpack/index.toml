@@ -78,7 +78,7 @@ hash = "f4667b0d77a08aa65baa18e956b642edc73936c0cea25057f2d3d4304eecec27"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "ae08d463d67335ea272e59d30e06c1106f7be652567a6611a15157df1c277fdc"
+hash = "6494137fdab02c48d9845cbc5551c0153412cccaf20a0d1ca85e8a74d5316bce"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
@@ -1359,11 +1359,6 @@ metafile = true
 [[files]]
 file = "mods/bdlib.pw.toml"
 hash = "6ed9e97c088c1d23fa05c1cd7c656a50cac9f99019ce64ee13274df95f5fb23b"
-metafile = true
-
-[[files]]
-file = "mods/better-advancements.pw.toml"
-hash = "6505f3570881b1be5fa40a4c6c1a1ee98e9cf3f798f28da18d9bd5859ad7f149"
 metafile = true
 
 [[files]]
