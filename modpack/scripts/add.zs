@@ -113,6 +113,9 @@ recipes.addShaped("contenttweaker_unfired_porcelain_crystal", <contenttweaker:un
 recipes.addShapeless("contenttweaker_stagnant_green_slime_crystal", <contenttweaker:stagnant_green_slime_crystal>, [<contenttweaker:steel_crystal_shell>, <minecraft:slime_ball>]);
 recipes.addShapeless("contenttweaker_stagnant_blue_slime_crystal", <contenttweaker:stagnant_blue_slime_crystal>, [<contenttweaker:stagnant_green_slime_crystal>, <minecraft:diamond>]);
 
+// Steel Crystal Shell
+recipes.addShapeless("contenttweaker_steel_crystal_shell", <contenttweaker:steel_crystal_shell>, [<contenttweaker:porcelain_crystal> | <contenttweaker:solid_crystal_blank>, <thermalfoundation:material:352>, <ore:toolHammer>.transformDamage(3)]);
+
 // - Durt Clicker Items
 recipes.addShapeless("contenttweaker_clips_from_clop", <contenttweaker:clip> * 9, [<contenttweaker:clop>]);
 recipes.addShapeless("contenttweaker_clop_from_clips", <contenttweaker:clop>, [<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>,<contenttweaker:clip>]);

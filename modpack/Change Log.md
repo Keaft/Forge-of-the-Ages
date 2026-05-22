@@ -10,6 +10,7 @@
 - Reinforced trait now 10% per modifier to a maximum of 40%
 - Changed stacksize.zs to remove some soups as they broke when consumed.
 - Removed extra podzol recipes.
+- Added a not as efficient method of crafting Steel Crystal Shells that don't require making machines.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
