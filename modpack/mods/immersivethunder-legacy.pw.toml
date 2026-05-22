@@ -1,0 +1,13 @@
+name = "ImmersiveThunder: Legacy"
+filename = "immersivethunder-forge-1.12.2-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0365acc3695870d8f965ac3ec9c74afa57a802cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8073239
+project-id = 1513795

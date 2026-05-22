@@ -27,6 +27,13 @@
 - SauriaLib" successfully added! (SauriaLib 3-3.2.1-beta)
 - Natura Legacy (natura-legacy-1.12.2-4.6.1)
 - Crash Assistant (!!!CrashAssistant-forge-1.12.2-1.11.9)
+- Tinkers Tactical Toughness (TinkersTacticalToughness-1.5.2)
+- Hyxcate (Night/Day Events & Meteors) (Hyxcate-1.12.2-1.2.3)
+-- Expanded Events (expandedevents-1.2.0)
+- ImmersiveThunder: Legacy (immersivethunder-forge-1.12.2-1.3.0)
+- Farmer's Delight Legacy (FarmersDelightLegacy-1.0.7)
+- Nether's Delight Legacy (nethers-delight-legacy-1.0.1)
+- Sound Physics Remixin (soundphysics-1.1.17)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)

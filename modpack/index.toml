@@ -1687,6 +1687,11 @@ hash = "cfc47490824e8fcd3d07e23d0d2f3acb8c340cdbc82015d5341639585c65b636"
 metafile = true
 
 [[files]]
+file = "mods/expanded-events.pw.toml"
+hash = "7d3f4808d7f9411eb0fda07e34ff7f792f5f5bc71791b1519d1fa3b5d8e949da"
+metafile = true
+
+[[files]]
 file = "mods/extra-utilities.pw.toml"
 hash = "81c828b3d1e2402b4572c208ddcb4d248f7bfe1bd576270c5f5b3e2746de4fdc"
 metafile = true
@@ -1694,6 +1699,11 @@ metafile = true
 [[files]]
 file = "mods/extreme-reactors.pw.toml"
 hash = "2a51253577817fa8b0f8ec0474b4f0960fc862eb6770c92234a386a101f63698"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-legacy.pw.toml"
+hash = "b851e799b7c0bcae4e56758ef2b33d3163853e66c5e26bed35fb8757665fc78c"
 metafile = true
 
 [[files]]
@@ -1802,8 +1812,18 @@ hash = "b4be6b4fba0775b5c95774e7090a4f16eab36d55669326588b8549c38d3c0dd4"
 metafile = true
 
 [[files]]
+file = "mods/hyxcate.pw.toml"
+hash = "52228dcefbcadcdf9c7915ec7a93bfb40791a6ec6eb98fc49b05d170c5b0d9f2"
+metafile = true
+
+[[files]]
 file = "mods/ice-and-fire-rotn-edition.pw.toml"
 hash = "f56036753506f33ee859b12a022229d2d948a2efd13f8b0b24c52a5a68f8eea4"
+metafile = true
+
+[[files]]
+file = "mods/immersivethunder-legacy.pw.toml"
+hash = "f08c3f5ce2f941eb5098b555991b89035d5063ee3cc15d001ece998ed2d65552"
 metafile = true
 
 [[files]]
@@ -2101,6 +2121,11 @@ file = "mods/millenaire/config.txt"
 hash = "801bc3b16277efd9d9421fb69e926e1d3ee903a567fc025d5ddf518b85f2d518"
 
 [[files]]
+file = "mods/mixin-booter.pw.toml"
+hash = "ad355300f200ceabaa960dcef945cdf94195f8944dbe42ada2db41e153f209dc"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "78509bd6e7891b35ac7214d08e70c4c7896bb311dfdd394d3042fb2d56589fe1"
 metafile = true
@@ -2183,6 +2208,11 @@ metafile = true
 [[files]]
 file = "mods/netherex.pw.toml"
 hash = "11d297aa9c987830b2a79ebf582ab17c010b1e28a82efef7450a242618ca3ede"
+metafile = true
+
+[[files]]
+file = "mods/nethers-delight-legacy.pw.toml"
+hash = "29a9dd1c29ca92d0900ad7df4d17fe58a213d1593b2e3dac24a2ad0b5ca39d08"
 metafile = true
 
 [[files]]
@@ -2416,6 +2446,11 @@ hash = "8ab214b857f4486194679d3e22d4733162a7958d7d1812b598d96424f19aaf6b"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remixin.pw.toml"
+hash = "0f5060e0b0b6c7ebde05b343f6618b62fe3bc2cb06bd9879a5c9593478b993d9"
+metafile = true
+
+[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "6d38386930d2ffa02d5858ebe32f927d3fe10bf9dbdd6b3826828047b176451d"
 metafile = true
@@ -2523,6 +2558,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-planner-antique.pw.toml"
 hash = "282bc5bfd58f615043e8a30c1ed46caa7ae61090466ace96a6f41b732891b6f4"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-tactical-toughness.pw.toml"
+hash = "705815708a3a2c20a30f633a807b87a5e1fff20bbc8f6f8b9e2a102afa4b97f4"
 metafile = true
 
 [[files]]
