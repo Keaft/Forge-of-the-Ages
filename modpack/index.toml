@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "c4914897626a7e746011d7bdfa01f9520a2f410ade825ef4b2a406e3330d24af"
+hash = "683e4c60462b785d584e1822eb0a6f7feaacd20dfd3b161e450301d40c268f77"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -19,6 +19,10 @@ hash = "4c128d84ab22b5fc3857b486b6c1d700294b94f3599e0f0f1d8baa25f64611f8"
 [[files]]
 file = "config/CQR/dungeons/CastleSnow.properties"
 hash = "4ca4544e83a6c1acddfe6e2df1d566633dbb74e397f68fb6c87f053fc6d9dc15"
+
+[[files]]
+file = "config/End Expansion/general_config.cfg"
+hash = "06a9e9ec7990389a72bacf483d0eb2d51702f06807c973ad571a4120d22a644d"
 
 [[files]]
 file = "config/ExCompressum/ChickenStickRegistry.json"
@@ -122,7 +126,7 @@ hash = "d70335be2f9035cac57796641caa9ef305c2c7700e691ce383c259a9b65337f3"
 
 [[files]]
 file = "config/betterendforge/client.json"
-hash = "f60c6a910bb2eee75abecfbaf6230977c3657a14fc74e00936ca1666481f081a"
+hash = "a5d6d5f7a361c0b5c4bf7784adf926c4c4f33e2b6185becec0626676ed9e2270"
 
 [[files]]
 file = "config/betterhurttimer.cfg"

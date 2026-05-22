@@ -13,6 +13,7 @@
 - Added a not as efficient method of crafting Steel Crystal Shells that don't require making machines.
 - Added additional recipes for the 1K ME Storage Component to help with transitioning storage from early-mid to mid game.
 - Fixed Pillar structures spawn distance config change since 1.3.3 update.
+- Selected Skybox from BetterEndForge Backport. I like it's dynamic nature.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
@@ -37,6 +38,8 @@
 - Farmer's Delight Legacy (FarmersDelightLegacy-1.0.7)
 - Nether's Delight Legacy (nethers-delight-legacy-1.0.1)
 - Sound Physics Remixin (soundphysics-1.1.17)
+- BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9)
+- End Expansion - The Lamented Islands (geckolib-forge-1.12.2-3.0.31)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -57,6 +60,10 @@
 - CodeChicken Lib 1.8.+ (CodeChickenLib-1.12.2-3.2.3.358-universal)
 - GeckoLib (geckolib-forge-1.12.2-3.0.31)
 - Natura (natura-1.12.2-4.3.2.69)
+- Millenaire-JEI (millenairejei-1.12.2-1.0.0-beta001)
+- Millenaire (millenaire-8.1.2)
+- NoiseThreader (NoiseThreader-1.1.3)
+- Scape and Run: Parasites (SRParasites-1.10.5)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
