@@ -12,6 +12,7 @@
 - Removed extra podzol recipes.
 - Added a not as efficient method of crafting Steel Crystal Shells that don't require making machines.
 - Added additional recipes for the 1K ME Storage Component to help with transitioning storage from early-mid to mid game.
+- Fixed Pillar structures spawn distance config change since 1.3.3 update.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
