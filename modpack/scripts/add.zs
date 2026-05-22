@@ -17,6 +17,16 @@ print("Initializing 'add'...");
 
 //--------------------------------------------------------------------------------------
 
+// --- Applied Energistics ---
+
+// - 1k ME Storage Component
+recipes.addShaped("appliedenergistics2_1k_part", <appliedenergistics2:material:35>, [[<ore:dustRedstone>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <ore:dustRedstone>], [<ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <storagedrawers:upgrade_storage:4>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>], [<ore:dustRedstone>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <ore:dustRedstone>]]);
+recipes.addShaped("appliedenergistics2_1k_part", <appliedenergistics2:material:35>, [[<ore:dustRedstone>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <ore:dustRedstone>], [<ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <ironchest:iron_chest:5>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>], [<ore:dustRedstone>, <ore:crystalCertusQuartz> | <appliedenergistics2:material:1> | <appliedenergistics2:material:10>, <ore:dustRedstone>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Biomes O' Plenty ---
 // - Brown Dye from reeds
 recipes.addShapeless("biome_brown_dye_from_reed", <biomesoplenty:brown_dye> * 2, [<biomesoplenty:plant_1:8>]);
