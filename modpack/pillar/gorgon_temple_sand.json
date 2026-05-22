@@ -1,29 +1,30 @@
 {
-	"generatorType": "ABOVE_WATER",
-	"minY": 60,
-	"maxY": 70,
-	"offsetX": -26,
-	"offsetY": -9,
-	"offsetZ": -27,
-
-	"mirrorType": "NONE",
-	"rotation": null,
-	"ignoreEntities": false,
-
-	"dimensionSpawns": [0],
-	"biomeNameSpawns": ["minecraft:beaches","minecraft:ocean"],
-	"biomeTagSpawns": [],
-	"isDimensionSpawnsBlacklist": false,
-	"isBiomeNameSpawnsBlacklist": false,
-	"isBiomeTagSpawnsBlacklist": false,
-	"generateEverywhere": false,
-
-	"integrity": 1,
-	"decay": 0,
-
-	"filling": "minecraft:sand",
-	"fillingMetadata": 0,
-	"fillingType": "WATER",
-	
-	"rarity": 1200
+  "generatorType": "ABOVE_WATER",
+  "minY": 60,
+  "maxY": 70,
+  "offsetX": -26,
+  "offsetY": -9,
+  "offsetZ": -27,
+  "mirrorType": "NONE",
+  "rotation": null,
+  "ignoreEntities": false,
+  "dimensionSpawns": [
+    0
+  ],
+  "biomeNameSpawns": [
+    "minecraft:beaches",
+    "minecraft:ocean"
+  ],
+  "biomeTagSpawns": [],
+  "isDimensionSpawnsBlacklist": false,
+  "isBiomeNameSpawnsBlacklist": false,
+  "isBiomeTagSpawnsBlacklist": false,
+  "generateEverywhere": false,
+  "integrity": 1,
+  "decay": 0,
+  "filling": "minecraft:sand",
+  "fillingMetadata": 0,
+  "fillingType": "WATER",
+  "rarity": 1200,
+  "minDistanceToSameTypeStructures": 160
 }

@@ -1,9 +1,3 @@
-// ===================================================================
-// This is a template for a Pillar structure
-// Do not include these lines in your file
-// The _template.json file is ignored so don't worry about it
-// ===================================================================
-
 {
   "generatorType": "NONE",
   "minY": -1,
@@ -26,5 +20,6 @@
   "filling": "",
   "fillingMetadata": 0,
   "fillingType": "AIR",
-  "rarity": 100
+  "rarity": 100,
+  "minDistanceToSameTypeStructures": 160
 }
