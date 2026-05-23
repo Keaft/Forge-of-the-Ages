@@ -1765,6 +1765,11 @@ hash = "4a18c1d32af17b4acb1117107154cb2c60a38e06e24ab33816bf95d247210456"
 metafile = true
 
 [[files]]
+file = "mods/animus.pw.toml"
+hash = "5054812fbdd2e49509d2c5fc78712733d6b0ed377a97ed9942f5769efc6133fc"
+metafile = true
+
+[[files]]
 file = "mods/antique-armory.pw.toml"
 hash = "8058122b645b932988e53a9e90e7dc1729492582202ee4004af3b92d0b888998"
 metafile = true
