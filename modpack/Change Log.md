@@ -14,6 +14,7 @@
 - Added additional recipes for the 1K ME Storage Component to help with transitioning storage from early-mid to mid game.
 - Fixed Pillar structures spawn distance config change since 1.3.3 update.
 - Selected Skybox from BetterEndForge Backport. I like it's dynamic nature.
+- Added the custom emojis back with the addition of Goslingcord!
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
@@ -40,6 +41,10 @@
 - Sound Physics Remixin (soundphysics-1.1.17)
 - BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9)
 - End Expansion - The Lamented Islands (geckolib-forge-1.12.2-3.0.31)
+- Goslingcord (Goslingcord-1.12.2-2.1.1-universal)
+- Electroblob's Wizardry (ElectroblobsWizardry-4.3.18)
+-- Electroblob's Wizardry: Twilight Forest Spell Pack (TFSpellPack-1.1.0-MC1.12.2)
+- Packaging Provider (PackagingProvider-1.12.2-1.0.0.2)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)

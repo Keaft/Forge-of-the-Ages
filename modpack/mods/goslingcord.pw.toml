@@ -1,0 +1,13 @@
+name = "Goslingcord"
+filename = "Goslingcord-1.12.2-2.1.1-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "27963c0d6bdac680ebb4f48249c485e7114dada9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7269343
+project-id = 1207865
