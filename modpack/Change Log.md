@@ -81,7 +81,6 @@
 - Gnetum: gnetum-1.2.6 -> gnetum-1.4.3
 - FermiumBooter: FermiumBooter-1.3.1 -> FermiumBooter-1.4.1
 - Fluidlogged API: Fluidlogged-API-v2.2.4-mc1.12.2 -> Fluidlogged-API-v3.2.0-mc1.12.2
-- Scape and Run: Parasites: SRParasites-1.12.2v1.9.21 -> SRParasites-1.10.5
 - Macaw's Trapdoors: mcw-trapdoors-1.0.3-mc1.12.2 -> mcw-trapdoors-1.0.4-mc1.12.2
 - NoiseThreader: NoiseThreader-1.1.0 -> NoiseThreader-1.1.3
 - Forgelin-Continuous: Forgelin-Continuous-2.2.0.0 -> Forgelin-Continuous-2.3.20.0
