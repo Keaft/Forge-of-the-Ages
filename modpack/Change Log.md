@@ -45,6 +45,7 @@
 - Electroblob's Wizardry (ElectroblobsWizardry-4.3.18)
 -- Electroblob's Wizardry: Twilight Forest Spell Pack (TFSpellPack-1.1.0-MC1.12.2)
 - Packaging Provider (PackagingProvider-1.12.2-1.0.0.2)
+- Tinkers' Gadgets (tinkersgadgets-0.1.0)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)

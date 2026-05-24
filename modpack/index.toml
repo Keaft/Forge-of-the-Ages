@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "01802d7f1f8b2cbcff1ef0ad6504091d251ca11d8079d1bbc990f7f2715b4214"
+hash = "0705a3c0013375ae65342c1eb8851d44910cdcfea99eccfee0da833f6f206e03"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1765,11 +1765,6 @@ hash = "4a18c1d32af17b4acb1117107154cb2c60a38e06e24ab33816bf95d247210456"
 metafile = true
 
 [[files]]
-file = "mods/animus.pw.toml"
-hash = "5054812fbdd2e49509d2c5fc78712733d6b0ed377a97ed9942f5769efc6133fc"
-metafile = true
-
-[[files]]
 file = "mods/antique-armory.pw.toml"
 hash = "8058122b645b932988e53a9e90e7dc1729492582202ee4004af3b92d0b888998"
 metafile = true
@@ -3006,6 +3001,11 @@ metafile = true
 [[files]]
 file = "mods/tinkers-evolution.pw.toml"
 hash = "133181e72e23bf72d89b4058dfe7a17afa92f3fa6d502eabf85f49dd7e14dc4e"
+metafile = true
+
+[[files]]
+file = "mods/tinkers-gadgets.pw.toml"
+hash = "0822f8abd94a90424dd64d50d5b55fe0e6d2e41f7acf07347454a55a22d325ea"
 metafile = true
 
 [[files]]

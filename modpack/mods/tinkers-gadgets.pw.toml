@@ -1,0 +1,13 @@
+name = "Tinkers' Gadgets"
+filename = "tinkersgadgets-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a5c71c0531174c84a87716d0d442e96a425081d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8138074
+project-id = 1520475
