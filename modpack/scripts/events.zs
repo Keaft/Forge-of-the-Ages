@@ -107,7 +107,7 @@ events.onBlockPlace(
     }
 ); */
 
-var nadeball as IEntityDefinition = <entity:srparasites:nadeball>;
+/* var nadeball as IEntityDefinition = <entity:srparasites:nadeball>;
 
 events.onEntityJoinWorld(
     function(event as crafttweaker.event.EntityJoinWorldEvent){
@@ -120,7 +120,7 @@ events.onEntityJoinWorld(
             event.cancel();
         }
     }
-);
+); */
 
 /* events.onPlayerRightClickItem(
     function(event as crafttweaker.event.PlayerRightClickItemEvent){
