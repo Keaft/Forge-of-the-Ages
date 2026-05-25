@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "0705a3c0013375ae65342c1eb8851d44910cdcfea99eccfee0da833f6f206e03"
+hash = "01fa7bc03a95f619975472046075362216f40a390c00dfec84d2494135db034c"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -235,14 +235,6 @@ hash = "46b0e2309dac40b69e371921e1336102f2400c1f4ab41d1b84259e163439459e"
 [[files]]
 file = "config/endercore/endercore.cfg"
 hash = "4e3fff557c82c08b446fef73ccdaca9c2450daa36c2d9e5b69f4ada424138016"
-
-[[files]]
-file = "config/enderio/enderio.cfg"
-hash = "401c00f96d271f94cc952aaee2009e1ea1a417fabb50b14c12bd245134b95683"
-
-[[files]]
-file = "config/enderio/recipes/user/soul_vial_blacklist.xml"
-hash = "521c0379b7e48971b7c16aad4f4199f11c7cb6bc8a600ebe50a5ba7854c98f80"
 
 [[files]]
 file = "config/endermodpacktweaks/features.cfg"
@@ -962,11 +954,11 @@ hash = "ce6da6a87d2a9fee072e476eb6716628d810a3c8ed765558ae54f57552e0365c"
 
 [[files]]
 file = "config/incontrol/potentialspawn.json"
-hash = "f154841b3edf41f29a55c6ef4c3f75efba063314e6b978147447586ba47e3f36"
+hash = "dbd257186d736545eee3c800d0c9fee663da05314ad42d323df46f20a36f9f42"
 
 [[files]]
 file = "config/incontrol/spawn.json"
-hash = "9d9f8874445a373ec91b6a0fd874f7ad72aa15d5a64aeadaba2b5c54f190ac3a"
+hash = "de815a5aa571c73cf522da3de4e08b11ffdf7c737f6605fe308897689fcc66be"
 
 [[files]]
 file = "config/inspirations.cfg"
@@ -1158,7 +1150,7 @@ hash = "044613569f7db57e6ff27d3925a3629a6d1fb04665399e42abe23676c5ec75bd"
 
 [[files]]
 file = "config/stellar_core.cfg"
-hash = "a631692274ce48fecb073e0aac6654316a301b387ff5b32a0b8e6343a8afe32f"
+hash = "1d1aa92bb43dff571a16ecf736400b0960b464af2642e47ba0c37f77057982a2"
 
 [[files]]
 file = "config/storagedrawers.cfg"
@@ -1214,7 +1206,7 @@ hash = "550cdf60fe6a65b2a4e76b0f19e162eaf73b2e0ee6ea251a975e4dd8efdaf83f"
 
 [[files]]
 file = "config/vintagefix.properties"
-hash = "0ef8f4421142a7be66b9856e51e8f775b8a21ef1ec14a75ee11699668c9892f8"
+hash = "1643468b146020289cd93d13554ece72044bbabf1f571bb9373531881bbf7ffb"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
@@ -2235,6 +2227,11 @@ hash = "3f31f64800555b4bb759be3afae5ffe9911892abc5c831c33662201fd249d5ef"
 metafile = true
 
 [[files]]
+file = "mods/froggyincntrlcont.pw.toml"
+hash = "cc6dd1f790a66f7f1beb1761fc3cf12743f4f8457c5b972a75f5b94acbd027a7"
+metafile = true
+
+[[files]]
 file = "mods/ftb-backups-forge.pw.toml"
 hash = "885123d584ddf8bf9f987674a0c5a246882d08fcdcb32eead7478305b29b3596"
 metafile = true
@@ -2327,11 +2324,6 @@ metafile = true
 [[files]]
 file = "mods/improved-cleanroom-relauncher.pw.toml"
 hash = "509633afdf1486aa5d0b682a67f86084c9cc31abf4a9197aeea5a4cb3616480a"
-metafile = true
-
-[[files]]
-file = "mods/in-control.pw.toml"
-hash = "d92b4f84720af5511e32d46458db79b61b994035b92c7993547463ef686e6e14"
 metafile = true
 
 [[files]]
@@ -5155,7 +5147,7 @@ hash = "d7641a14565421f67a6337067e3241c80481fbaec04ad84876deff55b6cfffed"
 
 [[files]]
 file = "scripts/events.zs"
-hash = "ba7b68a580daef211b460998e131508f2674cdf158d6bcd6fe1230b8c854f0e6"
+hash = "eb5212a8e341b64b6021bd41b84784e96023f5d3d7f87a43822237070083d865"
 
 [[files]]
 file = "scripts/exnihilocreatio.zs"

@@ -1,0 +1,13 @@
+name = "Froggy's InControlContinuation"
+filename = "incontrol-1.12-3.10.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9f6e3bf6e0176c47c41a697880be3b64e417ed72"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8135017
+project-id = 1484881

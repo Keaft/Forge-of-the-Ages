@@ -46,6 +46,7 @@
 -- Electroblob's Wizardry: Twilight Forest Spell Pack (TFSpellPack-1.1.0-MC1.12.2)
 - Packaging Provider (PackagingProvider-1.12.2-1.0.0.2)
 - Tinkers' Gadgets (tinkersgadgets-0.1.0)
+- Froggy's InControlContinuation (incontrol-1.12-3.10.2)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -70,6 +71,7 @@
 - Millenaire (millenaire-8.1.2)
 - NoiseThreader (NoiseThreader-1.1.3)
 - Scape and Run: Parasites (SRParasites-1.10.5)
+- In Control! (incontrol-1.12-3.9.18)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
