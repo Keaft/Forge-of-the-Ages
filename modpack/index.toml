@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "bd0a64e1f177a30172ba740e1d22ac0283cb10cf2d5073b40d59c5e6a0885a02"
+hash = "1763deb0d98409541e6cd46e1fd3dcc913fbe3241044f17aba1e3c2e78b81604"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2402,11 +2402,6 @@ hash = "cea0823d3b224e7bfee140dce362f0321cfb689fa8aaf9d7095ccd244f2051b4"
 metafile = true
 
 [[files]]
-file = "mods/laggoggles.pw.toml"
-hash = "be9b1af659c826761aa8df5d8f5311b57d12cc0b2562b7d7fca429ba69a6bbfe"
-metafile = true
-
-[[files]]
 file = "mods/legendary-tooltips.pw.toml"
 hash = "43c6b8a1a5777613e0baf82f204436509a1fcab2175f2f60c2574fb433854ae7"
 metafile = true
@@ -2916,6 +2911,11 @@ hash = "47820e0bac3b71fd49983ff42b8927d2523011be68a865ead56b08082ab7a7c1"
 metafile = true
 
 [[files]]
+file = "mods/statues.pw.toml"
+hash = "ad42869b013f922b5d2305481018ca7bb2200916cfaa659d2aaf4c7ad357097a"
+metafile = true
+
+[[files]]
 file = "mods/stellarcore.pw.toml"
 hash = "fa9df380bba4f7a73750b16021099e343e34cdd14cd983d570603718a1c4a501"
 metafile = true
@@ -2973,11 +2973,6 @@ metafile = true
 [[files]]
 file = "mods/thermal-foundation.pw.toml"
 hash = "331fb0b726e76bf3d0e9e1babd2986273a012574020afd92a3cc2e9ac3e579a8"
-metafile = true
-
-[[files]]
-file = "mods/tickcentral.pw.toml"
-hash = "422bab705bb2314965c4e6714707b29300506ec6804f0429bb564e8daf8ed030"
 metafile = true
 
 [[files]]

@@ -48,6 +48,7 @@
 - Tinkers' Gadgets (tinkersgadgets-0.1.0)
 - Froggy's InControlContinuation (incontrol-1.12-3.10.2)
 - End's Delight Legacy (ends-delight-legacy-1.0.2)
+- Statues (statues-1.12.2-0.8.11)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -73,6 +74,8 @@
 - NoiseThreader (NoiseThreader-1.1.3)
 - Scape and Run: Parasites (SRParasites-1.10.5)
 - In Control! (incontrol-1.12-3.9.18)
+- LagGoggles (LagGoggles-1.12.2-5.9-140)
+-- TickCentral (TickCentral-3.2)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
