@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "01fa7bc03a95f619975472046075362216f40a390c00dfec84d2494135db034c"
+hash = "bd0a64e1f177a30172ba740e1d22ac0283cb10cf2d5073b40d59c5e6a0885a02"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2144,6 +2144,11 @@ metafile = true
 [[files]]
 file = "mods/endertweaker.pw.toml"
 hash = "209f1d6f5ab66af0c0560c779ffd609fb2d8c82faa9b8dc1e6db7608d98d362d"
+metafile = true
+
+[[files]]
+file = "mods/ends-delight-legacy.pw.toml"
+hash = "a0e6d4bf1001d52d783ff509a08e7e0e31ab6ac8f7cb891e8cc0b2ae10b559b4"
 metafile = true
 
 [[files]]
