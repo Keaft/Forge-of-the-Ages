@@ -16,6 +16,7 @@
 - Selected Skybox from BetterEndForge Backport. I like it's dynamic nature.
 - Added the custom emojis back with the addition of Goslingcord!
 - Added Ice and Fire pick/axes to the veinmine tool list.
+- Updated Universal Tweaks configs.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
