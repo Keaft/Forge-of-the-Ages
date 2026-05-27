@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "1763deb0d98409541e6cd46e1fd3dcc913fbe3241044f17aba1e3c2e78b81604"
+hash = "08cfbe8b582df3b045b072ceb9d5fdeb9f598ec65657503d00ce7198b384f0b2"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1170,11 +1170,11 @@ hash = "8bf4c90516568b7dd0ca153c09954181eaafe2bd117b5fd5cc8e837e58c89f8e"
 
 [[files]]
 file = "config/tconmodmod.json"
-hash = "a3663e15932fe2fd1069cd82a4cabf6105905e5ef07716f82ea978737aab9c93"
+hash = "1f16e9c91c5cd4bf65b912f2c1bd91be05c9f1d23290d5ef60938c08c0605ff1"
 
 [[files]]
 file = "config/tconmodmod_conarm.json"
-hash = "9eeaef601bcfb0449d3b1ef02a8e4ef4d2cd99c732b42f82164283c626e16045"
+hash = "b90d00ecd985eb1434800d34c256b6b52b56a9c6af7d0ad47196dcdfb3413ecb"
 
 [[files]]
 file = "config/tconstruct.cfg"
@@ -3127,207 +3127,207 @@ metafile = true
 
 [[files]]
 file = "pillar/_template.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_7.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_farm_1.json"
-hash = "4713429b07e37976628d6d5806b60b7057fe2a9aacd811e3f03636a87b40de58"
+hash = "6b285f521c533b058b34c298da416098ac83a9db4e92797350a32a79b9d01149"
 
 [[files]]
 file = "pillar/arid_farm_2.json"
-hash = "b65cd8517d4c71ea016cd42042d8b1c0ca4498f6329782f2181f3d49d76c2261"
+hash = "7f8ac5c966379b9f472390e1e676944d86573b6ed3c6fbcd48748468c142c361"
 
 [[files]]
 file = "pillar/arid_farm_3.json"
-hash = "01b6b64e4e42d5ab7e410573f2efcc91d83728951b383a1994fb505efc7e5243"
+hash = "0cd2a0526a8a0ed25d6176b823cbcdac82a487ff74b4aa47a10cde7d01a90ec9"
 
 [[files]]
 file = "pillar/arid_farm_4.json"
-hash = "772e20aa0120cbb574e19735f7eb8661ddac9dfdded3163a0b726f08fb1ed424"
+hash = "06f0efcfcca40ddda4062eb60de630d9fb0dbdefe57042e3541a819fbe740ce7"
 
 [[files]]
 file = "pillar/arid_farm_house.json"
-hash = "6d95756e5d0710bb4b5666173b75bd766fc54b832ee7fb237aada509b4207b76"
+hash = "df4c1d3916529672c1dc6ea5041df3632f97f06f1e66831df169cbca29e1bf5d"
 
 [[files]]
 file = "pillar/arid_farm_house_fire_off.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_farm_house_fire_on.json"
-hash = "452ccdf092efd61891508b364d4e016ec8972cd3d7c8d87748d06410c19aca07"
+hash = "865bfc4b69c6a1f213a2980285bf289d49bf26d4bfafb438d9dc5f95e2aa0a08"
 
 [[files]]
 file = "pillar/arid_villager_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/arid_villager_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/farmbooklore_0.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/farmbooklore_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_10.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_11.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_12.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_13.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_14.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_15.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_16.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_7.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_8.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_9.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_farm_house.json"
-hash = "63935f4a05406f80db861e765a992cc96593b429bd06953a2e5c81bf1e615b45"
+hash = "27a33be09994b841a6f0788af06a6bbbdfd4db07ea32d0a8c213af5e4e01d75e"
 
 [[files]]
 file = "pillar/frost_farm_house_fire_off.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_farm_house_fire_on.json"
-hash = "452ccdf092efd61891508b364d4e016ec8972cd3d7c8d87748d06410c19aca07"
+hash = "865bfc4b69c6a1f213a2980285bf289d49bf26d4bfafb438d9dc5f95e2aa0a08"
 
 [[files]]
 file = "pillar/frost_garden.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_try.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_try_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_try_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_try_3.json"
-hash = "2d06e86dc71982072326f1642069532ea71dad90b94d4def30d7ea1189de0521"
+hash = "df5fe9ac1878f502071c1d20a090259cf1a849cb685a82286c4f7144eb01ee64"
 
 [[files]]
 file = "pillar/frost_try_4.json"
-hash = "bfe486566cb4d9939ed3f62dd6eaccfd571e1f752e915b3b591bfa191b14afec"
+hash = "ed98f88269923761d58151e7446fa290d7b80ca7025059ee2918e3575901d701"
 
 [[files]]
 file = "pillar/frost_villager_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_villager_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_villager_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_villager_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/frost_villager_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/gorgon_temple_gravel.json"
-hash = "ad13aacde006a57355de079642e72cd94f2efda2f1b9214229ed9706c696e301"
+hash = "360240336d9153dd2e10f5b88ed7a7075855b596737c55a72ab05e9af5293ec5"
 
 [[files]]
 file = "pillar/gorgon_temple_sand.json"
-hash = "49f67e6b911693e6537ee2fb5419fd3564f54607c47d200a63b893a8008a7899"
+hash = "c908dc6fee69995ae195101f3b2c7348a06098b2b79b58be68f5257d6ad23cbd"
 
 [[files]]
 file = "pillar/loot_tables/clutter.json"
@@ -3359,379 +3359,379 @@ hash = "5cc61197d57fbba5bd44740bbfbd933ccc667165ff2e8df9f1a64cba72c01cfc"
 
 [[files]]
 file = "pillar/mining_site.json"
-hash = "d232e6b2bd5c33969c84a6c5125073d9c4ff01c3851d91c5a0ec6127ded8845e"
+hash = "8355673a2067de22fff26b4eed033a0aceaef0678acc0b60d522b6e236e5776f"
 
 [[files]]
 file = "pillar/mining_site_crane_lift_1.json"
-hash = "90766bbd6323d0aa8db7be14ae6e6c83355f29e8100a9f606ace59b57d965813"
+hash = "39a3b18aa59c90fb3998e021253cea3c0b501059c1722416b44549d539687a14"
 
 [[files]]
 file = "pillar/mining_site_crane_lift_2.json"
-hash = "ae62fdfd96852619b7e2379be612697d96ab54cac327af3ba583663143d34990"
+hash = "ea8a12ca72e473ae84b1048bced76cfdbfa4e4d12951a40024666be07a7f4cdb"
 
 [[files]]
 file = "pillar/mining_site_crane_lift_3.json"
-hash = "798897220515b74d9722e738ed165cf448ba1b0fdea7772cb850aeb6b4f19fbe"
+hash = "e9ec2b153ec21526d528fbf75e13a1376f3a1754d801908a18fe71ea890d9b2f"
 
 [[files]]
 file = "pillar/mining_site_extra_1.json"
-hash = "ad90c483969347348f508845b6c3338710871a2e4e3021540b54b3c534cebd80"
+hash = "51ad3dd855483345d9e85022055f6c75e7750f7046b2ab996e1519205ee8e3c7"
 
 [[files]]
 file = "pillar/mining_site_extra_2.json"
-hash = "ad90c483969347348f508845b6c3338710871a2e4e3021540b54b3c534cebd80"
+hash = "51ad3dd855483345d9e85022055f6c75e7750f7046b2ab996e1519205ee8e3c7"
 
 [[files]]
 file = "pillar/mining_site_extra_3.json"
-hash = "ad90c483969347348f508845b6c3338710871a2e4e3021540b54b3c534cebd80"
+hash = "51ad3dd855483345d9e85022055f6c75e7750f7046b2ab996e1519205ee8e3c7"
 
 [[files]]
 file = "pillar/mining_site_lift_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/mining_site_lift_2.json"
-hash = "c7ef942670203a040e8ef406483e987ae6d09105b495a5eafead9e12aafcf01c"
+hash = "032a062950143cc3a5012cf7cfe0a933b1d18401ec47494dc143063e4460e819"
 
 [[files]]
 file = "pillar/mining_site_lift_3.json"
-hash = "a6166a10dc13d5e555024bfb6c0cc8387b00f6349079bdb0c7b4d9325f0eb4bb"
+hash = "9d5457078a5c9c57d291dc409fe25b65e9a9070c3b7b7ac201bc375eec062863"
 
 [[files]]
 file = "pillar/mining_site_lift_loot_1.json"
-hash = "750986e18c94448a56859541224bb6737fadaebf81b619199b227a150b9174a2"
+hash = "3b8aff452421eeae6996ecefaf1b054084f8e4ebc45a4a526d729c97cd18f345"
 
 [[files]]
 file = "pillar/mining_site_lift_loot_2.json"
-hash = "750986e18c94448a56859541224bb6737fadaebf81b619199b227a150b9174a2"
+hash = "3b8aff452421eeae6996ecefaf1b054084f8e4ebc45a4a526d729c97cd18f345"
 
 [[files]]
 file = "pillar/mining_site_lift_loot_3.json"
-hash = "750986e18c94448a56859541224bb6737fadaebf81b619199b227a150b9174a2"
+hash = "3b8aff452421eeae6996ecefaf1b054084f8e4ebc45a4a526d729c97cd18f345"
 
 [[files]]
 file = "pillar/mining_site_lift_loot_4.json"
-hash = "750986e18c94448a56859541224bb6737fadaebf81b619199b227a150b9174a2"
+hash = "3b8aff452421eeae6996ecefaf1b054084f8e4ebc45a4a526d729c97cd18f345"
 
 [[files]]
 file = "pillar/mining_site_lift_loot_5.json"
-hash = "750986e18c94448a56859541224bb6737fadaebf81b619199b227a150b9174a2"
+hash = "3b8aff452421eeae6996ecefaf1b054084f8e4ebc45a4a526d729c97cd18f345"
 
 [[files]]
 file = "pillar/mining_site_lift_loot_6.json"
-hash = "750986e18c94448a56859541224bb6737fadaebf81b619199b227a150b9174a2"
+hash = "3b8aff452421eeae6996ecefaf1b054084f8e4ebc45a4a526d729c97cd18f345"
 
 [[files]]
 file = "pillar/shaded_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_10.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_11.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_12.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_13.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_14.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_15.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_7.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_8.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_9.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_farm_1.json"
-hash = "50a4e1b5b94b0f8e8583ffc394555c3803aad5a87bbf022380e0a6b3339abbb7"
+hash = "25b3240f3160bf4c095feea71fade51b235e1e03ccbeb6f18c9afebbab8ab4da"
 
 [[files]]
 file = "pillar/shaded_farm_2.json"
-hash = "2c302f698e38861baff5fc49fd3da7da2fa41535182d4fbebf26f0e4a17d859b"
+hash = "67516c101c1a799437bcb3d82a196ccd96d9ebfb3f51b7c707cea67c7c6d7d66"
 
 [[files]]
 file = "pillar/shaded_farm_3.json"
-hash = "2b40fa208c723edf3b9c6f97026e7821fcee3908f5973f4c981c5c53a1f8e581"
+hash = "cbfe77e817bee7f8aada3c4ed6716c9150d654772227390a2bee5f2bd5343ba0"
 
 [[files]]
 file = "pillar/shaded_farm_4.json"
-hash = "72af2bc9e0f468107d708345b43227eaa5df8404167e31142773ac35bf89bbe2"
+hash = "2e82acb3a9a32fc1f90e0227041c4a3b58adfe7cd2e2e48c04ebf3b801891075"
 
 [[files]]
 file = "pillar/shaded_farm_5.json"
-hash = "72af2bc9e0f468107d708345b43227eaa5df8404167e31142773ac35bf89bbe2"
+hash = "2e82acb3a9a32fc1f90e0227041c4a3b58adfe7cd2e2e48c04ebf3b801891075"
 
 [[files]]
 file = "pillar/shaded_farm_house.json"
-hash = "7fe35f29adb08bbbc08b9ae52c085b96a780253d036e426135e3d690c604f08c"
+hash = "088a69d8f15050404a164a28bc0709af5e2ed8d2693a7231c90a271d7f949aa4"
 
 [[files]]
 file = "pillar/shaded_farm_house_fire_off.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_farm_house_fire_on.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_foliage_1.json"
-hash = "136688891fceafa5b5931f3d771bdca1e3f422081ec47ee8e3906359494cb33b"
+hash = "4350c23c8e74e5019f260ba0f8e71e6b13a3edfd823bc82f8443f1f4e1b6d6c5"
 
 [[files]]
 file = "pillar/shaded_foliage_2.json"
-hash = "119c6e910887f4bda21828613e06761e337e3607e607af29c20ed5876b2d3412"
+hash = "303c76684aca2a006bdd5b690583e17eec767fea93680a2594ed4776baf3f199"
 
 [[files]]
 file = "pillar/shaded_foliage_3.json"
-hash = "136688891fceafa5b5931f3d771bdca1e3f422081ec47ee8e3906359494cb33b"
+hash = "4350c23c8e74e5019f260ba0f8e71e6b13a3edfd823bc82f8443f1f4e1b6d6c5"
 
 [[files]]
 file = "pillar/shaded_foliage_try.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_villager_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_villager_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_villager_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_villager_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/shaded_villager_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_10.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_11.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_12.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_13.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_14.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_15.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_16.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_7.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_8.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_9.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_farm.json"
-hash = "e0271a85ed6fc327dd14e726c9016a5c9a3dd2e67ffad1a0a802c1a2fe9a7dfe"
+hash = "2bc85203529bf680645cd4d627abc1f09eb129d40b3d04b3866c503fe9831f87"
 
 [[files]]
 file = "pillar/soggy_farm_house_fire_off.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_farm_house_fire_on.json"
-hash = "452ccdf092efd61891508b364d4e016ec8972cd3d7c8d87748d06410c19aca07"
+hash = "865bfc4b69c6a1f213a2980285bf289d49bf26d4bfafb438d9dc5f95e2aa0a08"
 
 [[files]]
 file = "pillar/soggy_farm_house_sea_level.json"
-hash = "2258fa6ac46a24240655fe8ffa3c016f586d83abb5dab438699379b33fc504e7"
+hash = "63c7df21263db1e6497a0494ae0e7c58d9d07ce1b12e123c5824982e0330c415"
 
 [[files]]
 file = "pillar/soggy_farm_house_surface_level.json"
-hash = "8ab072ba99a8fc703da4e1e249c02f4b77b77da0d14fe16cb8786ef689ce472e"
+hash = "1cf8a5a1c17dec4cfc80bfdb3a5ff487f58b9d13a22c9ec580a0f987b78734e6"
 
 [[files]]
 file = "pillar/soggy_farm_supports.json"
-hash = "087a1ab0d4a8c236c63348e8a183e227befedc6478e0145140e539761f6e3e39"
+hash = "5336bb76a793fc62c2bcafe4185e8b929a19b1fbb74feb0887aede254fd76cb8"
 
 [[files]]
 file = "pillar/soggy_foliage_1.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_2.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_3.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_4.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_5.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_6.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_7.json"
-hash = "ef3dc094b5dca6a8e5f11c38bf7c56368d825cbe22197a434613639f93d4c806"
+hash = "559b9c5461b859ebdf543890a2d1318b44f4b1a6e9000afb365ff2a3a30231b0"
 
 [[files]]
 file = "pillar/soggy_foliage_try.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_lantern.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_try.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_try_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_try_2.json"
-hash = "54d8316838a9fc3b150b3596b246b4a66dda9e73f74edebafb62c80e357284e1"
+hash = "b0e002ee72a67a04b3497dc2474c12631d7c6539445cf26ad76dc5ddaf92b4cd"
 
 [[files]]
 file = "pillar/soggy_try_3.json"
-hash = "d4de49c1ac93ec59a124c625fd6b5bd76453dd297e02b670bdb6e886dd3d1ce7"
+hash = "c56f680440ecc40cbd7c398402969a0003a9aa24db763683dfa5b059c8e503cb"
 
 [[files]]
 file = "pillar/soggy_try_4.json"
-hash = "f912b5800de6fe55b4394f265dbae7cbd25cd487191239a53ba1d6f7894f0552"
+hash = "d79a7a08edb407955162fb2a51abb9b18fa0d7ed2805ce11bb7f3cfb4a52e18c"
 
 [[files]]
 file = "pillar/soggy_try_supports.json"
-hash = "b9b1ffb699b0cdbf4e9626ecf8ef2fa7d24962a761cbedc6467d061af744256c"
+hash = "ecd1837d4bcf225b76c475b8a70acd9806bf59163fa2b5a81d2ed6b9a0f1cfea"
 
 [[files]]
 file = "pillar/soggy_try_supports_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_try_supports_2.json"
-hash = "54d8316838a9fc3b150b3596b246b4a66dda9e73f74edebafb62c80e357284e1"
+hash = "b0e002ee72a67a04b3497dc2474c12631d7c6539445cf26ad76dc5ddaf92b4cd"
 
 [[files]]
 file = "pillar/soggy_try_supports_3.json"
-hash = "d4de49c1ac93ec59a124c625fd6b5bd76453dd297e02b670bdb6e886dd3d1ce7"
+hash = "c56f680440ecc40cbd7c398402969a0003a9aa24db763683dfa5b059c8e503cb"
 
 [[files]]
 file = "pillar/soggy_try_supports_4.json"
-hash = "f912b5800de6fe55b4394f265dbae7cbd25cd487191239a53ba1d6f7894f0552"
+hash = "d79a7a08edb407955162fb2a51abb9b18fa0d7ed2805ce11bb7f3cfb4a52e18c"
 
 [[files]]
 file = "pillar/soggy_villager_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_villager_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_villager_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_villager_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/soggy_villager_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/structures/arid_1.nbt"
@@ -4567,259 +4567,259 @@ hash = "7ea52a5d8a8c1bf2eee0d5b900d8efdb2c8b76edc4112d0453bcf53a7148a730"
 
 [[files]]
 file = "pillar/tropical_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_10.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_11.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_12.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_13.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_14.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_7.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_8.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_9.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_farm_1.json"
-hash = "9a094a9d1220114d8ffbf97cd16c1b2832ccfc67f1e3722531ed6c47a5b2dfb5"
+hash = "ea26648f7223dba654f4311aa96993f132f2365f56d8d3c5c9564a978ba21fbd"
 
 [[files]]
 file = "pillar/tropical_farm_2.json"
-hash = "2034bb605ca6fbb467968cc1492600932eb0b5911f39f6ffc5e09dc4be25aa22"
+hash = "053da6afe51a581a5011f7b2285a1ac7ab5d0d2183f930383c1be22232cc6353"
 
 [[files]]
 file = "pillar/tropical_farm_house.json"
-hash = "b8a44b0fa28ce756214b9201dcd896d0be7ec9839752cdb9f8b174e70937c56e"
+hash = "f39e11acd11d907a6aaf349280ac5dce7eb84d5ab2dec199f1567bfa27562bee"
 
 [[files]]
 file = "pillar/tropical_farm_house_fire_off.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_farm_house_fire_on.json"
-hash = "b55d19bd126039d02edd245de8a5c6ac22b2f875b8a782f504556bd77982113d"
+hash = "ad36a9677140b4b2e8ca0908b769ab5d90653ae27f75680c164fa30ba55439a4"
 
 [[files]]
 file = "pillar/tropical_try.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_try_1.json"
-hash = "5c5a94cf1665724f8fb813bd35b3c3c17b4a4c1b2a7df7ee1e4ebda324e059bf"
+hash = "53b2b4381e3378f21985cd9d00bcc7a64c8ff47b08cc9de8c65256af313475a1"
 
 [[files]]
 file = "pillar/tropical_try_2.json"
-hash = "5c5a94cf1665724f8fb813bd35b3c3c17b4a4c1b2a7df7ee1e4ebda324e059bf"
+hash = "53b2b4381e3378f21985cd9d00bcc7a64c8ff47b08cc9de8c65256af313475a1"
 
 [[files]]
 file = "pillar/tropical_try_3.json"
-hash = "338d9b86303465a7c2effbc714f890229dd6c052a0f56c1f0af660929e0b15dd"
+hash = "b5a6384e4af3e5b7bf7b771262d58e7d77a4389b65ed24aec1ea5b3cbb3a3a7e"
 
 [[files]]
 file = "pillar/tropical_try_4.json"
-hash = "4d9b8e674c32876d74f80e235c04c0cc22922858845e280402d9419c86a35bcc"
+hash = "d719e7c892a4b811aa0560f358de6faeeec867a272f1b6d47b427c366a859f5b"
 
 [[files]]
 file = "pillar/tropical_try_5.json"
-hash = "338d9b86303465a7c2effbc714f890229dd6c052a0f56c1f0af660929e0b15dd"
+hash = "b5a6384e4af3e5b7bf7b771262d58e7d77a4389b65ed24aec1ea5b3cbb3a3a7e"
 
 [[files]]
 file = "pillar/tropical_villager_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_villager_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_villager_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_villager_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/tropical_villager_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_10.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_11.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_12.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_13.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_14.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_15.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_16.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_17.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_18.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_19.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_7.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_8.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_9.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_farm.json"
-hash = "d2f4c3c89ac89cc2921bb01544b5e558361de613fddc799b9bdd02ad80110402"
+hash = "21a3d440985f4eef2af890612df3c36c7be5bc4d349bf45c75f1d764c5e534ff"
 
 [[files]]
 file = "pillar/windy_farm_house.json"
-hash = "1bd4410091534db5aa63a4744e7b3f6a6f7f8f85c2f70c1685a4b4bbf0839014"
+hash = "447facd71275d59c79743a90a24e7f50d1926e0c026f8c4ff446c557c487d7a3"
 
 [[files]]
 file = "pillar/windy_farm_house_fire_off.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_farm_house_fire_on.json"
-hash = "921f9cc161b44a50dba580a60a69cb2c53591ffbe4127a95d753db0cfda54fbb"
+hash = "8c75293e801e49ff6df7eb79ac372c07ce2c88279719733ef48748d94f864938"
 
 [[files]]
 file = "pillar/windy_try.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_try_double.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_try_quadruple.json"
-hash = "d4cbdeaba3b020258a4465b6ddecf9fea0415c4ba4cdeb399ca4c87c06261e31"
+hash = "0d179efc17636322a793be7a9c20d7d4fc6233813a517168f1877b308d6166c2"
 
 [[files]]
 file = "pillar/windy_try_single.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_villager_1.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_villager_2.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_villager_3.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_villager_4.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_villager_5.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/windy_villager_6.json"
-hash = "3295371e2906fc28c0e36659559e787ab42e7b64a3c49c000d7675397c4f1137"
+hash = "9cafbb59f85fecf91df6facb3a3b5957403172dd5830e9b2c359acae25d6f699"
 
 [[files]]
 file = "pillar/woodland.json"
-hash = "0c8578aed8b9f66abd9f544e3d214c0f04f0dae16d0e597f631fdb10be25f181"
+hash = "e31418ed3073335d78f93aef3e39bf3b3005c9b2dc32c2a2a84747fd85026f81"
 
 [[files]]
 file = "resources/contenttweaker/blockstates/spore_endstone.json"
