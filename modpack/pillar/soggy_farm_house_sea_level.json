@@ -45,6 +45,6 @@
   "filling": "",
   "fillingMetadata": 0,
   "fillingType": "WATER",
-  "rarity": 600,
-  "minDistanceToSameTypeStructures": 160
+  "rarity": 225,
+  "minDistanceToSameTypeStructures": 300
 }

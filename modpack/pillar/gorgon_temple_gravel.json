@@ -26,6 +26,6 @@
   "filling": "minecraft:gravel",
   "fillingMetadata": 0,
   "fillingType": "WATER",
-  "rarity": 1200,
-  "minDistanceToSameTypeStructures": 160
+  "rarity": 225,
+  "minDistanceToSameTypeStructures": 300
 }

@@ -61,6 +61,6 @@
   "filling": "minecraft:dirt",
   "fillingMetadata": 0,
   "fillingType": "AIR",
-  "rarity": 600,
-  "minDistanceToSameTypeStructures": 160
+  "rarity": 225,
+  "minDistanceToSameTypeStructures": 300
 }

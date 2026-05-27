@@ -46,6 +46,6 @@
   "filling": "",
   "fillingMetadata": 0,
   "fillingType": "AIR",
-  "rarity": 1200,
-  "minDistanceToSameTypeStructures": 160
+  "rarity": 600,
+  "minDistanceToSameTypeStructures": 300
 }

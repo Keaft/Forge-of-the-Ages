@@ -7,7 +7,7 @@
 - Changed Normalasm and VintageFix settings to work more nicely will all mixin/asm mods especially StellarCore.
 - Disable Tinkers related changes from StellarCore and Universal Tweaks. Handled by Tinkers Antique.
 - Disabled UniversalTweaks botania Alfheim chunkban fix, as Botania CEu has it built in.
-- Reinforced trait now 10% per modifier to a maximum of 30%
+- Reinforced trait now 10% per modifier to a maximum of 30%.
 - Changed stacksize.zs to remove some soups as they broke when consumed.
 - Removed extra podzol recipes.
 - Added a not as efficient method of crafting Steel Crystal Shells that don't require making machines.
@@ -27,17 +27,17 @@
 - Inventory Bogo Sorter (bogosorter-1.6.3)
 -- Key Binding Patch ([MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1)
 -- ModularUI (modularui-3.1.6)
-- JEI Area Fixer (jei_area_fixer-2.3.0)
+- JEI Area Fixer (jei_area_fixer-2.4.0)
 - CodeChicken Lib CRE (codechickenlib-3.3.5-universal)
 - SauriaLib" successfully added! (SauriaLib 3-3.2.1-beta)
 - Natura Legacy (natura-legacy-1.12.2-4.6.1)
 - Crash Assistant (!!!CrashAssistant-forge-1.12.2-1.11.9)
-- Tinkers Tactical Toughness (TinkersTacticalToughness-1.5.2)
+- Tinkers Tactical Toughness (TinkersTacticalToughness-1.6.0)
 - Hyxcate (Night/Day Events & Meteors) (Hyxcate-1.12.2-1.2.3)
 -- Expanded Events (expandedevents-1.2.0)
 - ImmersiveThunder: Legacy (immersivethunder-forge-1.12.2-1.3.0)
-- Farmer's Delight Legacy (FarmersDelightLegacy-1.0.7)
-- Nether's Delight Legacy (nethers-delight-legacy-1.0.1)
+- Farmer's Delight Legacy (FarmersDelightLegacy-1.0.9)
+- Nether's Delight Legacy (nethers-delight-legacy-1.0.2)
 - Sound Physics Remixin (soundphysics-1.1.17)
 - BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9)
 - End Expansion - The Lamented Islands (geckolib-forge-1.12.2-3.0.31)
@@ -45,7 +45,7 @@
 - Electroblob's Wizardry (ElectroblobsWizardry-4.3.18)
 -- Electroblob's Wizardry: Twilight Forest Spell Pack (TFSpellPack-1.1.0-MC1.12.2)
 - Packaging Provider (PackagingProvider-1.12.2-1.0.0.2)
-- Tinkers' Gadgets (tinkersgadgets-0.1.0)
+- Tinkers' Gadgets (tinkersgadgets-0.2.0)
 - Froggy's InControlContinuation (incontrol-1.12-3.10.2)
 - End's Delight Legacy (ends-delight-legacy-1.0.2)
 - Statues (statues-1.12.2-0.8.11)
@@ -86,11 +86,12 @@
 - PackagedDraconic: PackagedDraconic-1.12.2-1.0.3.23 -> PackagedDraconic-1.12.2-1.0.4.24
 - Gnetum: gnetum-1.2.6 -> gnetum-1.4.3
 - FermiumBooter: FermiumBooter-1.3.1 -> FermiumBooter-1.4.1
-- Fluidlogged API: Fluidlogged-API-v2.2.4-mc1.12.2 -> Fluidlogged-API-v3.2.0-mc1.12.2
+- Fluidlogged API: Fluidlogged-API-v2.2.4-mc1.12.2 -> Fluidlogged-API-v3.3.1-mc1.12.2
+- Nether API: Nether-API-v1.3.0-mc1.12.2 -> Nether-API-v1.4.4-mc1.12.2 (also moved to Curseforge)
 - Macaw's Trapdoors: mcw-trapdoors-1.0.3-mc1.12.2 -> mcw-trapdoors-1.0.4-mc1.12.2
 - NoiseThreader: NoiseThreader-1.1.0 -> NoiseThreader-1.1.3
 - Forgelin-Continuous: Forgelin-Continuous-2.2.0.0 -> Forgelin-Continuous-2.3.20.0
-- Zen Utils: zenutils-1.25.3 -> zenutils-1.27.1
+- Zen Utils: zenutils-1.25.3 -> zenutils-1.27.2
 - Botania CEu: Botania r1.10-368 -> botania-r1.10-372
 - Waystone Folders (Folders for Waystones): WaystoneFolders-0.3 -> WaystoneFolders-1.0
 - Roughly Enough IDs: RoughlyEnoughIDs-2.2.3 -> RoughlyEnoughIDs-2.3.1
@@ -113,7 +114,7 @@
 - Unseen's Nether Backport: Unseens Nether Backport - 0.6 -> unseens-nether-backport-0.7
 - Ice and Fire: RotN Edition: Ice and Fire-2.0.0 -> Ice and Fire-2.0.0
 - Tesseract: tesseract-1.0.37-forge-mc1.12 -> tesseract-1.0.38-forge-mc1.12
-- Universal Tweaks: UniversalTweaks-1.12.2-1.15.2 -> UniversalTweaks-1.12.2-1.19.1
+- Universal Tweaks: UniversalTweaks-1.12.2-1.15.2 -> UniversalTweaks-1.12.2-1.20.0
 - SuperMartijn642's Core Lib: _supermartijn642corelib-1.1.18-forge-mc1.12 -> _supermartijn642corelib-1.1.21-forge-mc1.12
 - VintageFix: vintagefix-0.6.2 -> vintagefix-0.7.0
 - Fugue: +Fugue-0.20.0 -> +Fugue-0.23.4

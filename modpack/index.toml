@@ -2188,7 +2188,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight-legacy.pw.toml"
-hash = "b851e799b7c0bcae4e56758ef2b33d3163853e66c5e26bed35fb8757665fc78c"
+hash = "dde014a35f4c7f022b11a2ba820776a0e9ec01bed2913318c0834c4043ead312"
 metafile = true
 
 [[files]]
@@ -2218,7 +2218,7 @@ metafile = true
 
 [[files]]
 file = "mods/fluidlogged-api.pw.toml"
-hash = "803629ba1f3490674c987e07580373c09a1af4a3056c89dc0ab49d87a1cf9424"
+hash = "9aa442ebf4d0fb9d2ffeff2884a29e497c4f5f6bc31e71ee5d87068519a688a8"
 metafile = true
 
 [[files]]
@@ -2363,7 +2363,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei-area-fixer.pw.toml"
-hash = "3cb55b92ad08c2a551358e84254b3678a940a12742ded4a2fbad605c83a82bce"
+hash = "5d258d6f2e16f2e978044fc19666b9e22df1e3f165394a1beba5c9bd19813006"
 metafile = true
 
 [[files]]
@@ -2652,7 +2652,7 @@ metafile = true
 
 [[files]]
 file = "mods/nether-api.pw.toml"
-hash = "585c1072702756fbf6059fce314b186d54adba064be069d6d886ac65e019db66"
+hash = "3ab9ac1091998e773f6c1d57fc65620c3d1caef0beb90dfe3b53dff18b42f4d6"
 metafile = true
 
 [[files]]
@@ -2662,7 +2662,7 @@ metafile = true
 
 [[files]]
 file = "mods/nethers-delight-legacy.pw.toml"
-hash = "29a9dd1c29ca92d0900ad7df4d17fe58a213d1593b2e3dac24a2ad0b5ca39d08"
+hash = "0b478583eae75b17f07407b858e3f7ae4a60eee484c0c87df60470be36b9d518"
 metafile = true
 
 [[files]]
@@ -2997,7 +2997,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-gadgets.pw.toml"
-hash = "0822f8abd94a90424dd64d50d5b55fe0e6d2e41f7acf07347454a55a22d325ea"
+hash = "a5450ad45e7cfe649ee01a64ff067b19e9498497e629743c8004f0b1ab518800"
 metafile = true
 
 [[files]]
@@ -3012,7 +3012,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-tactical-toughness.pw.toml"
-hash = "705815708a3a2c20a30f633a807b87a5e1fff20bbc8f6f8b9e2a102afa4b97f4"
+hash = "4c6c62354e915109d700eed98015b249c392f20c647a55d0c7d8c6e46be82b64"
 metafile = true
 
 [[files]]
@@ -3042,7 +3042,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal-tweaks.pw.toml"
-hash = "37c706c5cd0b430f87952afe1caa52332d1ad59f13a510d3826e1ece536f8145"
+hash = "a5cf3bbac164b4f520f1ccfe1806172a058c390b4a2a6377f6ecb92e4cab69b8"
 metafile = true
 
 [[files]]
@@ -3117,7 +3117,7 @@ metafile = true
 
 [[files]]
 file = "mods/zenutil.pw.toml"
-hash = "5cf1cfc9ce499e5ca0e027c40bdd27d4ec20cf345910d46e46efff070bc4093d"
+hash = "14e829f7f6ea650a469c7e6b427067bd62828bb900f2289423961ebb3672663b"
 metafile = true
 
 [[files]]
