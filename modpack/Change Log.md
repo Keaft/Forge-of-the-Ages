@@ -7,7 +7,7 @@
 - Changed Normalasm and VintageFix settings to work more nicely will all mixin/asm mods especially StellarCore.
 - Disable Tinkers related changes from StellarCore and Universal Tweaks. Handled by Tinkers Antique.
 - Disabled UniversalTweaks botania Alfheim chunkban fix, as Botania CEu has it built in.
-- Reinforced trait now 10% per modifier to a maximum of 30%.
+- Reinforced trait now 10% per modifier to a maximum of 20%.
 - Changed stacksize.zs to remove some soups as they broke when consumed.
 - Removed extra podzol recipes.
 - Added a not as efficient method of crafting Steel Crystal Shells that don't require making machines.
