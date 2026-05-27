@@ -17,6 +17,7 @@
 - Added the custom emojis back with the addition of Goslingcord!
 - Added Ice and Fire pick/axes to the veinmine tool list.
 - Updated Universal Tweaks configs.
+- Re-order inscriber crystal press recipes to hopefully make it clearer how to get to the Steel Crystal Shell.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
