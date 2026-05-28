@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "08cfbe8b582df3b045b072ceb9d5fdeb9f598ec65657503d00ce7198b384f0b2"
+hash = "95191643ea9ae8f62c8472b7cc49a47619390e2a2d03e27927bfae76b2071f55"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -78,11 +78,11 @@ hash = "4a5cf76059bf253d3bb0f561fdd8ed52c071992ec0799477133d577f0ff747eb"
 
 [[files]]
 file = "config/Universal Tweaks - Mod Integration.cfg"
-hash = "f4667b0d77a08aa65baa18e956b642edc73936c0cea25057f2d3d4304eecec27"
+hash = "b01b4f419b449661a67a6b06e7993e5b51eb08f70c96e801c55d6faccd66b28f"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "6494137fdab02c48d9845cbc5551c0153412cccaf20a0d1ca85e8a74d5316bce"
+hash = "5f056bd7e444e684e71a805cb5d499948ee1aaffac7167d9e463a89b5ce3a537"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
@@ -1090,7 +1090,7 @@ hash = "3dbefc3e1c3b4a193ee74546300c98af4152cbd583d1ffb9bfb4c5c98023ac27"
 
 [[files]]
 file = "config/scannable.cfg"
-hash = "deaeb674bc1d75b107372282aaaf4ef07a5b6cb3603b70e2e40265628dc863e6"
+hash = "d07814f439805935c204130ee900be685a3a75bb5df85ac612e820cefd08c483"
 
 [[files]]
 file = "config/scavenge/config.cfg"
@@ -1123,10 +1123,6 @@ hash = "22e5328831c9a2e8c2830f4452844af49c7ff9ec2b751600145dbb9819af70fc"
 [[files]]
 file = "config/solcarrot.cfg"
 hash = "9bae829a847e7dd5152918519a8c1492de07233fa7d5dc646955f734dd2ffa9d"
-
-[[files]]
-file = "config/spiceoflife.cfg"
-hash = "90c6c850ed4af60b278c9920a86bc79e655c777219556ed6d7361dd648141f40"
 
 [[files]]
 file = "config/srparasites/SRParasites.cfg"
@@ -1170,15 +1166,15 @@ hash = "8bf4c90516568b7dd0ca153c09954181eaafe2bd117b5fd5cc8e837e58c89f8e"
 
 [[files]]
 file = "config/tconmodmod.json"
-hash = "1f16e9c91c5cd4bf65b912f2c1bd91be05c9f1d23290d5ef60938c08c0605ff1"
+hash = "63ad96e17a5fb892750cdf3f38cfca2e102b78fdf5bed24236cb9c7d8124a583"
 
 [[files]]
 file = "config/tconmodmod_conarm.json"
-hash = "b90d00ecd985eb1434800d34c256b6b52b56a9c6af7d0ad47196dcdfb3413ecb"
+hash = "d25492e86d543efc37bd1ca20b4836b58b9a766ace1d544f144593567c497290"
 
 [[files]]
 file = "config/tconstruct.cfg"
-hash = "8c1cc0fd13de23a454993f7903dbbc41f1e76428b98c1a3182d1c9a6c16a11d6"
+hash = "b66fdcce85362adcf46e2518464d4e3f3eecf11504f3f7749411b47f11ee7dea"
 
 [[files]]
 file = "config/thebetweenlands/config.cfg"
@@ -1202,7 +1198,7 @@ hash = "661ce2db0e389c12f0d8c907c7c288c1cf84fc6b694e2882277f1f851e002e26"
 
 [[files]]
 file = "config/veinminer/tools-and-blocks.json"
-hash = "550cdf60fe6a65b2a4e76b0f19e162eaf73b2e0ee6ea251a975e4dd8efdaf83f"
+hash = "38c0dc5ea5ceac9ef1c7a152397f2be9d7f0f2d3785cdd16faffdd6ff6595a0f"
 
 [[files]]
 file = "config/vintagefix.properties"
@@ -2823,16 +2819,6 @@ metafile = true
 [[files]]
 file = "mods/scalar-legacy.pw.toml"
 hash = "c1fb189ad08a9630c596e8609f90f2a7f7a19eb6a0bfdbb4841bd7c6a477e4fc"
-metafile = true
-
-[[files]]
-file = "mods/scaling-health.pw.toml"
-hash = "618e325fcebc7ea37e8920add24c807fe5d694e5e0f0f4479c5c40c2783912f9"
-metafile = true
-
-[[files]]
-file = "mods/scaling-wealth.pw.toml"
-hash = "f0cb3ff0d51bb47a9c91ede46964b8778171cb5b0f078808a71d033f39e89eef"
 metafile = true
 
 [[files]]
@@ -5087,7 +5073,7 @@ hash = "66aaaf8f2d84526de9cb039f54f258cd3fbb0c4f4d7024dcda33e7b23ab86ac9"
 
 [[files]]
 file = "scripts/appliedenergistics.zs"
-hash = "1560265380783410aef35669404aaa0c2fa5388848738c87fee25de36762cf39"
+hash = "bde30fc35278aea5f8b712da5e1c4f405524b74d33f38d916a49f611eb205bc8"
 
 [[files]]
 file = "scripts/astral_sorcery.zs"
@@ -5187,7 +5173,7 @@ hash = "97040b6c28723f435e65c139c8679bede2b5bb5ff747b9ad5f27573b6f33b586"
 
 [[files]]
 file = "scripts/replace.zs"
-hash = "38624b2706126ed02526e054685fc609dc1b8c8b063ad3b150bfb2f25bc625f4"
+hash = "9b6b2ffa714684981610f21fe193d649034e59a25a64c2d6edbbadad24d3875d"
 
 [[files]]
 file = "scripts/stacksize.zs"

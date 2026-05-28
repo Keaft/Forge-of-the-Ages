@@ -81,6 +81,8 @@
 - In Control! (incontrol-1.12-3.9.18)
 - LagGoggles (LagGoggles-1.12.2-5.9-140)
 -- TickCentral (TickCentral-3.2)
+- Scaling Health (ScalingHealth-1.12.2-1.3.42+147)
+- Scaling Wealth (ScalingWealth-1.0.1)
 
 ### **__Mod(s) Updated:__**
 - NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
