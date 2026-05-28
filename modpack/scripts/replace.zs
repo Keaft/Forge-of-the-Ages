@@ -447,14 +447,6 @@ replaceRecipeShaped("quark:spruce_trapdoor", <quark:spruce_trapdoor> * 6, [[<min
 
 //--------------------------------------------------------------------------------------
 
-// --- Scaling Health ---
-//Heart Dust
-replaceRecipeShapeless("scalinghealth:heart_dust", <scalinghealth:heartdust>, [hammer.transformDamage(), <scalinghealth:crystalshard>]);
-
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
 // --- Scannable ---
 //Scanner
 replaceRecipeShaped("scannable:scanner", <scannable:scanner>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<minecraft:iron_bars>, <minecraft:comparator>, <minecraft:iron_bars>], [<ore:ingotGold>, <minecraft:dragon_breath>, <ore:ingotGold>]]);

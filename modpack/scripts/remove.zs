@@ -199,9 +199,6 @@ val recipesItems as IIngredient[] = [
     <quark:jungle_trapdoor>,
     <quark:acacia_trapdoor>,
     <quark:dark_oak_trapdoor>,
-    // --- Scaling Health ---
-    // - Heart Container
-    <scalinghealth:heartcontainer>,
     // --- Thermal Expansion ---
     // - Morbs
     <thermalexpansion:morb>,

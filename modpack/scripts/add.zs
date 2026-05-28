@@ -237,19 +237,6 @@ recipes.addShapeless("pams_royal_jelly", <harvestcraft:royaljellyitem>, [<minecr
 
 //--------------------------------------------------------------------------------------
 
-// --- Scaling health ---
-// - Cursed Heart
-recipes.addShapeless("scalinghealth_cursed_heart", <scalinghealth:difficultychanger:1>, [<scalinghealth:difficultychanger>]);
-recipes.addShaped("scalinghealth_cursed_heart_with_shards", <scalinghealth:difficultychanger:1>, [[null, <scalinghealth:crystalshard>, null],[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>],[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>]]);
-
-// - Enchanted Heart
-recipes.addShapeless("scalinghealth_enchanted_heart", <scalinghealth:difficultychanger>, [<scalinghealth:difficultychanger:1>]);
-recipes.addShaped("scalinghealth_enchanted_heart_with_shards", <scalinghealth:difficultychanger>, [[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>],[<scalinghealth:crystalshard>, null, <scalinghealth:crystalshard>],[null, <scalinghealth:crystalshard>, null]]);
-
-//--------------------------------------------------------------------------------------
-
-//--------------------------------------------------------------------------------------
-
 // --- Vanilla Furnace ---
 //furnace.addRecipe(IItemStack output, IIngredient input);
 furnace.addRecipe(<iceandfire:silver_ingot>, <iceandfire:silver_ore>);
