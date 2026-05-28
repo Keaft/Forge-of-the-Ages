@@ -10,6 +10,7 @@
 - Reinforced trait now 10% per modifier to a maximum of 20%.
 - Changed stacksize.zs to remove some soups as they broke when consumed.
 - Removed extra podzol recipes.
+- Re-ordered Inscriber Crystal Press recipes to hopefully make it clearer how to work towarsds the Steel Crystal Shell.
 - Added a not as efficient method of crafting Steel Crystal Shells that don't require making machines.
 - Added additional recipes for the 1K ME Storage Component to help with transitioning storage from early-mid to mid game.
 - Fixed Pillar structures spawn distance config change since 1.3.3 update.
@@ -17,7 +18,8 @@
 - Added the custom emojis back with the addition of Goslingcord!
 - Added Ice and Fire pick/axes to the veinmine tool list.
 - Updated Universal Tweaks configs.
-- Re-order inscriber crystal press recipes to hopefully make it clearer how to get to the Steel Crystal Shell.
+- Moved scanner to mid-late game via recipe change.
+- Changed scanner energy costs.
 
 ### **__Mod(s) Added:__**
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)

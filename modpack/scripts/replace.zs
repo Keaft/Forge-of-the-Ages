@@ -455,6 +455,14 @@ replaceRecipeShapeless("scalinghealth:heart_dust", <scalinghealth:heartdust>, [h
 
 //--------------------------------------------------------------------------------------
 
+// --- Scannable ---
+//Scanner
+replaceRecipeShaped("scannable:scanner", <scannable:scanner>, [[<ore:ingotIron>, null, <ore:ingotIron>], [<minecraft:iron_bars>, <minecraft:comparator>, <minecraft:iron_bars>], [<ore:ingotGold>, <minecraft:dragon_breath>, <ore:ingotGold>]]);
+
+//--------------------------------------------------------------------------------------
+
+//--------------------------------------------------------------------------------------
+
 // --- Serene Seasons ---
 //Greenhouse Glass
 replaceRecipeShaped("sereneseasons:greenhouse_glass", <sereneseasons:greenhouse_glass> * 4, [[<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>], [<ore:blockGlass>, <ore:plankWood>, <ore:blockGlass>], [<ore:dyeCyan>, <ore:blockGlass>, <ore:dyeCyan>]]);
