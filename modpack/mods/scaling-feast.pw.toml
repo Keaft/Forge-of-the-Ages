@@ -1,0 +1,13 @@
+name = "Scaling Feast"
+filename = "scalingfeast-1.10.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d0c26ade67c37d37a32d292d7254cf304cfffa8c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7655220
+project-id = 370995

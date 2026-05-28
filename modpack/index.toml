@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "95191643ea9ae8f62c8472b7cc49a47619390e2a2d03e27927bfae76b2071f55"
+hash = "3d55ded8dd158515f459e6c3408a3f670e626ddeac4d6b58844af04bd70e4372"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1077,16 +1077,8 @@ file = "config/quark.cfg"
 hash = "312551fcf4a56c857817f34a436eaf2a6a52639e7a44522d6542da2c8d4c7555"
 
 [[files]]
-file = "config/scalinghealth/main.cfg"
-hash = "3303916fed5f79c9863f19472533795ddad3208bf55d3279b09e7e8907efae54"
-
-[[files]]
-file = "config/scalingwealth/config.json"
-hash = "15105c7a637d9cdb64f49b41a859d4995277353f2b061ca78f3a1b89084eef1d"
-
-[[files]]
-file = "config/scalingwealth/drops.json"
-hash = "3dbefc3e1c3b4a193ee74546300c98af4152cbd583d1ffb9bfb4c5c98023ac27"
+file = "config/scalingfeast.cfg"
+hash = "27a5df21a282d8c430f5d54902253d30e84759b74c1f924550bd50dea367dc7f"
 
 [[files]]
 file = "config/scannable.cfg"
@@ -2822,6 +2814,11 @@ hash = "c1fb189ad08a9630c596e8609f90f2a7f7a19eb6a0bfdbb4841bd7c6a477e4fc"
 metafile = true
 
 [[files]]
+file = "mods/scaling-feast.pw.toml"
+hash = "dd577f715c3e7e6c17b7a7f5c37df7c6396946c8ddba47c9b541764345ec1077"
+metafile = true
+
+[[files]]
 file = "mods/scannable.pw.toml"
 hash = "a2c37d3383b47a6386e18be170e1dc0af0b2a50efe8119613ba25c22a90df963"
 metafile = true
@@ -2874,11 +2871,6 @@ metafile = true
 [[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "8ab214b857f4486194679d3e22d4733162a7958d7d1812b598d96424f19aaf6b"
-metafile = true
-
-[[files]]
-file = "mods/sound-physics-remixin.pw.toml"
-hash = "d752965a383e0a7933d9808347d76b3ca6c51a80b28a71822bf47db5b8f0b480"
 metafile = true
 
 [[files]]
@@ -5069,7 +5061,7 @@ hash = "17efacfd12264d1a41376fd3a4ba8fe9ccf20e78612f187fc45ce48307063d0d"
 
 [[files]]
 file = "scripts/add.zs"
-hash = "66aaaf8f2d84526de9cb039f54f258cd3fbb0c4f4d7024dcda33e7b23ab86ac9"
+hash = "41ac5758ce50d3d7528b9e6b8e9841b93bab1113d2bd46ffd1280d7ecb50f9e5"
 
 [[files]]
 file = "scripts/appliedenergistics.zs"
@@ -5129,7 +5121,7 @@ hash = "4ba0ba5ede2fa03dbe60c352b0fca9639d8508d3817c0a1164f4eebc89ac8fe1"
 
 [[files]]
 file = "scripts/enderio.zs"
-hash = "d7641a14565421f67a6337067e3241c80481fbaec04ad84876deff55b6cfffed"
+hash = "ccca246af5de0381e36ab980db587cdac962ea4d57ee689d657175fa7c287b5e"
 
 [[files]]
 file = "scripts/events.zs"
@@ -5169,11 +5161,11 @@ hash = "e6406fe7e49495f122f8c3379b502777ed4a79b1087340f6e3a0c5ce4d896064"
 
 [[files]]
 file = "scripts/remove.zs"
-hash = "97040b6c28723f435e65c139c8679bede2b5bb5ff747b9ad5f27573b6f33b586"
+hash = "20cd5d3c7e624e75f70b2e0a56cc037d343e3b2fb347f8d990679b6202825ff1"
 
 [[files]]
 file = "scripts/replace.zs"
-hash = "9b6b2ffa714684981610f21fe193d649034e59a25a64c2d6edbbadad24d3875d"
+hash = "15f2d52f512f47322a94cedbb5920ac104132a9b6a644ebf1d5af4f4b46ab517"
 
 [[files]]
 file = "scripts/stacksize.zs"
