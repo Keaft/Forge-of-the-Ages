@@ -49,66 +49,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "item",
-          "name": "millenaire:denier",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 10,
-                "max": 32
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.7
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "millenaire:denierargent",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.2
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "millenaire:denieror",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              },
-              "conditions": [
-                {
-                  "condition": "random_chance",
-                  "chance": 0.1
-                }
-              ]
-            }
-          ]
         }
       ]
     }
