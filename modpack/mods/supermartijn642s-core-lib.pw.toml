@@ -1,13 +1,13 @@
 name = "SuperMartijn642's Core Lib"
-filename = "_supermartijn642corelib-1.1.21-forge-mc1.12.jar"
+filename = "_supermartijn642corelib-1.1.25-forge-mc1.12.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5f8428e2d52129f6c63036ecdf13b8d0d44ac229"
+hash = "2bc86ee8b6e9034953284af36feb82f45a641875"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7783295
+file-id = 9083407
 project-id = 454372

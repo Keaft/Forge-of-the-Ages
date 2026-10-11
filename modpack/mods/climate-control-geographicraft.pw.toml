@@ -1,13 +1,13 @@
 name = "Climate Control/Geographicraft"
-filename = "Geographicraft-1.12.2-0.9.8.5.jar"
+filename = "Geographicraft-1.12.2-1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6b78a53840998190171e128f18b9238c487bf5ab"
+hash = "5dc9ce1455feb721324da822ad81da7d6e1e9ead"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5689646
+file-id = 8965439
 project-id = 76544

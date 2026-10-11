@@ -1,13 +1,13 @@
 name = "Expanded Events"
-filename = "expandedevents-1.2.0.jar"
+filename = "expandedevents-1.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "21729d6dced4f8dc2906dcf790c918c9ff1335f7"
+hash = "976d73d7272d886afa813c26e4a654cf05b5515b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8035783
+file-id = 8204032
 project-id = 1396395

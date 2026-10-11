@@ -1,13 +1,13 @@
 name = "Tinkers' Evolution"
-filename = "tconevo-1.12.2-1.1.6.jar"
+filename = "tconevo-1.12.2-1.1.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "12a0ec9cfccb29771db78563aefb40a974077aa3"
+hash = "ea431835dc633c716fa37d143b747620d2e29e22"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8066623
+file-id = 9030702
 project-id = 384589

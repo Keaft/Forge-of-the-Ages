@@ -1,13 +1,13 @@
 name = "Tinkers Tactical Toughness"
-filename = "TinkersTacticalToughness-1.6.0.jar"
+filename = "TinkersTacticalToughness-1.9.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "55c00f56b3cfd50ac684970f1ef8edb878d4cb83"
+hash = "2ec2e620e939e8365cbac3918c5bb917722d29d5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8149046
+file-id = 9096560
 project-id = 1520026

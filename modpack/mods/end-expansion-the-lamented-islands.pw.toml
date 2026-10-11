@@ -1,13 +1,13 @@
 name = "End Expansion - The Lamented Islands"
-filename = "Into The End - 1.2 HotFix.jar"
+filename = "end_expansion_v1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "043e99d22cfe8d080ff020068723fec84a01508c"
+hash = "fbde5d84d0dc8b4ba5eecf7306ee5636ea9f7d0c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5997341
+file-id = 8373922
 project-id = 867216

@@ -1,13 +1,13 @@
 name = "Scaling Feast"
-filename = "scalingfeast-1.10.2.jar"
+filename = "scalingfeast-1.10.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d0c26ade67c37d37a32d292d7254cf304cfffa8c"
+hash = "1487c234cf100b63dba9fc225af53839f198d69c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7655220
+file-id = 8957010
 project-id = 370995
