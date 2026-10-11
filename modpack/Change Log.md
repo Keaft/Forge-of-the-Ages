@@ -22,39 +22,39 @@
 - Changed scanner energy costs.
 
 ### **__Mod(s) Added:__**
-- Antique Armory (AntiqueArmory-1.12.2-1.2.8)
+- Antique Armory (AntiqueArmory-1.12.2-1.3.0)
 - BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9)
 - Bubbles (Bubbles-2.4.10)
-- CodeChicken Lib CRE (codechickenlib-3.3.5-universal)
+- CodeChicken Lib CRE (codechickenlib-3.3.8-universal)
 - ConfigAnytime (!configanytime-3.0)
 - Electroblob's Wizardry (ElectroblobsWizardry-4.3.18)
-- Electroblob's Wizardry: Twilight Forest Spell Pack (TFSpellPack-1.1.0-MC1.12.2)
-- End Expansion - The Lamented Islands (Into The End - 1.2 HotFix)
-- End's Delight Legacy (ends-delight-legacy-1.0.2)
-- Farmer's Delight Legacy (FarmersDelightLegacy-1.0.9)
-- Froggy's InControlContinuation (incontrol-1.12-3.10.2)
+- Electroblob's Wizardry: Twilight Forest Spell Pack (tfspellpack-1.1.1)
+- End Expansion - The Lamented Islands (end_expansion_v1.3)
+- End's Delight Legacy (ends-delight-legacy-1.0.3)
+- Farmer's Delight Legacy (FarmersDelightLegacy-1.1.7)
+- Froggy's InControlContinuation (incontrol-1.12-3.10.4)
 - Goslingcord (Goslingcord-1.12.2-2.1.1-universal)
-- Hyxcate (Night/Day Events & Meteors) (Hyxcate-1.12.2-1.2.3)
--- Expanded Events (expandedevents-1.2.0)
+- Hyxcate (Night/Day Events & Meteors) (Hyxcate-1.12.2-1.2.4)
+-- Expanded Events (expandedevents-1.2.2)
 - ImmersiveThunder: Legacy (immersivethunder-forge-1.12.2-1.3.0)
 - Improved Cleanroom Relauncher (!improved-relauncher-0.3.8)
-- Inventory Bogo Sorter (bogosorter-1.6.3)
+- Inventory Bogo Sorter (bogosorter-1.6.4)
 -- Key Binding Patch ([MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1)
 -- ModularUI (modularui-3.1.6)
 - JEI Area Fixer (jei_area_fixer-2.4.0)
 - LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
 - Natura Legacy (natura-legacy-1.12.2-4.6.1)
 - Naughthirium (naughthirium-2.3.0)
-- Nether's Delight Legacy (nethers-delight-legacy-1.0.2)
-- OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.3.1)
+- Nether's Delight Legacy (nethers-delight-legacy-1.0.8)
+- OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.4)
 - Packaging Provider (PackagingProvider-1.12.2-1.0.0.2)
-- SauriaLib" successfully added! (SauriaLib 3-3.2.1-beta)
-- Scaling Feast (scalingfeast-1.10.2)
+- SauriaLib (SauriaLib 3-3.2.1-beta)
+- Scaling Feast (scalingfeast-1.10.4)
 - Statues (statues-1.12.2-0.8.11)
-- StellarCore (StellarCore-1.5.22)
-- Tinker's Planner Antique (TinkersPlannerAntique-1.12.2-1.0.3)
-- Tinkers Tactical Toughness (TinkersTacticalToughness-1.6.0)
-- Tinkers' Gadgets (tinkersgadgets-0.2.0)
+- StellarCore (StellarCore-1.6.4)
+- Tinker's Planner Antique (TinkersPlannerAntique-1.12.2-1.2.0)
+- Tinkers Tactical Toughness (TinkersTacticalToughness-1.9.8)
+- Tinkers' Gadgets (tinkersgadgets-0.6.17)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -85,48 +85,55 @@
 - Tinker's JEI (tinkersjei-1.2)
 
 ### **__Mod(s) Updated:__**
-- (Unofficial) Bosses of Mass Destruction + Dungeon Additions: Into The Dungeons - 1.6 -> unseens-dungeon-additions-1.7.2
+- (Unofficial) Bosses of Mass Destruction + Dungeon Additions: Into The Dungeons - 1.6 -> unseens-dungeon-additions-1.7.5
 - BetterBuildersWandsFix: BetterBuildersWandsFix-1.2.3 -> BetterBuildersWandsFix-1.2.9
-- Botania CEu: Botania r1.10-368 -> botania-r1.10-372
+- Botania CEu: Botania r1.10-368 -> botania-r1.10-375
+- Bubble Columns for 1.12: 1.13WaterMechanicsBackport-1.0.5-1.12.2 -> bubble_columns_backport-1.0.7
 - Chocolate Quest Repoured: Chocolate_Quest_Repoured-1.12.2-2.7.1B -> Chocolate_Quest_Repoured-1.12.2-2.8.0B
 - Chunk Loaders: chunkloaders-1.2.8b-forge-mc1.12 -> chunkloaders-1.2.9a-forge-mc1.12
+- Climate Control/Geographicraft: Geographicraft-1.12.2-0.9.8.5 -> Geographicraft-1.12.2-1.0
+- Corail Tombstone: tombstone-1.12.2-4.7.5 -> tombstone-1.12.2-4.8.0
 - CraftTweaker: CraftTweaker2-1.12-4.1.20.704 -> CraftTweaker2-1.12-4.1.20.715
 - Ender's Modpack Tweaks: endermodpacktweaks-0.5.10 -> endermodpacktweaks-0.5.11
 - FermiumASM: fermiumasm-5.28 -> fermiumasm-5.31
-- FermiumBooter: FermiumBooter-1.3.1 -> FermiumBooter-1.4.1
-- Fish's Undead Rising: Fish's Undead Rising-1.5.2 -> Fish's Undead Rising-1.6.1
+- FermiumBooter: FermiumBooter-1.3.1 -> FermiumBooter-1.5.3
+- Fish's Undead Rising: Fish's Undead Rising-1.5.2 -> Fish's Undead Rising-1.6.2
 - Flare (Spark for 1.12.2): flare-0.7.0 -> flare-0.8.0
-- Fluidlogged API: Fluidlogged-API-v2.2.4-mc1.12.2 -> Fluidlogged-API-v3.3.1-mc1.12.2
-- Forgelin-Continuous: Forgelin-Continuous-2.2.0.0 -> Forgelin-Continuous-2.3.20.0
-- Fugue: +Fugue-0.20.0 -> +Fugue-0.23.4
+- Fluidlogged API: Fluidlogged-API-v2.2.4-mc1.12.2 -> Fluidlogged-API-v3.3.3-mc1.12.2
+- Forgelin-Continuous: Forgelin-Continuous-2.2.0.0 -> Forgelin-Continuous-2.4.20.0
+- Fugue: +Fugue-0.20.0 -> +Fugue-0.24.4
 - Gnetum: gnetum-1.2.6 -> gnetum-1.4.3
-- Had Enough Items: HadEnoughItems_1.12.2-4.28.0 -> HadEnoughItems_1.12.2-4.31.2
+- Had Enough Items: HadEnoughItems_1.12.2-4.28.0 -> HadEnoughItems_1.12.2-4.36.0
+- HammerLib: HammerLib-1.12.2-12.2.58 -> HammerLib-1.12.2-12.2.66
 - Ice and Fire: RotN Edition: Ice and Fire-2.0.0 -> Ice and Fire-2.0.0
+- JourneyMap: journeymap-1.12.2-5.7.1p3 -> journeymap-forge-1.12.2-6.0.10
 - Macaw's Trapdoors: mcw-trapdoors-1.0.3-mc1.12.2 -> mcw-trapdoors-1.0.4-mc1.12.2
-- Mutant Creatures Legacy: MutantCreaturesLegacy-1.12.2-1.0.1 -> MutantCreaturesLegacy-1.12.2-1.0.3
-- Nether API: Nether-API-v1.3.0-mc1.12.2 -> Nether-API-v1.4.4-mc1.12.2 (also moved to Curseforge)
+- Mutant Creatures Legacy: MutantCreaturesLegacy-1.12.2-1.0.1 -> MutantCreaturesLegacy-1.12.2-1.0.4
+- Nether API: Nether-API-v1.3.0-mc1.12.2 -> Nether-API-v1.5.1-mc1.12.2 (also moved to Curseforge)
 - Nothirium: Nothirium-1.12.2-0.4.7-beta -> Nothirium-1.12.2-0.4.9-beta
-- NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19b
+- NuclearCraft: nuclearcraft-1.12.2-2.19a -> nuclearcraft-1.12.2-2.19c
 - PackagedAstral: PackagedAstral-1.12.2-1.0.3.21 -> PackagedAstral-1.12.2-1.0.5.24
 - PackagedAuto: PackagedAuto-1.12.2-1.0.19.65 -> PackagedAuto-1.12.2-1.0.24.73
 - PackagedDraconic: PackagedDraconic-1.12.2-1.0.3.23 -> PackagedDraconic-1.12.2-1.0.4.24
 - Patchouli Books: patchoulibooks-0.2.5 -> patchoulibooks-0.3.0
 - Pillar Patched: Pillar-1.3.2 -> Pillar-1.3.3
-- Quark: RotN Edition: QuarkRotN-r1.6-190 -> QuarkRotN-r1.6-191
+- Quark: RotN Edition: QuarkRotN-r1.6-190 -> QuarkRotN-r1.6-192
 - Red Core: !Red-Core-MC-1.8-1.12-0.7-Dev-1 -> !Red-Core-MC-1.8-1.12-0.7.1
+- Realistic Terrain Generation Plus: RTG-1.12.2-7.3.3.6 -> RTG-1.12.2-9.0.3
 - Roughly Enough IDs: RoughlyEnoughIDs-2.2.3 -> RoughlyEnoughIDs-2.3.1
 - Scalar Legacy: scalar-1.0.0 -> Scalar Legacy-1.0.1
-- Simple Voice Chat: voicechat-forge-1.12.2-2.5.35 -> voicechat-forge-1.12.2-2.6.17
-- SuperMartijn642's Core Lib: _supermartijn642corelib-1.1.18-forge-mc1.12 -> _supermartijn642corelib-1.1.21-forge-mc1.12
-- Tesseract: tesseract-1.0.37-forge-mc1.12 -> tesseract-1.0.38-forge-mc1.12
+- Simple Voice Chat: voicechat-forge-1.12.2-2.5.35 -> voicechat-forge-1.12.2-2.6.24
+- SuperMartijn642's Core Lib: _supermartijn642corelib-1.1.18-forge-mc1.12 -> _supermartijn642corelib-1.1.25-forge-mc1.12
+- Tesseract: tesseract-1.0.37-forge-mc1.12 -> tesseract-1.0.39-forge-mc1.12
 - The Twilight Forest - Deforestation Edition: twilightforest-1.12.2-3.14 -> twilightforest-1.12.2-3.15.1
-- Tinkers' Antique: TinkersAntique-1.12.2-2.13.0.202 -> TinkersAntique-1.12.2-2.13.0.207
+- Tinkers' Antique: TinkersAntique-1.12.2-2.13.0.202 -> TinkersAntique-1.12.2-2.13.0.209
 - Tinkers' Evolution: tconevo-1.12.2-1.1.1 -> tconevo-1.12.2-1.1.6
-- Universal Tweaks: UniversalTweaks-1.12.2-1.15.2 -> UniversalTweaks-1.12.2-1.20.0
-- Unseen's Nether Backport: Unseens Nether Backport - 0.6 -> unseens-nether-backport-0.7
-- VintageFix: vintagefix-0.6.2 -> vintagefix-0.7.0
+- Universal Tweaks: UniversalTweaks-1.12.2-1.15.2 -> UniversalTweaks-1.12.2-1.21.0
+- Unseen's Nether Backport: Unseens Nether Backport - 0.6 -> unseens-nether-backport-0.8
+- VintageFix: vintagefix-0.6.2 -> vintagefix-0.7.2
 - Waystone Folders (Folders for Waystones): WaystoneFolders-0.3 -> WaystoneFolders-1.0
-- Zen Utils: zenutils-1.25.3 -> zenutils-1.27.2
+- XP From Harvest: XPFromHarvest-1.12.2-1.2.0 -> XPFromHarvest-1.12.2-1.3.0
+- Zen Utils: zenutils-1.25.3 -> zenutils-1.28.7
 
 ### **__Mod(s) Downgraded:__**
 - MmmMmmMmmMmm (Target Dummy): TestDummy2-2.0.4 -> MmmMmmMmmMmm-1.12-1.14
