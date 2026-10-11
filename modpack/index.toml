@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "e25c5cd22ae251ce347d81fda2a07c61beac1ee5792833291147da61928a49ef"
+hash = "1a098613f8170899bf6064a977e5f3860c96d1257964fd43b28d7ce791de5d13"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1943,6 +1943,11 @@ hash = "a2e3b0d2d6a8aef09276fd1df1b308e20bed3fe695b2bf1043d927a7ffccf495"
 metafile = true
 
 [[files]]
+file = "mods/cleanroom-relauncher.pw.toml"
+hash = "9d74bb48f74f475b4a5af9c59b667450eb70286d73553a3cc7bb4f0e50bb41c9"
+metafile = true
+
+[[files]]
 file = "mods/clear-water.pw.toml"
 hash = "000d2f933d2bb2e89b9cedae9b81b538983f42bc69211bf83f318c2dba320d01"
 metafile = true
@@ -2318,11 +2323,6 @@ hash = "358161abd6810f59d9010ec0f74b81fc5d3bc8d19bb4540542a6617bf68ca587"
 metafile = true
 
 [[files]]
-file = "mods/improved-cleanroom-relauncher.pw.toml"
-hash = "509633afdf1486aa5d0b682a67f86084c9cc31abf4a9197aeea5a4cb3616480a"
-metafile = true
-
-[[files]]
 file = "mods/inspirations.pw.toml"
 hash = "19ee5930ffa797fb37c88a9a22f7018ac70e9cce66cbcf893ddbc8b0a9959fc8"
 metafile = true
@@ -2429,7 +2429,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "853c785b2218827ba6d41e29978d4f5b462bf3b73369f8cfd5395b287d26885b"
+hash = "8f45241b646a68aec43cf85f0abba3b5d842e17018d70bf3beb4bb877ebc93eb"
 metafile = true
 
 [[files]]
@@ -2563,12 +2563,12 @@ hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "69fb77092d4b3cac87753a1efe921a3094bc3bc6e2a37b35e81dacf34efff346"
+hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
 metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "a75e92590e7cdd5eebdc4caadee8296e09f9965dc2d0dd499eef8b875f4bf65b"
+hash = "7a57e6ab879ae99729f09e9c7896577b72af5271e595a67bc3f3df9c3dbcb925"
 metafile = true
 
 [[files]]
