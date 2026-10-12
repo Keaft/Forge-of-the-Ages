@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "9f9df1714f06704089f8e533d2931aa92c36299dd182e86e142bfe9c7890bd47"
+hash = "9d864a7bcb8fb7c1fdfe4d97c6fafd5e4a6bbc16bc949c9e2ea88cd595ef9b13"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2603,11 +2603,6 @@ metafile = true
 [[files]]
 file = "mods/oauth.pw.toml"
 hash = "2e36215d70a77efa7454bb83247e8766b6dca081f3b56639975dc2a03f58b7a4"
-metafile = true
-
-[[files]]
-file = "mods/oceanic-expanse.pw.toml"
-hash = "351384242b1bc489160c431f58c6d1008465671c20da0350761321a8e0538ec5"
 metafile = true
 
 [[files]]
