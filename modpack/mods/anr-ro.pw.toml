@@ -1,0 +1,13 @@
+name = "ANR's Guided Crafting"
+filename = "anr-ro-1.12.2-0.121.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "46a988910b5a6c75eb5f350fdda2acf03101f028"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9047682
+project-id = 1704399

@@ -1,0 +1,13 @@
+name = "Oceanic Expanse"
+filename = "OceanicExpanse-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86b6cd29e92179711dbe7931c0c3503f3dd949d3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7009970
+project-id = 840576

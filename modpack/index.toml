@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "5a6972194dfdaf9d309a0da0ca4d59722ebc20ef9b13c37d07328d77214c5c93"
+hash = "13dd64908c7df3b978fe247c09b99e561fc979e8f8364cf01494158e26a1b430"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1756,6 +1756,11 @@ hash = "1d3b0b677a306102a497aaeaf63b725a703bfdf3a053cfef8952bb256f8fe7d3"
 metafile = true
 
 [[files]]
+file = "mods/anr-ro.pw.toml"
+hash = "2161f1abc41d065cd63efe7cce9bf88135d050ed14d4c1515e77bf9d19291392"
+metafile = true
+
+[[files]]
 file = "mods/antique-armory.pw.toml"
 hash = "fcc98eb8268ae7d9dd04b8e282975e3bd87961804f1a9fc277cad82525b6c4f2"
 metafile = true
@@ -1923,6 +1928,11 @@ metafile = true
 [[files]]
 file = "mods/cd4017be-library.pw.toml"
 hash = "d989c6febaa5a838bc9e489dc46ac7cd303c37d5aae78c8bde4e8ca0c15797ff"
+metafile = true
+
+[[files]]
+file = "mods/celeritas-extra.pw.toml"
+hash = "812cc8214497e252c33d6044f9ea20c6ff0973833e2a10d583855628df32badc"
 metafile = true
 
 [[files]]
@@ -2560,11 +2570,6 @@ hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
 metafile = true
 
 [[files]]
-file = "mods/mixin-booter.pw.toml"
-hash = "53bf95899069d981ac87dcd28decd6d2b7f34ff5331835f8cbbf3a7e396834ce"
-metafile = true
-
-[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "7a57e6ab879ae99729f09e9c7896577b72af5271e595a67bc3f3df9c3dbcb925"
 metafile = true
@@ -2636,7 +2641,7 @@ metafile = true
 
 [[files]]
 file = "mods/naughthirium.pw.toml"
-hash = "c2be1a59f9abab16b8988394be849509f36f8f56d8bcaa38abb782ea0265ea76"
+hash = "15f903c4d25d02110ccb613fc2a703eb666bd6194c5d87d777eb5a54cf84d50c"
 metafile = true
 
 [[files]]
@@ -2667,6 +2672,11 @@ metafile = true
 [[files]]
 file = "mods/oauth.pw.toml"
 hash = "2e36215d70a77efa7454bb83247e8766b6dca081f3b56639975dc2a03f58b7a4"
+metafile = true
+
+[[files]]
+file = "mods/oceanic-expanse.pw.toml"
+hash = "351384242b1bc489160c431f58c6d1008465671c20da0350761321a8e0538ec5"
 metafile = true
 
 [[files]]
@@ -2751,7 +2761,7 @@ metafile = true
 
 [[files]]
 file = "mods/pulsar-lighting-engine.pw.toml"
-hash = "e5c588142081e1c1345f25f543aaf7c3d44b51cecd33afc09a8e9861925d3704"
+hash = "8ee07eea04228c77e662be6250c1f64a3a5cb88d0d0b3872248d3240bbdd56b7"
 metafile = true
 
 [[files]]
@@ -2991,7 +3001,7 @@ metafile = true
 
 [[files]]
 file = "mods/tinkers-gadgets.pw.toml"
-hash = "4b6e19ae0f8f39ead52dfd114852388de81aec3b74330241ffa4885068f3c659"
+hash = "c2f6b0ecf9261b965160434d581fbf51b6c86aedf04efbb62dbbdce1c9e2f590"
 metafile = true
 
 [[files]]
