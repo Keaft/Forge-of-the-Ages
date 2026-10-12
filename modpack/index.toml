@@ -2486,11 +2486,6 @@ hash = "3b5ef81c27805786f2b7e53d12bbb5a7a9ec8eacf8c005dd3f657f731480796a"
 metafile = true
 
 [[files]]
-file = "mods/mapfrontiers.pw.toml"
-hash = "57ec9312f4215500571e119bbf7ce8006382b5d3c70c4aa5c1507a46a844b91e"
-metafile = true
-
-[[files]]
 file = "mods/mapmakers-gadgets.pw.toml"
 hash = "ab2ca983dcda81ab0a17173713ab296dbbf2a38452b8777a4d128a25d34072a1"
 metafile = true

@@ -102,6 +102,7 @@ The Adventure Update!
 - EnderCore (EnderCore-1.12.2-0.5.78)
 - Alfheim Lighting Engine (Alfheim-1.6)
 - Aqua Acrobatics [Forge] (AquaAcrobatics-1.15.4)
+- MapFrontiers (MapFrontiers-1.12.2-1.5.1)
 
 ### **__Mod(s) Updated:__**
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions: Into The Dungeons - 1.6 -> unseens-dungeon-additions-1.7.5
