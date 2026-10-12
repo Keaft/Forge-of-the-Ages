@@ -23,6 +23,7 @@ The Adventure Update!
 - Changed scanner energy costs.
 - Disable void fog in Dynamic Surroundings.
 - Tweak what's available from Tinkers' Gadgets.
+- Regenerate and sync Universal Tweaks config.
 
 ### **__Mod(s) Added:__**
 - Antique Armory (AntiqueArmory-1.12.2-1.3.0)

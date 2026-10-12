@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "00575192d3c677a98c045d47908ba650275155fd9b338a0e849ade7334fb5477"
+hash = "9f9df1714f06704089f8e533d2931aa92c36299dd182e86e142bfe9c7890bd47"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2499,70 +2499,6 @@ metafile = true
 file = "mods/mcjtylib.pw.toml"
 hash = "46b6fe4b838212d19da58719e4782d0c54689f3cbec148921c41a3297f96caf6"
 metafile = true
-
-[[files]]
-file = "mods/memory_repo/angrypixel/TheBetweenlands/3.8.1/TheBetweenlands-3.8.1-core.jar"
-hash = "51572548d8c3e0482812620325d0e8082eec65939fb61902981c692168cc30a7"
-
-[[files]]
-file = "mods/memory_repo/angrypixel/TheBetweenlands/3.8.1/TheBetweenlands-3.8.1-core.jar.meta"
-hash = "17320c02cce368d31951e8c63f71ce69a25294c142bd1d9b41e460e104f162ad"
-
-[[files]]
-file = "mods/memory_repo/com/electronwill/night-config/core/3.6.0/core-3.6.0.jar"
-hash = "5f3e9099ddbfeb49ace43598c2271d951688aeab5a9d49fbc2b574b740679211"
-
-[[files]]
-file = "mods/memory_repo/com/electronwill/night-config/core/3.6.0/core-3.6.0.jar.meta"
-hash = "a340a96b571d57c1d1ab900cb3f87b925a6970750c83446098b2a0eab100d856"
-
-[[files]]
-file = "mods/memory_repo/com/electronwill/night-config/json/3.6.0/json-3.6.0.jar"
-hash = "9f7e28822edd38623bb2bac4021599d8b0b09fcd1dddbc623c7cde60a1773762"
-
-[[files]]
-file = "mods/memory_repo/com/electronwill/night-config/json/3.6.0/json-3.6.0.jar.meta"
-hash = "63048a4f62019cc5493714b8eaafc1384f19fed3d5769a451adaef477565e5dd"
-
-[[files]]
-file = "mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar"
-hash = "ac2a3984711c2ad64c8b00d67075a31809c16dc6bdf1aef9c7964b1d8acc2c9b"
-
-[[files]]
-file = "mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta"
-hash = "bc81305c752f8d1cf989902a5065f0588c44ad514d73f60a518414198e5d95e2"
-
-[[files]]
-file = "mods/memory_repo/com/github/mcjty/mcjtytools/0.0.21/mcjtytools-0.0.21.jar"
-hash = "efa758f805c4b61c863d2a1d87de92e379f975964271c7326ca344faa9935840"
-
-[[files]]
-file = "mods/memory_repo/com/github/mcjty/mcjtytools/0.0.21/mcjtytools-0.0.21.jar.meta"
-hash = "1ff8c61dcf708c3ce5b3c34c0acedda7ee6769e52730f6e40d32debfb3bf0713"
-
-[[files]]
-file = "mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar"
-hash = "07e017e50b918f9a1ddbc01777b24e74204155730e75628c68e923c4b2e559df"
-
-[[files]]
-file = "mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta"
-hash = "4d1c31aec7881e577f9f91319a193145d84fd1cce8f1916752c617bbbe4862fd"
-
-[[files]]
-file = "mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar"
-hash = "8b40573a923098b7505dc3a7333ea7994f99fdca5d1507f200959779f768e14b"
-
-[[files]]
-file = "mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta"
-hash = "ebfdf24363d41a75ed5ef4247b988e48c91f859aa050cf887a08c122a9a566b8"
-
-[[files]]
-file = "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar"
-hash = "981fb876fc665c7fa228ae9673ddbbd2355bbf320b6a7ead53987d35ef145e9c"
-
-[[files]]
-file = "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta"
-hash = "2a41015371950d75ce8df0f234abf5767127c06d1893395a3c218dd7f8a77967"
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
