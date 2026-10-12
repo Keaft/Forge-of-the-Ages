@@ -20,6 +20,8 @@
 - Updated Universal Tweaks configs.
 - Moved scanner to mid-late game via recipe change.
 - Changed scanner energy costs.
+- Disable void fog in Dynamic Surroundings.
+- Tweak what's available from Tinkers' Gadgets.
 
 ### **__Mod(s) Added:__**
 - Antique Armory (AntiqueArmory-1.12.2-1.3.0)
@@ -33,7 +35,7 @@
 - End Expansion - The Lamented Islands (end_expansion_v1.3)
 - End's Delight Legacy (ends-delight-legacy-1.0.3)
 - Farmer's Delight Legacy (FarmersDelightLegacy-1.1.7)
-- Froggy's InControlContinuation (incontrol-1.12-3.10.4)
+- Froggy's InControlContinuation (incontrol-1.12-3.10.5)
 - Goslingcord (Goslingcord-1.12.2-2.1.1-universal)
 - Hyxcate (Night/Day Events & Meteors) (Hyxcate-1.12.2-1.2.4)
 -- Expanded Events (expandedevents-1.2.2)
