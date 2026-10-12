@@ -1,3 +1,4 @@
+The Adventure Update!
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
@@ -57,6 +58,10 @@
 - Tinker's Planner Antique (TinkersPlannerAntique-1.12.2-1.2.0)
 - Tinkers Tactical Toughness (TinkersTacticalToughness-1.9.8)
 - Tinkers' Gadgets (tinkersgadgets-0.6.17)
+- Pulsar Lighting Engine (pulsar-0.4.0)
+- EnderIO CEu (endercore-1.12.2-0.5.83)
+- JourneyMap Web Map (journeymap-webmap-forge-1.12.2-1.0.11)
+- Aqua Acrobatics Unofficial [Forge] (AquaAcrobaticsUnofficial-1.17.0)
 
 ### **__Mod(s) Removed:__**
 - Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
@@ -85,6 +90,14 @@
 - Sledgehammer (Sledgehammer-1.12.2-2.0.26)
 - Scape and Run: Parasites (SRParasites-1.10.5)
 - Tinker's JEI (tinkersjei-1.2)
+- Ender IO AE2 Conduits (EnderIO-conduits-appliedenergistics-1.12.2-5.3.72)
+- Ender IO Base (EnderIO-base-1.12.2-5.3.72)
+- Ender IO Conduits (EnderIO-conduits-1.12.2-5.3.72)
+- Ender IO Machines (EnderIO-machines-1.12.2-5.3.72)
+- Ender IO TiC (EnderIO-integration-tic-1.12.2-5.3.72)
+- EnderCore (EnderCore-1.12.2-0.5.78)
+- Alfheim Lighting Engine (Alfheim-1.6)
+- Aqua Acrobatics [Forge] (AquaAcrobatics-1.15.4)
 
 ### **__Mod(s) Updated:__**
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions: Into The Dungeons - 1.6 -> unseens-dungeon-additions-1.7.5

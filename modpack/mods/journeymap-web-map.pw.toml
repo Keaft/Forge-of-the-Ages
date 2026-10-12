@@ -1,0 +1,13 @@
+name = "JourneyMap Web Map"
+filename = "journeymap-webmap-forge-1.12.2-1.0.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0d4164762b323862a0538ab5683fb118b392f61b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8438472
+project-id = 793035

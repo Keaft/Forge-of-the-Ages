@@ -1,0 +1,13 @@
+name = "Pulsar Lighting Engine"
+filename = "pulsar-0.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d716938230d8d0bfafa5d3adb561a2d622fb1c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9066266
+project-id = 1641056

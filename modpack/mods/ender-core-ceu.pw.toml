@@ -1,0 +1,13 @@
+name = "Ender Core CEu"
+filename = "endercore-1.12.2-0.5.83.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34d746bcd7d5e6248827448c565077112ab8acae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8734025
+project-id = 1530852

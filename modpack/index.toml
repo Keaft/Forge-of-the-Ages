@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "1a098613f8170899bf6064a977e5f3860c96d1257964fd43b28d7ce791de5d13"
+hash = "5a6972194dfdaf9d309a0da0ca4d59722ebc20ef9b13c37d07328d77214c5c93"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -86,7 +86,7 @@ hash = "b01b4f419b449661a67a6b06e7993e5b51eb08f70c96e801c55d6faccd66b28f"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "5f056bd7e444e684e71a805cb5d499948ee1aaffac7167d9e463a89b5ce3a537"
+hash = "5e5c0e25dfca07bd245811e70e6f1a072419765c33cb2ae5fa68496f3513ff23"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
@@ -235,6 +235,10 @@ hash = "8851e2dbf31ea4e709bfe3415e4fc18d4026620aff542a95e11c47f62329b50a"
 [[files]]
 file = "config/colytra.cfg"
 hash = "93f1726e7495d7a294f90ca976bee547d554f5bc88ac6ac1ad041f83c83497ad"
+
+[[files]]
+file = "config/dsurround.cfg"
+hash = "9ec0f9544485bddc03e3fd9e46a14dc2682d96c99a38a673d775dfde531d4b4f"
 
 [[files]]
 file = "config/dsurround/dsurround.cfg"
@@ -1181,6 +1185,10 @@ file = "config/thebetweenlands/config.cfg"
 hash = "a7276c32b9fbf949a6aefa38ec2334fd543dc94898d3662a177f38928ddf860b"
 
 [[files]]
+file = "config/tinkersgadgets.cfg"
+hash = "658b84b6ad5cd74f137c9272852aece6ac8ca77f134ebec243cc5240df138349"
+
+[[files]]
 file = "config/tombstone.cfg"
 hash = "b1804ee3edaf4d0f541bb9efcf34987f2eb58e6e3fcc13acd329d2d1940ab979"
 
@@ -1738,11 +1746,6 @@ hash = "965be564aa6d4f69905817140576e58a42a69b2e6ffc881c800b8d8f790c77bb"
 metafile = true
 
 [[files]]
-file = "mods/alfheim-lighting-engine.pw.toml"
-hash = "5b8e138b7b21ad18dd6ebdbf6cc4b23c2d2137a7253fd968a4030487c5fb9a28"
-metafile = true
-
-[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "3778808688d9e39c0b0d58c171cc22786a83dd2ace5e52c1f19b67bffd232c0e"
 metafile = true
@@ -1768,8 +1771,8 @@ hash = "840faece1c6e2411435603e97b90e6e7d2e939cd1f0faecd251c6a95d06b7ea4"
 metafile = true
 
 [[files]]
-file = "mods/aqua-acrobatics.pw.toml"
-hash = "a4cd331969ff23c1c7fe42c126c41541f407c9f5aa71613cfbe2bea6a269f80f"
+file = "mods/aqua-acrobatics-unofficial-forge.pw.toml"
+hash = "859b8f76565d0425e0a15028b61252f47206d9b63bd48edd57ee0f8b71eba6b4"
 metafile = true
 
 [[files]]
@@ -1875,6 +1878,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "e6b6f908221c3ff5f821e0f648a05f037ca100a242fb3d0122db9209e2531be2"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin-legacy.pw.toml"
+hash = "71c1c3a4a59e871f71124ebbd84aa1096ad5371e1bf921bc3bcb2a48683fd864"
 metafile = true
 
 [[files]]
@@ -2098,28 +2106,8 @@ hash = "3e47998f3ea6e591db9e8209845364a9c4ecaf97bbc417062cd413c2b493f9fb"
 metafile = true
 
 [[files]]
-file = "mods/ender-io-ae2-conduits.pw.toml"
-hash = "793a5855eb7e8b356f83d69ef7cf563504349852326b1476a8a0303c14ecd8cd"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-base.pw.toml"
-hash = "6d053a1f480016f046d0904823734e0ddd5cdb2c3252fba485f48e15cec09cbd"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-conduits.pw.toml"
-hash = "a4b7c8f86d1847334d94cd5e243d1a85d5ca9e67524db00431e4052aa634cd18"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-machines.pw.toml"
-hash = "6345611d0ffef25034944f08cffe6fae654ce3b13b4ee482ed4a7503306e5e87"
-metafile = true
-
-[[files]]
-file = "mods/ender-io-tic.pw.toml"
-hash = "0f762a79cdf06a4ee753a6863f522fa55ed5afe046e69b22c65ac125c152fd7b"
+file = "mods/ender-core-ceu.pw.toml"
+hash = "2124b25116dc0c493629ce7136aa6e5f7c4b997425231ea0b608d3dcd99bae97"
 metafile = true
 
 [[files]]
@@ -2133,8 +2121,8 @@ hash = "bf089669a08776c6c3019cc2ed786ee1583fcb297784427b21cff7f9564d3c92"
 metafile = true
 
 [[files]]
-file = "mods/endercore.pw.toml"
-hash = "f41bf1c7154b656b303822ea5fe596d4afc97c5712facf03c244d08ae9c129d3"
+file = "mods/enderio-ceu.pw.toml"
+hash = "7dcc178b65ffb40f03dbb3aeb541fce573758214da9d07d2361ebcf9c2b77291"
 metafile = true
 
 [[files]]
@@ -2368,6 +2356,11 @@ hash = "63c830c58c1d400abb04ea5875e572d169a3a26f5c825ab8386dfa99a3fbb608"
 metafile = true
 
 [[files]]
+file = "mods/journeymap-web-map.pw.toml"
+hash = "cd5e3c430ddfc5a448c3ae5ce20dba50dba71b7a4b084b3c425236f356e25ec2"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "d2108455ba3ef59247c4af086fd40047b52c081af868393b250089846d83b692"
 metafile = true
@@ -2567,6 +2560,11 @@ hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
 metafile = true
 
 [[files]]
+file = "mods/mixin-booter.pw.toml"
+hash = "53bf95899069d981ac87dcd28decd6d2b7f34ff5331835f8cbbf3a7e396834ce"
+metafile = true
+
+[[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "7a57e6ab879ae99729f09e9c7896577b72af5271e595a67bc3f3df9c3dbcb925"
 metafile = true
@@ -2737,6 +2735,11 @@ hash = "ce98dd5f963b816d7df24f76b2ccb4d5e72e04db8b0e975dc90652e1f0f2f5e6"
 metafile = true
 
 [[files]]
+file = "mods/patchouli.pw.toml"
+hash = "bf3ab3065a3d3cbf04b5632a6088c9db9381c54c2149c8713748dde1b5859472"
+metafile = true
+
+[[files]]
 file = "mods/pillar-patched.pw.toml"
 hash = "a46266efee4f564be12e07e12d88e2669ecb45427541e13ae1b6aa766a5a16bc"
 metafile = true
@@ -2744,6 +2747,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "929442340bcaa421711871e3fa359e7d02ed9f4438312c803363eb1ec9460782"
+metafile = true
+
+[[files]]
+file = "mods/pulsar-lighting-engine.pw.toml"
+hash = "e5c588142081e1c1345f25f543aaf7c3d44b51cecd33afc09a8e9861925d3704"
 metafile = true
 
 [[files]]
@@ -2947,6 +2955,11 @@ hash = "a690b73717d287b0af1087391a519f49ec415ac82d13992b6eabcef76f4e4e3e"
 metafile = true
 
 [[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "7af0b8a8e634eab7ecd9e6401ce3c71d6ec1c2c5dae078dee5a526898f88c72c"
+metafile = true
+
+[[files]]
 file = "mods/thermal-expansion.pw.toml"
 hash = "ccedb897162eeffc59668c11a684f66b5d73916b574f9904d7201eba33884904"
 metafile = true
@@ -3019,6 +3032,11 @@ metafile = true
 [[files]]
 file = "mods/tweakers-construct.pw.toml"
 hash = "400d16834638ef90397c43c5a657c9d3c9e6013a4d66b417ae4884ae6bdca939"
+metafile = true
+
+[[files]]
+file = "mods/twilight-delight-legacy.pw.toml"
+hash = "e148bf12067937739084653c19bdfe263b6a96eba97ca6f6507907b9626c7681"
 metafile = true
 
 [[files]]

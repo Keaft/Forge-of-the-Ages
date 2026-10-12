@@ -1,0 +1,13 @@
+name = "Twilight Delight Legacy ( & Flavors! )"
+filename = "TwilightDelightLegacy-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "856e6598308484b17bd75a100251788980e031ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9005879
+project-id = 1551491
