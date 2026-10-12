@@ -2681,11 +2681,6 @@ hash = "ce98dd5f963b816d7df24f76b2ccb4d5e72e04db8b0e975dc90652e1f0f2f5e6"
 metafile = true
 
 [[files]]
-file = "mods/patchouli.pw.toml"
-hash = "bf3ab3065a3d3cbf04b5632a6088c9db9381c54c2149c8713748dde1b5859472"
-metafile = true
-
-[[files]]
 file = "mods/pillar-patched.pw.toml"
 hash = "a46266efee4f564be12e07e12d88e2669ecb45427541e13ae1b6aa766a5a16bc"
 metafile = true
@@ -2898,11 +2893,6 @@ metafile = true
 [[files]]
 file = "mods/the-twilight-forest-deforestation-edition.pw.toml"
 hash = "a690b73717d287b0af1087391a519f49ec415ac82d13992b6eabcef76f4e4e3e"
-metafile = true
-
-[[files]]
-file = "mods/the-twilight-forest.pw.toml"
-hash = "7af0b8a8e634eab7ecd9e6401ce3c71d6ec1c2c5dae078dee5a526898f88c72c"
 metafile = true
 
 [[files]]
