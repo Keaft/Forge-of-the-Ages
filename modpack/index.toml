@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "13dd64908c7df3b978fe247c09b99e561fc979e8f8364cf01494158e26a1b430"
+hash = "00575192d3c677a98c045d47908ba650275155fd9b338a0e849ade7334fb5477"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -82,11 +82,11 @@ hash = "4a5cf76059bf253d3bb0f561fdd8ed52c071992ec0799477133d577f0ff747eb"
 
 [[files]]
 file = "config/Universal Tweaks - Mod Integration.cfg"
-hash = "b01b4f419b449661a67a6b06e7993e5b51eb08f70c96e801c55d6faccd66b28f"
+hash = "7e3ecbc85a043998e53b9dda87fb96f9a7017399d88a6c7220a9a2b74e368dbb"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "5e5c0e25dfca07bd245811e70e6f1a072419765c33cb2ae5fa68496f3513ff23"
+hash = "79c808473064b8b9c6a1e7d55cdf16297ec3d81e1b79425dd378adec4167cd6a"
 
 [[files]]
 file = "config/UniversalTweaks.cfg"
