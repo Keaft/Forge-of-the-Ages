@@ -1,4 +1,4 @@
-The Adventure Update!
+The Adventure Update! This update is focused on content and changes to improve the adventuring gameplay loop. Some of the changes include getting some automation out of the way of the adventurer while not impeding the automater. More food is also found in more dimensions. More food, more hearts which should encouraging exploration.
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
@@ -18,7 +18,6 @@ The Adventure Update!
 - Selected Skybox from BetterEndForge Backport. I like it's dynamic nature.
 - Added the custom emojis back with the addition of Goslingcord!
 - Added Ice and Fire pick/axes to the veinmine tool list.
-- Updated Universal Tweaks configs.
 - Moved scanner to mid-late game via recipe change.
 - Changed scanner energy costs.
 - Disable void fog in Dynamic Surroundings.
@@ -26,9 +25,13 @@ The Adventure Update!
 - Regenerate and sync Universal Tweaks config.
 
 ### **__Mod(s) Added:__**
+- ANR's Guided Crafting (jei_1.12.2-4.22.0.1034)
 - Antique Armory (AntiqueArmory-1.12.2-1.3.0)
+- Aqua Acrobatics Unofficial [Forge] (AquaAcrobaticsUnofficial-1.17.0)
 - BetterEndForge Backport (BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9)
+- Brewin' And Chewin' Legacy (brewin-and-chewin-legacy-1.1.3)
 - Bubbles (Bubbles-2.4.10)
+- Celeritas/Nothirium Extra (celeritasextra-0.9.2)
 - Cleanroom Relauncher (!cleanroom-relauncher-1.1.5)
 - CodeChicken Lib CRE (codechickenlib-3.3.8-universal)
 - ConfigAnytime (!configanytime-3.0)
@@ -36,6 +39,8 @@ The Adventure Update!
 - Electroblob's Wizardry: Twilight Forest Spell Pack (tfspellpack-1.1.1)
 - End Expansion - The Lamented Islands (end_expansion_v1.3)
 - End's Delight Legacy (ends-delight-legacy-1.0.3)
+- EnderCore (endercore-1.12.2-0.5.83)
+- EnderIO CEu (endercore-1.12.2-5.5.1)
 - Farmer's Delight Legacy (FarmersDelightLegacy-1.1.7)
 - Froggy's InControlContinuation (incontrol-1.12-3.10.5)
 - Goslingcord (Goslingcord-1.12.2-2.1.1-universal)
@@ -46,12 +51,14 @@ The Adventure Update!
 -- Key Binding Patch ([MC-1.12.2] Key Binding Patch v1.3.3.3 - 2024-12-1)
 -- ModularUI (modularui-3.1.6)
 - JEI Area Fixer (jei_area_fixer-2.4.0)
+- JourneyMap Web Map (journeymap-webmap-forge-1.12.2-1.0.11)
 - LemonSkin (AppleSkin Fork) (lemonskin-4.0.0)
 - Natura Legacy (natura-legacy-1.12.2-4.6.1)
 - Naughthirium (naughthirium-3.0.0)
 - Nether's Delight Legacy (nethers-delight-legacy-1.0.8)
 - OpenBlocks Reopened (OpenBlocksReopened-1.12.2-1.8.4)
 - Packaging Provider (PackagingProvider-1.12.2-1.0.0.2)
+- Pulsar Lighting Engine (pulsar-0.5.0)
 - SauriaLib (SauriaLib 3-3.2.1-beta)
 - Scaling Feast (scalingfeast-1.10.4)
 - Statues (statues-1.12.2-0.8.11)
@@ -59,50 +66,44 @@ The Adventure Update!
 - Tinker's Planner Antique (TinkersPlannerAntique-1.12.2-1.2.0)
 - Tinkers Tactical Toughness (TinkersTacticalToughness-1.9.8)
 - Tinkers' Gadgets (tinkersgadgets-0.6.19)
-- Pulsar Lighting Engine (pulsar-0.5.0)
-- EnderIO CEu (endercore-1.12.2-0.5.83)
-- JourneyMap Web Map (journeymap-webmap-forge-1.12.2-1.0.11)
-- Aqua Acrobatics Unofficial [Forge] (AquaAcrobaticsUnofficial-1.17.0)
-- ANR's Guided Crafting (jei_1.12.2-4.22.0.1034)
-- Oceanic Expanse (OceanicExpanse-1.2.2)
-- Celeritas/Nothirium Extra (celeritasextra-0.9.2)
+- Twilight Delight Legacy ( & Flavors! ) (TwilightDelightLegacy-1.3.0)
 
 ### **__Mod(s) Removed:__**
-- Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
-- File Director (!mod-director-launchwrapper-1.9.1)
+- Alfheim Lighting Engine (Alfheim-1.6)
 - AppleSkin (AppleSkin-mc1.12-1.0.14)
+- Aqua Acrobatics [Forge] (AquaAcrobatics-1.15.4)
 - Bad Wither No Cookie - Reloaded (badwithernocookiereloaded-1.12.2-3.4.18)
 - Baubles (Baubles-1.12-1.5.2)
 - Better Advancements (BetterAdvancements-1.12.2-0.1.0.77)
 - Better Biome Blend (betterbiomeblend-1.12.2-1.1.7-forge)
+- Cleanroom relauncher unofficial (++relauncher-0.3.12-beta)
 - CodeChicken Lib 1.8.+ (CodeChickenLib-1.12.2-3.2.3.358-universal)
 - Construct's Armory (conarm-1.12.2-1.2.5.10)
-- GeckoLib (geckolib-forge-1.12.2-3.0.31)
-- In Control! (incontrol-1.12-3.9.18)
-- Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151)
-- LagGoggles (LagGoggles-1.12.2-5.9-140)
--- TickCentral (TickCentral-3.2)
-- Millenaire-JEI (millenairejei-1.12.2-1.0.0-beta001)
-- Millenaire (millenaire-8.1.2)
-- Natura (natura-1.12.2-4.3.2.69)
-- NoiseThreader (NoiseThreader-1.1.3)
-- OpenBlocks (OpenBlocks-1.12.2-1.8.1)
-- OpenModsLib (OpenModsLib-1.12.2-0.12.2)
-- Scaling Health (ScalingHealth-1.12.2-1.3.42+147)
-- Scaling Wealth (ScalingWealth-1.0.1;)
-- SerializationIsBad (serializationisbad-1.5.2)
-- Sledgehammer (Sledgehammer-1.12.2-2.0.26)
-- Scape and Run: Parasites (SRParasites-1.10.5)
-- Tinker's JEI (tinkersjei-1.2)
 - Ender IO AE2 Conduits (EnderIO-conduits-appliedenergistics-1.12.2-5.3.72)
 - Ender IO Base (EnderIO-base-1.12.2-5.3.72)
 - Ender IO Conduits (EnderIO-conduits-1.12.2-5.3.72)
 - Ender IO Machines (EnderIO-machines-1.12.2-5.3.72)
 - Ender IO TiC (EnderIO-integration-tic-1.12.2-5.3.72)
 - EnderCore (EnderCore-1.12.2-0.5.78)
-- Alfheim Lighting Engine (Alfheim-1.6)
-- Aqua Acrobatics [Forge] (AquaAcrobatics-1.15.4)
+- File Director (!mod-director-launchwrapper-1.9.1)
+- GeckoLib (geckolib-forge-1.12.2-3.0.31)
+- In Control! (incontrol-1.12-3.9.18)
+- Inventory Tweaks [1.12 only]  (InventoryTweaks-1.64+dev.151)
+- LagGoggles (LagGoggles-1.12.2-5.9-140)
+-- TickCentral (TickCentral-3.2)
 - MapFrontiers (MapFrontiers-1.12.2-1.5.1)
+- Millenaire (millenaire-8.1.2)
+- Millenaire-JEI (millenairejei-1.12.2-1.0.0-beta001)
+- Natura (natura-1.12.2-4.3.2.69)
+- NoiseThreader (NoiseThreader-1.1.3)
+- OpenBlocks (OpenBlocks-1.12.2-1.8.1)
+- OpenModsLib (OpenModsLib-1.12.2-0.12.2)
+- Scaling Health (ScalingHealth-1.12.2-1.3.42+147)
+- Scaling Wealth (ScalingWealth-1.0.1;)
+- Scape and Run: Parasites (SRParasites-1.10.5)
+- SerializationIsBad (serializationisbad-1.5.2)
+- Sledgehammer (Sledgehammer-1.12.2-2.0.26)
+- Tinker's JEI (tinkersjei-1.2)
 
 ### **__Mod(s) Updated:__**
 - (Unofficial) Bosses of Mass Destruction + Dungeon Additions: Into The Dungeons - 1.6 -> unseens-dungeon-additions-1.7.5
@@ -138,8 +139,8 @@ The Adventure Update!
 - Patchouli Books: patchoulibooks-0.2.5 -> patchoulibooks-0.3.0
 - Pillar Patched: Pillar-1.3.2 -> Pillar-1.3.3
 - Quark: RotN Edition: QuarkRotN-r1.6-190 -> QuarkRotN-r1.6-192
-- Red Core: !Red-Core-MC-1.8-1.12-0.7-Dev-1 -> !Red-Core-MC-1.8-1.12-0.7.1
 - Realistic Terrain Generation Plus: RTG-1.12.2-7.3.3.6 -> RTG-1.12.2-9.0.3
+- Red Core: !Red-Core-MC-1.8-1.12-0.7-Dev-1 -> !Red-Core-MC-1.8-1.12-0.7.1
 - Roughly Enough IDs: RoughlyEnoughIDs-2.2.3 -> RoughlyEnoughIDs-2.3.1
 - Scalar Legacy: scalar-1.0.0 -> Scalar Legacy-1.0.1
 - Simple Voice Chat: voicechat-forge-1.12.2-2.5.35 -> voicechat-forge-1.12.2-2.6.24
