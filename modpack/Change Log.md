@@ -44,7 +44,6 @@ The Adventure Update! This update is focused on content and changes to improve t
 - EnderIO CEu (endercore-1.12.2-5.5.1)
 - Farmer's Delight Legacy (FarmersDelightLegacy-1.1.7)
 - Froggy's InControlContinuation (incontrol-1.12-3.10.5)
-- Global Controls (GlobalControls-Forge-1.12.2-1.1.0)
 - Goslingcord (Goslingcord-1.12.2-2.1.1-universal)
 - Hyxcate (Night/Day Events & Meteors) (Hyxcate-1.12.2-1.2.4)
 -- Expanded Events (expandedevents-1.2.2)
