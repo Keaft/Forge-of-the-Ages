@@ -119,6 +119,10 @@ val recipesItems as IIngredient[] = [
     <enderio:item_inventory_remote:1>.withTag({"enderio:energy": 120000, "enderio:famount": 1000}),
     <enderio:item_inventory_remote:2>.withTag({"enderio:energy": 150000, "enderio:famount": 1500}),
     <enderio:item_inventory_remote:2>,
+    <enderio:block_solar_panel>,
+    <enderio:block_solar_panel:1>,
+    <enderio:block_solar_panel:2>,
+    <enderio:block_solar_panel:3>
     // - Glider and wings
     <enderio:item_material:7>,
     <enderio:item_material:6>,
