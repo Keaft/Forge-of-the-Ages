@@ -122,7 +122,7 @@ val recipesItems as IIngredient[] = [
     <enderio:block_solar_panel>,
     <enderio:block_solar_panel:1>,
     <enderio:block_solar_panel:2>,
-    <enderio:block_solar_panel:3>
+    <enderio:block_solar_panel:3>,
     // - Glider and wings
     <enderio:item_material:7>,
     <enderio:item_material:6>,
