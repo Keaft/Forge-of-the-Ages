@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "9d864a7bcb8fb7c1fdfe4d97c6fafd5e4a6bbc16bc949c9e2ea88cd595ef9b13"
+hash = "c85b0c047759e5af0075f56726f058158fa7c6aba1274c77ac15ad17462d74b1"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1928,11 +1928,6 @@ metafile = true
 [[files]]
 file = "mods/cd4017be-library.pw.toml"
 hash = "d989c6febaa5a838bc9e489dc46ac7cd303c37d5aae78c8bde4e8ca0c15797ff"
-metafile = true
-
-[[files]]
-file = "mods/celeritas-extra.pw.toml"
-hash = "812cc8214497e252c33d6044f9ea20c6ff0973833e2a10d583855628df32badc"
 metafile = true
 
 [[files]]
@@ -5300,7 +5295,7 @@ hash = "e6406fe7e49495f122f8c3379b502777ed4a79b1087340f6e3a0c5ce4d896064"
 
 [[files]]
 file = "scripts/remove.zs"
-hash = "20cd5d3c7e624e75f70b2e0a56cc037d343e3b2fb347f8d990679b6202825ff1"
+hash = "dc192811a20b05ffa612cdf2521f532dbef38a3fecb03737d8d15c46dbb0fb74"
 
 [[files]]
 file = "scripts/replace.zs"
