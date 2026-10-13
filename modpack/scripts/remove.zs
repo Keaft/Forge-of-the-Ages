@@ -123,6 +123,14 @@ val recipesItems as IIngredient[] = [
     <enderio:block_solar_panel:1>,
     <enderio:block_solar_panel:2>,
     <enderio:block_solar_panel:3>,
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2"}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar2", "enderio:enabled": 1 as byte}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar"}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar", "enderio:enabled": 1 as byte}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar1", "enderio:enabled": 1 as byte}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3", "enderio:enabled": 1 as byte}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar3"}),
+    <enderio:item_dark_steel_upgrade:1>.withTag({"enderio:dsu": "enderiomachines:solar1"}),
     // - Glider and wings
     <enderio:item_material:7>,
     <enderio:item_material:6>,
@@ -180,6 +188,11 @@ val recipesItems as IIngredient[] = [
     // --- Minecraft ---
     // - Oak Trap door, handled by Macaw's Trap Doors
     <minecraft:trapdoor>,
+    // --- Nuclearcraft ---
+    <nuclearcraft:solar_panel_basic>,
+    <nuclearcraft:solar_panel_advanced>,
+    <nuclearcraft:solar_panel_du>,
+    <nuclearcraft:solar_panel_elite>,
     // --- Open Blocks ---
     // - Glider Wing
     <openblocks:generic>,

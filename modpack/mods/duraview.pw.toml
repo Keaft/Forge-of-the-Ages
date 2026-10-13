@@ -1,0 +1,13 @@
+name = "DuraView"
+filename = "duraview-1.0.2-forge-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "31e7e496555bdf66226cb5a62852a59550e698a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8379723
+project-id = 1456086

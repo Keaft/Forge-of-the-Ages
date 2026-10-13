@@ -2081,6 +2081,11 @@ hash = "ea5eb18a73607ffd04a198f654209855fb831abdcac646fe2411d77b0dea2f9e"
 metafile = true
 
 [[files]]
+file = "mods/duraview.pw.toml"
+hash = "5492a8e1d5accfd4bfee0cea71ab0c755dde7c839e72f7cccc7c260eba619d23"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-lights.pw.toml"
 hash = "2eeca0ab3bb0c63ea0189f62f7e6a473e909feb825383b137d260010e34aef84"
 metafile = true
@@ -2258,6 +2263,11 @@ metafile = true
 [[files]]
 file = "mods/fx-control.pw.toml"
 hash = "829fa6f7ecb39eb5e3cd422d52dcc16804a1ecceb7f1174cc9dc807f2cb9c2d2"
+metafile = true
+
+[[files]]
+file = "mods/global-controls.pw.toml"
+hash = "6794b6acf907e376ed5659daf6b509c5e2d48a9f769a7040d9f109970fc98fd8"
 metafile = true
 
 [[files]]
@@ -5295,7 +5305,7 @@ hash = "e6406fe7e49495f122f8c3379b502777ed4a79b1087340f6e3a0c5ce4d896064"
 
 [[files]]
 file = "scripts/remove.zs"
-hash = "dc192811a20b05ffa612cdf2521f532dbef38a3fecb03737d8d15c46dbb0fb74"
+hash = "e47e9d1ca38ec9b1848b20b943bdc89950d5d6c0353e19a30cf02f351b3901ed"
 
 [[files]]
 file = "scripts/replace.zs"
