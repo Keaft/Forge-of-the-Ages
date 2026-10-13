@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "c85b0c047759e5af0075f56726f058158fa7c6aba1274c77ac15ad17462d74b1"
+hash = "b16d0638fc138d8b728606ba01f3206961f07d67d0b8cfd25e722e42a2954b7d"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2798,11 +2798,6 @@ metafile = true
 [[files]]
 file = "mods/shadowmc.pw.toml"
 hash = "19a2d18171e56ec3710c33375150817aaac62701c3369311517a42e4b03726a3"
-metafile = true
-
-[[files]]
-file = "mods/silent-lib.pw.toml"
-hash = "ba20eb5e1ea5e39e226a71f82801000b03271e5a7f0aff6d7747456b80c93b2d"
 metafile = true
 
 [[files]]
