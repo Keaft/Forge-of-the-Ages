@@ -2751,6 +2751,11 @@ hash = "d961d8375c685a7f40bbc66390a1df1a3ae934a3599eab341a5cd415f7943703"
 metafile = true
 
 [[files]]
+file = "mods/save-my-ankh-shield.pw.toml"
+hash = "2684c7b4a7e90763c5be54cad364df21dfc15886512f38819c00a027c12bef3b"
+metafile = true
+
+[[files]]
 file = "mods/scalar-legacy.pw.toml"
 hash = "c1fb189ad08a9630c596e8609f90f2a7f7a19eb6a0bfdbb4841bd7c6a477e4fc"
 metafile = true

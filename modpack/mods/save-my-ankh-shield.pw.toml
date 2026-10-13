@@ -1,0 +1,13 @@
+name = "Save My Ankh Shield"
+filename = "Save My Ankh Shield-1.0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "df96d9a379e9d63c3fb46eee12fdba9307c7a6c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8251137
+project-id = 1569549
