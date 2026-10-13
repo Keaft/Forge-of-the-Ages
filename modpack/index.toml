@@ -2266,11 +2266,6 @@ hash = "829fa6f7ecb39eb5e3cd422d52dcc16804a1ecceb7f1174cc9dc807f2cb9c2d2"
 metafile = true
 
 [[files]]
-file = "mods/global-controls.pw.toml"
-hash = "6794b6acf907e376ed5659daf6b509c5e2d48a9f769a7040d9f109970fc98fd8"
-metafile = true
-
-[[files]]
 file = "mods/gnetum.pw.toml"
 hash = "39cab30e19751a457253e27b457b44413bad65cbb6c66495fc280453c7bdd2ff"
 metafile = true
@@ -5305,7 +5300,7 @@ hash = "e6406fe7e49495f122f8c3379b502777ed4a79b1087340f6e3a0c5ce4d896064"
 
 [[files]]
 file = "scripts/remove.zs"
-hash = "e47e9d1ca38ec9b1848b20b943bdc89950d5d6c0353e19a30cf02f351b3901ed"
+hash = "9057610b74e4115f5011432b0dcc9b06cad07975887e2c623710cc15d5686cce"
 
 [[files]]
 file = "scripts/replace.zs"
