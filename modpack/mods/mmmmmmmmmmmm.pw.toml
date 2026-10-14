@@ -5,7 +5,7 @@ pin = true
 
 [download]
 hash-format = "sha1"
-hash = "75d25024ba41f978aa02f152d2d6b2994b1da6a5"
+hash = "77ae10c019948bf1aec61b266e870609d8481058"
 mode = "metadata:curseforge"
 
 [update]

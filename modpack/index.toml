@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "b16d0638fc138d8b728606ba01f3206961f07d67d0b8cfd25e722e42a2954b7d"
+hash = "4e8fd41d103c8032206927922799a7f4a710f97b4637ffa44deffeb1e72fe299"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -2432,7 +2432,7 @@ metafile = true
 
 [[files]]
 file = "mods/loottweaker.pw.toml"
-hash = "8f45241b646a68aec43cf85f0abba3b5d842e17018d70bf3beb4bb877ebc93eb"
+hash = "14aeab852112de6bbf1c3b73f109965ebbdf8912d99fbaf7419bc144d73bd069"
 metafile = true
 
 [[files]]
@@ -2497,12 +2497,12 @@ metafile = true
 
 [[files]]
 file = "mods/metallurgy-4-reforged.pw.toml"
-hash = "444e6013a1d4aae87ed323301f01ac8310689551c67003623239374e191ed3df"
+hash = "5382c0423081da4033cbe853e9f1ec9cfb0fbf3e2fbcfc6697a4cebf6ab91b79"
 metafile = true
 
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
-hash = "7a57e6ab879ae99729f09e9c7896577b72af5271e595a67bc3f3df9c3dbcb925"
+hash = "9ed4b89a5d0091da48a6c4bac6f09f1332f108b94c4561dcc150f096d87e7e79"
 metafile = true
 
 [[files]]
