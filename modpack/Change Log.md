@@ -7,5 +7,6 @@
 
 ### **__Mod(s) Removed:__**
 - Silent Lib (silentlib) (SilentLib-1.12.2-3.0.14+168)
+- Building Gadgets (BuildingGadgets-2.8.4)
 
 ### **__Mod(s) Updated:__**

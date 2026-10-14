@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "4e8fd41d103c8032206927922799a7f4a710f97b4637ffa44deffeb1e72fe299"
+hash = "afe2ee6ed256e44cbc7b851a82445d3c28f9f41e46691329e0b9f8442e5af497"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1089,6 +1089,10 @@ file = "config/quark.cfg"
 hash = "312551fcf4a56c857817f34a436eaf2a6a52639e7a44522d6542da2c8d4c7555"
 
 [[files]]
+file = "config/relauncher.json"
+hash = "be4bce1ce27fb6f7c97c531a5d0639a01608357501b9fde05b5b4caba6b5c72c"
+
+[[files]]
 file = "config/scalingfeast.cfg"
 hash = "27a5df21a282d8c430f5d54902253d30e84759b74c1f924550bd50dea367dc7f"
 
@@ -1903,11 +1907,6 @@ metafile = true
 [[files]]
 file = "mods/builders-bag.pw.toml"
 hash = "25151db41037fdb9228d33d73c0314275c61c0e759dade4e837b7574aa6631ad"
-metafile = true
-
-[[files]]
-file = "mods/building-gadgets.pw.toml"
-hash = "c8ee6b8c56dc5011af73660d1063d881376b6d66b7b3686c6ab73edb6f598c14"
 metafile = true
 
 [[files]]
