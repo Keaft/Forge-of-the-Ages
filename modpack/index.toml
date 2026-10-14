@@ -2251,7 +2251,7 @@ metafile = true
 
 [[files]]
 file = "mods/fugue.pw.toml"
-hash = "2c53331e9e5c38d02d7d496e870b7226c44777dc63d453ee26362c64686ee3f7"
+hash = "27fdfdfeb58f5755b83dbbcdc4eecb08a3c743c36b0350f1b20ebbb1e6d1f93f"
 metafile = true
 
 [[files]]
