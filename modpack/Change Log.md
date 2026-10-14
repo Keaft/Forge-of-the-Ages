@@ -1,7 +1,8 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
-* Pin CleanroomMC to 0.6.13-alpha
+* Pin CleanroomMC to 0.6.13-alpha for compatibility
+* Pin Fugue to 0.24.4 for compatibility
 
 ### **__Mod(s) Added:__**
 
