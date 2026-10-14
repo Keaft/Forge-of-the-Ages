@@ -1,13 +1,13 @@
 name = "Nether API"
-filename = "Nether-API-v1.5.1-mc1.12.2.jar"
+filename = "Nether-API-v1.5.2-mc1.12.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "88860f04174c111a344f84a607de1e4184bb204c"
+hash = "36c3d5945a1a7b9b7183c5a57e8c2328d58ff223"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9129951
+file-id = 9166177
 project-id = 1306115

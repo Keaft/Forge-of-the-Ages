@@ -1,13 +1,13 @@
 name = "EnderIO CEu"
-filename = "EnderIO-CEu-5.5.1.jar"
+filename = "EnderIO-CEu-5.5.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9fa383b0f8ce902a647fbfe37648642b601e30ed"
+hash = "f850e24d2e1979a2bb2dcd049cc9eb9f772dd190"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8734036
+file-id = 9167292
 project-id = 1530854
