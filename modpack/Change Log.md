@@ -1,6 +1,7 @@
 ***Before Updating ensure that you take a backup of your world!***
 
 ### **__Configuration changes:__**
+* Set default visual options for Actinium, biome blend 4 blocks, entity culling false (handled elsewhere)
 
 ### **__Mod(s) Added:__**
 * Actinium -  Vintage Optimization (Actinium-alpha-0.0.12)
