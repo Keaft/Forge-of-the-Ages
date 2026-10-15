@@ -1,0 +1,13 @@
+name = "Celeritas/Nothirium Extra"
+filename = "celeritasextra-0.9.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "48050a58fd42ac637101a667769c8564290565d5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9182637
+project-id = 1451214

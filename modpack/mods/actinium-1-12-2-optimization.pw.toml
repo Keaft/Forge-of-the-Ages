@@ -1,0 +1,13 @@
+name = "Actinium -  Vintage Optimization"
+filename = "Actinium-alpha-0.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e61bde48a8b312dfa038eccd79122eb6f356f7e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9041604
+project-id = 1650442

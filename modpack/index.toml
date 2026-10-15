@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "Change Log.md"
-hash = "afe2ee6ed256e44cbc7b851a82445d3c28f9f41e46691329e0b9f8442e5af497"
+hash = "4e8fd41d103c8032206927922799a7f4a710f97b4637ffa44deffeb1e72fe299"
 
 [[files]]
 file = "config/Additional Structures - Structures.cfg"
@@ -1133,22 +1133,6 @@ file = "config/solcarrot.cfg"
 hash = "9bae829a847e7dd5152918519a8c1492de07233fa7d5dc646955f734dd2ffa9d"
 
 [[files]]
-file = "config/srparasites/SRParasites.cfg"
-hash = "5d23920697e7d683e45d51d269ef5576032c2828fe0d13d2780fef34f625752a"
-
-[[files]]
-file = "config/srparasites/SRParasitesMobs.cfg"
-hash = "df0ccaa5433a3c29bff8aea6f0e0affce9f59e0b92d0b42463546de1a4963916"
-
-[[files]]
-file = "config/srparasites/SRParasitesSystems.cfg"
-hash = "bd29576e25b57aa01628597e5f36e27bf50ea1c7dc70982ccb289d20146eb219"
-
-[[files]]
-file = "config/srparasites/SRParasitesWorld.cfg"
-hash = "9562302e47b84f23458a6f7cad30db4194645a93c7e383109a9215003dda271b"
-
-[[files]]
 file = "config/stackie.cfg"
 hash = "044613569f7db57e6ff27d3925a3629a6d1fb04665399e42abe23676c5ec75bd"
 
@@ -1725,6 +1709,11 @@ file = "local/client/ftbutilities.cfg"
 hash = "4eb198f9489a3016fcf708687a848af96a347145aae16ba802f284ed1707572c"
 
 [[files]]
+file = "mods/actinium-1-12-2-optimization.pw.toml"
+hash = "9a85cb5653047d230d08677c74bd70c332e7038f244f786b0177beefad4b66b0"
+metafile = true
+
+[[files]]
 file = "mods/additional-structures.pw.toml"
 hash = "a16f4f4dec18809a08f214522afdbee126f7f475285adf9e329f2bc54a53f5bc"
 metafile = true
@@ -1930,6 +1919,11 @@ hash = "d989c6febaa5a838bc9e489dc46ac7cd303c37d5aae78c8bde4e8ca0c15797ff"
 metafile = true
 
 [[files]]
+file = "mods/celeritas-extra.pw.toml"
+hash = "10c7d820970a6437af04463df598596e5a1dae85242d9ab7e0ff2ece52fbfaf3"
+metafile = true
+
+[[files]]
 file = "mods/chameleon.pw.toml"
 hash = "305815006195c0647af38ea5d8c03cd6c652c77bf975e3e967b754bc3b9ac569"
 metafile = true
@@ -1946,7 +1940,7 @@ metafile = true
 
 [[files]]
 file = "mods/chisels-bits.pw.toml"
-hash = "ebb08e770587df2f24474edcedde20842993ab136cb458cd99ceda650e4b9acf"
+hash = "2003054b5cf047b41091a5dab28b8abe8982e9ddad9ae29c7dd2b8868741d7c5"
 metafile = true
 
 [[files]]
@@ -2111,7 +2105,7 @@ metafile = true
 
 [[files]]
 file = "mods/end-expansion-the-lamented-islands.pw.toml"
-hash = "3e47998f3ea6e591db9e8209845364a9c4ecaf97bbc417062cd413c2b493f9fb"
+hash = "42b4f0b1455ac112413e241a4421300091648ba72e5fd9f63f6a7dd7dae15397"
 metafile = true
 
 [[files]]
@@ -2192,6 +2186,11 @@ metafile = true
 [[files]]
 file = "mods/fermiumbooter.pw.toml"
 hash = "1a01b0d2390a43cce432378a11bdb42483cda09ee6f5ffb2d72dd912b30f3083"
+metafile = true
+
+[[files]]
+file = "mods/filedirector.pw.toml"
+hash = "0ddcec2015472db25761070735e16ad8624896edc9cafd3709f83d21c28eaeaf"
 metafile = true
 
 [[files]]
@@ -2391,7 +2390,7 @@ metafile = true
 
 [[files]]
 file = "mods/key-binding-patch.pw.toml"
-hash = "cea0823d3b224e7bfee140dce362f0321cfb689fa8aaf9d7095ccd244f2051b4"
+hash = "e5767865347332ba043d246ab4164a3273e8d4b5508e384e0b3ef3541c928866"
 metafile = true
 
 [[files]]
@@ -2570,13 +2569,8 @@ hash = "59c691bccb11a19c67a0272aae379c20d157d5240e7001b2d92d80bf555b88d0"
 metafile = true
 
 [[files]]
-file = "mods/naughthirium.pw.toml"
-hash = "15f903c4d25d02110ccb613fc2a703eb666bd6194c5d87d777eb5a54cf84d50c"
-metafile = true
-
-[[files]]
 file = "mods/nether-api.pw.toml"
-hash = "178ea8459478f5f7841cf47d234fe9b367de9bd2ddb577f2841095ea237cad52"
+hash = "c50de92de4218b10c1016d92a290cc5b67bc802ec354e65aa87170bdee967757"
 metafile = true
 
 [[files]]
@@ -2587,11 +2581,6 @@ metafile = true
 [[files]]
 file = "mods/nethers-delight-legacy.pw.toml"
 hash = "a3181474b239a8a34947122f928ca353ccebbbf722ba8d9a80b28fb5aeafb3e6"
-metafile = true
-
-[[files]]
-file = "mods/nothirium.pw.toml"
-hash = "784b7f17abe484d4db8088e65742d9e0ebdebc16132a71582c36ca50e5122f68"
 metafile = true
 
 [[files]]
@@ -2731,12 +2720,7 @@ metafile = true
 
 [[files]]
 file = "mods/reid.pw.toml"
-hash = "eed0de6ae84f0658996977aa1d83559a159d8cc472825c427f8acde245c9bf3e"
-metafile = true
-
-[[files]]
-file = "mods/renderlib.pw.toml"
-hash = "98185e416d24da0fa61981ad5e539a6ce987409ea70dfca55b91754449e01b6e"
+hash = "3df16d33b59c410f8533b54914a28465a81399182bbfe18a02ed55f96b59afe1"
 metafile = true
 
 [[files]]
@@ -2881,7 +2865,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-twilight-forest-deforestation-edition.pw.toml"
-hash = "a690b73717d287b0af1087391a519f49ec415ac82d13992b6eabcef76f4e4e3e"
+hash = "ccf0cc6f5c39bb2cfbccf3fb47351392db3e9ff0e7d7e81046a17a5b7e997ab3"
 metafile = true
 
 [[files]]
@@ -2955,6 +2939,11 @@ hash = "65637cf70a5e29de5faa701582676e66f7fd59b5df1781c7cebb51881ff02910"
 metafile = true
 
 [[files]]
+file = "mods/true-window.pw.toml"
+hash = "e412faf9b36fb703d5a5222693d17f7f80719dcd4fc857d3533d9d51c8904c11"
+metafile = true
+
+[[files]]
 file = "mods/tweakers-construct.pw.toml"
 hash = "400d16834638ef90397c43c5a657c9d3c9e6013a4d66b417ae4884ae6bdca939"
 metafile = true
@@ -2996,7 +2985,7 @@ metafile = true
 
 [[files]]
 file = "mods/wawla.pw.toml"
-hash = "dc1ee5d5a602f9cc633d511a4d00e2e0e7189d6135fd11343bf76e9f47aa2d07"
+hash = "14553b4c306767d3e4a4f2d7d6c1be9c275900cf795b60ff8ffd05b79afb0e24"
 metafile = true
 
 [[files]]
