@@ -1,0 +1,8 @@
+{
+  "quality": {
+    "legacy_biome_blend_radius": 4
+  },
+  "performance": {
+    "use_entity_culling": false
+  }
+}
