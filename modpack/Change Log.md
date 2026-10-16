@@ -2,6 +2,7 @@
 
 ### **__Configuration changes:__**
 * Set default visual options for Actinium, biome blend 4 blocks, entity culling false (handled elsewhere)
+* Set True Window title to "Forge of the Ages" and included the icon.
 
 ### **__Mod(s) Added:__**
 * Actinium -  Vintage Optimization (Actinium-alpha-0.0.12)
